@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISA 3.0 MCQ Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Resume banner (hidden by default) -->
+        <div id="resume-banner" class="hide">
+            <p id="resume-text">You have an in-progress session. Would you like to resume it?</p>
+            <div class="banner-buttons">
+                <button id="resume-now">Resume</button>
+                <button id="dismiss-resume">Dismiss</button>
+            </div>
+        </div>
+        <!-- Module Selection Screen -->
+        <div id="module-selection">
+            <h1>ISA 3.0 MCQ Practice</h1>
+            <div class="module-actions">
+                <button id="resume-last" class="resume-button">Resume last session</button>
+                <button id="clear-progress" class="reset-button">Clear saved progress</button>
+            </div>
+            <div class="module-grid">
+                <!-- Row 1: Modules 1-3 -->
+                <div class="module-row row-1">
+                    <div class="module-card">
+                        <h2>Module 1</h2>
+                        <p class="module-name">Information Systems Audit Process</p>
+                        <p>250 Questions</p>
+                        <p>Time: 5 hours</p>
+                        <p id="module1-progress">0/250 questions attempted</p>
+                        <div class="session-select">
+                            <label for="module1-count">Pick questions:</label>
+                            <select id="module1-count">
+                                <option value="20">20 (30 mins)</option>
+                                <option value="50">50 (1 hour)</option>
+                                <option value="100">100 (2 hours)</option>
+                                <option value="all" selected>All (5 hours)</option>
+                            </select>
+                        </div>
+                        <div class="module-buttons">
+                            <button onclick="startModuleSession('module1', false)">Start New</button>
+                        </div>
+                    </div>
+                    <div class="module-card">
+                        <h2>Module 2</h2>
+                        <p class="module-name">Governance and Management of Enterprise Information Technology, Risk Management, Compliance & BCM Section</p>
+                        <p>250 Questions</p>
+                        <p>Time: 5 hours</p>
+                        <p id="module2-progress">0/250 questions attempted</p>
+                        <div class="session-select">
+                            <label for="module2-count">Pick questions:</label>
+                            <select id="module2-count">
+                                <option value="20">20 (30 mins)</option>
+                                <option value="50">50 (1 hour)</option>
+                                <option value="100">100 (2 hours)</option>
+                                <option value="all" selected>All (5 hours)</option>
+                            </select>
+                        </div>
+                        <div class="module-buttons">
+                            <button onclick="startModuleSession('module2', false)">Start New</button>
+                        </div>
+                    </div>
+                    <div class="module-card">
+                        <h2>Module 3</h2>
+                        <p class="module-name">System Development, Acquisition, Implementation and Maintenance Application System Audit</p>
+                        <p>250 Questions</p>
+                        <p>Time: 5 hours</p>
+                        <p id="module3-progress">0/250 questions attempted</p>
+                        <div class="session-select">
+                            <label for="module3-count">Pick questions:</label>
+                            <select id="module3-count">
+                                <option value="20">20 (30 mins)</option>
+                                <option value="50">50 (1 hour)</option>
+                                <option value="100">100 (2 hours)</option>
+                                <option value="all" selected>All (5 hours)</option>
+                            </select>
+                        </div>
+                        <div class="module-buttons">
+                            <button onclick="startModuleSession('module3', false)">Start New</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Row 2: Modules 4-6 -->
+                <div class="module-row row-2">
+                    <div class="module-card">
+                        <h2>Module 4</h2>
+                        <p class="module-name">Information Systems Operations and Management</p>
+                        <p>250 Questions</p>
+                        <p>Time: 5 hours</p>
+                        <p id="module4-progress">0/250 questions attempted</p>
+                        <div class="session-select">
+                            <label for="module4-count">Pick questions:</label>
+                            <select id="module4-count">
+                                <option value="20">20 (30 mins)</option>
+                                <option value="50">50 (1 hour)</option>
+                                <option value="100">100 (2 hours)</option>
+                                <option value="all" selected>All (5 hours)</option>
+                            </select>
+                        </div>
+                        <div class="module-buttons">
+                            <button onclick="startModuleSession('module4', false)">Start New</button>
+                        </div>
+                    </div>
+                    <div class="module-card">
+                        <h2>Module 5</h2>
+                        <p class="module-name">Protection of Information Assets</p>
+                        <p>250 Questions</p>
+                        <p>Time: 5 hours</p>
+                        <p id="module5-progress">0/250 questions attempted</p>
+                        <div class="session-select">
+                            <label for="module5-count">Pick questions:</label>
+                            <select id="module5-count">
+                                <option value="20">20 (30 mins)</option>
+                                <option value="50">50 (1 hour)</option>
+                                <option value="100">100 (2 hours)</option>
+                                <option value="all" selected>All (5 hours)</option>
+                            </select>
+                        </div>
+                        <div class="module-buttons">
+                            <button onclick="startModuleSession('module5', false)">Start New</button>
+                        </div>
+                    </div>
+                    <div class="module-card">
+                        <h2>Module 6</h2>
+                        <p class="module-name">Emerging Technologies</p>
+                        <p>250 Questions</p>
+                        <p>Time: 5 hours</p>
+                        <p id="module6-progress">0/250 questions attempted</p>
+                        <div class="session-select">
+                            <label for="module6-count">Pick questions:</label>
+                            <select id="module6-count">
+                                <option value="20">20 (30 mins)</option>
+                                <option value="50">50 (1 hour)</option>
+                                <option value="100">100 (2 hours)</option>
+                                <option value="all" selected>All (5 hours)</option>
+                            </select>
+                        </div>
+                        <div class="module-buttons">
+                            <button onclick="startModuleSession('module6', false)">Start New</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Row 3: Mixed and ICAI -->
+                <div class="module-row row-3">
+                    <!-- Mixed exam: sample from all modules -->
+                    <div class="module-card">
+                        <h2>Mixed (Exam style)</h2>
+                        <p>Practice across modules (proportional)</p>
+                        <p id="mixed-time">30 mins</p>
+                        <p id="mixed-progress">0/25 questions attempted</p>
+                        <div class="session-select">
+                            <label for="mixed-count">Pick total questions:</label>
+                            <select id="mixed-count" onchange="updateMixedTime()">
+                                <option value="25">25 (30 mins)</option>
+                                <option value="50">50 (1 hour)</option>
+                                <option value="100">100 (2 hours)</option>
+                            </select>
+                        </div>
+                        <div class="module-buttons">
+                            <button onclick="startMixedSession(false)">Start New</button>
+                        </div>
+                    </div>
+                    <!-- ICAI Review Questions -->
+                    <div class="module-card icai-review">
+                        <h2>ISA Review Questions by ICAI</h2>
+                        <p>Practice with official ICAI review questions</p>
+                        <p id="icai-time">2 hours</p>
+                        <p id="icai-progress">0 questions attempted</p>
+                        <div class="session-select">
+                            <label for="icai-module">Select Module:</label>
+                            <select id="icai-module" onchange="updateICAIQuestions()">
+                                <option value="0">All Modules (Mixed)</option>
+                                <option value="1">Module 1</option>
+                                <option value="2">Module 2</option>
+                                <option value="3">Module 3</option>
+                                <option value="4">Module 4</option>
+                                <option value="5">Module 5</option>
+                                <option value="6">Module 6</option>
+                                <option value="7">Module 7</option>
+                            </select>
+                        </div>
+                        <div class="session-select">
+                            <label for="icai-count">Pick questions:</label>
+                            <select id="icai-count" onchange="updateICAITime()">
+                                <option value="25">25 (30 mins)</option>
+                                <option value="50">50 (1 hour)</option>
+                                <option value="100" selected>100 (2 hours)</option>
+                                <option value="all">All Questions</option>
+                            </select>
+                        </div>
+                        <div class="module-buttons">
+                            <button onclick="startICAISession()">Start New</button>
+                            <button id="icai-resume" class="hide" onclick="startICAISession(true)">Resume</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container" class="hide">
+            <div class="quiz-header">
+                <h1>ISA 3.0 MCQ Practice</h1>
+                <h2 id="module-name">Module 1</h2>
+                <div class="quiz-info">
+                    <div class="quiz-score">
+                        Score: <span id="correct-score">0</span>/<span id="total-questions">0</span>
+                    </div>
+                    <div class="quiz-progress">
+                        Question: <span id="current-question">0</span>/<span id="total-questions-2">0</span>
+                    </div>
+                    <div class="quiz-timer">
+                        Time Left: <span id="timer">02:00:00</span>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <div id="question"></div>
+                <div class="options">
+                    <button class="option" onclick="checkAnswer(0)"></button>
+                    <button class="option" onclick="checkAnswer(1)"></button>
+                    <button class="option" onclick="checkAnswer(2)"></button>
+                    <button class="option" onclick="checkAnswer(3)"></button>
+                </div>
+                <div id="explanation" class="hide"></div>
+            </div>
+            <div class="quiz-footer">
+                <button id="return-button" onclick="saveAndReturn()" class="secondary-button">Return to Modules</button>
+                <button id="next-button" onclick="nextQuestion()">Next Question</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result" class="hide">
+            <h2>Quiz Complete!</h2>
+            <p>Your score: <span id="final-score">0</span>/<span id="total-score">0</span></p>
+            <div id="incorrect-answers">
+                <!-- Incorrect answers will be listed here -->
+            </div>
+            <button onclick="restartQuiz()">Return to Module Selection</button>
+        </div>
+    </div>
+    <div class="app-footer">
+        <p class="credit"><em>© Developed by Ujjwal Khanal</em></p>
+    </div>
+    <script src="script.js" defer></script>
+    <script src="scripts/icai_functions.js" defer></script>
+    <script defer>
+        // Load modules when the page loads
+        window.addEventListener('DOMContentLoaded', async function() {
+            const loadingIndicator = document.createElement('div');
+            loadingIndicator.style.cssText = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255,255,255,0.9); padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); z-index: 1000;';
+            loadingIndicator.textContent = 'Loading questions...';
+            document.body.appendChild(loadingIndicator);
+
+            try {
+                // Get base path from current URL
+                const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+                console.log('Base path:', basePath);
+
+                // Load all modules in parallel with absolute paths
+                const [loaded1, loaded2, loaded3, loaded4, loaded5, loaded6] = await Promise.all([
+                    loadModuleQuestions(1),
+                    loadModuleQuestions(2),
+                    loadModuleQuestions(3),
+                    loadModuleQuestions(4),
+                    loadModuleQuestions(5),
+                    loadModuleQuestions(6)
+                ]);
+
+                if (loaded1 && loaded2 && loaded3 && loaded4 && loaded5 && loaded6) {
+                    console.log('All module questions loaded');
+                    loadingIndicator.remove();
+                } else {
+                    const errorMsg = 'Failed to load questions. Check console for details.';
+                    loadingIndicator.textContent = errorMsg;
+                    console.error('Module loading failed. Attempted paths will be shown above.');
+                    setTimeout(() => loadingIndicator.remove(), 3000);
+                }
+            } catch (e) {
+                console.error('Failed to load modules:', e);
+                loadingIndicator.textContent = 'Error loading questions. Check console for details.';
+                setTimeout(() => loadingIndicator.remove(), 3000);
+            }
+        });
+    </script>
+</body>
+</html>

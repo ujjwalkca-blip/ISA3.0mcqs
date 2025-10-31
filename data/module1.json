@@ -1,0 +1,3007 @@
+{
+    "moduleId": 1,
+    "moduleName": "IS Audit Process & Standards",
+    "totalQuestions": 250,
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which of the following forms of evidence would be considered to be the most reliable when assisting an IS Auditor develop audit conclusion?",
+            "options": [
+                "A confirmation letter received from a third party for the verification of an account balance.",
+                "Assurance via a control self-assessment received from the management that an application is working as designed.",
+                "Trend data obtained from World Wide Web Internet sources.",
+                "Ratio analysis developed by an IS Auditor from reports supplied by line management"
+            ],
+            "answerIndex": 0,
+            "explanation": "Third party confirmation is considered the most reliable form of audit evidence because it is obtained from an independent external source, reducing bias and error."
+        },
+        {
+            "id": 2,
+            "question": "During a review of the controls over the process of defining IT service levels, an IS auditor would most likely interview the",
+            "options": [
+                "Systems programmer",
+                "Legal staff",
+                "Business Unit Manager",
+                "Programmer"
+            ],
+            "answerIndex": 2,
+            "explanation": "The Business Unit Manager is responsible for defining the IT service levels as they best understand the business needs and priorities."
+        },
+        {
+            "id": 3,
+            "question": "Which of the following procedures would an IS Auditor not perform during pre-audit planning to gain an understanding of the overall environment under review?",
+            "options": [
+                "Tour key organisation activities",
+                "Interview key members of management to understand business risks",
+                "Perform compliance tests to determine if regulatory requirements are met.",
+                "Review prior audit reports."
+            ],
+            "answerIndex": 2,
+            "explanation": "Compliance tests are performed after understanding the environment, not during pre-audit planning."
+        },
+        {
+            "id": 4,
+            "question": "The first step IS Auditor should take when preparing the annual IS audit plan is to",
+            "options": [
+                "Meet with the audit committee members to discuss the IS audit plan for the upcoming year.",
+                "Ensure that the IS audit staff is competent in areas that are likely to appear on the plan and provide training as necessary.",
+                "Perform a risk ranking of the current and proposed application systems to prioritize the IS audits to be conducted.",
+                "Begin with the prior years IS audit plan and carry over any IS audits that had not been accomplished."
+            ],
+            "answerIndex": 2,
+            "explanation": "Annual IS audit planning starts with a risk ranking of systems to prioritize audits based on potential impact and likelihood."
+        },
+        {
+            "id": 5,
+            "question": "The IS audit function should be formally established by",
+            "options": [
+                "Senior management",
+                "External auditors",
+                "Board of Directors",
+                "Internal audit department"
+            ],
+            "answerIndex": 0,
+            "explanation": "Senior management establishes the IS audit function as part of governance oversight and accountability."
+        },
+        {
+            "id": 6,
+            "question": "Which of the following audit types focuses on reviewing internal controls and company policies?",
+            "options": [
+                "Financial Audit",
+                "Compliance Audit",
+                "IS Audit",
+                "Operational Audit"
+            ],
+            "answerIndex": 2,
+            "explanation": "IS Audit is specifically designed to review internal controls, IT policies, and their effectiveness within an organization."
+        },
+        {
+            "id": 7,
+            "question": "In risk assessment, inherent risk is best described as",
+            "options": [
+                "The risk that remains after controls are applied",
+                "The risk present before any controls are implemented",
+                "The risk created by management override",
+                "The risk due to external factors alone"
+            ],
+            "answerIndex": 1,
+            "explanation": "Inherent risk is the susceptibility of the system to misstatement before considering any internal controls."
+        },
+        {
+            "id": 8,
+            "question": "Which of the following is a detective control?",
+            "options": [
+                "Firewall",
+                "Intrusion detection system",
+                "Physical lock on server room",
+                "Strong password policy"
+            ],
+            "answerIndex": 1,
+            "explanation": "An intrusion detection system is a classic detective control; it identifies violations and incidents after they occur."
+        },
+        {
+            "id": 9,
+            "question": "Which of the following is NOT a preventive control?",
+            "options": [
+                "Input validation checks",
+                "Antivirus software",
+                "Access control lists",
+                "Audit logs review"
+            ],
+            "answerIndex": 3,
+            "explanation": "Audit logs review is a detective control, not preventive, as the review occurs after the transactions and can indicate fraud or errors post-fact."
+        },
+        {
+            "id": 10,
+            "question": "Segregation of duties is primarily implemented to",
+            "options": [
+                "Improve operational efficiency",
+                "Prevent fraud and errors",
+                "Facilitate user training",
+                "Strengthen backup procedures"
+            ],
+            "answerIndex": 1,
+            "explanation": "Segregating duties helps prevent both fraud and errors by ensuring no individual controls the end-to-end process."
+        },
+        {
+            "id": 11,
+            "question": "In a system audit, which phase involves understanding internal controls and testing their effectiveness?",
+            "options": [
+                "Planning",
+                "Fieldwork",
+                "Reporting",
+                "Follow-up"
+            ],
+            "answerIndex": 1,
+            "explanation": "Fieldwork involves examining and evaluating internal controls and their effectiveness, after the planning phase."
+        },
+        {
+            "id": 12,
+            "question": "The audit evidence obtained from which source is considered most reliable?",
+            "options": [
+                "The management",
+                "Third-party confirmation",
+                "Internal audit",
+                "External consultant"
+            ],
+            "answerIndex": 1,
+            "explanation": "Audit evidence from third-party confirmations is the least likely to be biased and thus most reliable."
+        },
+        {
+            "id": 13,
+            "question": "Which control is designed to remedy issues after they arise?",
+            "options": [
+                "Preventive",
+                "Detective",
+                "Corrective",
+                "Responsive"
+            ],
+            "answerIndex": 2,
+            "explanation": "Corrective controls remedy problems after they have been identified, restoring the system to its intended state."
+        },
+        {
+            "id": 14,
+            "question": "Which clause in audit documentation describes the scope of the audit?",
+            "options": [
+                "Terms of Engagement",
+                "Audit Report",
+                "Management Letter",
+                "Audit Program"
+            ],
+            "answerIndex": 0,
+            "explanation": "Terms of engagement set the boundaries and scope of the audit to be performed and are documented at the outset."
+        },
+        {
+            "id": 15,
+            "question": "The best way to ensure audit independence is by reporting to",
+            "options": [
+                "IT Manager",
+                "Audit Committee/Board",
+                "CFO",
+                "Internal audit"
+            ],
+            "answerIndex": 1,
+            "explanation": "The audit function should report to the Board or Audit Committee to ensure independence from management."
+        },
+        {
+            "id": 16,
+            "question": "A walkthrough is performed by the auditor to",
+            "options": [
+                "Verify financial statements",
+                "Understand system processes",
+                "Monitor employee efficiency",
+                "Evaluate audit risk"
+            ],
+            "answerIndex": 1,
+            "explanation": "A walkthrough is used to gain an understanding of system processes and identify how controls operate in practice."
+        },
+        {
+            "id": 17,
+            "question": "When testing controls, 'sampling' is most useful for",
+            "options": [
+                "Selecting entire population",
+                "Reducing audit time",
+                "Ensuring 100% coverage",
+                "Following company policy"
+            ],
+            "answerIndex": 1,
+            "explanation": "Sampling allows auditors to make inferences on large populations while reducing the time needed to perform tests."
+        },
+        {
+            "id": 18,
+            "question": "CAATs are primarily used for",
+            "options": [
+                "Interviewing management",
+                "Performing analytical reviews",
+                "Testing large volume of transactions",
+                "Calculating audit risk"
+            ],
+            "answerIndex": 2,
+            "explanation": "CAATs (computer-assisted audit tools) allow efficient testing of large volumes of electronic transactions."
+        },
+        {
+            "id": 19,
+            "question": "The acronym COBIT stands for",
+            "options": [
+                "Control Objectives for Information Technology",
+                "Computing Organizational Basis for IT",
+                "Compliance and Operations Board of IT",
+                "Controls Oversight Board of IT"
+            ],
+            "answerIndex": 0,
+            "explanation": "COBIT stands for Control Objectives for Information Technology, a leading framework for IT governance."
+        },
+        {
+            "id": 20,
+            "question": "The risk that an auditor expresses an inappropriate opinion when the financial statements are materially misstated is called",
+            "options": [
+                "Audit risk",
+                "Inherent risk",
+                "Control risk",
+                "Detection risk"
+            ],
+            "answerIndex": 0,
+            "explanation": "Audit risk is the risk that the auditor may give an incorrect opinion when the statements are materially misstated."
+        },
+        {
+            "id": 21,
+            "question": "Which of the following is a limitation of internal control?",
+            "options": [
+                "Cost-benefit aspect",
+                "Human error",
+                "Collusion",
+                "All of the above"
+            ],
+            "answerIndex": 3,
+            "explanation": "Cost-benefit aspect, human error, and collusion are recognized limitations to internal control, so all are correct."
+        },
+        {
+            "id": 22,
+            "question": "Which step is typically performed first in an IS audit process?",
+            "options": [
+                "Audit planning",
+                "Fieldwork",
+                "Reporting",
+                "Sampling"
+            ],
+            "answerIndex": 0,
+            "explanation": "Audit planning must come first to set strategy and resource allocation, before fieldwork or reporting."
+        },
+        {
+            "id": 23,
+            "question": "The use of digital signature ensures",
+            "options": [
+                "Confidentiality",
+                "Non-repudiation",
+                "Availability",
+                "Physical security"
+            ],
+            "answerIndex": 1,
+            "explanation": "Digital signatures ensure non-repudiation, meaning the sender cannot deny the authenticity of a message."
+        },
+        {
+            "id": 24,
+            "question": "In risk-based auditing, controls are selected based on",
+            "options": [
+                "Risk assessment results",
+                "Auditor experience",
+                "Management opinion",
+                "Past audit findings"
+            ],
+            "answerIndex": 0,
+            "explanation": "Controls addressed in audits should be selected based on the results of risk assessments to focus on highest risks."
+        },
+        {
+            "id": 25,
+            "question": "Which of the following is not typically part of audit documentation?",
+            "options": [
+                "Working papers",
+                "Audit program",
+                "Permanent file",
+                "Audited financial statements"
+            ],
+            "answerIndex": 3,
+            "explanation": "Audited financial statements are not part of audit documentation; they are the output of the audit process, not a working paper."
+        },
+        {
+            "id": 26,
+            "question": "Logical access controls are primarily designed to protect:",
+            "options": [
+                "Physical equipment",
+                "Software applications",
+                "Data integrity and confidentiality",
+                "Organization structure"
+            ],
+            "answerIndex": 2,
+            "explanation": "Logical access controls protect data—ensuring its integrity and confidentiality by restricting who may view or alter data."
+        },
+        {
+            "id": 27,
+            "question": "When an auditor uses sampling, which risk increases?",
+            "options": [
+                "Detection risk",
+                "Audit risk",
+                "Control risk",
+                "Inherent risk"
+            ],
+            "answerIndex": 0,
+            "explanation": "Audit sampling introduces detection risk, which is the risk that material errors won't be found because not all transactions are tested."
+        },
+        {
+            "id": 28,
+            "question": "Which of the following is NOT an implementation control?",
+            "options": [
+                "Parallel run",
+                "Data conversion checks",
+                "User acceptance testing",
+                "Bank reconciliation"
+            ],
+            "answerIndex": 3,
+            "explanation": "Bank reconciliation is a financial, not an implementation, control relating to IS or IT system launches."
+        },
+        {
+            "id": 29,
+            "question": "Management’s responsibility in the audit process is to:",
+            "options": [
+                "Design the audit procedures",
+                "Ensure compliance with policies and regulations",
+                "Supervise auditor’s work",
+                "Approve the audit report"
+            ],
+            "answerIndex": 1,
+            "explanation": "Management ensures compliance with policies and regulations and is responsible for system operations and internal controls."
+        },
+        {
+            "id": 30,
+            "question": "Which of the following is not a function of IS audit?",
+            "options": [
+                "Provide assurance on IT controls",
+                "Detect unauthorized system changes",
+                "Prepare financial statements",
+                "Evaluate effectiveness and efficiency of IT"
+            ],
+            "answerIndex": 2,
+            "explanation": "Preparing financial statements is the duty of the finance team, not the IS audit function."
+        },
+        {
+            "id": 31,
+            "question": "The term “audit trail” refers to:",
+            "options": [
+                "Progress of the audit assignment",
+                "Sequence of references that enables tracing transactions through the system",
+                "List of auditees",
+                "Audit evidence summary"
+            ],
+            "answerIndex": 1,
+            "explanation": "Audit trail refers to the series of records and references that allow tracing transactions through a system, crucial for accountability and control."
+        },
+        {
+            "id": 32,
+            "question": "The primary objective of audit sampling is to:",
+            "options": [
+                "Increase detection risk",
+                "Test entire population",
+                "Reduce cost and time",
+                "Provide basis for audit opinion"
+            ],
+            "answerIndex": 2,
+            "explanation": "Sampling provides a practical basis for audit opinion while reducing time and cost per audit."
+        },
+        {
+            "id": 33,
+            "question": "Which of the following is NOT a key principle of COBIT Governance System?",
+            "options": [
+                "Stakeholder Value",
+                "Dynamic Approach",
+                "End-to-End Coverage",
+                "Manual Oversight"
+            ],
+            "answerIndex": 1,
+            "explanation": "COBIT principles do not define 'Dynamic Approach' as key; others listed are correct principles."
+        },
+        {
+            "id": 34,
+            "question": "In IS Audit, which control type is designed to remedy issues after they arise?",
+            "options": [
+                "Preventive",
+                "Detective",
+                "Corrective",
+                "Responsive"
+            ],
+            "answerIndex": 2,
+            "explanation": "Corrective controls are specifically meant to fix problems after they occur, such as restoring lost data."
+        },
+        {
+            "id": 35,
+            "question": "The main focus of compliance audit is to:",
+            "options": [
+                "Achieve operational efficiency",
+                "Verify adherence to laws and regulations",
+                "Evaluate IT strategy",
+                "Promote employee engagement"
+            ],
+            "answerIndex": 1,
+            "explanation": "Compliance audits verify that organizational processes adhere to laws and regulations; other areas are covered in operational audits."
+        },
+        {
+            "id": 36,
+            "question": "Which of the following is NOT a primary function of information systems?",
+            "options": [
+                "Input",
+                "Process",
+                "Output",
+                "Decoration"
+            ],
+            "answerIndex": 3,
+            "explanation": "'Decoration' is not a function of Information Systems; input, process, and output are."
+        },
+        {
+            "id": 37,
+            "question": "When performing audit on cloud services, which risk is considered critical?",
+            "options": [
+                "Vendor lock-in",
+                "Physical theft",
+                "Paper documentation loss",
+                "None of the above"
+            ],
+            "answerIndex": 0,
+            "explanation": "Vendor lock-in, where a company cannot easily switch providers or platforms, is a significant risk in cloud services."
+        },
+        {
+            "id": 38,
+            "question": "Segregation of duties in IT system is done to guard against:",
+            "options": [
+                "Programming errors",
+                "Fraudulent activities",
+                "System downtime",
+                "Network congestion"
+            ],
+            "answerIndex": 1,
+            "explanation": "Segregation prevents fraud by separating crucial roles, making it harder for a single person to perpetrate and conceal errors or fraud."
+        },
+        {
+            "id": 39,
+            "question": "Which technique is commonly used for continuous auditing?",
+            "options": [
+                "Embedded audit module",
+                "Interview",
+                "Walkthrough",
+                "Observation"
+            ],
+            "answerIndex": 0,
+            "explanation": "Embedded audit modules automate the process of continual checking or transaction monitoring consistent with continuous auditing principles."
+        },
+        {
+            "id": 40,
+            "question": "Which is NOT a benefit of using CAATs in auditing?",
+            "options": [
+                "Increased efficiency",
+                "Reduced audit coverage",
+                "Handling large data volume",
+                "Enhanced accuracy"
+            ],
+            "answerIndex": 1,
+            "explanation": "Reduced audit coverage is not a benefit of CAATs—in fact, CAATs usually increase coverage through automation."
+        },
+        {
+            "id": 41,
+            "question": "In audit test of controls, auditors check for:",
+            "options": [
+                "Existence of controls",
+                "Operating effectiveness",
+                "Both A and B",
+                "None of the above"
+            ],
+            "answerIndex": 2,
+            "explanation": "Auditors test for both the existence of controls and their operating effectiveness; both are necessary for validity."
+        },
+        {
+            "id": 42,
+            "question": "Audit evidence is considered sufficient when:",
+            "options": [
+                "Quantity is adequate",
+                "Quality is high",
+                "Both A and B",
+                "Provided by management"
+            ],
+            "answerIndex": 2,
+            "explanation": "Audit evidence should be both sufficient (quantity) and appropriate (quality) to support conclusions."
+        },
+        {
+            "id": 43,
+            "question": "Which of the following is NOT a component of internal control as per COSO?",
+            "options": [
+                "Control environment",
+                "Risk assessment",
+                "Information and communication",
+                "External audit"
+            ],
+            "answerIndex": 3,
+            "explanation": "External audit is not a COSO component; the others are fundamental internal control elements per COSO."
+        },
+        {
+            "id": 44,
+            "question": "Automated controls provide better reliability than manual controls primarily due to:",
+            "options": [
+                "Human oversight",
+                "Increased efficiency",
+                "Reduced error rates",
+                "Cost savings"
+            ],
+            "answerIndex": 2,
+            "explanation": "Automated controls decrease the risk of human error and increase reliability through consistent processing."
+        },
+        {
+            "id": 45,
+            "question": "Which audit type focuses on IT infrastructure and network security?",
+            "options": [
+                "Compliance audit",
+                "Technical audit",
+                "Financial audit",
+                "Operational audit"
+            ],
+            "answerIndex": 1,
+            "explanation": "Technical audits specifically review IT infrastructure and network security controls."
+        },
+        {
+            "id": 46,
+            "question": "Which of the following is NOT an essential step in audit process?",
+            "options": [
+                "Planning",
+                "Execution",
+                "Recommendation",
+                "Reporting"
+            ],
+            "answerIndex": 2,
+            "explanation": "'Recommendation' is not an essential step—it is part of reporting; planning, execution, and reporting are official phases."
+        },
+        {
+            "id": 47,
+            "question": "Inherent risk arises primarily from:",
+            "options": [
+                "The nature of business and environment",
+                "Auditor’s skill level",
+                "Reporting structure",
+                "Number of controls applied"
+            ],
+            "answerIndex": 0,
+            "explanation": "Inherent risk is rooted in the nature of the business and its environment, independent of any internal controls."
+        },
+        {
+            "id": 48,
+            "question": "IS auditors use sampling in order to:",
+            "options": [
+                "Test every transaction",
+                "Estimate effectiveness of controls",
+                "Avoid reporting findings",
+                "Fulfill legal requirements"
+            ],
+            "answerIndex": 1,
+            "explanation": "Sampling allows auditors to estimate control effectiveness without testing every transaction individually."
+        },
+        {
+            "id": 49,
+            "question": "When selecting a sample, random sampling helps to:",
+            "options": [
+                "Reduce bias",
+                "Increase coverage",
+                "Both A and B",
+                "Increase audit costs"
+            ],
+            "answerIndex": 2,
+            "explanation": "Random sampling reduces the risk of bias and can increase population coverage, improving audit representative results."
+        },
+        {
+            "id": 50,
+            "question": "The process of ensuring logged systems events are reviewed is part of:",
+            "options": [
+                "Detective control",
+                "Corrective control",
+                "Preventive control",
+                "Residual control"
+            ],
+            "answerIndex": 0,
+            "explanation": "Reviewing system event logs is a detective control because it allows for detection of unapproved or suspicious activity."
+        },
+        {
+            "id": 51,
+            "question": "Information systems audit is most similar to:",
+            "options": [
+                "Financial audit",
+                "Compliance audit",
+                "Operational audit",
+                "Technical audit"
+            ],
+            "answerIndex": 2,
+            "explanation": "Operational audits and IS audits are similar, both focus on effectiveness and efficiency of operations including systems."
+        },
+        {
+            "id": 52,
+            "question": "A “control self-assessment” is performed by:",
+            "options": [
+                "External auditor",
+                "Internal auditor",
+                "Management/staff",
+                "IS Auditor"
+            ],
+            "answerIndex": 2,
+            "explanation": "Control self-assessment is typically performed by management or staff internally to gauge control adequacy."
+        },
+        {
+            "id": 53,
+            "question": "“White-box” audit approach involves:",
+            "options": [
+                "No knowledge of system internals",
+                "Full access to system logic",
+                "Only user-level testing",
+                "Using exclusively manual controls"
+            ],
+            "answerIndex": 1,
+            "explanation": "In a white-box audit, the auditor has full access to system logic, enabling detailed and comprehensive testing."
+        },
+        {
+            "id": 54,
+            "question": "Analytical procedures in IS audit are mainly used for:",
+            "options": [
+                "Understanding account balances",
+                "Detecting unusual trends or patterns",
+                "Calculating risk of fraud",
+                "Justifying audit fees"
+            ],
+            "answerIndex": 1,
+            "explanation": "Analytical procedures help identify unusual trends or patterns that may indicate errors or fraud."
+        },
+        {
+            "id": 55,
+            "question": "The risk that audit procedures will not detect a material misstatement is called:",
+            "options": [
+                "Detection risk",
+                "Inherent risk",
+                "Control risk",
+                "Audit risk"
+            ],
+            "answerIndex": 0,
+            "explanation": "Detection risk is the risk that audit procedures fail to detect material misstatement—distinct from inherent and control risk."
+        },
+        {
+            "id": 56,
+            "question": "Which of the following is NOT an advantage of embedded audit module?",
+            "options": [
+                "Continuous monitoring",
+                "Timely reporting of issues",
+                "High implementation cost",
+                "Automated error detection"
+            ],
+            "answerIndex": 2,
+            "explanation": "High implementation cost is a disadvantage of embedded audit modules, unlike their continuous monitoring and automation benefits."
+        },
+        {
+            "id": 57,
+            "question": "The audit report should include:",
+            "options": [
+                "Audit findings",
+                "Recommendations",
+                "Scope and objectives",
+                "All of the above"
+            ],
+            "answerIndex": 3,
+            "explanation": "Audit report includes all—findings, recommendations, scope, and objectives—so all of the above is correct."
+        },
+        {
+            "id": 58,
+            "question": "Common Criteria is a standard framework for:",
+            "options": [
+                "IT security evaluation",
+                "Financial audit",
+                "Cost reduction",
+                "Data backup"
+            ],
+            "answerIndex": 0,
+            "explanation": "Common Criteria is an international standard for IT security evaluation, not for financial or data backup."
+        },
+        {
+            "id": 59,
+            "question": "Which document outlines the terms and objectives of audit engagement?",
+            "options": [
+                "Audit program",
+                "Management letter",
+                "Audit charter/engagement letter",
+                "Working papers"
+            ],
+            "answerIndex": 2,
+            "explanation": "Audit charter (engagement letter) documents the scope, objectives, and terms of the audit engagement."
+        },
+        {
+            "id": 60,
+            "question": "In IS audit, application controls are designed to:",
+            "options": [
+                "Monitor network traffic",
+                "Ensure data accuracy and completeness",
+                "Backup hardware resources",
+                "Assess physical security"
+            ],
+            "answerIndex": 1,
+            "explanation": "Application controls ensure accuracy and completeness of data processed by applications—they do not monitor network traffic or backup hardware."
+        },
+        {
+            "id": 61,
+            "question": "Which of the following is NOT a feature of audit working papers?",
+            "options": [
+                "Support audit findings",
+                "Facilitate supervision and review",
+                "Serve as evidence in court",
+                "Replace financial statements"
+            ],
+            "answerIndex": 3,
+            "explanation": "Audit working papers support findings, facilitate review, and may be evidence; they do NOT replace financial statements."
+        },
+        {
+            "id": 62,
+            "question": "The risk to data confidentiality during transmission can be mitigated by:",
+            "options": [
+                "Encryption",
+                "Firewall",
+                "Antivirus",
+                "Backup"
+            ],
+            "answerIndex": 0,
+            "explanation": "Encryption is the primary method for protecting confidential data during transmission."
+        },
+        {
+            "id": 63,
+            "question": "Management review of user access logs is an example of a:",
+            "options": [
+                "Detective control",
+                "Preventive control",
+                "Corrective control",
+                "Responsive control"
+            ],
+            "answerIndex": 0,
+            "explanation": "Management's review of access logs is a detective control—it identifies violations post-event."
+        },
+        {
+            "id": 64,
+            "question": "The audit follow-up process ensures:",
+            "options": [
+                "Audit objectives were met",
+                "Recommendations have been implemented",
+                "Evidence is sufficient",
+                "Sampling is done"
+            ],
+            "answerIndex": 1,
+            "explanation": "Audit follow-up ensures that audit recommendations are implemented, leading to improved controls and compliance."
+        },
+        {
+            "id": 65,
+            "question": "Which of the following is NOT an example of detective control?",
+            "options": [
+                "Exception reports",
+                "Security camera footage review",
+                "Physical barriers",
+                "Review of access logs"
+            ],
+            "answerIndex": 2,
+            "explanation": "Physical barriers are preventive controls; detective controls such as access logs or CCTV footage identify incidents after they occur."
+        },
+        {
+            "id": 66,
+            "question": "The most critical factor for effectiveness of internal controls is:",
+            "options": [
+                "Management commitment",
+                "Audit frequency",
+                "Employee training",
+                "External regulations"
+            ],
+            "answerIndex": 0,
+            "explanation": "Management commitment is the most critical factor—it drives the tone at the top and compliance with controls."
+        },
+        {
+            "id": 67,
+            "question": "Audit planning should consider:",
+            "options": [
+                "Scope and objectives",
+                "Resource availability",
+                "Risk assessment",
+                "All of the above"
+            ],
+            "answerIndex": 3,
+            "explanation": "Effective audit planning must consider scope, objectives, resources, and risk, so 'all of the above' applies."
+        },
+        {
+            "id": 68,
+            "question": "Which of the following is a “corrective” control?",
+            "options": [
+                "Virus removal after an attack",
+                "Firewall configuration",
+                "Password policy",
+                "Data encryption"
+            ],
+            "answerIndex": 0,
+            "explanation": "Corrective controls like virus removal fix issues after they are found; preventive controls aim to stop them occurring."
+        },
+        {
+            "id": 69,
+            "question": "The term “window dressing” in audit context refers to:",
+            "options": [
+                "Manipulating accounts to show better results",
+                "Upgrading IT infrastructure",
+                "Enhancing audit reporting",
+                "Improving user interface"
+            ],
+            "answerIndex": 0,
+            "explanation": "Window dressing refers to manipulating financial figures to show better results than reality, an audit risk."
+        },
+        {
+            "id": 70,
+            "question": "CAATs can be used for:",
+            "options": [
+                "Data analysis",
+                "Fraud detection",
+                "Both A and B",
+                "None of the above"
+            ],
+            "answerIndex": 2,
+            "explanation": "CAATs are used for both data analysis and fraud detection through automated procedures."
+        },
+        {
+            "id": 71,
+            "question": "Which of the following is NOT an example of application control?",
+            "options": [
+                "Edit checks",
+                "Hash totals",
+                "Business continuity planning",
+                "Validity checks"
+            ],
+            "answerIndex": 2,
+            "explanation": "Business continuity planning is NOT an application control—edit and validity checks are."
+        },
+        {
+            "id": 72,
+            "question": "The audit risk model is expressed as:",
+            "options": [
+                "Audit risk = Inherent risk × Control risk × Detection risk",
+                "Audit risk = Inherent risk + Control risk + Detection risk",
+                "Audit risk = Detection risk × Sampling risk",
+                "Audit risk = Control risk × Sample risk"
+            ],
+            "answerIndex": 0,
+            "explanation": "Audit risk is the product of inherent, control, and detection risks—multiplicative, not additive relationship."
+        },
+        {
+            "id": 73,
+            "question": "Which act governs information systems audit in Nepal for Chartered Accountants?",
+            "options": [
+                "Nepal Companies Act",
+                "Nepal Income Tax Act",
+                "Specific provision by ICAN/ICAI",
+                "SEBON regulations"
+            ],
+            "answerIndex": 2,
+            "explanation": "ISA in Nepal is governed by special provisions by ICAN/ICAI for Chartered Accountants, not general laws only."
+        },
+        {
+            "id": 74,
+            "question": "The “audit universe” refers to:",
+            "options": [
+                "All possible audits in organization",
+                "IT infrastructure",
+                "Financial statements",
+                "Audit evidence set"
+            ],
+            "answerIndex": 0,
+            "explanation": "Audit universe encompasses all possible audits and auditable entities within the organization."
+        },
+        {
+            "id": 75,
+            "question": "Sampling risk in audit means:",
+            "options": [
+                "Auditor selects a nonrepresentative sample",
+                "Auditor selects the most effective sample",
+                "All samples are 100% accurate",
+                "Only large samples are relevant"
+            ],
+            "answerIndex": 0,
+            "explanation": "Sampling risk is when the auditor's sample doesn't represent the population, risking an erroneous conclusion."
+        },
+        {
+            "id": 76,
+            "question": "A “test of controls” is most appropriate when:",
+            "options": [
+                "Auditor tests the design and operation of controls",
+                "Auditor reviews financial statements only",
+                "Auditor calculates ratios",
+                "Auditor discusses reporting results"
+            ],
+            "answerIndex": 0,
+            "explanation": "Tests of controls involve evaluating the design and operating effectiveness of internal controls—not reporting or ratio calculation."
+        },
+        {
+            "id": 77,
+            "question": "Which of the following is an objective of IS audit?",
+            "options": [
+                "Ensure data integrity and confidentiality",
+                "Assess operational efficiency",
+                "Evaluate IT governance",
+                "All of the above"
+            ],
+            "answerIndex": 3,
+            "explanation": "IS audit objectives are broad: integrity, efficiency, and governance of IT—all apply."
+        },
+        {
+            "id": 78,
+            "question": "Which tool automates reconciliation in accounting systems?",
+            "options": [
+                "CAAT",
+                "Firewall",
+                "Antivirus",
+                "Physical control"
+            ],
+            "answerIndex": 0,
+            "explanation": "CAATs can automate reconciliation, making them a valuable audit tool."
+        },
+        {
+            "id": 79,
+            "question": "“Red teaming” in IT security audit refers to:",
+            "options": [
+                "External attack simulation",
+                "Network configuration test",
+                "Data encryption",
+                "IT service management"
+            ],
+            "answerIndex": 0,
+            "explanation": "Red teaming involves simulating an external hack or attack as part of IT security audits."
+        },
+        {
+            "id": 80,
+            "question": "Which of the following is NOT a general IT control?",
+            "options": [
+                "Change management",
+                "Physical access",
+                "Input validation",
+                "Backup and recovery"
+            ],
+            "answerIndex": 2,
+            "explanation": "Input validation is an application control, not a general IT control, which covers change management and backups."
+        },
+        {
+            "id": 81,
+            "question": "The role of “audit charter” is to:",
+            "options": [
+                "Establish authority and responsibility for auditors",
+                "Expand audit resources",
+                "Finalize audit findings",
+                "Assess risk only"
+            ],
+            "answerIndex": 0,
+            "explanation": "The charter empowers and guides the internal audit team on scope, authority, and responsibility."
+        },
+        {
+            "id": 82,
+            "question": "Data integrity assurance is provided through:",
+            "options": [
+                "Access controls",
+                "Transaction logs",
+                "Both A and B",
+                "None of the above"
+            ],
+            "answerIndex": 2,
+            "explanation": "Both access controls and transaction logs together assure data integrity and security."
+        },
+        {
+            "id": 83,
+            "question": "IS auditors review system logs to:",
+            "options": [
+                "Detect unauthorized activity",
+                "Optimize software performance",
+                "Create graphs",
+                "Train employees"
+            ],
+            "answerIndex": 0,
+            "explanation": "System logs are reviewed to detect unauthorized activities or breaches within the system."
+        },
+        {
+            "id": 84,
+            "question": "Which standard applies for audit documentation in Nepal?",
+            "options": [
+                "Nepal Standard on Auditing (NSA)",
+                "Nepal Income Tax Act",
+                "Nepal Companies Act",
+                "NRB Directives"
+            ],
+            "answerIndex": 0,
+            "explanation": "Nepal Standard on Auditing (NSA) prescribes audit documentation standards."
+        },
+        {
+            "id": 85,
+            "question": "Which of the following is NOT among layers of IT governance?",
+            "options": [
+                "Strategic alignment",
+                "Value delivery",
+                "Technical support",
+                "Resource management"
+            ],
+            "answerIndex": 2,
+            "explanation": "Technical support is an operational component, not a layer of IT governance (strategic alignment, value delivery, resource management are governance layers)."
+        },
+        {
+            "id": 86,
+            "question": "In IS audit, control environment refers to:",
+            "options": [
+                "Organization structure and culture",
+                "IT architecture",
+                "Network topology",
+                "Database design"
+            ],
+            "answerIndex": 0,
+            "explanation": "Control environment comprises the organizational structure, culture, and tone at the top—the basis for all controls."
+        },
+        {
+            "id": 87,
+            "question": "The benefit of using CAATs includes:",
+            "options": [
+                "Automation of repetitive tasks",
+                "Increased audit sample size",
+                "Better fraud detection",
+                "All of the above"
+            ],
+            "answerIndex": 3,
+            "explanation": "CAATs automate repetitive tasks, increase sample sizes, and improve fraud detection—all are valid benefits."
+        },
+        {
+            "id": 88,
+            "question": "Which of the following is a limitation to using CAATs?",
+            "options": [
+                "High cost of implementation",
+                "Requirement of skilled staff",
+                "Data privacy issues",
+                "All of the above"
+            ],
+            "answerIndex": 3,
+            "explanation": "All the listed options—high cost, skills required, and privacy issues—are limitations to CAAT use."
+        },
+        {
+            "id": 89,
+            "question": "Automated audit tools perform:",
+            "options": [
+                "Data tests",
+                "Exception reporting",
+                "Transaction matching",
+                "All of the above"
+            ],
+            "answerIndex": 3,
+            "explanation": "Automated audit tools handle all: data testing, exception reporting, and transaction matching—all of the above."
+        },
+        {
+            "id": 90,
+            "question": "Which principle guides effective IS audit planning?",
+            "options": [
+                "Risk-based approach",
+                "Routine schedule",
+                "Equal resource allocation",
+                "Strict legal compliance"
+            ],
+            "answerIndex": 0,
+            "explanation": "Risk-based approach focuses limited resources on highest risk areas and improves audit quality."
+        },
+        {
+            "id": 91,
+            "question": "Which area is outside scope of IS audit?",
+            "options": [
+                "Data accuracy",
+                "Physical security of data center",
+                "IT governance",
+                "Staff welfare policy"
+            ],
+            "answerIndex": 3,
+            "explanation": "Staff welfare policy is outside the IS audit scope; data accuracy, governance, and security are within scope."
+        },
+        {
+            "id": 92,
+            "question": "A logical access control example is:",
+            "options": [
+                "Password policy",
+                "Lock on server room",
+                "Backup tapes",
+                "CCTV cameras"
+            ],
+            "answerIndex": 0,
+            "explanation": "Password policy is a logical access control; physical controls involve physical barriers."
+        },
+        {
+            "id": 93,
+            "question": "The “management letter” is issued to:",
+            "options": [
+                "Communicate findings and recommendations to management",
+                "Confirm audit scope",
+                "Authorize audit work",
+                "Request audit evidence"
+            ],
+            "answerIndex": 0,
+            "explanation": "Management letter presents findings and recommendations to management for corrective action post-audit."
+        },
+        {
+            "id": 94,
+            "question": "In IS audit, user acceptance testing is performed to:",
+            "options": [
+                "Verify system meets user requirements",
+                "Test financial statements",
+                "Train new staff",
+                "Document audit findings"
+            ],
+            "answerIndex": 0,
+            "explanation": "User acceptance testing verifies if new systems meet user requirements before full deployment."
+        },
+        {
+            "id": 95,
+            "question": "The “audit cycle” includes which step?",
+            "options": [
+                "Planning",
+                "Execution",
+                "Follow-up",
+                "All of the above"
+            ],
+            "answerIndex": 3,
+            "explanation": "Audit cycle necessarily includes planning, execution, and follow-up—hence, all of the above is correct."
+        },
+        {
+            "id": 96,
+            "question": "In Nepal, compliance audits for banks are primarily guided by:",
+            "options": [
+                "NRB regulations",
+                "SEBON guidelines",
+                "Companies Act",
+                "ICAN Standard"
+            ],
+            "answerIndex": 0,
+            "explanation": "NRB (Nepal Rastra Bank) circulars and regulations guide compliance audits for banks in Nepal."
+        },
+        {
+            "id": 97,
+            "question": "A primary benefit of embedded audit module is:",
+            "options": [
+                "Real-time audit evidence",
+                "Delayed audit reporting",
+                "Reduced reliability",
+                "Increased manual work"
+            ],
+            "answerIndex": 0,
+            "explanation": "Embedded audit modules provide real-time evidence by monitoring transactions as they happen."
+        },
+        {
+            "id": 98,
+            "question": "Which of the following is NOT a benefit of audit automation?",
+            "options": [
+                "Reduced error",
+                "Faster turnaround",
+                "Complete elimination of auditor judgment",
+                "Improved audit trail"
+            ],
+            "answerIndex": 2,
+            "explanation": "Automation does not eliminate auditor judgment; auditors must still make professional decisions—this is not a benefit."
+        },
+        {
+            "id": 99,
+            "question": "Which standard guides audit on IT security in Nepal?",
+            "options": [
+                "ISO 27001",
+                "NSA",
+                "Nepal IT Policy",
+                "SEBON directives"
+            ],
+            "answerIndex": 0,
+            "explanation": "ISO 27001 is the internationally recognized standard for IT security audits, including Nepal."
+        },
+        {
+            "id": 100,
+            "question": "Which international standard is most relevant for IS auditors?",
+            "options": [
+                "ISO 27001",
+                "COBIT 2019",
+                "ITIL",
+                "PCI DSS"
+            ],
+            "answerIndex": 0,
+            "explanation": "ISO 27001 is the global standard most relevant for IS auditors, setting requirements for ISMS."
+        },
+        {
+            "id": 101,
+            "question": "Which of the following is the PRIMARY objective of an IS audit?",
+            "options": [
+                "Reducing organizational costs",
+                "Ensuring compliance with IT policies",
+                "Providing assurance on information integrity",
+                "Improving user satisfaction"
+            ],
+            "answerIndex": 2,
+            "explanation": "The central purpose of IS audit is to provide independent assurance on the integrity, accuracy, and reliability of information and related systems."
+        },
+        {
+            "id": 102,
+            "question": "Which phase of the IS audit process involves developing audit procedures and selecting controls for testing?",
+            "options": [
+                "Planning",
+                "Execution",
+                "Reporting",
+                "Follow-up"
+            ],
+            "answerIndex": 0,
+            "explanation": "Planning is where auditors set procedures, select relevant controls, and determine scope to maximize audit effectiveness."
+        },
+        {
+            "id": 103,
+            "question": "An IS auditor delegates certain audit tasks to assistants. He remains responsible for the final audit opinion provided:",
+            "options": [
+                "Assistants receive training from the auditor",
+                "The auditor oversees assistants’ work",
+                "The auditor continually reviews assistants’ work",
+                "The auditor ensures assistants have relevant skills"
+            ],
+            "answerIndex": 1,
+            "explanation": "Responsibility for the audit opinion remains with the auditor even when tasks are delegated; oversight is crucial to quality."
+        },
+        {
+            "id": 104,
+            "question": "Assurance functions in IS audit are MOST reliant on:",
+            "options": [
+                "Financial review",
+                "Evidence-based testing",
+                "Management interviews",
+                "IT budgeting"
+            ],
+            "answerIndex": 1,
+            "explanation": "Assurance comes from objective, evidence-based testing, ensuring findings and recommendations are substantiated."
+        },
+        {
+            "id": 105,
+            "question": "Which of the following is NOT considered reliable audit evidence?",
+            "options": [
+                "Third-party confirmations",
+                "Documents explicitly produced for audit",
+                "Internally generated reports",
+                "System logs reviewed by management"
+            ],
+            "answerIndex": 2,
+            "explanation": "Internally generated reports are susceptible to bias/manipulation compared to external confirmations or independent logs."
+        },
+        {
+            "id": 106,
+            "question": "If an IS auditor desires to test the completeness of data entered into a financial system, the BEST technique is:",
+            "options": [
+                "Interviewing system users",
+                "Reviewing process flowcharts",
+                "Performing data reconciliation",
+                "Observing transaction entries"
+            ],
+            "answerIndex": 2,
+            "explanation": "Data reconciliation directly checks for completeness and accuracy across datasets."
+        },
+        {
+            "id": 107,
+            "question": "The concept of 'audit universe' refers to:",
+            "options": [
+                "The entire set of auditable entities and activities",
+                "Audits performed during a fiscal year",
+                "Systems listed in the IT asset register",
+                "Sample audits conducted for risk assessment"
+            ],
+            "answerIndex": 0,
+            "explanation": "Audit universe means all processes, entities, applications, and activities subject to an audit."
+        },
+        {
+            "id": 108,
+            "question": "IS auditors should RESPECT confidentiality except when:",
+            "options": [
+                "Required by law",
+                "Requested by system user",
+                "Ordered by management",
+                "During audit planning"
+            ],
+            "answerIndex": 0,
+            "explanation": "Professional ethics require that information is kept confidential unless mandated by law."
+        },
+        {
+            "id": 109,
+            "question": "Which of the following controls is categorized as a DETECTIVE control?",
+            "options": [
+                "Antivirus",
+                "Logical access restrictions",
+                "Exception report generation",
+                "User training"
+            ],
+            "answerIndex": 2,
+            "explanation": "Exception reports identify irregularities after occurrence, thus functioning as detective controls."
+        },
+        {
+            "id": 110,
+            "question": "Which audit engagement document sets out the auditor’s authority, scope, and responsibilities?",
+            "options": [
+                "Management letter",
+                "Audit program",
+                "Audit charter",
+                "Interim audit report"
+            ],
+            "answerIndex": 2,
+            "explanation": "The audit charter is foundational; it sets up the audit’s scope, objectives, and authority."
+        },
+        {
+            "id": 111,
+            "question": "The risk that a control will fail to prevent or detect a material misstatement is:",
+            "options": [
+                "Detection risk",
+                "Control risk",
+                "Inherent risk",
+                "Systemic risk"
+            ],
+            "answerIndex": 1,
+            "explanation": "Control risk is the possibility that a system’s controls fail to prevent or detect an error."
+        },
+        {
+            "id": 112,
+            "question": "The BEST indicator of auditor independence is:",
+            "options": [
+                "Reporting to Audit Committee",
+                "Conducting workshops",
+                "Preparing budgets",
+                "Reviewing financial policies"
+            ],
+            "answerIndex": 0,
+            "explanation": "Independence is maximized when auditors report to the audit committee, separate from IT or business management."
+        },
+        {
+            "id": 113,
+            "question": "Sampling is MOST suitable in audit testing when:",
+            "options": [
+                "The audit population is large",
+                "Auditor wishes to reduce costs",
+                "Test controls require full coverage",
+                "All transactions are similar"
+            ],
+            "answerIndex": 0,
+            "explanation": "Sampling is practical for large populations where testing every item is not feasible."
+        },
+        {
+            "id": 114,
+            "question": "Physical access controls are designed to:",
+            "options": [
+                "Restrict logical access",
+                "Prevent physical intrusion",
+                "Monitor employee behavior",
+                "Log system activities"
+            ],
+            "answerIndex": 1,
+            "explanation": "Physical controls prevent unauthorized entry into facilities or areas containing sensitive assets."
+        },
+        {
+            "id": 115,
+            "question": "In IS audit, walkthroughs are primarily conducted to:",
+            "options": [
+                "Train auditors",
+                "Understand process flows",
+                "Prepare audit documentation",
+                "Confirm financial balances"
+            ],
+            "answerIndex": 1,
+            "explanation": "Walkthroughs help auditors map processes, identify potential control gaps, and confirm understanding."
+        },
+        {
+            "id": 116,
+            "question": "CAATs are COMMONLY used for:",
+            "options": [
+                "Generating user passwords",
+                "Testing high-volume transactions",
+                "Designing organizational policies",
+                "Monitoring server temperatures"
+            ],
+            "answerIndex": 1,
+            "explanation": "CAATs (computer-assisted audit techniques) allow efficient testing of large volumes of electronic transactions."
+        },
+        {
+            "id": 117,
+            "question": "The term 'control self-assessment' (CSA) means:",
+            "options": [
+                "Internal audit reviews controls",
+                "Operational staff review their controls",
+                "IT management reviews controls quarterly",
+                "External auditors validate controls"
+            ],
+            "answerIndex": 1,
+            "explanation": "CSA involves personnel closest to operations evaluating the effectiveness of controls."
+        },
+        {
+            "id": 118,
+            "question": "During IS audit planning, risk assessment assists in:",
+            "options": [
+                "Selecting controls for testing",
+                "Reducing sampling size",
+                "Increasing audit cost",
+                "Documenting inherent risks only"
+            ],
+            "answerIndex": 0,
+            "explanation": "Risk assessment informs auditors on which controls to prioritize in testing based on risk exposure."
+        },
+        {
+            "id": 119,
+            "question": "Which of the following is a PREVENTIVE control?",
+            "options": [
+                "Access authorization",
+                "Audit log review",
+                "Exception reporting",
+                "Error correction procedures"
+            ],
+            "answerIndex": 0,
+            "explanation": "Preventive controls are implemented to stop errors before they occur; access authorizations are a classic example."
+        },
+        {
+            "id": 120,
+            "question": "The PRIMARY reason for segregating IT duties is:",
+            "options": [
+                "Reducing training needs",
+                "Enhancing system performance",
+                "Preventing fraud and error",
+                "Enabling faster upgrades"
+            ],
+            "answerIndex": 2,
+            "explanation": "Segregation of duties mitigates risk of unauthorized transactions or unilateral fraud."
+        },
+        {
+            "id": 121,
+            "question": "Information system audit reports should be:",
+            "options": [
+                "Detailed, objective, and actionable",
+                "Written only for management",
+                "Focused on technical terminology",
+                "Limited to two pages"
+            ],
+            "answerIndex": 0,
+            "explanation": "ISA reports must be clear, objective, and provide meaningful recommendations."
+        },
+        {
+            "id": 122,
+            "question": "In IS audit, the audit cycle typically ends with:",
+            "options": [
+                "Planning",
+                "Reporting findings",
+                "Management comment",
+                "Follow-up activities"
+            ],
+            "answerIndex": 3,
+            "explanation": "Audit cycles end with follow-up, ensuring recommendations have been implemented."
+        },
+        {
+            "id": 123,
+            "question": "Which evidence is most reliable in determining transaction authenticity in an IS environment?",
+            "options": [
+                "Printed internal logs",
+                "Oral statements of staff",
+                "Digital signatures",
+                "Archived emails"
+            ],
+            "answerIndex": 2,
+            "explanation": "Digital signatures provide cryptographic proof of authenticity and integrity."
+        },
+        {
+            "id": 124,
+            "question": "The term 'audit trail' in IS means:",
+            "options": [
+                "The process of audit planning",
+                "Links that trace transactions through a system",
+                "Summary of audit findings",
+                "Route from client to auditor"
+            ],
+            "answerIndex": 1,
+            "explanation": "Audit trails connect each transaction step, enabling review and tracking."
+        },
+        {
+            "id": 125,
+            "question": "Which of the following is a limitation of IS audit?",
+            "options": [
+                "Cost-benefit constraints",
+                "Human error",
+                "Collusion",
+                "All of the above"
+            ],
+            "answerIndex": 3,
+            "explanation": "All listed factors are recognized limitations in IS audit and affect effectiveness."
+        },
+        {
+            "id": 126,
+            "question": "Which of the following is used to evaluate the design and implementation of controls before system go-live?",
+            "options": [
+                "Penetration testing",
+                "User acceptance testing",
+                "Change management review",
+                "Data center tour"
+            ],
+            "answerIndex": 1,
+            "explanation": "User acceptance testing ensures the system meets specified requirements and that controls function before deployment."
+        },
+        {
+            "id": 127,
+            "question": "What is the MAIN benefit of audit sampling in IS audit?",
+            "options": [
+                "Reduces auditor independence",
+                "Allows coverage of large populations",
+                "Ensures full testing",
+                "Minimizes use of CAATs"
+            ],
+            "answerIndex": 1,
+            "explanation": "Sampling enables efficient and effective testing of large transaction populations that cannot be examined entirely."
+        },
+        {
+            "id": 128,
+            "question": "Inherent risk is BEST described as the risk remaining:",
+            "options": [
+                "After controls are applied",
+                "From external parties only",
+                "That exists before considering controls",
+                "During audit execution"
+            ],
+            "answerIndex": 2,
+            "explanation": "Inherent risk exists prior to the implementation of any internal controls."
+        },
+        {
+            "id": 129,
+            "question": "IS auditors should retain working papers:",
+            "options": [
+                "For as long as management demands",
+                "Only until audit report is issued",
+                "As per applicable regulation or professional standards",
+                "Until the next audit"
+            ],
+            "answerIndex": 2,
+            "explanation": "Auditors must maintain working papers in accordance with professional/legal requirements."
+        },
+        {
+            "id": 130,
+            "question": "Independence in IS audit is PRIMARILY maintained by:",
+            "options": [
+                "Sponsorship by IT management",
+                "Separate reporting line to the board/audit committee",
+                "Counseling business users",
+                "Reviewing only IT policies"
+            ],
+            "answerIndex": 1,
+            "explanation": "Reporting separately from IT or management ensures audit objectivity and independence."
+        },
+        {
+            "id": 131,
+            "question": "Materiality in IS audit refers to:",
+            "options": [
+                "Technical errors",
+                "Any errors found in IT systems",
+                "Errors significant enough to affect users’ decisions",
+                "Management instructions"
+            ],
+            "answerIndex": 2,
+            "explanation": "Materiality means the magnitude of error that influences the decisions of report users."
+        },
+        {
+            "id": 132,
+            "question": "The control environment encompasses:",
+            "options": [
+                "Only IT policies",
+                "The entity's structure, values, and tone at the top",
+                "Audit sampling techniques",
+                "Disaster recovery plan"
+            ],
+            "answerIndex": 1,
+            "explanation": "The control environment is the overall attitude, awareness, and actions of management regarding controls."
+        },
+        {
+            "id": 133,
+            "question": "Which of the following best describes a walkthrough procedure?",
+            "options": [
+                "Reviewing external audit findings",
+                "Tracing a single transaction from start to finish",
+                "Conducting staff interviews",
+                "Testing failover systems"
+            ],
+            "answerIndex": 1,
+            "explanation": "Walkthroughs involve reviewing and tracing actual transactions through the relevant processes."
+        },
+        {
+            "id": 134,
+            "question": "Logical access controls primarily protect:",
+            "options": [
+                "Physical IT assets",
+                "Confidential data and programs",
+                "Facility access",
+                "Financial statements"
+            ],
+            "answerIndex": 1,
+            "explanation": "Logical controls safeguard data integrity, confidentiality, and prevent unauthorized system access."
+        },
+        {
+            "id": 135,
+            "question": "Which one of the following is typically a DETECTIVE control?",
+            "options": [
+                "Firewalls",
+                "Security training",
+                "Audit trails",
+                "Password policies"
+            ],
+            "answerIndex": 2,
+            "explanation": "Audit trails provide post-event information that helps detect suspicious or unauthorized activity."
+        },
+        {
+            "id": 136,
+            "question": "IS audit planning is MOST influenced by:",
+            "options": [
+                "Time available",
+                "Auditor’s last engagement",
+                "Risk assessment",
+                "Auditor’s intuition"
+            ],
+            "answerIndex": 2,
+            "explanation": "Planning must be risk-based to focus on high-risk areas and optimize resource use."
+        },
+        {
+            "id": 137,
+            "question": "Which of the following controls is designed to prevent unauthorized data modification?",
+            "options": [
+                "Exception reporting",
+                "Input validation checks",
+                "Activity logs",
+                "Detective control"
+            ],
+            "answerIndex": 1,
+            "explanation": "Input validation checks are preventive—they ensure only proper data enters the system."
+        },
+        {
+            "id": 138,
+            "question": "The term “scope creep” in IS audit BEST refers to:",
+            "options": [
+                "Training new IT staff",
+                "Extension of audit objectives beyond original intent",
+                "Use of IT for entertainment",
+                "Unplanned system failures"
+            ],
+            "answerIndex": 1,
+            "explanation": "Scope creep describes the addition of unplanned activities or deliverables to the audit without proper authorization."
+        },
+        {
+            "id": 139,
+            "question": "The audit report should be:",
+            "options": [
+                "Technical only",
+                "Objective and actionable",
+                "Confidential to the IT team",
+                "Conducted verbally only"
+            ],
+            "answerIndex": 1,
+            "explanation": "Reports must clearly convey findings and recommendations in an objective, actionable manner."
+        },
+        {
+            "id": 140,
+            "question": "Internal controls are MOST effective when:",
+            "options": [
+                "Designed with management involvement",
+                "Based on external templates only",
+                "Developed without risk analysis",
+                "Not documented"
+            ],
+            "answerIndex": 0,
+            "explanation": "Management involvement ensures controls are relevant, effective, and integrated into operations."
+        },
+        {
+            "id": 141,
+            "question": "The purpose of a risk register in IS audit is to:",
+            "options": [
+                "Track risk mitigation only",
+                "Allocate staff",
+                "Record identified risks and their status",
+                "Store audit opinions"
+            ],
+            "answerIndex": 2,
+            "explanation": "The risk register stores details on all identified risks, assessments, treatments, and their current status."
+        },
+        {
+            "id": 142,
+            "question": "A preventive control aims to:",
+            "options": [
+                "Identify issues after they occur",
+                "Correct detected issues",
+                "Stop errors before occurrence",
+                "Enhance audit evidence"
+            ],
+            "answerIndex": 2,
+            "explanation": "Preventive controls are designed to prevent errors or fraud before they can happen."
+        },
+        {
+            "id": 143,
+            "question": "The PRIMARY user of an audit charter is:",
+            "options": [
+                "Internal audit team",
+                "External auditors only",
+                "Any staff member",
+                "Tax authorities"
+            ],
+            "answerIndex": 0,
+            "explanation": "The charter empowers and guides the internal audit team on scope, authority, and responsibility."
+        },
+        {
+            "id": 144,
+            "question": "Who is responsible for risk management in an IS environment?",
+            "options": [
+                "Auditors",
+                "IT users",
+                "Management",
+                "Regulators"
+            ],
+            "answerIndex": 2,
+            "explanation": "Management is ultimately responsible for identifying, assessing, and managing organizational risks."
+        },
+        {
+            "id": 145,
+            "question": "The follow-up phase in the IS audit life cycle helps auditors:",
+            "options": [
+                "Finalize resource allocation",
+                "Monitor implementation of audit recommendations",
+                "Approve user requests",
+                "Draft audit programs"
+            ],
+            "answerIndex": 1,
+            "explanation": "Follow-up ensures that agreed recommendations have been put into practice and risks addressed."
+        },
+        {
+            "id": 146,
+            "question": "Which of the following BEST describes an application control?",
+            "options": [
+                "System backup",
+                "Input data validation in an accounting system",
+                "Disaster recovery planning",
+                "Periodic password changes"
+            ],
+            "answerIndex": 1,
+            "explanation": "Application controls are automated, embedded in particular applications (e.g., input validation, edit checks) to enforce data integrity."
+        },
+        {
+            "id": 147,
+            "question": "Which of the following is a major limitation of controls relying on human intervention?",
+            "options": [
+                "Resilience",
+                "Automation",
+                "Susceptibility to error and fatigue",
+                "Scalability"
+            ],
+            "answerIndex": 2,
+            "explanation": "Manual controls can be bypassed, misapplied, or neglected due to human error or fatigue."
+        },
+        {
+            "id": 148,
+            "question": "Which control is most effective at detecting repeated failed login attempts?",
+            "options": [
+                "System audit logs",
+                "Firewall configuration",
+                "Encryption",
+                "Data backup"
+            ],
+            "answerIndex": 0,
+            "explanation": "System audit logs monitor, record, and provide an alert on suspicious activity including repeated failed logins."
+        },
+        {
+            "id": 149,
+            "question": "The MOST critical factor for the success of an IS audit function is:",
+            "options": [
+                "Technical know-how",
+                "Adequate funding",
+                "Top management support",
+                "Use of CAATs"
+            ],
+            "answerIndex": 2,
+            "explanation": "Management support ensures the audit function has authority, resources, and organizational significance."
+        },
+        {
+            "id": 150,
+            "question": "Embedded audit modules are typically used for:",
+            "options": [
+                "One-time assessment",
+                "Real-time/continuous audit of transactions",
+                "Generating audit plans",
+                "Manual sampling"
+            ],
+            "answerIndex": 1,
+            "explanation": "These modules are programmed into systems for ongoing or real-time monitoring as transactions occur."
+        },
+        {
+            "id": 151,
+            "question": "What is the PRIMARY objective of using CAATs in an IS audit?",
+            "options": [
+                "To reduce audit documentation",
+                "To automate routine audit tasks",
+                "To minimize audit recommendations",
+                "To increase manual intervention"
+            ],
+            "answerIndex": 1,
+            "explanation": "CAATs are used to automate repetitive and data-heavy audit tasks, increasing speed and reliability."
+        },
+        {
+            "id": 152,
+            "question": "In IS audit, when is sampling least effective?",
+            "options": [
+                "Population is uniform",
+                "Population is highly variable",
+                "Transactions are automated",
+                "Audit scope is small"
+            ],
+            "answerIndex": 1,
+            "explanation": "Sampling can miss irregularities in highly variable populations; uniform data benefits more from sampling."
+        },
+        {
+            "id": 153,
+            "question": "Which statement describes a “detective” control?",
+            "options": [
+                "It prevents errors from occurring",
+                "It corrects errors after they occur",
+                "It identifies errors after they have occurred",
+                "It hides errors from management"
+            ],
+            "answerIndex": 2,
+            "explanation": "Detective controls such as exception reports or audit logs help identify issues post-incident."
+        },
+        {
+            "id": 154,
+            "question": "Audit evidence should be:",
+            "options": [
+                "Sufficient and appropriate",
+                "Sufficient but not relevant",
+                "Orally communicated only",
+                "Provided by management only"
+            ],
+            "answerIndex": 0,
+            "explanation": "Evidence must be quantitatively adequate and qualitatively relevant to support audit conclusions."
+        },
+        {
+            "id": 155,
+            "question": "“Control risk self-assessment” is conducted by:",
+            "options": [
+                "The audit team",
+                "Line managers and operational staff",
+                "Regulatory authorities",
+                "External consultants only"
+            ],
+            "answerIndex": 1,
+            "explanation": "Line managers or staff assess risk of their control deficiencies to inform audit focus."
+        },
+        {
+            "id": 156,
+            "question": "Which control helps detect unauthorized access AFTER it occurs?",
+            "options": [
+                "Physical locks",
+                "Audit logs and monitoring systems",
+                "Input validation",
+                "Antivirus programs"
+            ],
+            "answerIndex": 1,
+            "explanation": "Audit logs and monitoring reveal any access after it happens; preventive controls stop access beforehand."
+        },
+        {
+            "id": 157,
+            "question": "“Materiality” in IS audit is best established by:",
+            "options": [
+                "Auditor’s intuition",
+                "Regulatory mandate",
+                "Assessment of user impact",
+                "Budget constraints"
+            ],
+            "answerIndex": 2,
+            "explanation": "Materiality is determined by the potential impact on users’ decisions, not solely by regulations or budgets."
+        },
+        {
+            "id": 158,
+            "question": "The concept of “audit scope” means:",
+            "options": [
+                "All areas and controls under review",
+                "Audit team members",
+                "IT department policies",
+                "Number of transactions audited"
+            ],
+            "answerIndex": 0,
+            "explanation": "Scope defines what is included for testing, types of controls, and boundaries of the audit assignment."
+        },
+        {
+            "id": 159,
+            "question": "Preventive controls may include:",
+            "options": [
+                "Exception reporting",
+                "Access controls and authorizations",
+                "Review of system logs",
+                "Retrospective error correction"
+            ],
+            "answerIndex": 1,
+            "explanation": "Preventive measures are implemented before events occur, like user authentication checks."
+        },
+        {
+            "id": 160,
+            "question": "An IS auditor should document audit findings:",
+            "options": [
+                "Only if management requests",
+                "In working papers as per standards",
+                "When audit report is completed",
+                "In an internal memo only"
+            ],
+            "answerIndex": 1,
+            "explanation": "Documentation must comply with professional standards for completeness and reviewability."
+        },
+        {
+            "id": 161,
+            "question": "Which of these is NOT an example of audit evidence?",
+            "options": [
+                "Transaction logs",
+                "Auditor’s personal opinion",
+                "Third-party confirmations",
+                "Bank statements"
+            ],
+            "answerIndex": 1,
+            "explanation": "Audit evidence must be objective, verifiable facts—not opinions or beliefs."
+        },
+        {
+            "id": 162,
+            "question": "Periodic review of access rights in an IS environment is:",
+            "options": [
+                "Preventive control",
+                "Detective control",
+                "Corrective control",
+                "Management override"
+            ],
+            "answerIndex": 1,
+            "explanation": "Periodic reviews after access grants help detect unauthorized or expired user privileges."
+        },
+        {
+            "id": 163,
+            "question": "To prevent “scope creep” in IS audit, auditors should:",
+            "options": [
+                "Allow requests for unplanned work",
+                "Adhere to agreed audit scope and objectives",
+                "Perform only detective audit procedures",
+                "Ignore management concerns"
+            ],
+            "answerIndex": 1,
+            "explanation": "Scope creep is controlled by strict adherence to initial objectives and refusing unauthorized extensions."
+        },
+        {
+            "id": 164,
+            "question": "Which process is LEAST likely to be included in the audit universe?",
+            "options": [
+                "IT payroll processing",
+                "Backup verification",
+                "Financial audit of external vendors",
+                "User account administration"
+            ],
+            "answerIndex": 2,
+            "explanation": "Audit universe refers to internal organizational activities; external vendor audits may be outside scope."
+        },
+        {
+            "id": 165,
+            "question": "Corrective controls focus on:",
+            "options": [
+                "Identifying risks",
+                "Limiting access",
+                "Remediating issues post-detection",
+                "Preventing errors"
+            ],
+            "answerIndex": 2,
+            "explanation": "Corrective controls such as system restores or policy changes address problems after identification."
+        },
+        {
+            "id": 166,
+            "question": "Segregation of duties is intended to:",
+            "options": [
+                "Increase system downtime",
+                "Prevent fraud and errors",
+                "Facilitate file sharing",
+                "Increase backup frequency"
+            ],
+            "answerIndex": 1,
+            "explanation": "Duties divided amongst staff reduce opportunity for undetected fraud or error."
+        },
+        {
+            "id": 167,
+            "question": "IS audit working papers should:",
+            "options": [
+                "Be reviewed for sufficiency, relevance, and accuracy",
+                "Contain only raw data",
+                "Be kept secret from management",
+                "Substitute for formal reports"
+            ],
+            "answerIndex": 0,
+            "explanation": "Working papers support audit findings and must be reviewable, complete, and relevant."
+        },
+        {
+            "id": 168,
+            "question": "Which term best describes an “embedded audit module”?",
+            "options": [
+                "Ad hoc report",
+                "Programmed functionality residing in the system",
+                "Document storage tool",
+                "Audit committee decision"
+            ],
+            "answerIndex": 1,
+            "explanation": "Embedded audit module is programmed within systems for real-time or scheduled audit functions."
+        },
+        {
+            "id": 169,
+            "question": "The most critical risk in outsourcing IT services is:",
+            "options": [
+                "Cost overruns",
+                "Loss of control over services",
+                "Frequent hardware failures",
+                "Increase in software licenses"
+            ],
+            "answerIndex": 1,
+            "explanation": "Outsourcing often means loss of direct oversight and increased reliance on third-party controls."
+        },
+        {
+            "id": 170,
+            "question": "Management representation letters provide:",
+            "options": [
+                "Auditor independence",
+                "Written management assertions about system accuracy",
+                "IT policy templates",
+                "Audit universe"
+            ],
+            "answerIndex": 1,
+            "explanation": "These letters confirm management’s statements about compliance, controls, and data integrity."
+        },
+        {
+            "id": 171,
+            "question": "In IS audit, preventive controls are MOST important in:",
+            "options": [
+                "High-risk, high-value systems",
+                "Systems used by one person only",
+                "Systems requiring only detective controls",
+                "Small organizations"
+            ],
+            "answerIndex": 0,
+            "explanation": "Preventive controls are prioritized in critical, high-risk, and high-value systems to minimize damage."
+        },
+        {
+            "id": 172,
+            "question": "Which of the following is an example of a logical security measure?",
+            "options": [
+                "Fire suppression system",
+                "Password authentication",
+                "Escalation procedures",
+                "Generator backup"
+            ],
+            "answerIndex": 1,
+            "explanation": "Password authentication ensures logical, not physical, protection by verifying user identities."
+        },
+        {
+            "id": 173,
+            "question": "The “tone at the top” affects audit outcomes by:",
+            "options": [
+                "Ignoring control weaknesses",
+                "Dictating the organization’s ethical culture",
+                "Focusing audit on system downtime",
+                "Restricting access to auditor’s findings"
+            ],
+            "answerIndex": 1,
+            "explanation": "Management’s attitude toward controls and ethics shapes the effectiveness of internal controls and audit findings."
+        },
+        {
+            "id": 174,
+            "question": "In the IS audit process, fieldwork generally includes:",
+            "options": [
+                "Developing budgets",
+                "Conducting control tests, gathering evidence",
+                "Drafting audit charter",
+                "Approving user accounts"
+            ],
+            "answerIndex": 1,
+            "explanation": "Fieldwork is focused on executing tests, collecting evidence, and validating controls."
+        },
+        {
+            "id": 175,
+            "question": "An IS auditor finds conflicting audit evidence. The auditor should:",
+            "options": [
+                "Ignore conflicting evidence",
+                "Collect further audit evidence for clarification",
+                "Rely solely on written evidence",
+                "Accept management’s informal statements"
+            ],
+            "answerIndex": 1,
+            "explanation": "Contradictory findings necessitate deeper investigation and more evidence before concluding."
+        },
+        {
+            "id": 176,
+            "question": "Which aspect best demonstrates an IS auditor’s professional skepticism?",
+            "options": [
+                "Blindly trusting management",
+                "Challenging all evidence without basis",
+                "Objectively evaluating and questioning audit evidence",
+                "Relying only on previous audit reports"
+            ],
+            "answerIndex": 2,
+            "explanation": "Skepticism means objectively questioning audit evidence and assumptions instead of accepting them at face value."
+        },
+        {
+            "id": 177,
+            "question": "Which activity is typically NOT part of IS audit planning?",
+            "options": [
+                "Identifying high-risk areas",
+                "Reviewing previous audit reports",
+                "Performing compliance tests",
+                "Defining audit objectives"
+            ],
+            "answerIndex": 2,
+            "explanation": "Compliance tests are part of fieldwork, not planning; planning sets scope and risk focus."
+        },
+        {
+            "id": 178,
+            "question": "Which is an example of an inherent limitation of controls?",
+            "options": [
+                "Collusion among employees",
+                "Use of CAATs",
+                "System upgrades",
+                "Management support"
+            ],
+            "answerIndex": 0,
+            "explanation": "Collusion may allow employees to bypass even well-designed internal controls."
+        },
+        {
+            "id": 179,
+            "question": "The PRIMARY function of audit documentation is to:",
+            "options": [
+                "Provide audit evidence",
+                "Replace audit reports",
+                "Serve for regulatory compliance only",
+                "Calculate audit risk"
+            ],
+            "answerIndex": 0,
+            "explanation": "Documentation preserves the audit trail and supports findings for review, defense, and follow-up."
+        },
+        {
+            "id": 180,
+            "question": "Management’s sign-off on the audit report conveys:",
+            "options": [
+                "Acknowledgement of findings and recommendations",
+                "Auditor independence",
+                "Approval of all financial statements",
+                "IT policy enforcement"
+            ],
+            "answerIndex": 0,
+            "explanation": "Sign-off acknowledges that management has been made aware of findings and accepts responsibility for responses."
+        },
+        {
+            "id": 181,
+            "question": "Which of the following is TRUE regarding CAATs?",
+            "options": [
+                "CAATs are only for manual audits",
+                "CAATs increase audit sample size and coverage",
+                "CAATs eliminate need for auditor judgment",
+                "CAATs only test physical controls"
+            ],
+            "answerIndex": 1,
+            "explanation": "CAATs allow auditors to process and test large datasets quickly, increasing objectivity and sample coverage."
+        },
+        {
+            "id": 182,
+            "question": "In IS audit, evidence provided by third parties is:",
+            "options": [
+                "Less reliable than management statements",
+                "Equally reliable as internal evidence",
+                "More reliable than internal sources",
+                "Never used"
+            ],
+            "answerIndex": 2,
+            "explanation": "Independent third-party confirmation is less biased and more reliable compared to internal assurances."
+        },
+        {
+            "id": 183,
+            "question": "The PRIMARY role of an audit report is to:",
+            "options": [
+                "Communicate findings and recommendations to stakeholders",
+                "List transaction codes",
+                "Provide technical user manual",
+                "Update the audit universe"
+            ],
+            "answerIndex": 0,
+            "explanation": "Reports communicate key results, risks, and improvement steps to management and relevant stakeholders."
+        },
+        {
+            "id": 184,
+            "question": "Which tool is MOST appropriate for automating reconciliation of accounts?",
+            "options": [
+                "Word processor",
+                "CAAT",
+                "Audit log",
+                "Risk register"
+            ],
+            "answerIndex": 1,
+            "explanation": "CAATs automate data comparison and reconciliation, improving efficiency and error detection."
+        },
+        {
+            "id": 185,
+            "question": "Relationship between inherent, control, and detection risk is:",
+            "options": [
+                "Additive",
+                "Multiplicative",
+                "Irrelevant",
+                "Arbitrary"
+            ],
+            "answerIndex": 1,
+            "explanation": "Audit risk is the product (multiplicative) of the three: AR = IR × CR × DR."
+        },
+        {
+            "id": 186,
+            "question": "For IS audit, scope is determined during:",
+            "options": [
+                "Planning phase",
+                "Fieldwork",
+                "Reporting",
+                "Follow-up"
+            ],
+            "answerIndex": 0,
+            "explanation": "Scope is set during planning, informed by risk assessments and audit objectives."
+        },
+        {
+            "id": 187,
+            "question": "When an auditor finds no supporting evidence for a control, the auditor should:",
+            "options": [
+                "Assume control is effective",
+                "Document control as a deficiency",
+                "Ignore the control and proceed",
+                "Accept management statements only"
+            ],
+            "answerIndex": 1,
+            "explanation": "Lack of evidence means control effectiveness cannot be substantiated—it must be recorded as a finding."
+        },
+        {
+            "id": 188,
+            "question": "The goal of communication with the auditee is to:",
+            "options": [
+                "Describe audit scope and findings",
+                "Request cost estimate",
+                "Avoid stakeholder input",
+                "Discuss IT budgeting"
+            ],
+            "answerIndex": 0,
+            "explanation": "Effective auditor-auditee communication clarifies objectives, processes, and the results."
+        },
+        {
+            "id": 189,
+            "question": "Quality assurance in IS audit is most assured by:",
+            "options": [
+                "Peer review of audit work",
+                "Auditor independence only",
+                "Reliance on management statements",
+                "Restricting evidence gathering"
+            ],
+            "answerIndex": 0,
+            "explanation": "Peer review validates the adequacy and accuracy of audit work to ensure professionalism."
+        },
+        {
+            "id": 190,
+            "question": "In IS audit, 'risk-based approach' helps:",
+            "options": [
+                "Focus audit on critical areas",
+                "Reduce reporting requirements",
+                "Audit all areas equally",
+                "Skip sample testing"
+            ],
+            "answerIndex": 0,
+            "explanation": "Risk-based audit targets controls most likely to result in significant issues."
+        },
+        {
+            "id": 191,
+            "question": "Management letters are used by auditors to:",
+            "options": [
+                "Communicate findings directly to management",
+                "Summarize audit completion dates",
+                "Format transaction logs",
+                "Reject audit evidence"
+            ],
+            "answerIndex": 0,
+            "explanation": "Management letters present summary findings and suggestions for corrective actions."
+        },
+        {
+            "id": 192,
+            "question": "Which of the following is MOST important for reviewing system changes in IS audit?",
+            "options": [
+                "Change management process documentation",
+                "Verbal confirmation",
+                "User satisfaction surveys",
+                "General ledger extracts"
+            ],
+            "answerIndex": 0,
+            "explanation": "Documented change management assures that proper controls exist for any system updates."
+        },
+        {
+            "id": 193,
+            "question": "The audit universe is updated when:",
+            "options": [
+                "New systems or processes are implemented",
+                "Auditor completes sampling",
+                "Audit report is finalized",
+                "Management changes job roles"
+            ],
+            "answerIndex": 0,
+            "explanation": "Audit universe must reflect new auditable units."
+        },
+        {
+            "id": 194,
+            "question": "Which factor MOST affects auditor objectivity?",
+            "options": [
+                "Auditor’s direct reporting to IT department",
+                "Auditor independence from management",
+                "Auditor’s technical skills only",
+                "Auditor’s workload"
+            ],
+            "answerIndex": 1,
+            "explanation": "Independence from those audited preserves unbiased, professional audit opinions."
+        },
+        {
+            "id": 195,
+            "question": "IS audit findings should be substantiated by:",
+            "options": [
+                "Audit evidence",
+                "Auditor beliefs",
+                "Internal politics",
+                "Cost estimates"
+            ],
+            "answerIndex": 0,
+            "explanation": "All findings must be supported with objective, relevant, and sufficient evidence."
+        },
+        {
+            "id": 196,
+            "question": "Which of the following is a key benefit of using CAATs?",
+            "options": [
+                "Increased manual workload",
+                "Faster audit results and broader coverage",
+                "Lower sample reliability",
+                "Decreased evidence quality"
+            ],
+            "answerIndex": 1,
+            "explanation": "CAATs speed up audit processes and allow comprehensive testing."
+        },
+        {
+            "id": 197,
+            "question": "The audit charter includes:",
+            "options": [
+                "Audit scope and authority",
+                "Management performance reviews",
+                "Employee job descriptions",
+                "IT department budget"
+            ],
+            "answerIndex": 0,
+            "explanation": "Charter documents the scope, objectives, and reporting relationships for audit activity."
+        },
+        {
+            "id": 198,
+            "question": "Audit trails support which audit goal?",
+            "options": [
+                "Ensuring transaction accountability",
+                "Increasing audit scope",
+                "Limiting audit universe",
+                "Simplifying management override"
+            ],
+            "answerIndex": 0,
+            "explanation": "Audit trails link transactions to sources, ensuring traceability and accountability."
+        },
+        {
+            "id": 199,
+            "question": "When is an IS auditor likely to perform sampling with replacement?",
+            "options": [
+                "When sample size is very small",
+                "To ensure independent selection",
+                "To fill in audit documentation",
+                "When management requests"
+            ],
+            "answerIndex": 1,
+            "explanation": "Sampling with replacement ensures each item can be independently selected multiple times."
+        },
+        {
+            "id": 200,
+            "question": "Before issuing an IS audit report, the auditor must:",
+            "options": [
+                "Contact only external stakeholders",
+                "Finalize findings and recommendations",
+                "Complete system user training",
+                "Review last year’s audit only"
+            ],
+            "answerIndex": 1,
+            "explanation": "Reports must be based on finalized, validated findings and actionable recommendations."
+        },
+        {
+            "id": 201,
+            "question": "Who is ultimately responsible for the adequacy and effectiveness of internal controls?",
+            "options": [
+                "External auditor",
+                "System administrator",
+                "Management",
+                "Audit committee"
+            ],
+            "answerIndex": 2,
+            "explanation": "Management is accountable for establishing and maintaining effective internal controls."
+        },
+        {
+            "id": 202,
+            "question": "IS audit working papers primarily support:",
+            "options": [
+                "Preparation of management letters",
+                "Audit planning, findings, and conclusions",
+                "Hardware procurement",
+                "IT budgeting"
+            ],
+            "answerIndex": 1,
+            "explanation": "Working papers provide documented evidence for audit procedures, findings, and justify conclusions."
+        },
+        {
+            "id": 203,
+            "question": "Which is MOST likely to reduce auditor independence?",
+            "options": [
+                "Auditor reporting to the audit committee",
+                "Auditor being involved in system implementation",
+                "Auditor using CAATs",
+                "Auditor rotating audit assignments"
+            ],
+            "answerIndex": 1,
+            "explanation": "Participating in system implementation creates bias and impairs independence."
+        },
+        {
+            "id": 204,
+            "question": "The audit universe should be reviewed and updated:",
+            "options": [
+                "Only after a major incident",
+                "Annually or when there are major changes",
+                "After each audit",
+                "By external parties"
+            ],
+            "answerIndex": 1,
+            "explanation": "Regular and event-driven reviews ensure all auditable units are included."
+        },
+        {
+            "id": 205,
+            "question": "A primary risk of inadequate audit documentation is:",
+            "options": [
+                "Increased audit costs",
+                "Inability to support audit conclusions",
+                "Unauthorized access to logs",
+                "Excessive recommendations"
+            ],
+            "answerIndex": 1,
+            "explanation": "Audit documentation must substantiate all conclusions; without it, opinions may be challenged."
+        },
+        {
+            "id": 206,
+            "question": "IS auditors use risk assessment during planning to:",
+            "options": [
+                "Identify high-risk areas for more focus",
+                "Allocate budget",
+                "Approve software purchases",
+                "Prepare financial statements"
+            ],
+            "answerIndex": 0,
+            "explanation": "Risk assessment helps auditors focus on processes where controls failure could have greatest impact."
+        },
+        {
+            "id": 207,
+            "question": "Control risk increases when:",
+            "options": [
+                "Preventive controls are weak or absent",
+                "Sampling is performed",
+                "Preventive controls are strong",
+                "Audit trail is detailed"
+            ],
+            "answerIndex": 0,
+            "explanation": "Weak preventive controls increase the probability of undetected errors or fraud."
+        },
+        {
+            "id": 208,
+            "question": "The most effective way to ensure audit follow-up is:",
+            "options": [
+                "Including a formal follow-up step in the audit cycle",
+                "Completing only the audit report",
+                "Relying on user self-reports",
+                "Issuing management letters"
+            ],
+            "answerIndex": 0,
+            "explanation": "Formal follow-up ensures recommendations are tracked and implemented."
+        },
+        {
+            "id": 209,
+            "question": "Which of the following is NOT typically a function of an audit committee?",
+            "options": [
+                "Overseeing auditor independence",
+                "Managing IT system backups",
+                "Reviewing significant audit findings",
+                "Approving audit plans"
+            ],
+            "answerIndex": 1,
+            "explanation": "Day-to-day IT operations are not the committee's responsibility."
+        },
+        {
+            "id": 210,
+            "question": "In IS audit, “scope limitation” means:",
+            "options": [
+                "Auditor can audit all areas",
+                "Auditor is prevented from reviewing some areas",
+                "All transactions must be audited",
+                "More evidence is collected"
+            ],
+            "answerIndex": 1,
+            "explanation": "Scope limitation occurs when auditor access or evidence is restricted."
+        },
+        {
+            "id": 211,
+            "question": "Preventive controls include all EXCEPT:",
+            "options": [
+                "Access controls",
+                "Input validation",
+                "Exception reports",
+                "User password policies"
+            ],
+            "answerIndex": 2,
+            "explanation": "Exception reports are detective, not preventive."
+        },
+        {
+            "id": 212,
+            "question": "An audit program is:",
+            "options": [
+                "A list of audit evidence",
+                "A set of procedures to achieve audit objectives",
+                "The audit report",
+                "The management representation letter"
+            ],
+            "answerIndex": 1,
+            "explanation": "The program is the detailed set of procedures for audit execution."
+        },
+        {
+            "id": 213,
+            "question": "Why is audit trail integrity important?",
+            "options": [
+                "It reduces audit time",
+                "It prevents all errors",
+                "It ensures that transaction history has not been tampered with",
+                "It limits audit findings"
+            ],
+            "answerIndex": 2,
+            "explanation": "Audit trail integrity is essential to reliably reconstruct and verify transaction flows."
+        },
+        {
+            "id": 214,
+            "question": "Which step immediately follows fieldwork in the IS audit process?",
+            "options": [
+                "Planning",
+                "Reporting",
+                "Audit committee presentation",
+                "Follow-up"
+            ],
+            "answerIndex": 1,
+            "explanation": "Audit reporting comes after completing the fieldwork/testing phase."
+        },
+        {
+            "id": 215,
+            "question": "For a preventive control to be effective, it must be:",
+            "options": [
+                "Documented and enforced",
+                "Investigative in nature",
+                "Used only once",
+                "Non-compliant with company policy"
+            ],
+            "answerIndex": 0,
+            "explanation": "Documented and consistently enforced controls are much more likely to achieve their purpose."
+        },
+        {
+            "id": 216,
+            "question": "The review of backup and recovery procedures is MOST relevant under which type of control?",
+            "options": [
+                "Application control",
+                "Physical control",
+                "General IT control",
+                "Detective control"
+            ],
+            "answerIndex": 2,
+            "explanation": "Backup and recovery relate to general IT controls over data availability and resilience."
+        },
+        {
+            "id": 217,
+            "question": "The “control environment” is established primarily by:",
+            "options": [
+                "System users",
+                "Audit staff",
+                "Top management",
+                "Automated scripts"
+            ],
+            "answerIndex": 2,
+            "explanation": "Management sets the ethical tone, policies, and culture that form the foundation for all controls."
+        },
+        {
+            "id": 218,
+            "question": "IS auditors must disclose confidential information only:",
+            "options": [
+                "On management’s verbal request",
+                "When legally obligated",
+                "To users",
+                "During audit planning"
+            ],
+            "answerIndex": 1,
+            "explanation": "Confidentiality must be preserved except when law or regulation mandates disclosure."
+        },
+        {
+            "id": 219,
+            "question": "Audit documentation should be:",
+            "options": [
+                "Clear, complete, and uncontested",
+                "Only available to auditors",
+                "Disposed of after each audit",
+                "Written only on paper"
+            ],
+            "answerIndex": 0,
+            "explanation": "Quality documentation is critical to review, defense, and knowledge transfer."
+        },
+        {
+            "id": 220,
+            "question": "Which type of risk cannot be controlled by auditors?",
+            "options": [
+                "Inherent risk",
+                "Control risk",
+                "Detection risk",
+                "Sampling risk"
+            ],
+            "answerIndex": 0,
+            "explanation": "Inherent risk arises from the nature of the business/process itself."
+        },
+        {
+            "id": 221,
+            "question": "A system with weak detective and corrective controls is most likely to:",
+            "options": [
+                "Prevent all unauthorized access",
+                "Fail to detect and remedy incidents",
+                "Be immune to legal and regulatory scrutiny",
+                "Have excellent audit trails"
+            ],
+            "answerIndex": 1,
+            "explanation": "Without proper detective/corrective controls, unauthorized/faulty actions go undetected and unrectified."
+        },
+        {
+            "id": 222,
+            "question": "What should an auditor do with an immaterial finding?",
+            "options": [
+                "Ignore it under all circumstances",
+                "Document but not necessarily report it",
+                "Always report to management regardless of materiality",
+                "Remove it from all records"
+            ],
+            "answerIndex": 1,
+            "explanation": "Immaterial issues should be documented for audit completeness but may or may not be included in final reports."
+        },
+        {
+            "id": 223,
+            "question": "The effectiveness of an IS audit function is BEST measured by:",
+            "options": [
+                "Number of findings",
+                "Quality and implementation of recommendations",
+                "Audit hours completed",
+                "Number of CAATs used"
+            ],
+            "answerIndex": 1,
+            "explanation": "Effectiveness is tied to the practical value and execution of audit suggestions."
+        },
+        {
+            "id": 224,
+            "question": "Exception reports help accomplish which type of control?",
+            "options": [
+                "Preventive",
+                "Directive",
+                "Detective",
+                "Corrective"
+            ],
+            "answerIndex": 2,
+            "explanation": "They alert management to deviations/problems after transactions/processes have occurred."
+        },
+        {
+            "id": 225,
+            "question": "Sampling is LEAST appropriate when:",
+            "options": [
+                "Transactions are homogenous",
+                "Every transaction is high-risk",
+                "Data volume is immense",
+                "Automated processing is common"
+            ],
+            "answerIndex": 1,
+            "explanation": "For high-risk items, full population testing is preferred."
+        },
+        {
+            "id": 226,
+            "question": "General IT controls typically include:",
+            "options": [
+                "Data conversion testing",
+                "System development controls",
+                "Physical access controls",
+                "All of the above"
+            ],
+            "answerIndex": 3,
+            "explanation": "General IT controls are broad, covering all operational, change, and access governance."
+        },
+        {
+            "id": 227,
+            "question": "IS auditors should update the audit universe:",
+            "options": [
+                "Only at year-end",
+                "Any time new auditable activities are identified",
+                "After IT department approval",
+                "With every change in management"
+            ],
+            "answerIndex": 1,
+            "explanation": "Coverage must include all current and emergent audit areas."
+        },
+        {
+            "id": 228,
+            "question": "The “permanent file” in audit documentation contains:",
+            "options": [
+                "Only current year issues",
+                "Continuously relevant background material",
+                "Unused CAATs",
+                "Sample size calculations only"
+            ],
+            "answerIndex": 1,
+            "explanation": "The permanent file is maintained for recurring, foundational data like organization charts, policy summaries, etc."
+        },
+        {
+            "id": 229,
+            "question": "Preventive controls are always more effective if:",
+            "options": [
+                "Supported by strong detective and corrective controls",
+                "Used alone",
+                "Limited to IT staff",
+                "Based on the latest software only"
+            ],
+            "answerIndex": 0,
+            "explanation": "A layered control model, with prevention, detection and correction, ensures resilience."
+        },
+        {
+            "id": 230,
+            "question": "Substantive procedures in IS audit focus on:",
+            "options": [
+                "Validating control effectiveness",
+                "Testing detailed data and transactions for accuracy",
+                "Reviewing audit program only",
+                "Approving IT procurement"
+            ],
+            "answerIndex": 1,
+            "explanation": "Substantive procedures test for factual correctness and validity of data."
+        },
+        {
+            "id": 231,
+            "question": "Audit findings should:",
+            "options": [
+                "Be reviewed with relevant management",
+                "Be disregarded if immaterial",
+                "Remain in draft form only",
+                "Be sent to regulators by default"
+            ],
+            "answerIndex": 0,
+            "explanation": "Opportunity for management to respond or clarify findings enhances fairness and completeness."
+        },
+        {
+            "id": 232,
+            "question": "The main objective of access control reviews is to:",
+            "options": [
+                "Confirm physical inventory",
+                "Ensure only authorized users access specific resources",
+                "Check server temperatures",
+                "Verify backup completeness"
+            ],
+            "answerIndex": 1,
+            "explanation": "Access controls underpin system security and data confidentiality."
+        },
+        {
+            "id": 233,
+            "question": "IS audit reporting should:",
+            "options": [
+                "Contain actionable, clear recommendations",
+                "Avoid criticism",
+                "Be available only on request",
+                "Be issued before fieldwork"
+            ],
+            "answerIndex": 0,
+            "explanation": "Reports should drive meaningful action with practical suggestions."
+        },
+        {
+            "id": 234,
+            "question": "When using CAATs, auditors should always:",
+            "options": [
+                "Validate tool configuration and data sources",
+                "Trust results without checks",
+                "Ignore sample errors",
+                "Rely solely on management explanations"
+            ],
+            "answerIndex": 0,
+            "explanation": "Proper set-up is crucial to reliable, unbiased CAAT outputs."
+        },
+        {
+            "id": 235,
+            "question": "Which control would be MOST appropriate for sensitive data transfer?",
+            "options": [
+                "Encryption protocols",
+                "Password change notification",
+                "Backup scheduling",
+                "Badge access reader"
+            ],
+            "answerIndex": 0,
+            "explanation": "Encryption protects data confidentiality in transit."
+        },
+        {
+            "id": 236,
+            "question": "Which of the following is a detective control method?",
+            "options": [
+                "Audit logging",
+                "System user handshake",
+                "Physical access badge",
+                "Disaster recovery plan"
+            ],
+            "answerIndex": 0,
+            "explanation": "Logging supports post-event review."
+        },
+        {
+            "id": 237,
+            "question": "A “rolling audit” refers to:",
+            "options": [
+                "Simultaneous audit of all branches",
+                "Continuous or recurring auditing throughout the cycle",
+                "Review of executive compensation",
+                "Restriction to IT only"
+            ],
+            "answerIndex": 1,
+            "explanation": "Rolling audits revisit organizational areas repeatedly rather than annually or sporadically."
+        },
+        {
+            "id": 238,
+            "question": "Which IS audit evidence is the most objective?",
+            "options": [
+                "Oral statements by employees",
+                "Auditor’s subjective judgment",
+                "System-generated digital logs",
+                "Informal notes"
+            ],
+            "answerIndex": 2,
+            "explanation": "Digital or system logs are reproducible, automatically captured, and free from bias."
+        },
+        {
+            "id": 239,
+            "question": "In audit planning, “audit universe” is used to:",
+            "options": [
+                "Determine audit budget",
+                "List all possible auditable areas/activities",
+                "Select peer reviewers",
+                "Validate user complaints"
+            ],
+            "answerIndex": 1,
+            "explanation": "The universe determines the complete potential population for audit consideration."
+        },
+        {
+            "id": 240,
+            "question": "A “material weakness” is:",
+            "options": [
+                "Any minor design flaw",
+                "A deficiency that could lead to material misstatements",
+                "Insufficient password length",
+                "A detective control"
+            ],
+            "answerIndex": 1,
+            "explanation": "Material weakness is a critical gap likely to affect true and fair information reporting."
+        },
+        {
+            "id": 241,
+            "question": "Engagement risk is:",
+            "options": [
+                "The risk to the auditor from association with a client",
+                "Control risk",
+                "Sampling risk",
+                "Always lower than audit risk"
+            ],
+            "answerIndex": 0,
+            "explanation": "Engagement risk is the auditor’s own exposure due to client association, reputation, or legal matters."
+        },
+        {
+            "id": 242,
+            "question": "Audit reporting should be:",
+            "options": [
+                "Timely and relevant",
+                "Avoidable",
+                "Reserved for regulators only",
+                "Delayed until after all IT upgrades"
+            ],
+            "answerIndex": 0,
+            "explanation": "Timeliness and relevance are vital for impact and corrective action."
+        },
+        {
+            "id": 243,
+            "question": "The “final report” in IS audit should be issued:",
+            "options": [
+                "After closing all recommendations",
+                "After discussing significant findings with management",
+                "Before collecting audit evidence",
+                "Only upon legal request"
+            ],
+            "answerIndex": 1,
+            "explanation": "Management must have an opportunity to review and comment before report issuance."
+        },
+        {
+            "id": 244,
+            "question": "The primary benefit of an audit manual is:",
+            "options": [
+                "Providing standard procedures for the audit team",
+                "Restricting method innovation",
+                "Excluding management input",
+                "Limiting scope"
+            ],
+            "answerIndex": 0,
+            "explanation": "Manuals standardize quality and process."
+        },
+        {
+            "id": 245,
+            "question": "Which is most likely to cause “scope creep” in a live audit?",
+            "options": [
+                "Unplanned requests for additional work",
+                "Documented, approved scope changes",
+                "Rigid audit plan enforcement",
+                "Lack of management reviews"
+            ],
+            "answerIndex": 0,
+            "explanation": "Allowing unplanned expansions or add-ons to original scope causes scope creep."
+        },
+        {
+            "id": 246,
+            "question": "If management disagrees with an audit finding:",
+            "options": [
+                "Auditor should remove it",
+                "Auditor should document both perspectives",
+                "Ignore management feedback",
+                "Change the finding automatically"
+            ],
+            "answerIndex": 1,
+            "explanation": "Documenting both sides ensures transparency and balanced reporting."
+        },
+        {
+            "id": 247,
+            "question": "Control self-assessment is used for:",
+            "options": [
+                "Management and staff to assess and improve controls",
+                "Preparing annual financial statements",
+                "Auditor to approve all controls",
+                "Setting audit scope"
+            ],
+            "answerIndex": 0,
+            "explanation": "CSA empowers those closest to operations to participate in risk/control evaluations."
+        },
+        {
+            "id": 248,
+            "question": "Which control assists in discovering unauthorized changes to application systems?",
+            "options": [
+                "Source code comparison and audit logging",
+                "User satisfaction survey",
+                "Logon scripts",
+                "Routine backups only"
+            ],
+            "answerIndex": 0,
+            "explanation": "Comparing code and monitoring logs reveal unauthorized/unsanctioned changes."
+        },
+        {
+            "id": 249,
+            "question": "The ideal time to communicate preliminary findings to auditee management is:",
+            "options": [
+                "Immediately as issues are identified",
+                "Only after the final report",
+                "During opening meeting",
+                "After closing recommendations"
+            ],
+            "answerIndex": 0,
+            "explanation": "Prompt insight allows early remediation and ensures constructive dialogue."
+        },
+        {
+            "id": 250,
+            "question": "The independent review of the IS audit function is designed to:",
+            "options": [
+                "Confirm compliance with audit standards",
+                "Replace management input",
+                "Eliminate reporting",
+                "Block peer reviews"
+            ],
+            "answerIndex": 0,
+            "explanation": "Independence and peer review help ensure audits adhere to best practice and professional standards."
+        }
+    ]
+}

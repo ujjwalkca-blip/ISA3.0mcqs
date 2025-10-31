@@ -1,0 +1,3006 @@
+{
+  "module": "2",
+  "name": "Module 2",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The two primary dimensions of enterprise governance that an organization must balance to ensure long-term compliance and success are:",
+      "options": [
+        "Strategic and Operational",
+        "Financial and IT",
+        "Conformance and Performance",
+        "Internal and External"
+      ],
+      "answerIndex": 2,
+      "explanation": "Enterprise governance must strike a balance between the Conformance (regulatory compliance) and the Performance (strategy and value creation) dimension."
+    },
+    {
+      "id": 2,
+      "question": "The ultimate objective of Governance of Enterprise IT (EGIT) is to ensure that IT activities in an enterprise are directed and controlled to achieve business objectives for meeting the needs of:",
+      "options": [
+        "Shareholders",
+        "Investors",
+        "Regulators",
+        "Stakeholders"
+      ],
+      "answerIndex": 3,
+      "explanation": "The ultimate objective of EGIT is to ensure that IT activities are directed and controlled to achieve business objectives for meeting the needs of all stakeholders."
+    },
+    {
+      "id": 3,
+      "question": "In COBIT 2019, which of the following is considered the MOST important resource component of a governance system, as the entire EGIT implementation focuses on it?",
+      "options": [
+        "Organizational Structures",
+        "Culture, Ethics and Behavior",
+        "Processes",
+        "Information and Data"
+      ],
+      "answerIndex": 3,
+      "explanation": "The entire EGIT implementation focuses on Information and data, making it a critical resource component."
+    },
+    {
+      "id": 4,
+      "question": "Which COBIT 2019 governance objective is focused on ensuring that the right capabilities are in place and sufficient, appropriate, and effective resources are provided?",
+      "options": [
+        "Benefits Realisation",
+        "Risk Optimisation",
+        "Resource Optimisation",
+        "Strategic Alignment"
+      ],
+      "answerIndex": 2,
+      "explanation": "Resource Optimisation ensures that resources like people, infrastructure, and applications are provided and used effectively."
+    },
+    {
+      "id": 5,
+      "question": "When establishing a systematic approach for implementing EGIT as per COBIT, which is the CORRECT first phase?",
+      "options": [
+        "Phase 2: Form an Effective Implementation Team",
+        "Phase 5: Enable Operation and Use",
+        "Phase 3: Communicate Desired Vision",
+        "Phase 1: Establish the Desire to Change"
+      ],
+      "answerIndex": 3,
+      "explanation": "The systematic approach for implementing EGIT starts with Phase 1: Establish the Desire to Change."
+    },
+    {
+      "id": 6,
+      "question": "The overall responsibility for evaluating, directing, and monitoring the governance processes as per stakeholder requirements rests with the:",
+      "options": [
+        "Chief Information Officer (CIO)",
+        "IT Steering Committee",
+        "Board of Directors",
+        "Internal Audit Function"
+      ],
+      "answerIndex": 2,
+      "explanation": "The responsibility for governance rests with the Board of Directors, as they are responsible for evaluating, directing, and monitoring the governance processes."
+    },
+    {
+      "id": 7,
+      "question": "The performance dimension of enterprise governance is primarily focused on:",
+      "options": [
+        "Historic view and regulatory compliance",
+        "Controls assurance and risk management for compliance",
+        "Composition and roles of the board of directors",
+        "Strategy and value creation"
+      ],
+      "answerIndex": 3,
+      "explanation": "The performance dimension is pro-active and forward-looking, focusing on strategy and value creation."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following best describes the primary objective of the process component in a governance system?",
+      "options": [
+        "Define activities to be performed",
+        "Define organizational structures",
+        "Comply with adopted standards",
+        "Act on input and generate output"
+      ],
+      "answerIndex": 3,
+      "explanation": "The primary function of a process is to act on input and generate output."
+    },
+    {
+      "id": 9,
+      "question": "Effective IT governance requires that the IT strategy:",
+      "options": [
+        "Is derived before the business strategy",
+        "Is maintained as a separate and distinct strategy",
+        "Extends the organization's strategies and objectives",
+        "Is set by the IT manager without executive management intervention"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures that IT sustains and extends the organization's strategies and objectives, and that the strategy is aligned with business strategy."
+    },
+    {
+      "id": 10,
+      "question": "The conformance dimension of enterprise governance, focusing on compliance and regulatory requirements, is generally monitored by which board committee?",
+      "options": [
+        "Remuneration Committee",
+        "Strategy Committee",
+        "Nominations Committee",
+        "Audit Committee"
+      ],
+      "answerIndex": 3,
+      "explanation": "The conformance dimension is typically monitored by the audit committee."
+    },
+    {
+      "id": 11,
+      "question": "Which COBIT principle emphasizes that a governance system should be dynamic and flexible to adapt to changing circumstances?",
+      "options": [
+        "Meeting Stakeholder Needs",
+        "End-to-End Governance System",
+        "Holistic Approach",
+        "Dynamic Governance System"
+      ],
+      "answerIndex": 3,
+      "explanation": "The principle of Dynamic Governance System emphasizes that governance systems should be flexible and adaptable to changing circumstances."
+    },
+    {
+      "id": 12,
+      "question": "In COBIT's governance system, which component represents the tangible and intangible assets that support the achievement of governance objectives?",
+      "options": [
+        "Resources",
+        "Processes",
+        "Organizational Structures",
+        "Information"
+      ],
+      "answerIndex": 0,
+      "explanation": "Resources in COBIT represent both tangible and intangible assets that support governance objectives."
+    },
+    {
+      "id": 13,
+      "question": "The responsibility for ensuring that IT investments are aligned with business objectives primarily belongs to:",
+      "options": [
+        "IT Manager",
+        "CIO",
+        "Board of Directors",
+        "System Administrator"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Board of Directors is ultimately responsible for ensuring IT investments align with business objectives as part of their governance duties."
+    },
+    {
+      "id": 14,
+      "question": "Which governance objective focuses on ensuring that the organization's IT-enabled investments are made with optimal cost and proven business value?",
+      "options": [
+        "Resource Optimization",
+        "Strategic Alignment",
+        "Risk Optimization",
+        "Benefits Realization"
+      ],
+      "answerIndex": 3,
+      "explanation": "Benefits Realization focuses on ensuring optimal value from IT-enabled investments."
+    },
+    {
+      "id": 15,
+      "question": "What is the primary purpose of the Culture, Ethics and Behavior component in COBIT's governance system?",
+      "options": [
+        "To influence how individuals behave and make decisions",
+        "To enforce rules and regulations",
+        "To establish organizational hierarchy",
+        "To manage IT resources"
+      ],
+      "answerIndex": 0,
+      "explanation": "Culture, Ethics and Behavior component aims to influence how individuals behave and make decisions within the organization."
+    },
+    {
+      "id": 16,
+      "question": "Which aspect of governance focuses on ensuring that mechanisms are in place to provide transparency and accountability?",
+      "options": [
+        "Performance dimension",
+        "Resource management",
+        "Conformance dimension",
+        "Strategic planning"
+      ],
+      "answerIndex": 2,
+      "explanation": "The conformance dimension focuses on mechanisms for transparency and accountability."
+    },
+    {
+      "id": 17,
+      "question": "In COBIT's implementation approach, what is the main purpose of the 'Form an Effective Implementation Team' phase?",
+      "options": [
+        "To assign tasks to IT staff",
+        "To create a project schedule",
+        "To establish roles and responsibilities",
+        "To develop technical solutions"
+      ],
+      "answerIndex": 2,
+      "explanation": "This phase focuses on establishing clear roles and responsibilities for the implementation team."
+    },
+    {
+      "id": 18,
+      "question": "The principle of 'Holistic Approach' in COBIT means:",
+      "options": [
+        "Looking only at IT governance",
+        "Managing individual departments separately",
+        "Focusing on technical aspects",
+        "Considering all components of the governance system"
+      ],
+      "answerIndex": 3,
+      "explanation": "A holistic approach means considering all interconnected components of the governance system rather than individual elements in isolation."
+    },
+    {
+      "id": 19,
+      "question": "Which governance activity involves monitoring the achievement of objectives and addressing any deviations?",
+      "options": [
+        "Direct",
+        "Evaluate",
+        "Monitor",
+        "Plan"
+      ],
+      "answerIndex": 2,
+      "explanation": "Monitoring involves tracking performance against objectives and addressing deviations from set targets."
+    },
+    {
+      "id": 20,
+      "question": "What is the primary role of Information and Technology in COBIT's governance system?",
+      "options": [
+        "To store data",
+        "To process transactions",
+        "To enable governance activities",
+        "To manage hardware"
+      ],
+      "answerIndex": 2,
+      "explanation": "Information and Technology serve as enablers of governance activities, supporting decision-making and control."
+    },
+    {
+      "id": 21,
+      "question": "Which COBIT principle emphasizes that governance should cover the enterprise end-to-end?",
+      "options": [
+        "Dynamic Governance System",
+        "Stakeholder Value Creation",
+        "Holistic Approach",
+        "End-to-End Governance System"
+      ],
+      "answerIndex": 3,
+      "explanation": "The End-to-End Governance System principle emphasizes that governance should cover all aspects of the enterprise, not just IT."
+    },
+    {
+      "id": 22,
+      "question": "What is the primary focus of the 'Enable Operation and Use' phase in COBIT implementation?",
+      "options": [
+        "Operational sustainability",
+        "Technical implementation",
+        "Change management",
+        "Project planning"
+      ],
+      "answerIndex": 0,
+      "explanation": "This phase focuses on ensuring operational sustainability of the governance system once implemented."
+    },
+    {
+      "id": 23,
+      "question": "The COBIT framework primarily helps organizations to:",
+      "options": [
+        "Implement technical solutions",
+        "Create IT policies",
+        "Bridge the gap between control requirements and technical issues",
+        "Develop software applications"
+      ],
+      "answerIndex": 2,
+      "explanation": "COBIT helps bridge the gap between control requirements, technical issues, and business risks."
+    },
+    {
+      "id": 24,
+      "question": "Which governance component focuses on defining how decisions are made and by whom?",
+      "options": [
+        "Processes",
+        "Services",
+        "Information",
+        "Organizational Structures"
+      ],
+      "answerIndex": 3,
+      "explanation": "Organizational Structures define decision-making authority and responsibilities within the governance system."
+    },
+    {
+      "id": 25,
+      "question": "What is the main purpose of the 'Communicate Desired Vision' phase in COBIT implementation?",
+      "options": [
+        "Technical planning",
+        "Resource allocation",
+        "Creating awareness and commitment",
+        "Risk assessment"
+      ],
+      "answerIndex": 2,
+      "explanation": "This phase aims to create awareness and commitment among stakeholders towards the desired governance vision."
+    },
+    {
+      "id": 26,
+      "question": "Which of the following best describes the relationship between enterprise governance and IT governance?",
+      "options": [
+        "IT governance is a subset of enterprise governance",
+        "They are completely separate",
+        "Enterprise governance is a subset of IT governance",
+        "They are identical concepts"
+      ],
+      "answerIndex": 0,
+      "explanation": "IT governance is an integral part of enterprise governance, focusing on IT-related assets and their alignment with enterprise objectives."
+    },
+    {
+      "id": 27,
+      "question": "What is the primary purpose of the 'Risk Optimization' governance objective?",
+      "options": [
+        "Eliminating all risks",
+        "Maximizing risk exposure",
+        "Balancing risk against opportunities",
+        "Avoiding risk completely"
+      ],
+      "answerIndex": 2,
+      "explanation": "Risk Optimization aims to balance the potential risks against opportunities, not to eliminate risk entirely."
+    },
+    {
+      "id": 28,
+      "question": "In COBIT, what is the main purpose of having defined roles and responsibilities?",
+      "options": [
+        "To establish clear accountability",
+        "To create hierarchy",
+        "To reduce staff",
+        "To increase costs"
+      ],
+      "answerIndex": 0,
+      "explanation": "Defined roles and responsibilities establish clear accountability for governance-related activities."
+    },
+    {
+      "id": 29,
+      "question": "Which aspect of COBIT focuses on ensuring that IT investments deliver appropriate value to the organization?",
+      "options": [
+        "Risk Management",
+        "Resource Management",
+        "Value Delivery",
+        "Performance Measurement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Value Delivery ensures that IT investments deliver appropriate business value."
+    },
+    {
+      "id": 30,
+      "question": "What is the primary role of metrics in IT governance?",
+      "options": [
+        "To measure and improve performance",
+        "To punish poor performance",
+        "To create reports",
+        "To satisfy auditors"
+      ],
+      "answerIndex": 0,
+      "explanation": "Metrics are used to measure and improve performance of governance processes and outcomes."
+    },
+    {
+      "id": 31,
+      "question": "What is the key purpose of IT strategic alignment?",
+      "options": [
+        "Reducing IT costs",
+        "Increasing IT budget",
+        "Linking IT and business goals",
+        "Implementing new technologies"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT strategic alignment ensures that IT initiatives and investments are linked to business goals and objectives."
+    },
+    {
+      "id": 32,
+      "question": "Which governance principle emphasizes the need for considering both current and future business needs?",
+      "options": [
+        "Strategic Alignment",
+        "Resource Optimization",
+        "Value Creation",
+        "Risk Management"
+      ],
+      "answerIndex": 0,
+      "explanation": "Strategic Alignment principle emphasizes considering both current and future business needs when making IT decisions."
+    },
+    {
+      "id": 33,
+      "question": "What is the primary role of the IT steering committee in governance?",
+      "options": [
+        "Providing strategic direction",
+        "Managing daily IT operations",
+        "Installing software",
+        "Writing code"
+      ],
+      "answerIndex": 0,
+      "explanation": "The IT steering committee provides strategic direction and oversight for IT initiatives."
+    },
+    {
+      "id": 34,
+      "question": "Which COBIT component deals with the way decisions are implemented?",
+      "options": [
+        "Processes",
+        "Organizational Structures",
+        "Information",
+        "Services"
+      ],
+      "answerIndex": 0,
+      "explanation": "Processes are the means by which decisions are implemented and activities are carried out."
+    },
+    {
+      "id": 35,
+      "question": "What is the primary purpose of performance measurement in IT governance?",
+      "options": [
+        "To identify improvement areas",
+        "To create reports",
+        "To punish poor performance",
+        "To increase budgets"
+      ],
+      "answerIndex": 0,
+      "explanation": "Performance measurement helps identify areas for improvement and track progress toward objectives."
+    },
+    {
+      "id": 36,
+      "question": "Which of the following best describes the purpose of IT governance policies?",
+      "options": [
+        "Technical documentation",
+        "System configuration",
+        "Decision-making guidance",
+        "Software development"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance policies provide guidance for decision-making and establish boundaries for acceptable behavior."
+    },
+    {
+      "id": 37,
+      "question": "What is the main focus of the 'Value Creation' principle in COBIT?",
+      "options": [
+        "Cost reduction only",
+        "Technology implementation",
+        "Stakeholder value optimization",
+        "Resource allocation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Value Creation focuses on optimizing value creation for stakeholders while balancing resource use and risk."
+    },
+    {
+      "id": 38,
+      "question": "Which governance activity involves setting direction and making decisions?",
+      "options": [
+        "Direct",
+        "Monitor",
+        "Evaluate",
+        "Execute"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Direct activity involves setting direction and making decisions about governance objectives."
+    },
+    {
+      "id": 39,
+      "question": "What is the primary purpose of IT governance frameworks?",
+      "options": [
+        "Structured approach to governance",
+        "Technical implementation",
+        "Software development",
+        "Hardware management"
+      ],
+      "answerIndex": 0,
+      "explanation": "IT governance frameworks provide a structured approach to implementing and maintaining effective governance."
+    },
+    {
+      "id": 40,
+      "question": "Which aspect of governance focuses on ensuring that IT investments deliver value?",
+      "options": [
+        "Value delivery",
+        "Risk management",
+        "Resource management",
+        "Performance measurement"
+      ],
+      "answerIndex": 0,
+      "explanation": "Value delivery focuses on ensuring that IT investments deliver appropriate value to the organization."
+    },
+    {
+      "id": 41,
+      "question": "What is the primary purpose of IT governance metrics?",
+      "options": [
+        "Technical monitoring",
+        "Resource allocation",
+        "System configuration",
+        "Performance measurement"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance metrics are primarily used for measuring and monitoring governance performance and effectiveness."
+    },
+    {
+      "id": 42,
+      "question": "Which governance component focuses on the people aspect of governance implementation?",
+      "options": [
+        "Culture, Ethics and Behavior",
+        "Processes",
+        "Information",
+        "Services"
+      ],
+      "answerIndex": 0,
+      "explanation": "Culture, Ethics and Behavior addresses the human aspects of governance implementation."
+    },
+    {
+      "id": 43,
+      "question": "What is the main purpose of IT governance reporting?",
+      "options": [
+        "Performance communication",
+        "Technical documentation",
+        "System configuration",
+        "Resource allocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "IT governance reporting focuses on communicating performance and progress to stakeholders."
+    },
+    {
+      "id": 44,
+      "question": "Which aspect of COBIT focuses on managing IT resources effectively?",
+      "options": [
+        "Risk management",
+        "Strategic alignment",
+        "Value delivery",
+        "Resource management"
+      ],
+      "answerIndex": 3,
+      "explanation": "Resource management focuses on the optimal use and allocation of IT resources."
+    },
+    {
+      "id": 45,
+      "question": "What is the primary role of stakeholders in IT governance?",
+      "options": [
+        "Value definition",
+        "Technical implementation",
+        "System configuration",
+        "Resource allocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stakeholders play a crucial role in defining what constitutes value from IT investments."
+    },
+    {
+      "id": 46,
+      "question": "Which governance principle emphasizes the importance of considering all components together?",
+      "options": [
+        "Holistic approach",
+        "Strategic alignment",
+        "Resource optimization",
+        "Risk management"
+      ],
+      "answerIndex": 0,
+      "explanation": "The holistic approach principle emphasizes considering all governance components as an integrated system."
+    },
+    {
+      "id": 47,
+      "question": "What is the main purpose of IT governance policies and procedures?",
+      "options": [
+        "Technical documentation",
+        "Resource allocation",
+        "System configuration",
+        "Behavioral guidance"
+      ],
+      "answerIndex": 3,
+      "explanation": "Policies and procedures provide guidance for behavior and decision-making in IT governance."
+    },
+    {
+      "id": 48,
+      "question": "Which aspect of IT governance focuses on managing IT-related risks?",
+      "options": [
+        "Value delivery",
+        "Strategic alignment",
+        "Resource management",
+        "Risk management"
+      ],
+      "answerIndex": 3,
+      "explanation": "Risk management focuses on identifying, assessing, and managing IT-related risks."
+    },
+    {
+      "id": 49,
+      "question": "What is the primary purpose of IT governance frameworks?",
+      "options": [
+        "Technical implementation",
+        "Resource allocation",
+        "System configuration",
+        "Structured guidance"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance frameworks provide structured guidance for implementing and maintaining effective governance."
+    },
+    {
+      "id": 50,
+      "question": "Which governance activity involves assessing performance against objectives?",
+      "options": [
+        "Direct",
+        "Execute",
+        "Monitor",
+        "Evaluate"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Evaluate activity involves assessing performance against set objectives and requirements."
+    },
+    {
+      "id": 51,
+      "question": "What is the primary focus of IT governance communication?",
+      "options": [
+        "Technical details",
+        "Resource allocation",
+        "System configuration",
+        "Stakeholder engagement"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance communication focuses on engaging stakeholders and maintaining transparency."
+    },
+    {
+      "id": 52,
+      "question": "Which COBIT principle emphasizes the need for integration between business and IT?",
+      "options": [
+        "Resource optimization",
+        "Value creation",
+        "Risk management",
+        "Strategic alignment"
+      ],
+      "answerIndex": 3,
+      "explanation": "Strategic alignment emphasizes the integration between business and IT strategies and objectives."
+    },
+    {
+      "id": 53,
+      "question": "What is the main purpose of IT governance documentation?",
+      "options": [
+        "Technical records",
+        "Resource allocation",
+        "System configuration",
+        "Decision tracking"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance documentation serves to track decisions, rationales, and outcomes."
+    },
+    {
+      "id": 54,
+      "question": "Which aspect of governance focuses on ensuring sustainable value creation?",
+      "options": [
+        "Value delivery",
+        "Risk management",
+        "Resource management",
+        "Performance measurement"
+      ],
+      "answerIndex": 0,
+      "explanation": "Value delivery focuses on ensuring sustainable value creation from IT investments."
+    },
+    {
+      "id": 55,
+      "question": "What is the primary role of IT governance standards?",
+      "options": [
+        "Consistency guidance",
+        "Technical specifications",
+        "System configuration",
+        "Resource allocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "IT governance standards provide guidance for consistent governance practices."
+    },
+    {
+      "id": 56,
+      "question": "Which governance component focuses on decision-making structures?",
+      "options": [
+        "Organizational structures",
+        "Processes",
+        "Information",
+        "Services"
+      ],
+      "answerIndex": 0,
+      "explanation": "Organizational structures define how decisions are made and by whom."
+    },
+    {
+      "id": 57,
+      "question": "What is the main purpose of IT governance risk assessment?",
+      "options": [
+        "Risk identification",
+        "Technical evaluation",
+        "System configuration",
+        "Resource allocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk assessment helps identify and evaluate potential threats to governance objectives."
+    },
+    {
+      "id": 58,
+      "question": "Which aspect of COBIT focuses on resource utilization?",
+      "options": [
+        "Risk management",
+        "Strategic alignment",
+        "Value delivery",
+        "Resource optimization"
+      ],
+      "answerIndex": 3,
+      "explanation": "Resource optimization focuses on effective and efficient use of IT resources."
+    },
+    {
+      "id": 59,
+      "question": "What is the primary purpose of IT governance audits?",
+      "options": [
+        "Technical inspection",
+        "Resource allocation",
+        "System configuration",
+        "Compliance verification"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance audits verify compliance with governance policies and requirements."
+    },
+    {
+      "id": 60,
+      "question": "Which governance principle emphasizes the need for continuous improvement?",
+      "options": [
+        "Dynamic governance",
+        "Strategic alignment",
+        "Resource optimization",
+        "Risk management"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dynamic governance emphasizes the need for continuous improvement and adaptation."
+    },
+    {
+      "id": 61,
+      "question": "What is the primary focus of IT governance performance monitoring?",
+      "options": [
+        "Objective achievement",
+        "Technical metrics",
+        "System configuration",
+        "Resource allocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Performance monitoring focuses on tracking progress toward governance objectives."
+    },
+    {
+      "id": 62,
+      "question": "Which COBIT principle emphasizes stakeholder value?",
+      "options": [
+        "Value creation",
+        "Resource optimization",
+        "Risk management",
+        "Strategic alignment"
+      ],
+      "answerIndex": 0,
+      "explanation": "The value creation principle emphasizes delivering value to stakeholders."
+    },
+    {
+      "id": 63,
+      "question": "What is the main purpose of IT governance reporting structures?",
+      "options": [
+        "Technical documentation",
+        "Resource allocation",
+        "System configuration",
+        "Accountability definition"
+      ],
+      "answerIndex": 3,
+      "explanation": "Reporting structures define accountability and communication channels."
+    },
+    {
+      "id": 64,
+      "question": "Which aspect of governance focuses on resource allocation?",
+      "options": [
+        "Risk management",
+        "Strategic alignment",
+        "Value delivery",
+        "Resource optimization"
+      ],
+      "answerIndex": 3,
+      "explanation": "Resource optimization focuses on effective resource allocation and utilization."
+    },
+    {
+      "id": 65,
+      "question": "What is the primary role of IT governance committees?",
+      "options": [
+        "Technical implementation",
+        "Resource allocation",
+        "System configuration",
+        "Strategic oversight"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance committees provide strategic oversight and direction."
+    },
+    {
+      "id": 66,
+      "question": "Which governance component focuses on information quality?",
+      "options": [
+        "Information",
+        "Processes",
+        "Services",
+        "Structures"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Information component focuses on ensuring information quality and reliability."
+    },
+    {
+      "id": 67,
+      "question": "What is the main purpose of IT governance risk management?",
+      "options": [
+        "Risk optimization",
+        "Technical protection",
+        "System configuration",
+        "Resource allocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk management aims to optimize risk levels in IT governance."
+    },
+    {
+      "id": 68,
+      "question": "Which aspect of COBIT focuses on stakeholder needs?",
+      "options": [
+        "Stakeholder value",
+        "Risk management",
+        "Resource management",
+        "Performance measurement"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stakeholder value focuses on meeting stakeholder needs and expectations."
+    },
+    {
+      "id": 69,
+      "question": "What is the primary purpose of IT governance policies?",
+      "options": [
+        "Technical guidance",
+        "Resource allocation",
+        "System configuration",
+        "Decision guidance"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance policies provide guidance for decision-making and behavior."
+    },
+    {
+      "id": 70,
+      "question": "Which governance principle emphasizes adaptability?",
+      "options": [
+        "Strategic alignment",
+        "Risk management",
+        "Resource optimization",
+        "Dynamic governance"
+      ],
+      "answerIndex": 3,
+      "explanation": "Dynamic governance emphasizes the need for adaptability to changing conditions."
+    },
+    {
+      "id": 71,
+      "question": "What is the primary focus of IT governance strategy alignment?",
+      "options": [
+        "Technical alignment",
+        "Resource coordination",
+        "System integration",
+        "Business-IT alignment"
+      ],
+      "answerIndex": 3,
+      "explanation": "Strategy alignment focuses on aligning IT initiatives with business objectives."
+    },
+    {
+      "id": 72,
+      "question": "Which aspect of COBIT focuses on measuring value creation?",
+      "options": [
+        "Value measurement",
+        "Risk assessment",
+        "Resource tracking",
+        "Process monitoring"
+      ],
+      "answerIndex": 0,
+      "explanation": "Value measurement focuses on assessing and quantifying value creation from IT investments."
+    },
+    {
+      "id": 73,
+      "question": "What is the main purpose of IT governance maturity models?",
+      "options": [
+        "Technical assessment",
+        "Resource measurement",
+        "System evaluation",
+        "Capability assessment"
+      ],
+      "answerIndex": 3,
+      "explanation": "Maturity models help assess and improve governance capabilities over time."
+    },
+    {
+      "id": 74,
+      "question": "Which governance component focuses on service delivery?",
+      "options": [
+        "Services",
+        "Processes",
+        "Information",
+        "Structures"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Services component focuses on delivering value through IT services."
+    },
+    {
+      "id": 75,
+      "question": "What is the primary role of IT governance frameworks in risk management?",
+      "options": [
+        "Risk guidance",
+        "Technical mitigation",
+        "System protection",
+        "Resource security"
+      ],
+      "answerIndex": 0,
+      "explanation": "Frameworks provide guidance for managing IT-related risks effectively."
+    },
+    {
+      "id": 76,
+      "question": "Which COBIT principle emphasizes clear accountability?",
+      "options": [
+        "Resource optimization",
+        "Value creation",
+        "Risk management",
+        "Accountability definition"
+      ],
+      "answerIndex": 3,
+      "explanation": "Clear accountability is essential for effective governance implementation."
+    },
+    {
+      "id": 77,
+      "question": "What is the main purpose of IT governance performance indicators?",
+      "options": [
+        "Progress measurement",
+        "Technical metrics",
+        "System monitoring",
+        "Resource tracking"
+      ],
+      "answerIndex": 0,
+      "explanation": "Performance indicators help measure progress toward governance objectives."
+    },
+    {
+      "id": 78,
+      "question": "Which aspect of governance focuses on resource capability?",
+      "options": [
+        "Risk management",
+        "Strategic alignment",
+        "Value delivery",
+        "Resource assessment"
+      ],
+      "answerIndex": 3,
+      "explanation": "Resource assessment focuses on evaluating and improving resource capabilities."
+    },
+    {
+      "id": 79,
+      "question": "What is the primary purpose of IT governance communication plans?",
+      "options": [
+        "Stakeholder engagement",
+        "Technical documentation",
+        "System configuration",
+        "Resource allocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Communication plans ensure effective stakeholder engagement and information sharing."
+    },
+    {
+      "id": 80,
+      "question": "Which governance principle emphasizes value optimization?",
+      "options": [
+        "Strategic alignment",
+        "Risk control",
+        "Resource management",
+        "Value optimization"
+      ],
+      "answerIndex": 3,
+      "explanation": "Value optimization focuses on maximizing value creation while managing costs and risks."
+    },
+    {
+      "id": 81,
+      "question": "What is the primary focus of IT governance resource planning?",
+      "options": [
+        "Technical planning",
+        "Budget allocation",
+        "System design",
+        "Capability planning"
+      ],
+      "answerIndex": 3,
+      "explanation": "Resource planning focuses on ensuring adequate capabilities for governance objectives."
+    },
+    {
+      "id": 82,
+      "question": "Which COBIT component emphasizes skills and competencies?",
+      "options": [
+        "Processes",
+        "Services",
+        "Information",
+        "People"
+      ],
+      "answerIndex": 3,
+      "explanation": "The People component focuses on required skills and competencies for governance."
+    },
+    {
+      "id": 83,
+      "question": "What is the main purpose of IT governance risk assessments?",
+      "options": [
+        "Risk identification",
+        "Technical evaluation",
+        "System testing",
+        "Resource review"
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk assessments help identify and evaluate potential threats to governance objectives."
+    },
+    {
+      "id": 84,
+      "question": "Which aspect of governance focuses on value measurement?",
+      "options": [
+        "Risk management",
+        "Performance tracking",
+        "Resource management",
+        "Value assessment"
+      ],
+      "answerIndex": 3,
+      "explanation": "Value assessment focuses on measuring and monitoring value creation from IT investments."
+    },
+    {
+      "id": 85,
+      "question": "What is the primary role of IT governance in strategic planning?",
+      "options": [
+        "Strategic alignment",
+        "Technical planning",
+        "System design",
+        "Resource allocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "IT governance ensures alignment between IT and business strategic objectives."
+    },
+    {
+      "id": 86,
+      "question": "Which governance component focuses on information architecture?",
+      "options": [
+        "Information",
+        "Processes",
+        "Services",
+        "Structures"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Information component includes the organization's information architecture."
+    },
+    {
+      "id": 87,
+      "question": "What is the main purpose of IT governance performance reviews?",
+      "options": [
+        "Technical review",
+        "Resource monitoring",
+        "System evaluation",
+        "Progress assessment"
+      ],
+      "answerIndex": 3,
+      "explanation": "Performance reviews assess progress and effectiveness of governance initiatives."
+    },
+    {
+      "id": 88,
+      "question": "Which aspect of COBIT focuses on resource allocation?",
+      "options": [
+        "Risk management",
+        "Strategic planning",
+        "Value delivery",
+        "Resource optimization"
+      ],
+      "answerIndex": 3,
+      "explanation": "Resource optimization includes effective resource allocation and utilization."
+    },
+    {
+      "id": 89,
+      "question": "What is the primary purpose of IT governance documentation standards?",
+      "options": [
+        "Consistency assurance",
+        "Technical standards",
+        "System configuration",
+        "Resource tracking"
+      ],
+      "answerIndex": 0,
+      "explanation": "Documentation standards ensure consistent and complete governance documentation."
+    },
+    {
+      "id": 90,
+      "question": "Which governance principle emphasizes stakeholder communication?",
+      "options": [
+        "Stakeholder engagement",
+        "Strategic alignment",
+        "Resource management",
+        "Risk control"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stakeholder engagement emphasizes effective communication with all stakeholders."
+    },
+    {
+      "id": 91,
+      "question": "What is the primary focus of IT governance capability assessment?",
+      "options": [
+        "Technical assessment",
+        "Resource review",
+        "System testing",
+        "Maturity evaluation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Capability assessment focuses on evaluating governance maturity and effectiveness."
+    },
+    {
+      "id": 92,
+      "question": "Which COBIT component emphasizes process effectiveness?",
+      "options": [
+        "Processes",
+        "People",
+        "Information",
+        "Services"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Processes component focuses on ensuring effective governance processes."
+    },
+    {
+      "id": 93,
+      "question": "What is the main purpose of IT governance risk mitigation?",
+      "options": [
+        "Risk reduction",
+        "Technical protection",
+        "System security",
+        "Resource protection"
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk mitigation focuses on reducing identified risks to acceptable levels."
+    },
+    {
+      "id": 94,
+      "question": "Which aspect of governance focuses on value optimization?",
+      "options": [
+        "Risk management",
+        "Performance tracking",
+        "Resource management",
+        "Value maximization"
+      ],
+      "answerIndex": 3,
+      "explanation": "Value optimization focuses on maximizing value while managing costs and risks."
+    },
+    {
+      "id": 95,
+      "question": "What is the primary role of IT governance in change management?",
+      "options": [
+        "Technical changes",
+        "Resource modification",
+        "System updates",
+        "Change oversight"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance provides oversight and direction for organizational changes."
+    },
+    {
+      "id": 96,
+      "question": "Which governance component focuses on service quality?",
+      "options": [
+        "Services",
+        "Processes",
+        "Information",
+        "Structures"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Services component includes ensuring quality of IT services."
+    },
+    {
+      "id": 97,
+      "question": "What is the main purpose of IT governance sustainability planning?",
+      "options": [
+        "Long-term viability",
+        "Technical planning",
+        "System maintenance",
+        "Resource planning"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sustainability planning ensures long-term viability of governance practices."
+    },
+    {
+      "id": 98,
+      "question": "Which aspect of COBIT focuses on stakeholder value?",
+      "options": [
+        "Value creation",
+        "Risk management",
+        "Resource management",
+        "Strategic planning"
+      ],
+      "answerIndex": 0,
+      "explanation": "Value creation focuses on delivering value to stakeholders."
+    },
+    {
+      "id": 99,
+      "question": "What is the primary purpose of IT governance compliance monitoring?",
+      "options": [
+        "Compliance assurance",
+        "Technical monitoring",
+        "System tracking",
+        "Resource monitoring"
+      ],
+      "answerIndex": 0,
+      "explanation": "Compliance monitoring ensures adherence to governance requirements."
+    },
+    {
+      "id": 100,
+      "question": "Which governance principle emphasizes continuous improvement?",
+      "options": [
+        "Strategic alignment",
+        "Risk control",
+        "Resource management",
+        "Continuous enhancement"
+      ],
+      "answerIndex": 3,
+      "explanation": "Continuous improvement focuses on ongoing enhancement of governance practices."
+    },
+    {
+      "id": 101,
+      "question": "What is the primary role of IT governance in innovation management?",
+      "options": [
+        "Innovation oversight",
+        "Technical innovation",
+        "System development",
+        "Resource invention"
+      ],
+      "answerIndex": 0,
+      "explanation": "IT governance provides oversight and direction for innovation initiatives while managing associated risks."
+    },
+    {
+      "id": 102,
+      "question": "Which COBIT component focuses on organizational culture?",
+      "options": [
+        "Culture and Behavior",
+        "Processes",
+        "Information",
+        "Services"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Culture and Behavior component addresses organizational culture and its impact on governance."
+    },
+    {
+      "id": 103,
+      "question": "What is the main purpose of IT governance portfolio management?",
+      "options": [
+        "Investment optimization",
+        "Technical management",
+        "System organization",
+        "Resource cataloging"
+      ],
+      "answerIndex": 0,
+      "explanation": "Portfolio management ensures optimal allocation and management of IT investments."
+    },
+    {
+      "id": 104,
+      "question": "Which aspect of governance focuses on benefit realization?",
+      "options": [
+        "Risk management",
+        "Performance tracking",
+        "Resource management",
+        "Value realization"
+      ],
+      "answerIndex": 3,
+      "explanation": "Benefit realization focuses on ensuring that expected benefits from IT investments are achieved."
+    },
+    {
+      "id": 105,
+      "question": "What is the primary purpose of IT governance frameworks in decision-making?",
+      "options": [
+        "Decision guidance",
+        "Technical decisions",
+        "System choices",
+        "Resource selection"
+      ],
+      "answerIndex": 0,
+      "explanation": "Frameworks provide structured guidance for making IT-related decisions."
+    },
+    {
+      "id": 106,
+      "question": "Which governance component focuses on process integration?",
+      "options": [
+        "Information",
+        "Structures",
+        "Services",
+        "Processes"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Processes component includes ensuring integration between different governance processes."
+    },
+    {
+      "id": 107,
+      "question": "What is the main purpose of IT governance performance metrics?",
+      "options": [
+        "Progress tracking",
+        "Technical measurement",
+        "System monitoring",
+        "Resource counting"
+      ],
+      "answerIndex": 0,
+      "explanation": "Performance metrics help track and measure progress toward governance objectives."
+    },
+    {
+      "id": 108,
+      "question": "Which aspect of COBIT focuses on resource optimization?",
+      "options": [
+        "Risk management",
+        "Strategic planning",
+        "Value delivery",
+        "Resource efficiency"
+      ],
+      "answerIndex": 3,
+      "explanation": "Resource optimization focuses on efficient and effective use of IT resources."
+    },
+    {
+      "id": 109,
+      "question": "What is the primary role of IT governance in stakeholder management?",
+      "options": [
+        "Stakeholder engagement",
+        "Technical communication",
+        "System reporting",
+        "Resource allocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "IT governance ensures effective engagement and communication with all stakeholders."
+    },
+    {
+      "id": 110,
+      "question": "Which governance principle emphasizes risk awareness?",
+      "options": [
+        "Strategic alignment",
+        "Value creation",
+        "Resource management",
+        "Risk consciousness"
+      ],
+      "answerIndex": 3,
+      "explanation": "Risk consciousness emphasizes the importance of understanding and managing IT-related risks."
+    },
+    {
+      "id": 111,
+      "question": "What is the primary focus of IT governance capability building?",
+      "options": [
+        "Technical skills",
+        "Resource training",
+        "System expertise",
+        "Governance competency"
+      ],
+      "answerIndex": 3,
+      "explanation": "Capability building focuses on developing and maintaining governance-related competencies."
+    },
+    {
+      "id": 112,
+      "question": "Which COBIT component emphasizes information quality?",
+      "options": [
+        "Processes",
+        "People",
+        "Services",
+        "Information"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Information component focuses on ensuring quality and reliability of information."
+    },
+    {
+      "id": 113,
+      "question": "What is the main purpose of IT governance value assessment?",
+      "options": [
+        "Value measurement",
+        "Technical evaluation",
+        "System testing",
+        "Resource counting"
+      ],
+      "answerIndex": 0,
+      "explanation": "Value assessment helps measure and evaluate the benefits derived from IT investments."
+    },
+    {
+      "id": 114,
+      "question": "Which aspect of governance focuses on strategic alignment?",
+      "options": [
+        "Strategic integration",
+        "Risk management",
+        "Resource management",
+        "Performance tracking"
+      ],
+      "answerIndex": 0,
+      "explanation": "Strategic integration ensures alignment between IT and business strategies."
+    },
+    {
+      "id": 115,
+      "question": "What is the primary role of IT governance in change management?",
+      "options": [
+        "Technical changes",
+        "Resource modification",
+        "System updates",
+        "Change oversight"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance provides oversight and direction for organizational changes."
+    },
+    {
+      "id": 116,
+      "question": "Which governance component focuses on service delivery?",
+      "options": [
+        "Processes",
+        "Structures",
+        "Information",
+        "Services"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Services component includes ensuring effective delivery of IT services."
+    },
+    {
+      "id": 117,
+      "question": "What is the main purpose of IT governance risk monitoring?",
+      "options": [
+        "Risk tracking",
+        "Technical monitoring",
+        "System watching",
+        "Resource observation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk monitoring ensures continuous tracking and assessment of IT-related risks."
+    },
+    {
+      "id": 118,
+      "question": "Which aspect of COBIT focuses on process maturity?",
+      "options": [
+        "Process assessment",
+        "Risk management",
+        "Value delivery",
+        "Strategic planning"
+      ],
+      "answerIndex": 0,
+      "explanation": "Process assessment evaluates the maturity and effectiveness of governance processes."
+    },
+    {
+      "id": 119,
+      "question": "What is the primary purpose of IT governance reporting?",
+      "options": [
+        "Technical reporting",
+        "Resource tracking",
+        "System documentation",
+        "Performance communication"
+      ],
+      "answerIndex": 3,
+      "explanation": "Governance reporting communicates performance and progress to stakeholders."
+    },
+    {
+      "id": 120,
+      "question": "Which governance principle emphasizes stakeholder value?",
+      "options": [
+        "Value focus",
+        "Strategic alignment",
+        "Resource management",
+        "Risk control"
+      ],
+      "answerIndex": 0,
+      "explanation": "Value focus emphasizes creating and delivering value to stakeholders."
+    },
+    {
+      "id": 121,
+      "question": "What is the primary role of IT governance in investment management?",
+      "options": [
+        "Investment oversight",
+        "Technical budgeting",
+        "System funding",
+        "Resource allocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "IT governance provides oversight and direction for IT investments to ensure value creation."
+    },
+    {
+      "id": 122,
+      "question": "Which COBIT component emphasizes behavioral aspects?",
+      "options": [
+        "Culture and Behavior",
+        "Processes",
+        "Information",
+        "Services"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Culture and Behavior component addresses how people behave and make decisions."
+    },
+    {
+      "id": 123,
+      "question": "What is the main purpose of IT governance performance evaluation?",
+      "options": [
+        "Effectiveness measurement",
+        "Technical assessment",
+        "System testing",
+        "Resource review"
+      ],
+      "answerIndex": 0,
+      "explanation": "Performance evaluation assesses the effectiveness of governance practices."
+    },
+    {
+      "id": 124,
+      "question": "Which aspect of governance focuses on resource planning?",
+      "options": [
+        "Risk management",
+        "Strategic alignment",
+        "Value delivery",
+        "Resource planning"
+      ],
+      "answerIndex": 3,
+      "explanation": "Resource planning ensures appropriate allocation and use of IT resources."
+    },
+    {
+      "id": 125,
+      "question": "What is the primary purpose of IT governance frameworks in risk management?",
+      "options": [
+        "Technical protection",
+        "Resource safeguarding",
+        "System security",
+        "Risk guidance"
+      ],
+      "answerIndex": 3,
+      "explanation": "Frameworks provide guidance for identifying, assessing, and managing IT-related risks."
+    },
+    {
+      "id": 126,
+      "question": "Which governance component focuses on organizational structure?",
+      "options": [
+        "Structures",
+        "Processes",
+        "Information",
+        "Services"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Structures component defines how governance responsibilities are organized."
+    },
+    {
+      "id": 127,
+      "question": "What is the main purpose of IT governance policy management?",
+      "options": [
+        "Technical documentation",
+        "Resource guidelines",
+        "System rules",
+        "Policy oversight"
+      ],
+      "answerIndex": 3,
+      "explanation": "Policy management ensures appropriate guidance for IT-related decisions and actions."
+    },
+    {
+      "id": 128,
+      "question": "Which aspect of COBIT focuses on stakeholder communication?",
+      "options": [
+        "Stakeholder engagement",
+        "Risk management",
+        "Resource management",
+        "Performance tracking"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stakeholder engagement ensures effective communication with all stakeholders."
+    },
+    {
+      "id": 129,
+      "question": "What is the primary role of IT governance in compliance management?",
+      "options": [
+        "Technical compliance",
+        "Resource regulation",
+        "System rules",
+        "Regulatory adherence"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance ensures compliance with relevant laws, regulations, and policies."
+    },
+    {
+      "id": 130,
+      "question": "Which governance principle emphasizes process integration?",
+      "options": [
+        "Strategic alignment",
+        "Risk control",
+        "Resource management",
+        "Process integration"
+      ],
+      "answerIndex": 3,
+      "explanation": "Process integration ensures coherent and effective governance processes."
+    },
+    {
+      "id": 131,
+      "question": "What is the primary focus of IT governance assurance?",
+      "options": [
+        "Technical verification",
+        "Resource checking",
+        "System testing",
+        "Control effectiveness"
+      ],
+      "answerIndex": 3,
+      "explanation": "Governance assurance focuses on verifying the effectiveness of controls and processes."
+    },
+    {
+      "id": 132,
+      "question": "Which COBIT component emphasizes service management?",
+      "options": [
+        "Processes",
+        "People",
+        "Information",
+        "Services"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Services component focuses on managing and delivering IT services effectively."
+    },
+    {
+      "id": 133,
+      "question": "What is the main purpose of IT governance strategy review?",
+      "options": [
+        "Technical review",
+        "Resource assessment",
+        "System evaluation",
+        "Strategic alignment"
+      ],
+      "answerIndex": 3,
+      "explanation": "Strategy review ensures continued alignment between IT and business objectives."
+    },
+    {
+      "id": 134,
+      "question": "Which aspect of governance focuses on value optimization?",
+      "options": [
+        "Risk management",
+        "Performance tracking",
+        "Resource management",
+        "Value maximization"
+      ],
+      "answerIndex": 3,
+      "explanation": "Value optimization ensures maximum value creation from IT investments."
+    },
+    {
+      "id": 135,
+      "question": "What is the primary role of IT governance in project management?",
+      "options": [
+        "Technical management",
+        "Project oversight",
+        "System development",
+        "Resource coordination"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance provides oversight and direction for IT-related projects."
+    },
+    {
+      "id": 136,
+      "question": "Which governance component focuses on skills development?",
+      "options": [
+        "Processes",
+        "People",
+        "Information",
+        "Services"
+      ],
+      "answerIndex": 1,
+      "explanation": "The People component includes developing and maintaining necessary skills."
+    },
+    {
+      "id": 137,
+      "question": "What is the main purpose of IT governance risk reporting?",
+      "options": [
+        "Technical reporting",
+        "Risk communication",
+        "System documentation",
+        "Resource tracking"
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk reporting ensures effective communication of IT-related risks."
+    },
+    {
+      "id": 138,
+      "question": "Which aspect of COBIT focuses on performance measurement?",
+      "options": [
+        "Risk management",
+        "Performance monitoring",
+        "Resource management",
+        "Strategic planning"
+      ],
+      "answerIndex": 1,
+      "explanation": "Performance monitoring ensures tracking and measurement of governance effectiveness."
+    },
+    {
+      "id": 139,
+      "question": "What is the primary purpose of IT governance documentation?",
+      "options": [
+        "Technical recording",
+        "Decision tracking",
+        "System logging",
+        "Resource recording"
+      ],
+      "answerIndex": 1,
+      "explanation": "Documentation ensures tracking and transparency of governance decisions and actions."
+    },
+    {
+      "id": 140,
+      "question": "Which governance principle emphasizes resource optimization?",
+      "options": [
+        "Strategic alignment",
+        "Resource efficiency",
+        "Value creation",
+        "Risk control"
+      ],
+      "answerIndex": 1,
+      "explanation": "Resource efficiency focuses on optimal use of IT resources."
+    },
+    {
+      "id": 141,
+      "question": "What role does the IT Steering Committee play in IT governance?",
+      "options": [
+        "Day-to-day operations management",
+        "Strategic direction and oversight",
+        "Technical implementation",
+        "System maintenance"
+      ],
+      "answerIndex": 1,
+      "explanation": "The IT Steering Committee provides strategic direction and oversight for IT initiatives."
+    },
+    {
+      "id": 142,
+      "question": "Which governance framework component is responsible for defining decision rights?",
+      "options": [
+        "Process Framework",
+        "Organizational Structures",
+        "Technology Infrastructure",
+        "Information Architecture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Organizational Structures define who has the right to make what decisions."
+    },
+    {
+      "id": 143,
+      "question": "What is the primary purpose of IT governance maturity assessment?",
+      "options": [
+        "Technical evaluation",
+        "Capability measurement",
+        "Resource counting",
+        "Budget planning"
+      ],
+      "answerIndex": 1,
+      "explanation": "Maturity assessment measures the organization's governance capabilities and identifies improvement areas."
+    },
+    {
+      "id": 144,
+      "question": "How does IT governance support business value creation?",
+      "options": [
+        "Through technical implementations",
+        "By aligning IT with business objectives",
+        "Through system maintenance",
+        "By managing hardware resources"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance creates value by ensuring IT initiatives align with business objectives."
+    },
+    {
+      "id": 145,
+      "question": "What is the key focus of IT governance risk assessment?",
+      "options": [
+        "Technical vulnerabilities",
+        "Strategic risk evaluation",
+        "Hardware failures",
+        "Software updates"
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk assessment focuses on evaluating strategic risks to governance objectives."
+    },
+    {
+      "id": 146,
+      "question": "Which aspect of COBIT deals with performance measurement?",
+      "options": [
+        "Technical metrics",
+        "Goal achievement metrics",
+        "System statistics",
+        "Resource counts"
+      ],
+      "answerIndex": 1,
+      "explanation": "COBIT includes metrics for measuring goal achievement and governance performance."
+    },
+    {
+      "id": 147,
+      "question": "What is the primary role of stakeholder analysis in IT governance?",
+      "options": [
+        "Technical assessment",
+        "Understanding needs and expectations",
+        "System evaluation",
+        "Resource planning"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stakeholder analysis helps understand and address stakeholder needs and expectations."
+    },
+    {
+      "id": 148,
+      "question": "How does IT governance contribute to risk optimization?",
+      "options": [
+        "By eliminating all risks",
+        "By balancing risk and value",
+        "By avoiding risks",
+        "By ignoring risks"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance helps optimize risk by balancing potential risks against expected value."
+    },
+    {
+      "id": 149,
+      "question": "What is the key purpose of IT governance policies?",
+      "options": [
+        "Technical instructions",
+        "Decision-making guidance",
+        "System configurations",
+        "Resource allocation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Governance policies provide guidance for making IT-related decisions."
+    },
+    {
+      "id": 150,
+      "question": "How does IT governance support strategic alignment?",
+      "options": [
+        "Through technical implementation",
+        "By linking IT and business strategies",
+        "Through system maintenance",
+        "By managing resources"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance ensures alignment between IT initiatives and business strategies."
+    },
+    {
+      "id": 151,
+      "question": "What is the role of performance monitoring in IT governance?",
+      "options": [
+        "Technical monitoring",
+        "Progress tracking and evaluation",
+        "System surveillance",
+        "Resource watching"
+      ],
+      "answerIndex": 1,
+      "explanation": "Performance monitoring tracks progress and evaluates governance effectiveness."
+    },
+    {
+      "id": 152,
+      "question": "How does IT governance support value delivery?",
+      "options": [
+        "Through technical solutions",
+        "By ensuring benefits realization",
+        "Through system updates",
+        "By managing hardware"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance ensures that IT investments deliver expected benefits."
+    },
+    {
+      "id": 153,
+      "question": "What is the primary focus of IT governance communication?",
+      "options": [
+        "Technical details",
+        "Stakeholder engagement",
+        "System specifications",
+        "Resource allocation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Communication in IT governance focuses on engaging stakeholders effectively."
+    },
+    {
+      "id": 154,
+      "question": "How does IT governance support resource optimization?",
+      "options": [
+        "By technical management",
+        "Through effective allocation",
+        "By system control",
+        "Through hardware management"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance ensures effective allocation and use of IT resources."
+    },
+    {
+      "id": 155,
+      "question": "What role do metrics play in IT governance?",
+      "options": [
+        "Technical measurement",
+        "Performance assessment",
+        "System monitoring",
+        "Resource counting"
+      ],
+      "answerIndex": 1,
+      "explanation": "Metrics provide means to assess and improve governance performance."
+    },
+    {
+      "id": 156,
+      "question": "How does IT governance support change management?",
+      "options": [
+        "Through technical changes",
+        "By managing organizational change",
+        "Through system updates",
+        "By resource modification"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance provides framework for managing organizational changes effectively."
+    },
+    {
+      "id": 157,
+      "question": "What is the role of capability assessment in IT governance?",
+      "options": [
+        "Technical evaluation",
+        "Maturity measurement",
+        "System testing",
+        "Resource checking"
+      ],
+      "answerIndex": 1,
+      "explanation": "Capability assessment helps evaluate and improve governance maturity."
+    },
+    {
+      "id": 158,
+      "question": "How does IT governance support innovation?",
+      "options": [
+        "Through technical advancement",
+        "By managing innovation risk",
+        "Through system upgrades",
+        "By resource development"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance helps manage innovation while controlling associated risks."
+    },
+    {
+      "id": 159,
+      "question": "What is the primary purpose of IT governance reporting?",
+      "options": [
+        "Technical documentation",
+        "Performance communication",
+        "System logging",
+        "Resource tracking"
+      ],
+      "answerIndex": 1,
+      "explanation": "Governance reporting communicates performance and progress to stakeholders."
+    },
+    {
+      "id": 160,
+      "question": "How does IT governance support compliance?",
+      "options": [
+        "Through technical controls",
+        "By ensuring regulatory adherence",
+        "Through system rules",
+        "By resource regulation"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance ensures compliance with relevant regulations and standards."
+    },
+    {
+      "id": 161,
+      "question": "What role does risk management play in IT governance?",
+      "options": [
+        "Technical protection",
+        "Strategic risk handling",
+        "System security",
+        "Resource safeguarding"
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk management is crucial for protecting and creating value in IT governance."
+    },
+    {
+      "id": 162,
+      "question": "How does IT governance support decision-making?",
+      "options": [
+        "Through technical guidance",
+        "By providing structured frameworks",
+        "Through system rules",
+        "By resource allocation"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance provides frameworks and guidance for effective decision-making."
+    },
+    {
+      "id": 163,
+      "question": "What is the role of stakeholder management in IT governance?",
+      "options": [
+        "Technical coordination",
+        "Value alignment",
+        "System management",
+        "Resource handling"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stakeholder management ensures alignment between stakeholder expectations and IT value delivery."
+    },
+    {
+      "id": 164,
+      "question": "How does IT governance support process improvement?",
+      "options": [
+        "Through technical upgrades",
+        "By continuous assessment",
+        "Through system changes",
+        "By resource enhancement"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance enables continuous assessment and improvement of processes."
+    },
+    {
+      "id": 165,
+      "question": "What is the role of performance evaluation in IT governance?",
+      "options": [
+        "Technical assessment",
+        "Effectiveness measurement",
+        "System testing",
+        "Resource review"
+      ],
+      "answerIndex": 1,
+      "explanation": "Performance evaluation helps measure and improve governance effectiveness."
+    },
+    {
+      "id": 166,
+      "question": "What is the role of accountability in IT governance?",
+      "options": [
+        "Technical responsibility",
+        "Clear ownership of decisions",
+        "System maintenance",
+        "Resource management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Accountability ensures clear ownership and responsibility for IT-related decisions and outcomes."
+    },
+    {
+      "id": 167,
+      "question": "How does IT governance support portfolio management?",
+      "options": [
+        "Through technical tracking",
+        "By optimizing investments",
+        "Through system cataloging",
+        "By resource listing"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance ensures optimal selection and management of IT investments portfolio."
+    },
+    {
+      "id": 168,
+      "question": "What is the key focus of benefit realization in IT governance?",
+      "options": [
+        "Technical benefits",
+        "Value delivery assurance",
+        "System improvements",
+        "Resource gains"
+      ],
+      "answerIndex": 1,
+      "explanation": "Benefit realization focuses on ensuring IT investments deliver expected value."
+    },
+    {
+      "id": 169,
+      "question": "How does IT governance support strategic planning?",
+      "options": [
+        "Through technical planning",
+        "By aligning objectives",
+        "Through system design",
+        "By resource planning"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance ensures alignment between IT and business strategic objectives."
+    },
+    {
+      "id": 170,
+      "question": "What role does transparency play in IT governance?",
+      "options": [
+        "Technical clarity",
+        "Decision visibility",
+        "System openness",
+        "Resource visibility"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transparency ensures visibility and understanding of IT-related decisions and outcomes."
+    },
+    {
+      "id": 171,
+      "question": "How does IT governance support sustainability?",
+      "options": [
+        "Through technical longevity",
+        "By ensuring long-term viability",
+        "Through system maintenance",
+        "By resource conservation"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance ensures long-term sustainability of IT value delivery."
+    },
+    {
+      "id": 172,
+      "question": "What is the role of policy review in IT governance?",
+      "options": [
+        "Technical review",
+        "Effectiveness assessment",
+        "System checking",
+        "Resource evaluation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Policy review ensures governance policies remain effective and relevant."
+    },
+    {
+      "id": 173,
+      "question": "How does IT governance support investment optimization?",
+      "options": [
+        "Through technical optimization",
+        "By maximizing value return",
+        "Through system enhancement",
+        "By resource allocation"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance ensures optimal value return from IT investments."
+    },
+    {
+      "id": 174,
+      "question": "What is the primary purpose of governance frameworks?",
+      "options": [
+        "Technical structuring",
+        "Structured guidance",
+        "System organization",
+        "Resource management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Governance frameworks provide structured guidance for implementing and maintaining effective governance."
+    },
+    {
+      "id": 175,
+      "question": "How does IT governance support control objectives?",
+      "options": [
+        "Through technical controls",
+        "By defining control measures",
+        "Through system rules",
+        "By resource restrictions"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance establishes and maintains effective control objectives."
+    },
+    {
+      "id": 176,
+      "question": "What role does stakeholder value play in IT governance?",
+      "options": [
+        "Technical value",
+        "Strategic importance",
+        "System worth",
+        "Resource value"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stakeholder value is a primary consideration in IT governance decisions."
+    },
+    {
+      "id": 177,
+      "question": "How does IT governance support process maturity?",
+      "options": [
+        "Through technical maturity",
+        "By capability development",
+        "Through system growth",
+        "By resource evolution"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance enables systematic development of process maturity."
+    },
+    {
+      "id": 178,
+      "question": "What is the role of performance metrics in IT governance?",
+      "options": [
+        "Technical measurement",
+        "Progress tracking",
+        "System monitoring",
+        "Resource counting"
+      ],
+      "answerIndex": 1,
+      "explanation": "Performance metrics enable tracking and improvement of governance effectiveness."
+    },
+    {
+      "id": 179,
+      "question": "How does IT governance support risk awareness?",
+      "options": [
+        "Through technical alerts",
+        "By promoting understanding",
+        "Through system warnings",
+        "By resource monitoring"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT governance promotes understanding and awareness of IT-related risks."
+    },
+    {
+      "id": 180,
+      "question": "What is the role of capability planning in IT governance?",
+      "options": [
+        "Technical planning",
+        "Future readiness",
+        "System preparation",
+        "Resource planning"
+      ],
+      "answerIndex": 1,
+      "explanation": "Capability planning ensures readiness for future governance needs."
+    },
+    {
+      "id": 181,
+      "question": "How does IT governance support innovation management?",
+      "options": [
+        "By resource development",
+        "Through system updates",
+        "By balancing risk and value",
+        "Through technical innovation"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance helps balance innovation opportunities with associated risks."
+    },
+    {
+      "id": 182,
+      "question": "What role does compliance monitoring play in IT governance?",
+      "options": [
+        "Resource tracking",
+        "System verification",
+        "Technical checking",
+        "Regulatory adherence"
+      ],
+      "answerIndex": 3,
+      "explanation": "Compliance monitoring ensures adherence to relevant regulations and standards."
+    },
+    {
+      "id": 183,
+      "question": "How does IT governance support service quality?",
+      "options": [
+        "By ensuring standards",
+        "Through system performance",
+        "By resource quality",
+        "Through technical quality"
+      ],
+      "answerIndex": 0,
+      "explanation": "IT governance ensures maintenance of service quality standards."
+    },
+    {
+      "id": 184,
+      "question": "What is the role of strategy alignment in IT governance?",
+      "options": [
+        "System coordination",
+        "Resource alignment",
+        "Technical alignment",
+        "Business-IT integration"
+      ],
+      "answerIndex": 3,
+      "explanation": "Strategy alignment ensures IT initiatives support business objectives."
+    },
+    {
+      "id": 185,
+      "question": "How does IT governance support value optimization?",
+      "options": [
+        "By resource optimization",
+        "Through system improvement",
+        "By maximizing benefits",
+        "Through technical optimization"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures optimal value creation from IT investments."
+    },
+    {
+      "id": 186,
+      "question": "What role does risk assessment play in IT governance?",
+      "options": [
+        "Resource assessment",
+        "System checking",
+        "Strategic evaluation",
+        "Technical evaluation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Risk assessment evaluates potential impacts on governance objectives."
+    },
+    {
+      "id": 187,
+      "question": "How does IT governance support decision rights?",
+      "options": [
+        "Through system control",
+        "Through technical authority",
+        "By resource authority",
+        "By defining accountability"
+      ],
+      "answerIndex": 3,
+      "explanation": "IT governance establishes clear decision rights and accountability."
+    },
+    {
+      "id": 188,
+      "question": "What is the role of performance reporting in IT governance?",
+      "options": [
+        "Progress communication",
+        "Resource tracking",
+        "Technical reporting",
+        "System documentation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Performance reporting communicates governance effectiveness to stakeholders."
+    },
+    {
+      "id": 189,
+      "question": "How does IT governance support resource planning?",
+      "options": [
+        "By optimizing allocation",
+        "Through technical planning",
+        "Through system planning",
+        "By asset management"
+      ],
+      "answerIndex": 0,
+      "explanation": "IT governance ensures optimal planning and allocation of resources."
+    },
+    {
+      "id": 190,
+      "question": "What role does stakeholder engagement play in IT governance?",
+      "options": [
+        "System participation",
+        "Resource coordination",
+        "Value alignment",
+        "Technical involvement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Stakeholder engagement ensures alignment between expectations and outcomes."
+    },
+    {
+      "id": 191,
+      "question": "What is the role of governance metrics in measuring IT value?",
+      "options": [
+        "System counting",
+        "Resource tracking",
+        "Value quantification",
+        "Technical measurement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Governance metrics help quantify and demonstrate IT value creation."
+    },
+    {
+      "id": 192,
+      "question": "How does IT governance support strategic decision-making?",
+      "options": [
+        "Through system choices",
+        "Through technical decisions",
+        "By providing frameworks",
+        "By resource selection"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance provides frameworks and guidance for strategic decision-making."
+    },
+    {
+      "id": 193,
+      "question": "What role does risk mitigation play in IT governance?",
+      "options": [
+        "Resource safety",
+        "System security",
+        "Strategic risk reduction",
+        "Technical protection"
+      ],
+      "answerIndex": 2,
+      "explanation": "Risk mitigation helps reduce potential threats to governance objectives."
+    },
+    {
+      "id": 194,
+      "question": "How does IT governance support process standardization?",
+      "options": [
+        "Through system rules",
+        "By resource norms",
+        "By establishing consistency",
+        "Through technical standards"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures consistent processes across the organization."
+    },
+    {
+      "id": 195,
+      "question": "What is the role of capability development in IT governance?",
+      "options": [
+        "System enhancement",
+        "Resource growth",
+        "Competency building",
+        "Technical development"
+      ],
+      "answerIndex": 2,
+      "explanation": "Capability development ensures organization can effectively govern IT."
+    },
+    {
+      "id": 196,
+      "question": "How does IT governance support investment evaluation?",
+      "options": [
+        "Through system review",
+        "Through technical assessment",
+        "By value assessment",
+        "By resource counting"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance provides framework for evaluating IT investments."
+    },
+    {
+      "id": 197,
+      "question": "What role does organizational culture play in IT governance?",
+      "options": [
+        "Resource handling",
+        "System usage",
+        "Governance effectiveness",
+        "Technical behavior"
+      ],
+      "answerIndex": 2,
+      "explanation": "Organizational culture significantly impacts governance effectiveness."
+    },
+    {
+      "id": 198,
+      "question": "How does IT governance support compliance management?",
+      "options": [
+        "Through system controls",
+        "By resource regulation",
+        "By ensuring adherence",
+        "Through technical rules"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures compliance with relevant regulations and standards."
+    },
+    {
+      "id": 199,
+      "question": "What is the role of performance optimization in IT governance?",
+      "options": [
+        "System enhancement",
+        "Resource efficiency",
+        "Effectiveness improvement",
+        "Technical optimization"
+      ],
+      "answerIndex": 2,
+      "explanation": "Performance optimization focuses on improving governance effectiveness."
+    },
+    {
+      "id": 200,
+      "question": "How does IT governance support innovation management?",
+      "options": [
+        "Through system updates",
+        "By resource development",
+        "By managing change",
+        "Through technical innovation"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance helps manage innovation while controlling associated risks."
+    },
+    {
+      "id": 201,
+      "question": "What role does stakeholder analysis play in IT governance?",
+      "options": [
+        "Resource review",
+        "System evaluation",
+        "Need assessment",
+        "Technical analysis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Stakeholder analysis helps understand and address stakeholder requirements."
+    },
+    {
+      "id": 202,
+      "question": "How does IT governance support resource optimization?",
+      "options": [
+        "Through system optimization",
+        "By asset management",
+        "By maximizing value",
+        "Through technical efficiency"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures optimal use and allocation of resources."
+    },
+    {
+      "id": 203,
+      "question": "What is the role of performance monitoring in IT governance?",
+      "options": [
+        "System watching",
+        "Resource observation",
+        "Progress tracking",
+        "Technical monitoring"
+      ],
+      "answerIndex": 2,
+      "explanation": "Performance monitoring helps track progress toward governance objectives."
+    },
+    {
+      "id": 204,
+      "question": "How does IT governance support strategic alignment?",
+      "options": [
+        "Through system coordination",
+        "By resource alignment",
+        "By ensuring integration",
+        "Through technical alignment"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures alignment between IT and business strategies."
+    },
+    {
+      "id": 205,
+      "question": "What role does risk awareness play in IT governance?",
+      "options": [
+        "Resource vigilance",
+        "System alertness",
+        "Understanding threats",
+        "Technical awareness"
+      ],
+      "answerIndex": 2,
+      "explanation": "Risk awareness helps identify and manage potential threats to governance."
+    },
+    {
+      "id": 206,
+      "question": "How does IT governance support value creation?",
+      "options": [
+        "Through system worth",
+        "By resource value",
+        "By maximizing benefits",
+        "Through technical value"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures creation and delivery of business value."
+    },
+    {
+      "id": 207,
+      "question": "What is the role of process integration in IT governance?",
+      "options": [
+        "Resource merger",
+        "System combination",
+        "Holistic approach",
+        "Technical integration"
+      ],
+      "answerIndex": 2,
+      "explanation": "Process integration ensures comprehensive governance approach."
+    },
+    {
+      "id": 208,
+      "question": "How does IT governance support decision rights?",
+      "options": [
+        "Through system control",
+        "By resource authority",
+        "By defining accountability",
+        "Through technical authority"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance establishes clear decision rights and responsibilities."
+    },
+    {
+      "id": 209,
+      "question": "What role does capability assessment play in IT governance?",
+      "options": [
+        "Resource checking",
+        "System testing",
+        "Maturity evaluation",
+        "Technical assessment"
+      ],
+      "answerIndex": 2,
+      "explanation": "Capability assessment helps evaluate governance maturity levels."
+    },
+    {
+      "id": 210,
+      "question": "How does IT governance support benefit realization?",
+      "options": [
+        "Through system gains",
+        "By resource benefits",
+        "By ensuring value delivery",
+        "Through technical benefits"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures realization of expected benefits from IT investments."
+    },
+    {
+      "id": 211,
+      "question": "What is the role of performance reporting in IT governance?",
+      "options": [
+        "System documentation",
+        "Resource tracking",
+        "Progress communication",
+        "Technical reporting"
+      ],
+      "answerIndex": 2,
+      "explanation": "Performance reporting communicates governance effectiveness to stakeholders."
+    },
+    {
+      "id": 212,
+      "question": "How does IT governance support risk optimization?",
+      "options": [
+        "Through system security",
+        "By resource safety",
+        "By balancing risk-value",
+        "Through technical protection"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance helps optimize the balance between risk and value."
+    },
+    {
+      "id": 213,
+      "question": "What role does stakeholder communication play in IT governance?",
+      "options": [
+        "System notification",
+        "Resource reporting",
+        "Engagement effectiveness",
+        "Technical communication"
+      ],
+      "answerIndex": 2,
+      "explanation": "Stakeholder communication ensures effective engagement and understanding."
+    },
+    {
+      "id": 214,
+      "question": "How does IT governance support process improvement?",
+      "options": [
+        "Through system upgrade",
+        "By resource improvement",
+        "By continuous optimization",
+        "Through technical enhancement"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance enables continuous process improvement and optimization."
+    },
+    {
+      "id": 215,
+      "question": "What is the role of value measurement in IT governance?",
+      "options": [
+        "System evaluation",
+        "Resource assessment",
+        "Benefit quantification",
+        "Technical measurement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Value measurement helps quantify and demonstrate IT governance benefits."
+    },
+    {
+      "id": 216,
+      "question": "What role does strategic planning play in IT governance?",
+      "options": [
+        "System scheduling",
+        "Resource planning",
+        "Long-term direction",
+        "Technical planning"
+      ],
+      "answerIndex": 2,
+      "explanation": "Strategic planning provides long-term direction for IT governance initiatives."
+    },
+    {
+      "id": 217,
+      "question": "How does IT governance support enterprise architecture?",
+      "options": [
+        "System structure",
+        "Resource organization",
+        "Strategic alignment",
+        "Technical architecture"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures enterprise architecture aligns with business objectives."
+    },
+    {
+      "id": 218,
+      "question": "What role does quality management play in IT governance?",
+      "options": [
+        "Resource quality",
+        "System perfection",
+        "Service excellence",
+        "Technical quality"
+      ],
+      "answerIndex": 2,
+      "explanation": "Quality management ensures high standards in IT service delivery."
+    },
+    {
+      "id": 219,
+      "question": "How does IT governance support portfolio optimization?",
+      "options": [
+        "System improvement",
+        "Resource allocation",
+        "Investment balancing",
+        "Technical optimization"
+      ],
+      "answerIndex": 2,
+      "explanation": "Portfolio optimization ensures balanced and effective IT investments."
+    },
+    {
+      "id": 220,
+      "question": "What is the role of change control in IT governance?",
+      "options": [
+        "Resource alteration",
+        "System modification",
+        "Managed evolution",
+        "Technical control"
+      ],
+      "answerIndex": 2,
+      "explanation": "Change control ensures managed and controlled evolution of IT environment."
+    },
+    {
+      "id": 221,
+      "question": "How does IT governance support vendor management?",
+      "options": [
+        "System sourcing",
+        "Resource procurement",
+        "Strategic partnership",
+        "Technical management"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures effective management of vendor relationships."
+    },
+    {
+      "id": 222,
+      "question": "What role does audit play in IT governance?",
+      "options": [
+        "Resource inspection",
+        "System verification",
+        "Assurance provision",
+        "Technical checking"
+      ],
+      "answerIndex": 2,
+      "explanation": "Audits provide assurance about effectiveness of governance controls."
+    },
+    {
+      "id": 223,
+      "question": "How does IT governance support security management?",
+      "options": [
+        "System safeguarding",
+        "Resource defense",
+        "Risk-based protection",
+        "Technical security"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures risk-based approach to security management."
+    },
+    {
+      "id": 224,
+      "question": "What is the role of service level management in IT governance?",
+      "options": [
+        "System monitoring",
+        "Resource tracking",
+        "Performance agreement",
+        "Technical management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Service level management ensures delivery of agreed IT services."
+    },
+    {
+      "id": 225,
+      "question": "How does IT governance support cost optimization?",
+      "options": [
+        "System efficiency",
+        "Resource saving",
+        "Value maximization",
+        "Technical reduction"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cost optimization ensures maximum value from IT investments."
+    },
+    {
+      "id": 226,
+      "question": "What role does knowledge management play in IT governance?",
+      "options": [
+        "System learning",
+        "Resource understanding",
+        "Information sharing",
+        "Technical knowledge"
+      ],
+      "answerIndex": 2,
+      "explanation": "Knowledge management supports effective governance decision-making."
+    },
+    {
+      "id": 227,
+      "question": "How does IT governance support capacity planning?",
+      "options": [
+        "System sizing",
+        "Infrastructure planning",
+        "Resource forecasting",
+        "Technical planning"
+      ],
+      "answerIndex": 2,
+      "explanation": "Capacity planning ensures adequate resources for governance objectives."
+    },
+    {
+      "id": 228,
+      "question": "What is the role of incident management in IT governance?",
+      "options": [
+        "System repair",
+        "Resource recovery",
+        "Risk mitigation",
+        "Technical response"
+      ],
+      "answerIndex": 2,
+      "explanation": "Incident management ensures effective response to governance issues."
+    },
+    {
+      "id": 229,
+      "question": "How does IT governance support continuity planning?",
+      "options": [
+        "System recovery",
+        "Resource protection",
+        "Service resilience",
+        "Technical backup"
+      ],
+      "answerIndex": 2,
+      "explanation": "Continuity planning ensures resilience of IT services and governance."
+    },
+    {
+      "id": 230,
+      "question": "What role does configuration management play in IT governance?",
+      "options": [
+        "System setup",
+        "Resource arrangement",
+        "Control assurance",
+        "Technical configuration"
+      ],
+      "answerIndex": 2,
+      "explanation": "Configuration management ensures controlled IT environment."
+    },
+    {
+      "id": 231,
+      "question": "How does IT governance support quality assurance?",
+      "options": [
+        "System checking",
+        "Resource verification",
+        "Standard adherence",
+        "Technical testing"
+      ],
+      "answerIndex": 2,
+      "explanation": "Quality assurance ensures adherence to governance standards."
+    },
+    {
+      "id": 232,
+      "question": "What is the role of asset management in IT governance?",
+      "options": [
+        "System inventory",
+        "Equipment control",
+        "Resource optimization",
+        "Technical tracking"
+      ],
+      "answerIndex": 2,
+      "explanation": "Asset management ensures optimal use of IT resources."
+    },
+    {
+      "id": 233,
+      "question": "How does IT governance support project portfolio management?",
+      "options": [
+        "System coordination",
+        "Resource allocation",
+        "Strategic alignment",
+        "Technical management"
+      ],
+      "answerIndex": 2,
+      "explanation": "Project portfolio management ensures aligned IT investments."
+    },
+    {
+      "id": 234,
+      "question": "What role does change management play in IT governance?",
+      "options": [
+        "System updates",
+        "Resource modification",
+        "Controlled evolution",
+        "Technical changes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Change management ensures controlled evolution of IT environment."
+    },
+    {
+      "id": 235,
+      "question": "How does IT governance support technology innovation?",
+      "options": [
+        "System upgrade",
+        "Resource improvement",
+        "Controlled adoption",
+        "Technical advancement"
+      ],
+      "answerIndex": 2,
+      "explanation": "IT governance ensures controlled adoption of technological innovations."
+    },
+    {
+      "id": 236,
+      "question": "What is the role of financial management in IT governance?",
+      "options": [
+        "System costing",
+        "Resource funding",
+        "Value optimization",
+        "Technical budgeting"
+      ],
+      "answerIndex": 2,
+      "explanation": "Financial management ensures optimal use of IT investments."
+    },
+    {
+      "id": 237,
+      "question": "How does IT governance support risk assessment?",
+      "options": [
+        "System checking",
+        "Resource review",
+        "Threat identification",
+        "Technical evaluation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Risk assessment helps identify and evaluate governance threats."
+    },
+    {
+      "id": 238,
+      "question": "What role does policy management play in IT governance?",
+      "options": [
+        "System guidelines",
+        "Resource regulation",
+        "Direction setting",
+        "Technical rules"
+      ],
+      "answerIndex": 2,
+      "explanation": "Policy management provides direction for governance activities."
+    },
+    {
+      "id": 239,
+      "question": "How does IT governance support service improvement?",
+      "options": [
+        "System upgrade",
+        "Resource improvement",
+        "Quality optimization",
+        "Technical enhancement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Service improvement ensures continuous enhancement of IT services."
+    },
+    {
+      "id": 240,
+      "question": "What is the role of compliance management in IT governance?",
+      "options": [
+        "System rules",
+        "Resource regulation",
+        "Regulatory adherence",
+        "Technical compliance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Compliance management ensures adherence to governance requirements."
+    },
+    {
+      "id": 241,
+      "question": "How does IT governance support investment planning?",
+      "options": [
+        "System budgeting",
+        "Resource allocation",
+        "Value optimization",
+        "Technical planning"
+      ],
+      "answerIndex": 2,
+      "explanation": "Investment planning ensures optimal allocation of IT resources."
+    },
+    {
+      "id": 242,
+      "question": "What role does performance monitoring play in IT governance?",
+      "options": [
+        "System watching",
+        "Resource observation",
+        "Progress tracking",
+        "Technical monitoring"
+      ],
+      "answerIndex": 2,
+      "explanation": "Performance monitoring tracks progress toward governance objectives."
+    },
+    {
+      "id": 243,
+      "question": "How does IT governance support service delivery?",
+      "options": [
+        "System operation",
+        "Resource distribution",
+        "Value provision",
+        "Technical delivery"
+      ],
+      "answerIndex": 2,
+      "explanation": "Service delivery ensures effective provision of IT services."
+    },
+    {
+      "id": 244,
+      "question": "What is the role of security governance in IT?",
+      "options": [
+        "System protection",
+        "Resource safeguarding",
+        "Risk management",
+        "Technical security"
+      ],
+      "answerIndex": 2,
+      "explanation": "Security governance ensures protection of IT assets and information."
+    },
+    {
+      "id": 245,
+      "question": "How does IT governance support stakeholder management?",
+      "options": [
+        "System communication",
+        "Resource coordination",
+        "Interest alignment",
+        "Technical coordination"
+      ],
+      "answerIndex": 2,
+      "explanation": "Stakeholder management ensures alignment of interests and expectations."
+    },
+    {
+      "id": 246,
+      "question": "What role does quality control play in IT governance?",
+      "options": [
+        "System verification",
+        "Resource inspection",
+        "Standard maintenance",
+        "Technical checking"
+      ],
+      "answerIndex": 2,
+      "explanation": "Quality control ensures maintenance of governance standards."
+    },
+    {
+      "id": 247,
+      "question": "How does IT governance support process optimization?",
+      "options": [
+        "System upgrade",
+        "Resource optimization",
+        "Efficiency enhancement",
+        "Technical improvement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Process optimization ensures efficient governance operations."
+    },
+    {
+      "id": 248,
+      "question": "What is the role of capacity management in IT governance?",
+      "options": [
+        "System sizing",
+        "Infrastructure management",
+        "Resource planning",
+        "Technical capacity"
+      ],
+      "answerIndex": 2,
+      "explanation": "Capacity management ensures adequate resources for governance needs."
+    },
+    {
+      "id": 249,
+      "question": "How does IT governance support innovation management?",
+      "options": [
+        "System improvement",
+        "Resource development",
+        "Controlled advancement",
+        "Technical innovation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Innovation management ensures controlled adoption of new technologies."
+    },
+    {
+      "id": 250,
+      "question": "What role does strategic alignment play in IT governance?",
+      "options": [
+        "System coordination",
+        "Resource matching",
+        "Business integration",
+        "Technical alignment"
+      ],
+      "answerIndex": 2,
+      "explanation": "Strategic alignment ensures IT initiatives support business objectives."
+    }
+  ]
+}

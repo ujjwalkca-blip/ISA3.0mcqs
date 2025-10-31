@@ -1,0 +1,3006 @@
+{
+  "module": "4",
+  "name": "Module 4",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is the most significant disadvantage of the Waterfall SDLC Model from a business agility standpoint?",
+      "options": [
+        "High cost of documentation.",
+        "Inability to accommodate major requirement changes in later stages without significant cost and schedule delays.",
+        "Lack of security controls built into the design.",
+        "Low user involvement in the initial requirements phase."
+      ],
+      "answerIndex": 1,
+      "explanation": "The rigid, sequential structure of the Waterfall model means that requirements are fixed early on. Any substantial requirement changes discovered during testing or implementation necessitate costly backtracking and re-engineering of all previous phases."
+    },
+    {
+      "id": 2,
+      "question": "The primary control objective of implementing a Check Digit control on a customer account number is to ensure:",
+      "options": [
+        "Completeness",
+        "Authorization",
+        "Accuracy",
+        "Segregation of Duties"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Check Digit is a mathematically derived digit appended to an identifier (like an account number). Its sole function is to detect and prevent common data entry errors such as transposition or transcription mistakes, thereby ensuring accuracy at the input stage."
+    },
+    {
+      "id": 3,
+      "question": "In the CMMI framework, a process is characterized as Level 4 (Quantitatively Managed) when:",
+      "options": [
+        "Processes are performed differently by individuals across the organization.",
+        "The process is defined and standardized across the organization.",
+        "Process performance is controlled using statistical and quantitative measurement techniques.",
+        "The focus is on continuous process improvement using quantitative feedback."
+      ],
+      "answerIndex": 2,
+      "explanation": "CMMI Level 4 moves beyond simply defining processes (Level 3) to actively managing them. This level requires the use of statistical methods to measure, control, and predict process performance, ensuring repeatable outcomes."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is an example of an Input Validation Control?",
+      "options": [
+        "Reconciliation of control totals between the output report and external records.",
+        "A system check requiring a mandatory field (e.g., Customer ID) to be populated before saving a record.",
+        "Dual authorization for a payment transaction above a certain threshold.",
+        "Encryption of sensitive data before storage."
+      ],
+      "answerIndex": 1,
+      "explanation": "Input Controls ensure the validity, accuracy, and completeness of data at the time of entry. A Completeness Check (or required field check) prevents the transaction from proceeding unless all necessary data is supplied by the user."
+    },
+    {
+      "id": 5,
+      "question": "The purpose of Pilot Conversion as an implementation strategy is to:",
+      "options": [
+        "Run the old and new systems simultaneously for a full accounting cycle.",
+        "Limit the risk of system failure by deploying the new system to only one small, isolated business unit or location.",
+        "Implement the new system by module or functional area over time.",
+        "Shut down the old system immediately when the new one goes live."
+      ],
+      "answerIndex": 1,
+      "explanation": "Pilot Conversion is a risk-mitigation strategy that introduces the new system to a single, limited segment of the business. This allows the organization to test the system under live conditions, fix bugs, and refine procedures with minimal organizational impact."
+    },
+    {
+      "id": 6,
+      "question": "The most significant audit concern when reviewing a system developed using the Prototyping Model is:",
+      "options": [
+        "Lack of user involvement.",
+        "The final system may lack documentation, robust control features, and scalability because it evolved from a \"quick-and-dirty\" prototype.",
+        "High project cost due to excessive planning.",
+        "Difficulty in achieving final sign-off."
+      ],
+      "answerIndex": 1,
+      "explanation": "Prototyping focuses on user feedback and speed. The risk is that the initial, often unstable, code base (the prototype) becomes the foundation of the final production system without undergoing proper architectural design, control integration, and documentation."
+    },
+    {
+      "id": 7,
+      "question": "In the context of Project Management, the sequence of tasks that determines the project's minimum possible completion time is known as the:",
+      "options": [
+        "Critical Path",
+        "Work Breakdown Structure (WBS)",
+        "Milestone Plan",
+        "Requirements Traceability Matrix (RTM)"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Critical Path is the longest duration path through a project network diagram. Any delay in an activity on this path will result in a delay in the project's final completion date."
+    },
+    {
+      "id": 8,
+      "question": "Which type of system maintenance is performed to accommodate changes in the external operating environment, such as a new operating system or a change in tax laws?",
+      "options": [
+        "Adaptive Maintenance",
+        "Perfective Maintenance",
+        "Preventive Maintenance",
+        "Corrective Maintenance"
+      ],
+      "answerIndex": 0,
+      "explanation": "Adaptive Maintenance is the modification of the system to keep it usable and compliant in a changing environment, which includes hardware, operating systems, and external regulations (e.g., tax, GDPR)."
+    },
+    {
+      "id": 9,
+      "question": "The primary objective of the System Design Phase is to translate the:",
+      "options": [
+        "Cost-benefit analysis into a final budget.",
+        "Functional requirements into a detailed technical blueprint, including controls and architecture.",
+        "Feasibility study into a project charter.",
+        "Current system architecture into the new system’s code."
+      ],
+      "answerIndex": 1,
+      "explanation": "The System Design Phase takes the user-approved requirements (the 'what') and defines the technical solution (the 'how'), creating the specifications for the database, architecture, modules, and control mechanisms."
+    },
+    {
+      "id": 10,
+      "question": "An IS auditor discovers that a programmer has the ability to both write code and move that code directly into the production environment. This is a violation of the General Control principle of:",
+      "options": [
+        "Least Privilege",
+        "Segregation of Duties (SoD)",
+        "Dual Control",
+        "Compensating Control"
+      ],
+      "answerIndex": 1,
+      "explanation": "Segregation of Duties (SoD) requires separating conflicting roles. The person developing the code (programmer) should be separate from the person who authorizes and implements the code into production (librarian/change manager) to prevent unauthorized changes."
+    },
+    {
+      "id": 11,
+      "question": "When calculating the Economic Feasibility of a new system, the most theoretically sound metric that compares the present value of expected cash inflows to the present value of expected cash outflows is:",
+      "options": [
+        "Return on Investment (ROI)",
+        "Payback Period",
+        "Net Present Value (NPV)",
+        "Cost-Benefit Ratio"
+      ],
+      "answerIndex": 2,
+      "explanation": "Net Present Value (NPV) is superior for economic analysis because it accounts for the time value of money, providing a definitive measure of the project's profitability adjusted for inflation and risk."
+    },
+    {
+      "id": 12,
+      "question": "The audit tool that involves running the auditor's test transactions alongside the organization's live transactions, using dummy files within the production system, is the:",
+      "options": [
+        "Generalized Audit Software (GAS)",
+        "System Control Audit Review File (SCARF)",
+        "Integrated Test Facility (ITF)",
+        "Code Comparison"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Integrated Test Facility (ITF) uses dummy entities (master files) within the production environment to process test data. This method continuously verifies application controls under live conditions without affecting real data."
+    },
+    {
+      "id": 13,
+      "question": "In the CMMI framework, if a project's success relies on the \"heroic\" efforts of individuals and processes are unpredictable, the organization is at which maturity level?",
+      "options": [
+        "Level 1 Initial (Chaotic)",
+        "Level 2 Managed",
+        "Level 3 Defined",
+        "Level 4 Quantitatively Managed"
+      ],
+      "answerIndex": 0,
+      "explanation": "CMMI Level 1 (Initial) is characterized by an ad hoc, chaotic, and often reactive process where processes are rarely documented and performance is highly dependent on individual competence rather than repeatable organizational practice."
+    },
+    {
+      "id": 14,
+      "question": "The primary purpose of System Testing is to ensure that:",
+      "options": [
+        "Individual modules function correctly in isolation.",
+        "The system meets the specific functional needs of the end-user.",
+        "All integrated system components, including interfaces, hardware, and operating systems, function together as specified (functional and non-functional requirements).",
+        "The user training program is effective."
+      ],
+      "answerIndex": 2,
+      "explanation": "System Testing is a high-level test that verifies the system end-to-end. It confirms that all parts work together and that the entire system meets both the functional and crucial non-functional requirements (e.g., performance, security, recovery)."
+    },
+    {
+      "id": 15,
+      "question": "The risk of scope creep in an SDLC project is best managed by establishing a rigorous Change Management Process that requires:",
+      "options": [
+        "Formal documentation, justification, and approval by the Project Steering Committee (or CAB) for all changes to the baseline.",
+        "Daily stand-up meetings.",
+        "Limiting user access to the development environment.",
+        "Using only the Waterfall model."
+      ],
+      "answerIndex": 0,
+      "explanation": "Scope Creep (uncontrolled expansion of the project) is controlled by a formal change management process that ensures all proposed changes are documented, reviewed for impact, and approved by a high-level governance body."
+    },
+    {
+      "id": 16,
+      "question": "Which application control is designed to enforce the \"Once and only Once\" principle in real-time, online processing?",
+      "options": [
+        "Valid Code Check",
+        "Hash Total Reconciliation",
+        "Duplicate Check on Key Transaction Identifier",
+        "Sequence Check"
+      ],
+      "answerIndex": 2,
+      "explanation": "In online systems, the Duplicate Check compares the unique key (e.g., invoice number, transaction ID) of an incoming transaction against previously processed transactions to prevent accidental or intentional reprocessing of the same item."
+    },
+    {
+      "id": 17,
+      "question": "The most critical control concern for an IS Auditor when reviewing the implementation of a DevOps approach is:",
+      "options": [
+        "The speed of the coding.",
+        "The risk that automated deployment pipelines may bypass formal, independent authorization and audit review steps.",
+        "The lack of detailed user documentation.",
+        "The difficulty in hiring skilled operations staff."
+      ],
+      "answerIndex": 1,
+      "explanation": "DevOps focuses on rapid, continuous deployment. The auditor must ensure that the automation pipeline maintains the necessary governance controls—specifically, formal approval and verification (SoD) by an independent party—before code is released to production."
+    },
+    {
+      "id": 18,
+      "question": "A key objective of the Operational Feasibility Study is to assess:",
+      "options": [
+        "The availability of necessary technical skills and hardware.",
+        "The financial viability (ROI) of the project.",
+        "The organizational readiness, user acceptance, and impact on current business operations and staff skills.",
+        "Compliance with all external legal statutes."
+      ],
+      "answerIndex": 2,
+      "explanation": "Operational Feasibility evaluates the human and organizational factors, ensuring that the proposed system is compatible with the existing corporate culture and that staff are willing and able to use it effectively."
+    },
+    {
+      "id": 19,
+      "question": "Which audit technique involves the auditor creating a simulated set of files and transactions to test the client's production application logic off-line?",
+      "options": [
+        "Integrated Test Facility (ITF)",
+        "Generalized Audit Software (GAS)",
+        "Test Data Method (Test Deck)",
+        "System Control Audit Review File (SCARF)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Test Data Method (or Test Deck) involves creating a set of transactions with known results, processing them using the client's application (usually in a test environment), and comparing the actual results to the expected results to verify application logic."
+    },
+    {
+      "id": 20,
+      "question": "When reviewing a system acquired as a Commercial Off-the-Shelf (COTS) package, the IS Auditor should focus primarily on the control risk associated with:",
+      "options": [
+        "Inadequate source code documentation.",
+        "The need for expensive, high-risk customization to meet unique business needs.",
+        "The vendor's physical security over their data center.",
+        "High annual maintenance costs."
+      ],
+      "answerIndex": 1,
+      "explanation": "The primary risk with COTS is that it is designed for a generic market. If the organization has unique, value-adding processes, the COTS solution will require potentially costly and undocumented customization, which introduces control risks."
+    },
+    {
+      "id": 21,
+      "question": "The IS Auditor finds that all changes to the system must be approved by the Change Advisory Board (CAB) before going to production. This is an example of which type of control?",
+      "options": [
+        "General Control (Change Management)",
+        "Input Control",
+        "Processing Control",
+        "Compensating Control"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Change Advisory Board (CAB) approval process is the governance structure that manages the integrity of the overall IT environment. It is a critical component of the General Control category, specifically Change Management."
+    },
+    {
+      "id": 22,
+      "question": "The primary risk when using the Parallel Conversion strategy for implementation is:",
+      "options": [
+        "Immediate, catastrophic system failure.",
+        "Inadequate user training.",
+        "High operational cost and resource strain due to running and supporting two systems simultaneously.",
+        "Difficulty in data conversion."
+      ],
+      "answerIndex": 2,
+      "explanation": "Parallel Conversion is the lowest-risk strategy but is also the most expensive. The cost is incurred by the human and hardware resources needed to operate, reconcile, and support both the old and new systems concurrently for an extended period."
+    },
+    {
+      "id": 23,
+      "question": "Which testing type is specifically designed to verify that the integrated system components and interfaces (e.g., between two modules or systems) operate correctly together?",
+      "options": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "User Acceptance Testing (UAT)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Integration Testing focuses on the communication and data exchange between different parts of the system or with external systems (interfaces), ensuring they work seamlessly as a group."
+    },
+    {
+      "id": 24,
+      "question": "When reviewing the Post-Implementation Review (PIR) report, the IS Auditor's focus should be on verifying that:",
+      "options": [
+        "The initial project team received performance bonuses.",
+        "The final system architecture is the same as the original design.",
+        "The operational system’s actual benefits and performance met the original objectives and justifications defined in the business case.",
+        "All source code was correctly backed up."
+      ],
+      "answerIndex": 2,
+      "explanation": "The PIR evaluates the project's success from a business perspective. The key objective is to compare the *actual* results (e.g., cost savings, efficiency gains) against the *planned* results outlined in the initial business case."
+    },
+    {
+      "id": 25,
+      "question": "Which type of system maintenance is performed to improve the system's efficiency, maintainability, or readability of the code, without changing the functional requirements?",
+      "options": [
+        "Adaptive Maintenance",
+        "Corrective Maintenance",
+        "Perfective Maintenance",
+        "Preventative Maintenance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Perfective Maintenance involves actions taken to \"perfect\" the system, such as optimizing algorithms, refactoring code, or enhancing documentation, based on user feedback or performance analysis."
+    },
+    {
+      "id": 26,
+      "question": "Which application control is primarily used to check the relationship between two or more input fields (e.g., ensuring an 'hours worked' field value is consistent with the 'date worked' field)?",
+      "options": [
+        "Check Digit",
+        "Hash Total",
+        "Consistency Check (or Relationship Check)",
+        "Sequence Check"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Consistency Check verifies that the data entered in one field is logically compatible with the data in another field, ensuring the transaction is sensible and error-free as a whole."
+    },
+    {
+      "id": 27,
+      "question": "The most critical control measure to prevent unauthorized changes to the production source code is the Segregation of Duties between the:",
+      "options": [
+        "End-user and the developer.",
+        "System operator and the internal auditor.",
+        "Project manager and the steering committee.",
+        "Programmer (development) and the librarian/change control staff (promotion to production)."
+      ],
+      "answerIndex": 3,
+      "explanation": "This separation is vital to ensure that the developer cannot unilaterally bypass testing and change control procedures to place unauthorized or poorly tested code into the live environment."
+    },
+    {
+      "id": 28,
+      "question": "The primary purpose of a Timebox approach in methodologies like Rapid Application Development (RAD) is to:",
+      "options": [
+        "Control scope creep and manage risk by strictly limiting the time available for development.",
+        "Increase the size of the project team.",
+        "Eliminate the need for formal testing.",
+        "Focus entirely on detailed technical documentation."
+      ],
+      "answerIndex": 0,
+      "explanation": "A Timebox is a fixed duration during which a set of features must be developed. By fixing the schedule, the team is forced to prioritize features and manage scope aggressively, which controls risk."
+    },
+    {
+      "id": 29,
+      "question": "Which document is the most important for the IS Auditor to review during the Maintenance Phase to verify that all changes were authorized and properly tested?",
+      "options": [
+        "Original System Design Specification.",
+        "Change Management Logs and Authorization Records.",
+        "User Manual.",
+        "Hardware Inventory List."
+      ],
+      "answerIndex": 1,
+      "explanation": "The Change Management Logs and Authorization Records provide the essential audit trail evidence that every change (Corrective, Adaptive, Perfective) followed the formal approval, testing, and sign-off procedures before being released to production."
+    },
+    {
+      "id": 30,
+      "question": "The audit technique that involves embedding audit software within the client's production application to continuously select and collect transactions based on pre-defined criteria is the:",
+      "options": [
+        "Integrated Test Facility (ITF)",
+        "Test Data Method",
+        "System Control Audit Review File (SCARF) / Embedded Audit Module (EAM)",
+        "Generalized Audit Software (GAS)"
+      ],
+      "answerIndex": 2,
+      "explanation": "SCARF/EAM is a module permanently built into the application code. It monitors live transactions and automatically extracts or logs data meeting audit significance criteria for later review."
+    },
+    {
+      "id": 31,
+      "question": "The process of modifying source code to fix an error or bug that was found in the operational system is classified as which type of maintenance?",
+      "options": [
+        "Adaptive Maintenance",
+        "Corrective Maintenance",
+        "Perfective Maintenance",
+        "Preventive Maintenance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Corrective Maintenance is performed reactively to eliminate errors, bugs, or faults discovered in the system that prevent it from functioning as intended."
+    },
+    {
+      "id": 32,
+      "question": "When reviewing the acquisition of a COTS application, the IS Auditor should ensure the contract specifically addresses the inclusion of Source Code Escrow to mitigate the risk of:",
+      "options": [
+        "High customization costs.",
+        "Vendor Lock-in and lack of ability to maintain the system if the vendor fails or ceases support.",
+        "Poor user acceptance.",
+        "Delayed implementation."
+      ],
+      "answerIndex": 1,
+      "explanation": "Source Code Escrow involves placing the source code with a trusted third party. This guarantees the organization can gain access to the code if the vendor goes out of business or stops supporting the product, thereby mitigating vendor lock-in risk."
+    },
+    {
+      "id": 33,
+      "question": "A processing control that checks if a data value, such as the hourly wage rate, falls within a pre-defined set of minimum and maximum allowed values, is known as a:",
+      "options": [
+        "Limit Check (or Range Check)",
+        "Hash Total",
+        "Valid Code Check",
+        "Check Digit"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Limit Check is an input control that ensures a numerical entry falls within an acceptable range, preventing excessively high or low values from being processed."
+    },
+    {
+      "id": 34,
+      "question": "The primary control objective of a Requirements Traceability Matrix (RTM) in the SDLC is to ensure:",
+      "options": [
+        "The project is completed on time.",
+        "Every final system component can be traced back to an approved requirement, and all requirements are fulfilled.",
+        "Only the most senior staff are assigned to critical tasks.",
+        "The system is converted using the Parallel strategy."
+      ],
+      "answerIndex": 1,
+      "explanation": "The RTM is the key tool for ensuring completeness of requirement fulfillment and preventing the introduction of unauthorized functionality (scope creep)."
+    },
+    {
+      "id": 35,
+      "question": "The risk that the new system will not be accepted or properly used by employees and management is specifically assessed during the:",
+      "options": [
+        "Technical Feasibility Study",
+        "Economic Feasibility Study",
+        "Operational Feasibility Study",
+        "Legal Feasibility Study"
+      ],
+      "answerIndex": 2,
+      "explanation": "Operational Feasibility evaluates the human element—whether the proposed system is compatible with the organization's culture, skills, and existing operations, directly assessing user acceptance and organizational readiness."
+    },
+    {
+      "id": 36,
+      "question": "When performing a Post-Implementation Review (PIR), the IS Auditor is primarily concerned with verifying the:",
+      "options": [
+        "Cost of the development team's salary.",
+        "Adequacy and operational effectiveness of internal controls and the achievement of planned business benefits.",
+        "Physical security of the data center.",
+        "Completeness of user training documentation."
+      ],
+      "answerIndex": 1,
+      "explanation": "The PIR is a final audit to assess two things: (1) Did the controls work? (2) Did the system deliver the value promised in the original business case?"
+    },
+    {
+      "id": 37,
+      "question": "The implementation strategy that involves running the new system alongside the old system simultaneously for a period of time is:",
+      "options": [
+        "Direct Conversion",
+        "Parallel Conversion",
+        "Pilot Conversion",
+        "Phased Conversion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Parallel Conversion is the lowest-risk approach because it allows the business to continue processing with the proven, old system while the new system is fully verified and reconciled in a live environment."
+    },
+    {
+      "id": 38,
+      "question": "Which audit technique involves the auditor manually tracing the flow of logic through the program source code line-by-line without executing the code?",
+      "options": [
+        "Test Data",
+        "Desk Check (Code Review)",
+        "Tagging and Tracing",
+        "Code Comparison"
+      ],
+      "answerIndex": 1,
+      "explanation": "A Desk Check (or Manual Code Review) is a static analysis technique where the auditor systematically examines the program source code to identify control flaws, logic errors, and security vulnerabilities."
+    },
+    {
+      "id": 39,
+      "question": "The primary objective of the Project Charter is to:",
+      "options": [
+        "Detail the complete Work Breakdown Structure (WBS).",
+        "Document all functional requirements.",
+        "Formally authorize the project, define its high-level objectives, and grant the Project Manager authority.",
+        "Outline the final system design specifications."
+      ],
+      "answerIndex": 2,
+      "explanation": "The Project Charter is the foundational document of the Initiation phase, establishing the project's authority, purpose, and key stakeholders."
+    },
+    {
+      "id": 40,
+      "question": "The greatest risk associated with the Spiral Development Model is:",
+      "options": [
+        "Lack of user involvement.",
+        "Difficulty in accurately estimating the project’s final cost and completion date due to its iterative, risk-driven nature.",
+        "Poor design of internal controls.",
+        "Inadequate unit testing."
+      ],
+      "answerIndex": 1,
+      "explanation": "While effective for managing high risk, the Spiral Model's cyclical approach, where requirements and plans are constantly refined, makes it very difficult to predict the final timeline and budget accurately."
+    },
+    {
+      "id": 41,
+      "question": "Which application control is primarily effective in ensuring the Completeness of a batch of records processed through a financial application?",
+      "options": [
+        "Check Digit",
+        "Sequence Check",
+        "Hash Total Reconciliation",
+        "Valid Code Check"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Hash Total is the meaningless sum of a non-financial field (e.g., employee IDs) across a batch. Reconciling this total from input to processing and output ensures that every record in the batch has been accounted for (completeness)."
+    },
+    {
+      "id": 42,
+      "question": "The risk of unauthorized program changes being made by developers during the Maintenance Phase is best mitigated by:",
+      "options": [
+        "Mandatory annual security audits.",
+        "Increasing system documentation.",
+        "Using only high-level programming languages.",
+        "Segregating the development, testing, and production environments."
+      ],
+      "answerIndex": 3,
+      "explanation": "Separating environments is a critical General Control. It enforces SoD by preventing the developer (who modifies the code) from having unilateral access to the live production system."
+    },
+    {
+      "id": 43,
+      "question": "The primary reason for an IS Auditor to review a vendor's Type 2 SOC report during a COTS acquisition is to gain assurance over the:",
+      "options": [
+        "Vendor's financial stability.",
+        "Completeness of the vendor's documentation.",
+        "Design and operating effectiveness of the vendor's internal controls (e.g., security, availability, integrity) over a period of time.",
+        "Vendor's compliance with local labor laws."
+      ],
+      "answerIndex": 2,
+      "explanation": "A Type 2 SOC report (Service Organization Control) provides an independent opinion on the vendor's internal controls over a period, which is essential for the auditor to assess the security and integrity of the acquired system."
+    },
+    {
+      "id": 44,
+      "question": "In the V-Model of the SDLC, the testing phase that corresponds directly to the System Design phase is:",
+      "options": [
+        "Unit Testing",
+        "Integration Testing",
+        "User Acceptance Testing (UAT)",
+        "Component Testing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The System Design phase defines the architecture and high-level interfaces between subsystems. Integration Testing validates that these interfaces and integrated subsystems function together as designed."
+    },
+    {
+      "id": 45,
+      "question": "The most significant control concern when reviewing a system built using Agile or Scrum methodologies is:",
+      "options": [
+        "Lack of user involvement.",
+        "High project cost.",
+        "Potential for inadequate or delayed documentation and lack of formal, independent sign-offs on critical control changes.",
+        "Difficulty in finding skilled programmers."
+      ],
+      "answerIndex": 2,
+      "explanation": "Agile's emphasis on speed and working software over documentation can compromise formal controls. The auditor must verify that formal change logs, design specifications, and independent sign-offs are still enforced for governance."
+    },
+    {
+      "id": 46,
+      "question": "Which conversion strategy is the least expensive but carries the highest risk of operational failure?",
+      "options": [
+        "Parallel Conversion",
+        "Direct (Plunge) Conversion",
+        "Pilot Conversion",
+        "Phased Conversion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Direct/Plunge Conversion is the cheapest because the old system is immediately shut down (no dual operation cost). However, if the new system fails, there is no immediate backup, leading to high business risk."
+    },
+    {
+      "id": 47,
+      "question": "Which audit tool is best used to verify the processing logic of an application by running the system code through a tool that graphically displays all logical paths taken during execution?",
+      "options": [
+        "Integrated Test Facility (ITF)",
+        "Code Comparison",
+        "Tagging and Tracing",
+        "Generalized Audit Software (GAS)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tagging and Tracing involves marking (tagging) a test transaction at input and then using software to monitor (tracing) its exact path and processing logic as it flows through the application's code."
+    },
+    {
+      "id": 48,
+      "question": "The control objective of Accuracy for system output is best achieved by:",
+      "options": [
+        "Restricting access to the report printer.",
+        "Encrypting all sensitive reports.",
+        "Reconciling control totals from the system-generated report to independent or external figures.",
+        "Performing a range check on printed data."
+      ],
+      "answerIndex": 2,
+      "explanation": "Reconciliation of control totals (an Output Control) is a strong method to ensure that the data produced by the system is mathematically consistent and accurate compared to independently verified sources."
+    },
+    {
+      "id": 49,
+      "question": "The process of analyzing an existing (often legacy) system to extract design specifications and documentation from the code is known as:",
+      "options": [
+        "Forward Engineering",
+        "Reverse Engineering",
+        "Program Prototyping",
+        "Adaptive Maintenance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reverse Engineering is the process of working backward from the finished product (code) to recreate the design and requirements"
+    },
+    {
+      "id": 50,
+      "question": "The risk of vendor lock-in in a COTS acquisition is best addressed by requiring the contract to include:",
+      "options": [
+        "A clause for mandatory annual vendor audits.",
+        "A guarantee of a fixed price for maintenance for 10 years.",
+        "The right to receive the source code in escrow.",
+        "A low penalty clause for late delivery."
+      ],
+      "answerIndex": 2,
+      "explanation": "Source Code Escrow is the definitive control against vendor lock-in. It ensures the organization can access the source code and maintain the application if the vendor ceases support, guaranteeing business continuity."
+    },
+    {
+      "id": 51,
+      "question": "Which document, formally approved by the Project Sponsor, gives the project manager the authority to use organizational resources for project activities?",
+      "options": [
+        "Feasibility Study",
+        "Project Charter",
+        "Work Breakdown Structure (WBS)",
+        "Requirements Specification"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Project Charter is the official document that formally establishes the project's existence, defines its high-level purpose and objectives, and, crucially, empowers the project manager with the authority to expend resources."
+    },
+    {
+      "id": 52,
+      "question": "The audit technique that requires the IS Auditor to create a separate, simulated set of files and modules within the application for testing, which are then used to process test data, is the:",
+      "options": [
+        "Integrated Test Facility (ITF)",
+        "Generalized Audit Software (GAS)",
+        "System Control Audit Review File (SCARF)",
+        "Desk Check"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Integrated Test Facility (ITF) involves establishing dummy records, accounts, or master files in the live production system to process test data continuously, allowing the auditor to monitor controls in a live environment."
+    },
+    {
+      "id": 53,
+      "question": "A control that compares the total volume of output against the total volume of input, such as the total number of records processed, is known as a:",
+      "options": [
+        "Limit Check",
+        "Reconciliation Control",
+        "Run-to-Run Total",
+        "Transaction Log"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Run-to-Run Total is a processing control used in multi-stage processing to ensure that the volume of data remains consistent between one stage (or 'run') and the next, confirming completeness and preventing data loss during processing."
+    },
+    {
+      "id": 54,
+      "question": "The most significant benefit of the Phased Conversion approach is that it:",
+      "options": [
+        "Eliminates the need for data conversion.",
+        "Is the lowest-cost implementation strategy.",
+        "Spreads the risks of implementation over time by rolling out one module or business unit at a time.",
+        "Guarantees a shorter project timeline than direct cut-over."
+      ],
+      "answerIndex": 2,
+      "explanation": "Phased Conversion manages risk by introducing the new system incrementally. This allows the organization to test, stabilize, and learn from each small rollout before proceeding to the next segment."
+    },
+    {
+      "id": 55,
+      "question": "Which of the following is typically classified as a General IT Control rather than a specific Application Control?",
+      "options": [
+        "Hash Total Reconciliation",
+        "Logical Access Security and User Provisioning",
+        "Numerical Sequence Check",
+        "Screen-based Field Check"
+      ],
+      "answerIndex": 1,
+      "explanation": "Logical Access Security governs access to the entire IT environment (network, OS, database) and impacts all applications universally, making it a foundational General IT Control."
+    },
+    {
+      "id": 56,
+      "question": "When reviewing the process for Program Library Management (Change Management), the IS Auditor should ensure the existence of:",
+      "options": [
+        "Only one test environment.",
+        "Automated checks for syntax errors in the code.",
+        "Separate and distinct test, development, and production libraries/environments.",
+        "Direct access for developers to the production library for quick fixes."
+      ],
+      "answerIndex": 2,
+      "explanation": "The physical or logical separation of environments is a foundational control that enforces SoD and ensures that code changes are properly tested and authorized before deployment to the live system."
+    },
+    {
+      "id": 57,
+      "question": "The primary objective of Perfective Maintenance is to improve the system's:",
+      "options": [
+        "Compliance with new external regulations.",
+        "Security access controls.",
+        "Correction of errors discovered in production.",
+        "Efficiency, performance, and overall maintainability/readability of the code."
+      ],
+      "answerIndex": 3,
+      "explanation": "Perfective Maintenance involves proactive actions to enhance the system's quality aspects, such as speed, resource usage, and internal structure, to improve long-term operation."
+    },
+    {
+      "id": 58,
+      "question": "Which audit tool is most effective for verifying the operational effectiveness of application controls by creating dummy records and processing test data within the client's live production environment?",
+      "options": [
+        "Generalized Audit Software (GAS)",
+        "Integrated Test Facility (ITF)",
+        "Test Data Method",
+        "Desk Check"
+      ],
+      "answerIndex": 1,
+      "explanation": "The ITF is the only one listed that allows for continuous, real-time testing of application controls within the *live production* environment."
+    },
+    {
+      "id": 59,
+      "question": "The primary risk mitigated by requiring a formal Two-phase Commit (2PC) protocol in a distributed transaction is:",
+      "options": [
+        "Data accuracy at input time.",
+        "Lack of user acceptance.",
+        "Unauthorized changes to master files.",
+        "Data inconsistency/integrity failure across distributed resources if a system failure occurs during a multi-part transaction."
+      ],
+      "answerIndex": 3,
+      "explanation": "Two-Phase Commit is a processing control that guarantees atomicity. It ensures that a transaction spanning multiple databases or resources either successfully completes on *all* resources or fails/rolls back on *all* resources, maintaining integrity."
+    },
+    {
+      "id": 60,
+      "question": "Which type of testing is performed to ensure the system, when operating under peak expected conditions, remains stable and maintains acceptable response times?",
+      "options": [
+        "Unit Testing",
+        "Stress Testing",
+        "User Acceptance Testing (UAT)",
+        "Performance Testing (or Load Testing)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Performance Testing (or Load Testing) is a non-functional testing type that measures system characteristics like speed, stability, and scalability under varying workloads, especially peak expected loads."
+    },
+    {
+      "id": 61,
+      "question": "When reviewing the Contract for an outsourced application development, the IS Auditor should ensure the contract specifically addresses:",
+      "options": [
+        "The vendor's detailed daily work schedule.",
+        "The average salary of the vendor's programmers.",
+        "Ownership of the final source code and intellectual property (IP) rights.",
+        "The phase of the moon during implementation."
+      ],
+      "answerIndex": 2,
+      "explanation": "For custom development, the organization must ensure that the contract clearly states that the client owns the Intellectual Property (IP) of the final product and the source code to allow for future maintenance, modifications, or re-platforming without vendor dependency."
+    },
+    {
+      "id": 62,
+      "question": "The use of a Financial Total in a batch control is designed to verify the:",
+      "options": [
+        "Accuracy of the count of records.",
+        "Validity of non-financial data, like account numbers.",
+        "Sequence of the transactions.",
+        "Completeness and accuracy of the monetary value processed."
+      ],
+      "answerIndex": 3,
+      "explanation": "A Financial Total is the sum of a critical monetary field (e.g., total sales amount). Reconciling this total ensures the monetary value of the input batch is processed accurately and completely."
+    },
+    {
+      "id": 63,
+      "question": "Which type of programmed control is best suited to prevent a transaction from being processed if it falls outside of a typical and expected range of values (e.g., an employee works 100 hours in a week)?",
+      "options": [
+        "Valid Code Check",
+        "Hash Total",
+        "Field Check",
+        "Reasonableness Check"
+      ],
+      "answerIndex": 3,
+      "explanation": "A Reasonableness Check compares input data against a defined, logical business limit to ensure that, while the data might be technically correct (e.g., numeric), it is logically plausible (e.g., 100 hours is technically possible but highly unreasonable for a normal work week)."
+    },
+    {
+      "id": 64,
+      "question": "The primary control concern for an IS Auditor when reviewing the implementation of a COTS application is the adequacy of the vendor's:",
+      "options": [
+        "Employee training.",
+        "Marketing plan.",
+        "Internal controls and the security of the software development life cycle (SDLC).",
+        "Physical security of the head office."
+      ],
+      "answerIndex": 2,
+      "explanation": "The auditor must rely on the vendor's processes for the integrity of the base product. Assurance is needed that the vendor's SDLC is controlled and that the system has effective internal controls (often verified via a SOC report)."
+    },
+    {
+      "id": 65,
+      "question": "In the V-Model, the testing phase that corresponds directly to the Requirement Definition phase is:",
+      "options": [
+        "User Acceptance Testing (UAT)",
+        "System Testing",
+        "Unit Testing",
+        "Integration Testing"
+      ],
+      "answerIndex": 0,
+      "explanation": "User Acceptance Testing (UAT) is performed to verify the system against the initial high-level User Requirements/Requirement Definition, ensuring the system meets the user's ultimate business needs."
+    },
+    {
+      "id": 66,
+      "question": "The most critical control objective during the Data Conversion Phase is to ensure that:",
+      "options": [
+        "All system documentation is complete.",
+        "The data migrated is complete and accurate, verified by reconciliation of control totals between the source and target systems.",
+        "All users have signed off on the test results.",
+        "The new system is converted using the Phased method."
+      ],
+      "answerIndex": 1,
+      "explanation": "Reconciliation of control totals (record counts, hash totals, financial totals) is the non-negotiable step to provide objective assurance that the data was transferred and transformed completely and accurately without corruption."
+    },
+    {
+      "id": 67,
+      "question": "A lack of clear separation between the development and production environments for an application is a deficiency in which category of control?",
+      "options": [
+        "Application Control (Input)",
+        "Application Control (Processing)",
+        "General Control (Change Management / SoD)",
+        "Compensating Control"
+      ],
+      "answerIndex": 2,
+      "explanation": "The separation of environments is a foundational General IT Control that underpins Change Management and Segregation of Duties (SoD), preventing developers from promoting unauthorized code to the live system."
+    },
+    {
+      "id": 68,
+      "question": "Which type of testing is primarily concerned with verifying that all paths and decision logic within a specific program module are executed correctly and error-free?",
+      "options": [
+        "Black Box Testing",
+        "White Box Testing (or Unit Testing)",
+        "Stress Testing",
+        "User Acceptance Testing"
+      ],
+      "answerIndex": 1,
+      "explanation": "White Box Testing (which includes Unit Testing) requires knowledge of the code's internal structure. It is used to verify the program's internal logic, ensuring high code coverage and that all paths are tested."
+    },
+    {
+      "id": 69,
+      "question": "The final action in the Implementation Phase of the SDLC is typically the:",
+      "options": [
+        "Final data conversion.",
+        "Initiation of the Post-Implementation Review (PIR) and formal transition to the Maintenance Phase.",
+        "System cut-over (Go-Live).",
+        "Approval of the project budget."
+      ],
+      "answerIndex": 1,
+      "explanation": "The Implementation Phase is formally concluded by initiating the Post-Implementation Review (PIR), which assesses the success of the implementation and transitions ownership to the maintenance team."
+    },
+    {
+      "id": 70,
+      "question": "Which of the following is an example of a Compensating Control when a lack of Segregation of Duties (SoD) is identified in a small IT shop?",
+      "options": [
+        "Implementing a new network firewall.",
+        "Automating all input validation checks.",
+        "Outsourcing the entire development function.",
+        "Mandatory, independent managerial review of all critical system transactions and audit logs."
+      ],
+      "answerIndex": 3,
+      "explanation": "A Compensating Control is a detective measure that mitigates the risk where a primary control (like SoD) is absent. Independent managerial review acts as a deterrent and detective control against fraud or error caused by one person performing conflicting duties."
+    },
+    {
+      "id": 71,
+      "question": "The risk of vendor lock-in in a COTS acquisition is best addressed by requiring the contract to include:",
+      "options": [
+        "A clause for mandatory annual vendor audits.",
+        "A guarantee of a fixed price for maintenance for 10 years.",
+        "The right to receive the source code in escrow.",
+        "A low penalty clause for late delivery."
+      ],
+      "answerIndex": 2,
+      "explanation": "Source Code Escrow is the definitive control against vendor lock-in. It ensures the organization can access the source code and maintain the application if the vendor ceases support, guaranteeing business continuity."
+    },
+    {
+      "id": 72,
+      "question": "An IS Auditor is reviewing system documentation. The document that details the specific inputs, processing logic, and outputs for individual programs or modules is the:",
+      "options": [
+        "Project Charter",
+        "System Design Specification",
+        "Program Specification",
+        "Requirements Traceability Matrix (RTM)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Program Specification (or Module Specification) is the most detailed level of design documentation, providing the step-by-step instructions and technical details necessary for a programmer to code a specific unit."
+    },
+    {
+      "id": 73,
+      "question": "The primary reason for performing a Walk-through (a manual review of program logic by a group of developers, users, and the auditor) is to:",
+      "options": [
+        "Determine the system's performance metrics.",
+        "Identify errors, omissions, and control weaknesses early in the design or coding phase.",
+        "Ensure the system is compliant with physical security standards.",
+        "Test the final system's integration with the network."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Walk-through is a static testing method that is highly effective and cost-efficient at detecting logical flaws and control gaps before the code is compiled and dynamic testing begins."
+    },
+    {
+      "id": 74,
+      "question": "Which type of application control is an Exception Report (listing transactions that failed a validation check) classified as?",
+      "options": [
+        "Preventive Control",
+        "Detective Control",
+        "Corrective Control",
+        "General Control"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exception Reports do not prevent an error; they flag the error or violation *after the fact* and bring it to management's attention, requiring follow-up action."
+    },
+    {
+      "id": 75,
+      "question": "The greatest risk associated with the Direct (Plunge) Conversion strategy is:",
+      "options": [
+        "High operational cost due to running two systems.",
+        "Low user acceptance.",
+        "Immediate and complete operational failure if the new system contains critical, undiscovered defects.",
+        "The inability to fully test the system."
+      ],
+      "answerIndex": 2,
+      "explanation": "Since the old system is immediately shut down, Direct Conversion provides no fallback. If the new system fails, the organization faces immediate, total business disruption."
+    },
+    {
+      "id": 76,
+      "question": "When auditing a system built using Agile, the IS Auditor must verify that the focus on rapid delivery does not compromise:",
+      "options": [
+        "The size of the development team.",
+        "The use of high-level programming languages.",
+        "Adequate regression testing and formal sign-offs on final features/controls.",
+        "The frequency of daily stand-up meetings."
+      ],
+      "answerIndex": 2,
+      "explanation": "Agile's speed can lead to inadequate testing and reduced formality. The auditor must ensure that the rapid iterations include rigorous regression testing and that key decisions and final controls are subject to formal governance and sign-off."
+    },
+    {
+      "id": 77,
+      "question": "Which Input Validation control checks the type of data entered into a field (e.g., ensuring a numeric-only field does not accept alphabetical characters)?",
+      "options": [
+        "Field Check (or Data Type Check)",
+        "Valid Code Check",
+        "Reasonableness Check",
+        "Range Check"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Field Check (or data type check) verifies that the data entered conforms to the correct format (numeric, alphanumeric, date) as specified in the data dictionary."
+    },
+    {
+      "id": 78,
+      "question": "The primary objective of Operational Acceptance Testing (OAT), which is distinct from User Acceptance Testing (UAT), is to confirm:",
+      "options": [
+        "The system can be effectively supported, monitored, and recovered by the IT operations staff.",
+        "The system is compliant with all legal statutes.",
+        "The total cost of ownership is accurate.",
+        "The functional requirements are met."
+      ],
+      "answerIndex": 0,
+      "explanation": "OAT is performed by the IT Operations team and focuses on non-functional readiness, including backup procedures, system monitoring, security operations, and overall supportability."
+    },
+    {
+      "id": 79,
+      "question": "Which audit technique requires the IS Auditor to create a separate file containing only transactions that meet specific audit criteria (e.g., all high-value payments) extracted from the production environment for later review?",
+      "options": [
+        "Integrated Test Facility (ITF)",
+        "System Control Audit Review File (SCARF)",
+        "Generalized Audit Software (GAS)",
+        "Test Data"
+      ],
+      "answerIndex": 1,
+      "explanation": "SCARF involves permanent audit routines embedded in the application to selectively gather data on high-risk transactions and store them in a segregated audit file."
+    },
+    {
+      "id": 80,
+      "question": "When reviewing the project management process, the IS Auditor should verify that the Project Steering Committee is primarily responsible for:",
+      "options": [
+        "Providing strategic guidance, project prioritization, and approving major changes to scope or budget.",
+        "Managing the daily work schedule of the development team.",
+        "Designing the database structure.",
+        "Writing the user acceptance test scripts."
+      ],
+      "answerIndex": 0,
+      "explanation": "The Project Steering Committee is the highest governance body, responsible for ensuring the project remains aligned with business strategy and making key decisions on resources, scope, and funding."
+    },
+    {
+      "id": 81,
+      "question": "The control objective of Completeness for output processing is best achieved by:",
+      "options": [
+        "Reconciling the total number of records processed to the total number of records printed.",
+        "Restricting access to the report printer.",
+        "Performing a check digit on all printed account numbers.",
+        "Encrypting all sensitive reports."
+      ],
+      "answerIndex": 0,
+      "explanation": "Completeness means all processed items are accounted for in the output. Reconciling record counts is the strongest method to verify that no records were lost or omitted during report generation."
+    },
+    {
+      "id": 82,
+      "question": "The use of a Check Digit on a purchase order number primarily serves the control objective of:",
+      "options": [
+        "Completeness",
+        "Authorization",
+        "Segregation of Duties",
+        "Accuracy"
+      ],
+      "answerIndex": 3,
+      "explanation": "A Check Digit is a mathematical self-checking mechanism designed specifically to detect errors in manual data entry (transcription/transposition), ensuring accuracy."
+    },
+    {
+      "id": 83,
+      "question": "When auditing a highly customized COTS application, the IS Auditor's primary focus should be on verifying that the customizations:",
+      "options": [
+        "Have the lowest possible cost.",
+        "Are covered by the vendor's standard warranty.",
+        "Have been thoroughly tested (especially regression testing) and documented according to the organization's SDLC standards.",
+        "Are written in a specific programming language."
+      ],
+      "answerIndex": 2,
+      "explanation": "Customizations are the high-risk, in-house developed components. They must be subject to the same rigorous testing, documentation, and change management controls as any in-house developed module."
+    },
+    {
+      "id": 84,
+      "question": "The most significant benefit of the Spiral Model over the Waterfall Model is:",
+      "options": [
+        "It eliminates the need for any documentation.",
+        "It incorporates iterative risk assessment and mitigation into every phase of the development life cycle.",
+        "It requires less user involvement.",
+        "It guarantees a shorter project duration."
+      ],
+      "answerIndex": 1,
+      "explanation": "The Spiral Model is distinguished by its cyclic, risk-driven nature, where risk analysis is explicitly performed before commitment to the next development phase, making it ideal for complex, high-risk projects."
+    },
+    {
+      "id": 85,
+      "question": "Which type of application control is most effective at preventing data loss or modification when a record is being accessed by two different users simultaneously?",
+      "options": [
+        "Hash Total",
+        "Boundary Check",
+        "Checksum",
+        "Record Lockout (Concurrency Control)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Record Lockout (a form of Concurrency Control) is a processing control that prevents simultaneous, conflicting updates to the same record by multiple users, thereby preserving data integrity."
+    },
+    {
+      "id": 86,
+      "question": "An IS Auditor is reviewing the process of granting access to new employees for a critical application. This is a review of which category of controls?",
+      "options": [
+        "Input Controls",
+        "Processing Controls",
+        "Output Controls",
+        "General Controls (Access Security)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Access Security (provisioning and revoking user access) is a fundamental General IT Control that ensures only authorized individuals can access and use the application and its underlying data."
+    },
+    {
+      "id": 87,
+      "question": "The purpose of Regression Testing is to ensure that:",
+      "options": [
+        "The system meets the original business requirements.",
+        "The performance is acceptable under peak load.",
+        "All security vulnerabilities are patched.",
+        "New or changed code has not introduced unintended side effects (errors) into previously working parts of the system."
+      ],
+      "answerIndex": 3,
+      "explanation": "Regression Testing is essential after any change (maintenance or new feature). It verifies that existing, proven functionality continues to work correctly after modifications have been applied."
+    },
+    {
+      "id": 88,
+      "question": "Which audit technique is a static analysis method where the auditor compares two versions of the application source code (e.g., development version vs. production version) to detect unauthorized changes?",
+      "options": [
+        "Test Data",
+        "Desk Check",
+        "Code Comparison",
+        "Integrated Test Facility (ITF)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Code Comparison uses automated tools to compare the code of the production system against a known, authorized version (or the source code from the controlled library) to identify unauthorized modifications."
+    },
+    {
+      "id": 89,
+      "question": "In a batch system, a Sequence Check is primarily effective in detecting:",
+      "options": [
+        "Incorrect data type in a field.",
+        "Omission or duplication of pre-numbered transactions.",
+        "Errors in the system's processing logic.",
+        "Logical inconsistency between two fields."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Sequence Check verifies that documents or transactions are processed in correct numerical order, quickly identifying if an item was skipped (omission) or processed twice (duplication)."
+    },
+    {
+      "id": 90,
+      "question": "When reviewing the Technical Feasibility study for a new system, the IS Auditor should primarily look for assurance that:",
+      "options": [
+        "The projected benefits justify the cost.",
+        "The end-users have provided adequate input into the requirements.",
+        "The system can be integrated with the current IT infrastructure and be supported by existing technical skills.",
+        "The system meets all legal and regulatory obligations."
+      ],
+      "answerIndex": 2,
+      "explanation": "Technical Feasibility addresses the question of *can we build and support it?* This requires verifying compatibility with existing technology and the availability of necessary technical expertise."
+    },
+    {
+      "id": 91,
+      "question": "Which application control is the most effective at ensuring that all financial transactions within a batch reconcile to the independently created input total?",
+      "options": [
+        "Check Digit",
+        "Sequence Check",
+        "Financial Total Reconciliation",
+        "Field Check"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Financial Total Reconciliation (a form of Batch Control) ensures the monetary value processed matches the control total established outside the system, providing completeness and accuracy."
+    },
+    {
+      "id": 92,
+      "question": "The risk of unauthorized changes being made to production code is minimized by ensuring proper Segregation of Duties (SoD) between the:",
+      "options": [
+        "User and the system operator.",
+        "The programmer and the user.",
+        "The programmer and the person promoting code to production (Librarian).",
+        "The internal auditor and the external auditor."
+      ],
+      "answerIndex": 2,
+      "explanation": "The separation between the code writer and the code deployer prevents developers from unilaterally implementing unauthorized changes into the live environment."
+    },
+    {
+      "id": 93,
+      "question": "The purpose of Volume Testing is to verify:",
+      "options": [
+        "The system's ability to recover from failure.",
+        "The system's performance and stability when handling an extremely large quantity of data (e.g., database size).",
+        "The functional requirements of individual modules.",
+        "The user interface design."
+      ],
+      "answerIndex": 1,
+      "explanation": "Volume Testing is a non-functional test that ensures the system can cope with the anticipated or maximum data volume without performance degradation or crashes."
+    },
+    {
+      "id": 94,
+      "question": "The primary objective of Unit Testing is to ensure the system is ready for:",
+      "options": [
+        "Integration Testing.",
+        "Go-live.",
+        "Stress testing.",
+        "User Acceptance Testing (UAT)."
+      ],
+      "answerIndex": 0,
+      "explanation": "Unit Testing verifies individual components in isolation. Once a unit is proven, it is ready to be combined with other components for the next stage: Integration Testing."
+    },
+    {
+      "id": 95,
+      "question": "The control category that deals with the accuracy, completeness, and authorized distribution of reports and files generated by the system is:",
+      "options": [
+        "Input Controls",
+        "Processing Controls",
+        "General Controls",
+        "Output Controls"
+      ],
+      "answerIndex": 3,
+      "explanation": "Output Controls manage the final product of the application, ensuring that the reports are correct, complete, and only distributed to authorized parties."
+    },
+    {
+      "id": 96,
+      "question": "When reviewing the Operational Feasibility of a new system, the IS Auditor should ensure the plan includes:",
+      "options": [
+        "The projected Return on Investment (ROI).",
+        "The availability and integration capability of the necessary hardware.",
+        "The system's final audit trail configuration.",
+        "A strategy for user training, organizational change management, and impact on existing operations."
+      ],
+      "answerIndex": 3,
+      "explanation": "Operational Feasibility focuses on the human element, verifying that the organization is ready to use and support the system, which requires proper user training and change management."
+    },
+    {
+      "id": 97,
+      "question": "Which type of programmed control is best used to prevent a user from entering text in a numeric-only field on a screen?",
+      "options": [
+        "Reasonableness Check",
+        "Field Check (or Data Type Check)",
+        "Limit Check",
+        "Hash Total"
+      ],
+      "answerIndex": 1,
+      "explanation": "A Field Check verifies that the data entered matches the required format (e.g., numeric, date, or text) for that field."
+    },
+    {
+      "id": 98,
+      "question": "The most significant benefit of using a Requirements Traceability Matrix (RTM) is that it ensures:",
+      "options": [
+        "The system will not have any bugs.",
+        "Every line of code is documented.",
+        "The project is completed within the budget.",
+        "Every requirement is linked to a corresponding design component, test case, and final implementation status."
+      ],
+      "answerIndex": 3,
+      "explanation": "The RTM is a control tool that maps requirements across the entire SDLC. It ensures that the final product addresses all original requirements and prevents unauthorized scope."
+    },
+    {
+      "id": 99,
+      "question": "The use of Mapping (an audit tool) is primarily designed to verify:",
+      "options": [
+        "The speed of the application under stress.",
+        "Which segments of program code were actually executed during a period of operation or testing.",
+        "The correctness of the initial design specifications.",
+        "The segregation of duties between the development and operations teams."
+      ],
+      "answerIndex": 1,
+      "explanation": "Mapping (or Code Mapping) is a dynamic testing tool that executes the program and creates a map showing which code statements were exercised and which were not, helping the auditor assess testing completeness and identify dead code."
+    },
+    {
+      "id": 100,
+      "question": "Which type of application control is primarily used to ensure that a transaction is posted to the correct master file record by comparing key identifier fields?",
+      "options": [
+        "Range Check",
+        "Valid Code Check",
+        "Master File/Transaction File Matching",
+        "Duplicate Check"
+      ],
+      "answerIndex": 2,
+      "explanation": "Master File/Transaction File Matching is a processing control that ensures the key identifier (e.g., customer ID) in the transaction record exists on the master file and that the update is applied to the correct corresponding record."
+    },
+    {
+      "id": 101,
+      "question": "When reviewing a system built using Prototyping, the auditor should be most vigilant regarding the risk of:",
+      "options": [
+        "Excessive documentation.",
+        "Insufficient user involvement.",
+        "The final system being built on a non-robust, \"quick and dirty\" prototype foundation without formal design and controls.",
+        "Too much time spent on the requirements phase."
+      ],
+      "answerIndex": 2,
+      "explanation": "The primary risk with Prototyping is that the project team may bypass the crucial steps of formal design, control integration, and rigorous testing by adopting the unstable prototype as the production baseline."
+    },
+    {
+      "id": 102,
+      "question": "The use of an Activity-on-Node (AON) or Precedence Diagramming Method (PDM) in project planning is primarily intended to determine:",
+      "options": [
+        "The resources required for each task.",
+        "The total cost of the project budget.",
+        "The final system acceptance criteria.",
+        "The dependencies and logical sequence of project tasks, leading to the identification of the critical path."
+      ],
+      "answerIndex": 3,
+      "explanation": "AON/PDM is a project scheduling tool used to define how tasks relate to each other (which must finish before others can start), which is necessary for calculating the project's minimum duration."
+    },
+    {
+      "id": 103,
+      "question": "Which type of programmed control is a Hash Total?",
+      "options": [
+        "Input Control",
+        "Output Control",
+        "Processing Control (Batch Control)",
+        "General Control"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Hash Total is used to maintain integrity and completeness of data during its manipulation (processing) as a batch, making it a key Processing Control."
+    },
+    {
+      "id": 104,
+      "question": "The primary control concern when implementing a new system via Direct/Plunge Conversion is that:",
+      "options": [
+        "Testing may be inadequate, leading to immediate and complete operational collapse upon cut-over.",
+        "The project budget will be exceeded.",
+        "User acceptance will be poor.",
+        "Data conversion is too slow."
+      ],
+      "answerIndex": 0,
+      "explanation": "Direct Conversion is high risk because a critical failure means the organization has no fallback system to process transactions, leading to immediate shutdown."
+    },
+    {
+      "id": 105,
+      "question": "The primary purpose of Black Box Testing is to verify that:",
+      "options": [
+        "All internal code logic is executed correctly.",
+        "The system's data recovery capabilities function correctly.",
+        "The system's external functions meet the user's defined requirements and specifications.",
+        "All security vulnerabilities are patched."
+      ],
+      "answerIndex": 2,
+      "explanation": "Black Box Testing (or functional testing) is performed without knowledge of the internal code structure. It verifies the system based purely on its external behavior and adherence to the stated requirements."
+    },
+    {
+      "id": 106,
+      "question": "In the CMMI framework, the primary focus of Level 5 (Optimizing) shifts to:",
+      "options": [
+        "Documenting all project processes.",
+        "Managing processes at the project level.",
+        "Continuous process improvement using quantitative feedback and piloting technology.",
+        "Using statistical methods to control process performance."
+      ],
+      "answerIndex": 2,
+      "explanation": "CMMI Level 5 (Optimizing) is focused on continuous, proactive improvement. It uses quantitative data (from Level 4) to drive measured, incremental change across the organization's processes."
+    },
+    {
+      "id": 107,
+      "question": "The audit control that ensures that the system provides clear, useful, and timely reports on transactions that violate business policy or fail validation checks is known as:",
+      "options": [
+        "Hash Total Reporting",
+        "Exception Reporting",
+        "Completeness Reporting",
+        "Check Digit Reporting"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exception Reporting is a key detective application control that flags unusual or non-compliant transactions for management review and action, ensuring proper oversight of high-risk activities."
+    },
+    {
+      "id": 108,
+      "question": "An IS Auditor notes a lack of a clear separation between the programmer and the production system librarian. This is an absence of control over:",
+      "options": [
+        "Input Data Accuracy",
+        "Output Report Distribution",
+        "Program Change Integrity",
+        "System Availability"
+      ],
+      "answerIndex": 2,
+      "explanation": "This lack of SoD directly compromises Program Change Integrity, as the person writing the code can bypass quality assurance and unilaterally promote unauthorized or malicious code into the live environment."
+    },
+    {
+      "id": 109,
+      "question": "When reviewing the selection process for a new COTS system, the IS Auditor should ensure the contract specifically addresses the:",
+      "options": [
+        "Final system architecture diagram.",
+        "Names of the vendor's CEO and CFO.",
+        "Service Level Agreement (SLA) terms for support, uptime, and incident response time.",
+        "Cost of the hardware infrastructure."
+      ],
+      "answerIndex": 2,
+      "explanation": "The SLA is the crucial contractual control that defines the vendor's commitment to the organization's business continuity, performance, and support needs."
+    },
+    {
+      "id": 110,
+      "question": "Which type of system maintenance is performed proactively to detect and correct latent errors in the software before they cause an operational failure?",
+      "options": [
+        "Adaptive Maintenance",
+        "Corrective Maintenance",
+        "Perfective Maintenance",
+        "Preventive Maintenance"
+      ],
+      "answerIndex": 3,
+      "explanation": "Preventive Maintenance aims to increase the system's reliability and stability in the future by proactively addressing potential issues, such as refactoring aging code or updating internal components before they fail."
+    },
+    {
+      "id": 111,
+      "question": "The primary purpose of Grey Box Testing is to:",
+      "options": [
+        "Test the system solely from a user perspective.",
+        "Test the system's internal logic and data flow using partial knowledge of the code or design.",
+        "Test the system only for security vulnerabilities.",
+        "Test the system's ability to recover from failure."
+      ],
+      "answerIndex": 1,
+      "explanation": "Grey Box Testing is a hybrid approach. The tester uses limited internal knowledge (e.g., component interfaces) to design more effective test cases than pure Black Box testing, but without full access to the source code."
+    },
+    {
+      "id": 112,
+      "question": "The most critical control for an IS Auditor to verify during the Data Conversion Phase is the use of:",
+      "options": [
+        "Phased conversion strategy.",
+        "Reconciliation of control totals (e.g., financial, hash, record count) between source and target systems.",
+        "Detailed user training documentation.",
+        "Direct cut-over."
+      ],
+      "answerIndex": 1,
+      "explanation": "Reconciliation of control totals provides objective evidence that the data was migrated completely and accurately. This is the single most important control to ensure data integrity in the new system."
+    },
+    {
+      "id": 113,
+      "question": "A key objective of a System Design Review is to verify that the system architecture supports the necessary degree of Modularity. Modularity is important because it:",
+      "options": [
+        "Reduces the complexity of the project timeline.",
+        "Simplifies the coding process for a single programmer.",
+        "Guarantees 100% security for the application.",
+        "Facilitates the process of maintenance and testing by making parts of the system independent."
+      ],
+      "answerIndex": 3,
+      "explanation": "Modularity breaks the system into small, independent components, which localizes the impact of changes, making testing easier and maintenance more manageable."
+    },
+    {
+      "id": 114,
+      "question": "The use of a Dummy Entity within the live production system for audit purposes is the core feature of:",
+      "options": [
+        "Test Data",
+        "Integrated Test Facility (ITF)",
+        "Code Comparison",
+        "System Control Audit Review File (SCARF)"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Integrated Test Facility (ITF) operates by creating a fictitious entity in the live system's master files, allowing auditors to process test transactions alongside real data without affecting actual results."
+    },
+    {
+      "id": 115,
+      "question": "Which of the following is an example of an Output Control?",
+      "options": [
+        "Reconciliation of printed reports to control totals and distribution control logs.",
+        "A screen-based field check that prevents a user from entering text in a numeric-only field.",
+        "Encryption of stored data.",
+        "Dual authorization required for financial transactions above a threshold."
+      ],
+      "answerIndex": 0,
+      "explanation": "Output Controls govern the final product. Reconciliation ensures the report's accuracy/completeness, and distribution logs ensure it goes only to authorized recipients."
+    },
+    {
+      "id": 116,
+      "question": "When reviewing a system built using the V-Model, the IS Auditor should verify that the Integration Testing phase is performed to validate the items developed in which phase?",
+      "options": [
+        "Program Specification/Module Design",
+        "System Design",
+        "Feasibility Study",
+        "Requirements Definition"
+      ],
+      "answerIndex": 0,
+      "explanation": "Integration Testing verifies the interfaces between the individually coded components (modules). This directly validates the design decisions made in the Program Specification phase."
+    },
+    {
+      "id": 117,
+      "question": "The primary reason for performing a Post-Implementation Review (PIR) is to assess the project's success in terms of:",
+      "options": [
+        "Achievement of the planned business benefits and the operational effectiveness of internal controls.",
+        "Adherence to the original programming standards.",
+        "The speed of the implementation.",
+        "The technical complexity and design innovation."
+      ],
+      "answerIndex": 0,
+      "explanation": "The PIR is a formal evaluation to assess if the business justification (benefits) was met and if the system's controls are functioning correctly in the live environment."
+    },
+    {
+      "id": 118,
+      "question": "Which audit technique involves running a complete copy of the client's production data through an audit program to compare the audit results with the client's system results?",
+      "options": [
+        "Test Data Method",
+        "Integrated Test Facility (ITF)",
+        "Parallel Simulation",
+        "System Control Audit Review File (SCARF)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Parallel Simulation involves the auditor using their own software (or a controlled version of the client's system) to process the client's actual data and then comparing the audit results to the client's output to verify processing logic."
+    },
+    {
+      "id": 119,
+      "question": "In the Project Management process groups, which group is responsible for integrating people and resources to carry out the project management plan?",
+      "options": [
+        "Executing",
+        "Planning",
+        "Monitoring & Controlling",
+        "Initiation"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Executing process group is where the actual work is done—coordinating resources, managing stakeholders, and integrating activities to produce the project's deliverables."
+    },
+    {
+      "id": 120,
+      "question": "A Reasonableness Check is categorized as a:",
+      "options": [
+        "General IT Control",
+        "Processing Control",
+        "Output Control",
+        "Input Control"
+      ],
+      "answerIndex": 3,
+      "explanation": "A Reasonableness Check is performed at the time of data entry to assess whether the input value is logically plausible, making it an Input Control designed for data accuracy."
+    },
+    {
+      "id": 121,
+      "question": "The control that ensures that the system architecture and design allows for easy modification and updating in the future is known as:",
+      "options": [
+        "Auditability",
+        "Integrity",
+        "Maintainability",
+        "Performance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Maintainability is a non-functional design requirement that refers to the ease with which a system or component can be modified to correct faults, improve performance, or adapt to a changed environment."
+    },
+    {
+      "id": 122,
+      "question": "The primary risk mitigated by implementing a Change Management Process in the maintenance phase is:",
+      "options": [
+        "Uncontrolled introduction of unauthorized or poorly tested changes into the production environment.",
+        "High cost of adaptive maintenance.",
+        "Poor user training.",
+        "Vendor lock-in."
+      ],
+      "answerIndex": 0,
+      "explanation": "The Change Management Process is the essential General Control designed to ensure that all system modifications are requested, evaluated, approved, tested, and implemented in a controlled manner, preventing instability."
+    },
+    {
+      "id": 123,
+      "question": "The most significant benefit of the Parallel Conversion strategy is:",
+      "options": [
+        "The speed of implementation.",
+        "The low operational cost.",
+        "The immediate fallback capability to the old system in case of new system failure.",
+        "The ease of data reconciliation."
+      ],
+      "answerIndex": 2,
+      "explanation": "Parallel Conversion is the lowest-risk method because the organization always has a fully functional backup (the old system) until the new system is completely stabilized."
+    },
+    {
+      "id": 124,
+      "question": "Which of the following is an example of an Adaptive Maintenance change?",
+      "options": [
+        "Fixing a bug in a calculation error.",
+        "Refactoring the code to run 15% faster.",
+        "Fixing a broken link in the user interface.",
+        "Modifying the data retention policy in the system to comply with a new GDPR requirement."
+      ],
+      "answerIndex": 3,
+      "explanation": "Adaptive Maintenance is the modification of the system to remain functional and compliant in a changing external environment, such as new regulations (GDPR)."
+    },
+    {
+      "id": 125,
+      "question": "The primary objective of Endurance Testing (Soak Testing) is to find defects that arise due to:",
+      "options": [
+        "High transaction volumes.",
+        "Hardware incompatibility.",
+        "Resource leaks (e.g., memory leaks) during prolonged, continuous operation.",
+        "Failure of the power supply."
+      ],
+      "answerIndex": 2,
+      "explanation": "Endurance Testing runs the system continuously to identify defects that only manifest over time, such as gradual resource depletion like memory leaks."
+    },
+    {
+      "id": 126,
+      "question": "When using Generalized Audit Software (GAS) to audit a system, the primary advantage for the IS Auditor is:",
+      "options": [
+        "The ability to audit the application in a live production environment.",
+        "Its low cost compared to manual audit methods.",
+        "Its capability to perform White Box Testing.",
+        "Its ability to access, manipulate, and analyze client data files independently of the client's application programs."
+      ],
+      "answerIndex": 3,
+      "explanation": "GAS gives the auditor independent control over data analysis (selection, sorting, calculation), ensuring that the results are not influenced by the client's potentially flawed application logic."
+    },
+    {
+      "id": 127,
+      "question": "The most critical audit concern when reviewing a system that has just undergone Adaptive Maintenance is:",
+      "options": [
+        "Compliance with the original programming standards.",
+        "The correctness of the original system documentation.",
+        "The fact that the change was required by an external factor.",
+        "Assurance that the changes did not introduce new errors (regression) and are fully compliant with the new external requirements."
+      ],
+      "answerIndex": 3,
+      "explanation": "The auditor must verify two things: (1) the change correctly meets the new external requirement, and (2) the change management process included thorough regression testing to verify system stability."
+    },
+    {
+      "id": 128,
+      "question": "The greatest risk associated with the Agile/Scrum development framework is:",
+      "options": [
+        "Low user involvement.",
+        "The system fails to meet any business requirements.",
+        "Potential for insufficient integration and regression testing due to the speed and frequent changes of small code increments.",
+        "The inflexibility of the requirements."
+      ],
+      "answerIndex": 2,
+      "explanation": "Agile's speed can often lead to a reduction in formal, detailed testing steps, resulting in accumulated regression faults and poor integration between the various small increments of code."
+    },
+    {
+      "id": 129,
+      "question": "Which document is the most important for the IS Auditor to review at the Feasibility Study stage to confirm the project's viability?",
+      "options": [
+        "System Design Specification",
+        "Business Case (Economic, Technical, Operational Feasibility)",
+        "User Acceptance Test Plan",
+        "Project Charter"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Business Case is the formal document that justifies the project by assessing its feasibility (economic, technical, operational) and defining the expected benefits against the costs."
+    },
+    {
+      "id": 130,
+      "question": "A control that compares the total value of an input field (e.g., total amount of goods ordered) to a pre-established limit to prevent excessively high individual transactions is a:",
+      "options": [
+        "Check Digit",
+        "Hash Total",
+        "Valid Code Check",
+        "Limit Check"
+      ],
+      "answerIndex": 3,
+      "explanation": "A Limit Check is an input control that verifies that an input value does not exceed a maximum acceptable threshold, preventing large-scale errors or unauthorized transactions."
+    },
+    {
+      "id": 131,
+      "question": "The control concept of Accountability in application controls is primarily supported by:",
+      "options": [
+        "Check Digits",
+        "Limit Checks",
+        "Audit Trails (Transaction Logging)",
+        "Field Checks"
+      ],
+      "answerIndex": 2,
+      "explanation": "Audit Trails (detailed logging of all system events and user actions) provide the chronological evidence required to reconstruct events and link specific actions back to the responsible user or process, thereby ensuring Accountability."
+    },
+    {
+      "id": 132,
+      "question": "The primary risk when relying on Generalized Audit Software (GAS) is:",
+      "options": [
+        "That the audit will take too long.",
+        "The GAS software may not be able to read or correctly interpret the format of the client's data files.",
+        "The audit will compromise the independence of the auditor.",
+        "That it can only perform White Box testing."
+      ],
+      "answerIndex": 1,
+      "explanation": "GAS requires the auditor to map and interface with the client's data structures. If the data is stored in a complex or proprietary format, this setup process can be time-consuming and prone to mapping errors."
+    },
+    {
+      "id": 133,
+      "question": "The IS Auditor must ensure that the organization's data conversion plan includes a formal step for:",
+      "options": [
+        "User Acceptance Testing (UAT) sign-off.",
+        "Reviewing the initial feasibility study.",
+        "Finalizing the project budget.",
+        "Reconciling control totals of data migrated from the source system to the target system."
+      ],
+      "answerIndex": 3,
+      "explanation": "Reconciliation is the single most important control to ensure the integrity and completeness of the data transfer."
+    },
+    {
+      "id": 134,
+      "question": "Which control is designed to ensure that an online transaction is logically correct by checking the relationship between two or more input fields (e.g., if 'Shipping Method' is 'Express', then 'Shipping Address' cannot be 'P.O. Box')?",
+      "options": [
+        "Consistency Check (or Relationship Check)",
+        "Field Check",
+        "Hash Total",
+        "Valid Code Check"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Consistency Check verifies that the data entered in one field is logically consistent with the data entered in another related field, ensuring the transaction makes sense as a whole."
+    },
+    {
+      "id": 135,
+      "question": "When implementing a new system, the Phased Conversion strategy is generally preferred over Pilot Conversion when:",
+      "options": [
+        "The organization is small and geographically centralized.",
+        "The organization needs the lowest-risk approach possible.",
+        "The system is functionally distinct and can be deployed one module at a time.",
+        "The failure of one part of the system would cause total operational collapse."
+      ],
+      "answerIndex": 2,
+      "explanation": "Phased Conversion works best when the system can be logically segmented into independent functions (modules) or distinct business processes, allowing for sequential implementation."
+    },
+    {
+      "id": 136,
+      "question": "The most significant drawback of the Parallel Conversion strategy is:",
+      "options": [
+        "The complexity of the new system design.",
+        "The long time required for data conversion.",
+        "The high risk of system failure.",
+        "The high cost of operating and supporting two systems and reconciling data simultaneously."
+      ],
+      "answerIndex": 3,
+      "explanation": "Parallel Conversion is extremely expensive due to the resource requirements (personnel, hardware, and time) needed to maintain and manually reconcile two systems for the conversion period."
+    },
+    {
+      "id": 137,
+      "question": "Which type of programmed control is most effective at preventing data loss or modification when a record is being accessed by two different users simultaneously?",
+      "options": [
+        "Record Lockout (Concurrency Control)",
+        "Boundary Check",
+        "Checksum",
+        "Hash Total"
+      ],
+      "answerIndex": 0,
+      "explanation": "Record Lockout (a form of Concurrency Control) is a processing control that prevents simultaneous, conflicting updates to the same record by multiple users, thereby preserving data integrity."
+    },
+    {
+      "id": 138,
+      "question": "In the V-Model, the testing phase that corresponds directly to the Program Specification/Module Design phase is:",
+      "options": [
+        "Unit Testing",
+        "System Testing",
+        "User Acceptance Testing (UAT)",
+        "Integration Testing"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unit Testing verifies the smallest executable components (modules or programs) against the detailed logic defined in the Program Specification phase."
+    },
+    {
+      "id": 139,
+      "question": "Which of the following is an example of a Preventive Control?",
+      "options": [
+        "An exception report listing transactions that failed a validation check.",
+        "Reconciliation of control totals between input and output.",
+        "Mandatory review of all transactions exceeding a limit.",
+        "A screen-based check that prevents the user from entering an invalid account number (Valid Code Check)."
+      ],
+      "answerIndex": 3,
+      "explanation": "Preventive Controls are designed to stop an error or fraudulent event from occurring. Blocking an invalid account number at the point of entry prevents the error from proceeding into the processing stream."
+    },
+    {
+      "id": 140,
+      "question": "When reviewing the process for emergency system changes (e.g., critical bug fix), the most important control to ensure this high-risk process is managed securely is:",
+      "options": [
+        "That only the most senior programmer performs the change.",
+        "That the change is performed only during non-business hours.",
+        "That all users are notified before the emergency change.",
+        "That the change is documented and approved *retrospectively* and undergoes full formal review immediately after implementation."
+      ],
+      "answerIndex": 3,
+      "explanation": "Emergency changes bypass normal controls, but the essential control is to ensure that the change is fully documented, reviewed, and formally authorized *retrospectively* by the CAB to prevent unauthorized permanent fixes from remaining."
+    },
+    {
+      "id": 141,
+      "question": "The primary purpose of Operational Acceptance Testing (OAT), which is distinct from User Acceptance Testing (UAT), is to confirm:",
+      "options": [
+        "The system can be effectively supported, monitored, and recovered by the IT operations staff.",
+        "The system is compliant with all legal statutes.",
+        "The total cost of ownership is accurate.",
+        "The functional requirements are met."
+      ],
+      "answerIndex": 0,
+      "explanation": "OAT validates non-functional readiness from the perspective of the IT Operations team, including backup and recovery, system monitoring, and supportability."
+    },
+    {
+      "id": 142,
+      "question": "The risk of vendor lock-in in a COTS acquisition is best addressed by requiring the contract to include:",
+      "options": [
+        "A low price for annual maintenance.",
+        "The right to receive the source code in escrow in case the vendor goes bankrupt or discontinues support.",
+        "A guaranteed maximum number of bugs per year.",
+        "The right to participate in the vendor's R&D meetings."
+      ],
+      "answerIndex": 1,
+      "explanation": "Source Code Escrow provides the necessary recourse to maintain the application independently if the vendor fails or withdraws support."
+    },
+    {
+      "id": 143,
+      "question": "Which audit technique requires the IS Auditor to create a separate, simulated set of files and transactions to test the client's production application logic off-line?",
+      "options": [
+        "Integrated Test Facility (ITF)",
+        "Test Data Method (Test Deck)",
+        "System Control Audit Review File (SCARF)",
+        "Generalized Audit Software (GAS)"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Test Data Method (or Test Deck) involves creating a set of transactions with known results, processing them using the client's application (usually in a test environment), and comparing the actual results to the expected results to verify application logic."
+    },
+    {
+      "id": 144,
+      "question": "The most significant control concern when reviewing a system built using Agile is the potential for:",
+      "options": [
+        "Low user involvement.",
+        "Inadequate or delayed documentation of design decisions and internal controls.",
+        "Inflexibility of requirements.",
+        "High initial project cost."
+      ],
+      "answerIndex": 1,
+      "explanation": "Agile's prioritization of working software over documentation can lead to a lack of detailed, formal specifications for control implementation and design rationale, complicating future audits and maintenance."
+    },
+    {
+      "id": 145,
+      "question": "The primary risk mitigated by implementing a Two-phase Commit (2PC) protocol is:",
+      "options": [
+        "Inaccurate input data.",
+        "Unauthorized access to system data.",
+        "Data integrity failure across distributed databases if a system failure occurs during a multi-part transaction.",
+        "Poor system performance."
+      ],
+      "answerIndex": 2,
+      "explanation": "Two-Phase Commit ensures the atomicity of a distributed transaction, guaranteeing that all parts of the transaction on all servers are either successfully completed or rolled back together."
+    },
+    {
+      "id": 146,
+      "question": "Which conversion strategy is generally used when the new system is complex, but the business unit or geographical area is small enough to limit the impact of failure?",
+      "options": [
+        "Pilot Conversion",
+        "Phased Conversion",
+        "Direct Conversion",
+        "Parallel Conversion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pilot Conversion limits exposure. It runs the new, complex system in one small, isolated segment of the organization, allowing the team to gain experience and stabilize the system with minimal risk to the overall business."
+    },
+    {
+      "id": 147,
+      "question": "When reviewing a system acquisition (COTS), the IS Auditor must verify that all master file data is updated only through:",
+      "options": [
+        "Direct modification by the system operator.",
+        "A batch process run once a year.",
+        "Emergency change procedures only.",
+        "Documented, approved, and independently verified procedures."
+      ],
+      "answerIndex": 3,
+      "explanation": "Master file data (e.g., customer details, pricing) is critical for transaction processing integrity. All changes to this data must follow strict documented, authorized, and independently verified procedures."
+    },
+    {
+      "id": 148,
+      "question": "The primary objective of Perfective Maintenance is to improve the system's:",
+      "options": [
+        "Performance, efficiency, and maintainability.",
+        "Correction of errors discovered in production.",
+        "Security access controls.",
+        "Compliance with new laws."
+      ],
+      "answerIndex": 0,
+      "explanation": "Perfective Maintenance is performed proactively to optimize the application's non-functional aspects, such as code structure and performance fine-tuning."
+    },
+    {
+      "id": 149,
+      "question": "The control category that deals with the accuracy, completeness, and authorized distribution of reports and files generated by the system is:",
+      "options": [
+        "Output Controls",
+        "Processing Controls",
+        "General Controls",
+        "Input Controls"
+      ],
+      "answerIndex": 0,
+      "explanation": "Output Controls govern the final product of the application, ensuring that the reports and data generated are accurate, complete, and only distributed to authorized recipients."
+    },
+    {
+      "id": 150,
+      "question": "In the CMMI framework, if the organization's development process is unpredictable, poorly controlled, and often reactive, it is at which level?",
+      "options": [
+        "Level 2 Managed",
+        "Level 3 Defined",
+        "Level 4 Quantitatively Managed",
+        "Level 1 Initial (Chaotic)"
+      ],
+      "answerIndex": 3,
+      "explanation": "CMMI Level 1 (Initial) is characterized by an ad hoc, chaotic, and often reactive process where success depends heavily on individual efforts rather than repeatable organizational processes."
+    },
+    {
+      "id": 151,
+      "question": "Which audit tool is best used to verify the processing logic of an application by running the system code through a tool that graphically displays all logical paths taken during execution?",
+      "options": [
+        "Integrated Test Facility (ITF)",
+        "Code Comparison",
+        "Generalized Audit Software (GAS)",
+        "Tagging and Tracing"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tagging and Tracing involves marking (tagging) a test transaction at input and then using software to monitor (tracing) its exact path and processing logic as it flows through the application's code."
+    },
+    {
+      "id": 152,
+      "question": "Which type of testing is primarily concerned with verifying that all paths and decision logic within a specific program module are executed correctly and error-free?",
+      "options": [
+        "Black Box Testing",
+        "Stress Testing",
+        "User Acceptance Testing",
+        "White Box Testing (or Unit Testing)"
+      ],
+      "answerIndex": 3,
+      "explanation": "White Box Testing (which includes Unit Testing) requires knowledge of the code's internal structure. it is used to verify the program's internal logic, ensuring high code coverage and that all paths are tested."
+    },
+    {
+      "id": 153,
+      "question": "When reviewing the project management process, the IS Auditor should verify that the Project Steering Committee is primarily responsible for:",
+      "options": [
+        "Writing the user acceptance test scripts.",
+        "Managing the daily work schedule of the development team.",
+        "Designing the database structure.",
+        "Providing strategic guidance, project prioritization, and approving major changes to scope or budget."
+      ],
+      "answerIndex": 3,
+      "explanation": "The Project Steering Committee is the highest governance body, responsible for ensuring the project remains aligned with business strategy and making key decisions on resources, scope, and funding."
+    },
+    {
+      "id": 154,
+      "question": "The process of analyzing an existing (often legacy) system to extract design specifications and documentation from the code is known as:",
+      "options": [
+        "Forward Engineering",
+        "Program Prototyping",
+        "Adaptive Maintenance",
+        "Reverse Engineering"
+      ],
+      "answerIndex": 3,
+      "explanation": "Reverse Engineering is the process of working backward from the finished product (code) to recreate the design and requirements, a process often necessary for maintaining or converting poorly documented legacy systems."
+    },
+    {
+      "id": 155,
+      "question": "The most significant benefit of the Spiral Model over the Waterfall Model is:",
+      "options": [
+        "It eliminates the need for any documentation.",
+        "It guarantees a shorter project duration.",
+        "It requires less user involvement.",
+        "It incorporates iterative risk assessment and mitigation into every phase of the development life cycle."
+      ],
+      "answerIndex": 3,
+      "explanation": "The Spiral Model is distinguished by its cyclic, risk-driven nature, where risk analysis is explicitly performed before commitment to the next development phase, making it ideal for complex, high-risk projects."
+    },
+    {
+      "id": 156,
+      "question": "The control objective of Accuracy for system output is best achieved by:",
+      "options": [
+        "Reconciling control totals from the system-generated report to independent or external figures.",
+        "Encrypting all sensitive reports.",
+        "Performing a range check on printed data.",
+        "Restricting access to the report printer."
+      ],
+      "answerIndex": 0,
+      "explanation": "Reconciliation of control totals (an Output Control) is a strong method to ensure that the data produced by the system is mathematically consistent and accurate compared to independently verified sources."
+    },
+    {
+      "id": 157,
+      "question": "The use of Mapping (an audit tool) is primarily designed to verify:",
+      "options": [
+        "The speed of the application under stress.",
+        "The correctness of the initial design specifications.",
+        "The segregation of duties between the development and operations teams.",
+        "Which segments of program code were actually executed during a period of operation or testing."
+      ],
+      "answerIndex": 3,
+      "explanation": "Mapping (or Code Mapping) is a dynamic testing tool that executes the program and creates a map showing which code statements were exercised and which were not, helping the auditor assess testing completeness and identify dead code."
+    },
+    {
+      "id": 158,
+      "question": "The primary objective of Operational Acceptance Testing (OAT), which is distinct from User Acceptance Testing (UAT), is to confirm:",
+      "options": [
+        "The system can be effectively supported, monitored, and recovered by the IT operations staff.",
+        "The system is compliant with all legal statutes.",
+        "The total cost of ownership is accurate.",
+        "The functional requirements are met."
+      ],
+      "answerIndex": 0,
+      "explanation": "OAT validates non-functional readiness from the perspective of the IT Operations team, including backup and recovery, system monitoring, and supportability."
+    },
+    {
+      "id": 159,
+      "question": "The IS Auditor finds that all changes to the system must be approved by the Change Advisory Board (CAB) before going to production. This is an example of which type of control?",
+      "options": [
+        "Input Control",
+        "Processing Control",
+        "Compensating Control",
+        "General Control (Change Management)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Change Advisory Board (CAB) approval process is the governance structure that manages the integrity of the overall IT environment. It is a critical component of the General Control category, specifically Change Management."
+    },
+    {
+      "id": 160,
+      "question": "Which of the following is an example of a Compensating Control when a lack of Segregation of Duties (SoD) is identified in a small IT shop?",
+      "options": [
+        "Implementing a new network firewall.",
+        "Automating all input validation checks.",
+        "Outsourcing the entire development function.",
+        "Mandatory, independent managerial review of all critical system transactions and audit logs."
+      ],
+      "answerIndex": 3,
+      "explanation": "A Compensating Control is a detective measure that mitigates the risk where a primary control (like SoD) is absent. Independent managerial review acts as a deterrent and detective control against fraud or error caused by one person performing conflicting duties."
+    },
+    {
+      "id": 161,
+      "question": "The final testing phase that is primarily concerned with verifying that the integrated system complies with non-functional requirements like security, performance, and recovery is:",
+      "options": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "User Acceptance Testing (UAT)"
+      ],
+      "answerIndex": 2,
+      "explanation": "System Testing is the stage where the entire, integrated system is tested end-to-end against all functional and, crucially, non-functional requirements defined in the specifications."
+    },
+    {
+      "id": 162,
+      "question": "The use of a Financial Total in a batch control is designed to verify the:",
+      "options": [
+        "Completeness and accuracy of the monetary value processed.",
+        "Validity of non-financial data, like account numbers.",
+        "Sequence of the transactions.",
+        "Accuracy of the count of records."
+      ],
+      "answerIndex": 0,
+      "explanation": "A Financial Total is the sum of a critical monetary field (e.g., total sales amount). Reconciling this total ensures the monetary value of the input batch is processed accurately and completely."
+    },
+    {
+      "id": 163,
+      "question": "When auditing a highly customized COTS application, the IS Auditor's primary focus should be on verifying that the customizations:",
+      "options": [
+        "Have the lowest possible cost.",
+        "Are covered by the vendor's standard warranty.",
+        "Have been thoroughly tested (especially regression testing) and documented according to the organization's SDLC standards.",
+        "Are written in a specific programming language."
+      ],
+      "answerIndex": 2,
+      "explanation": "Customizations are the high-risk, in-house developed components. They must be subject to the same rigorous testing, documentation, and change management controls as any in-house developed module."
+    },
+    {
+      "id": 164,
+      "question": "The primary control objective of implementing a Check Digit control on a customer account number is to ensure:",
+      "options": [
+        "Completeness",
+        "Accuracy",
+        "Segregation of Duties",
+        "Authorization"
+      ],
+      "answerIndex": 1,
+      "explanation": "A Check Digit is a mathematically derived digit appended to an identifier (like an account number). Its sole function is to detect and prevent common data entry errors such as transposition or transcription mistakes, thereby ensuring accuracy at the input stage."
+    },
+    {
+      "id": 165,
+      "question": "Which implementation strategy has the highest cost due to the necessity of operating and maintaining both the old and new systems simultaneously for an extended period?",
+      "options": [
+        "Phased Conversion",
+        "Pilot Conversion",
+        "Direct Conversion",
+        "Parallel Conversion"
+      ],
+      "answerIndex": 3,
+      "explanation": "Parallel Conversion is inherently the most expensive because it requires dual resources (people, equipment, maintenance) to fully operate and reconcile two systems for the duration of the conversion period."
+    },
+    {
+      "id": 166,
+      "question": "The primary purpose of using a Requirements Traceability Matrix (RTM) is to maintain control over the project's:",
+      "options": [
+        "Scope",
+        "Schedule",
+        "Staffing",
+        "Budget"
+      ],
+      "answerIndex": 0,
+      "explanation": "The RTM is the key tool for scope control. It ensures that every feature in the final product can be traced back to an approved requirement, thus preventing unauthorized additions (scope creep)."
+    },
+    {
+      "id": 167,
+      "question": "In the CMMI framework, a process is characterized as Level 4 (Quantitatively Managed) when:",
+      "options": [
+        "Processes are performed differently by individuals across the organization.",
+        "Process performance is controlled using statistical and quantitative measurement techniques.",
+        "The focus is on continuous process improvement using quantitative feedback.",
+        "The process is defined and standardized across the organization."
+      ],
+      "answerIndex": 1,
+      "explanation": "CMMI Level 4 moves beyond simply defining processes (Level 3) to actively managing them. This level requires the use of statistical methods to measure, control, and predict process performance, ensuring repeatable outcomes."
+    },
+    {
+      "id": 168,
+      "question": "The control that ensures that the system architecture and design allows for easy modification and updating in the future is known as:",
+      "options": [
+        "Auditability",
+        "Integrity",
+        "Maintainability",
+        "Performance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Maintainability is a non-functional design requirement that refers to the ease with which a system or component can be modified to correct faults, improve performance, or adapt to a changed environment."
+    },
+    {
+      "id": 169,
+      "question": "The most critical control measure to prevent unauthorized changes to the production source code is the Segregation of Duties between the:",
+      "options": [
+        "End-user and the developer.",
+        "System operator and the internal auditor.",
+        "Project manager and the steering committee.",
+        "Programmer (development) and the librarian/change control staff (promotion to production)."
+      ],
+      "answerIndex": 3,
+      "explanation": "This separation is vital to ensure that the developer cannot unilaterally bypass testing and change control procedures to place unauthorized or poorly tested code into the live environment."
+    },
+    {
+      "id": 170,
+      "question": "Which of the following is an example of an Input Control?",
+      "options": [
+        "A screen-based field check that prevents a user from entering text in a numeric-only field.",
+        "Reconciliation of printed reports to control totals.",
+        "Encryption of stored data.",
+        "Dual authorization required for financial transactions above a threshold."
+      ],
+      "answerIndex": 0,
+      "explanation": "Input Controls are designed to ensure data validity, accuracy, and completeness at the point of entry. A screen-based field check validates the data as it is being entered by the user."
+    },
+    {
+      "id": 171,
+      "question": "An IS Auditor is reviewing system documentation. The document that details the specific inputs, processing logic, and outputs for individual programs or modules is the:",
+      "options": [
+        "Project Charter",
+        "System Design Specification",
+        "Program Specification",
+        "Requirements Traceability Matrix (RTM)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Program Specification (or Module Specification) is the most detailed level of design documentation, providing the step-by-step instructions and technical details necessary for a programmer to code a specific unit."
+    },
+    {
+      "id": 172,
+      "question": "The final action in the Implementation Phase of the SDLC is typically the:",
+      "options": [
+        "Final data conversion.",
+        "Initiation of the Post-Implementation Review (PIR) and formal transition to the Maintenance Phase.",
+        "Approval of the project budget.",
+        "System cut-over (Go-Live)."
+      ],
+      "answerIndex": 1,
+      "explanation": "The Implementation Phase is formally concluded by initiating the Post-Implementation Review (PIR), which assesses the success of the implementation and transitions ownership to the maintenance team."
+    },
+    {
+      "id": 173,
+      "question": "The primary objective of the Project Charter is to:",
+      "options": [
+        "Detail the complete Work Breakdown Structure (WBS).",
+        "Document all functional requirements.",
+        "Outline the final system design specifications.",
+        "Formally authorize the project, define its high-level objectives, and grant the Project Manager authority."
+      ],
+      "answerIndex": 3,
+      "explanation": "The Project Charter is the foundational document of the Initiation phase, establishing the project's authority, purpose, and key stakeholders."
+    },
+    {
+      "id": 174,
+      "question": "Which audit technique is a static analysis method where the auditor compares two versions of the application source code (e.g., development version vs. production version) to detect unauthorized changes?",
+      "options": [
+        "Code Comparison",
+        "Desk Check",
+        "Integrated Test Facility (ITF)",
+        "Test Data"
+      ],
+      "answerIndex": 0,
+      "explanation": "Code Comparison uses automated tools to compare the code of the production system against a known, authorized version (or the source code from the controlled library) to identify unauthorized modifications."
+    },
+    {
+      "id": 175,
+      "question": "The greatest risk associated with the Spiral Development Model is:",
+      "options": [
+        "Difficulty in accurately estimating the project’s final cost and completion date due to its iterative, risk-driven nature.",
+        "Inadequate unit testing.",
+        "Poor design of internal controls.",
+        "Lack of user involvement."
+      ],
+      "answerIndex": 0,
+      "explanation": "While effective for managing high risk, the Spiral Model's cyclical approach, where requirements and plans are constantly refined, makes it very difficult to predict the final timeline and budget accurately."
+    },
+    {
+      "id": 176,
+      "question": "The audit control that ensures that the system provides clear, useful, and timely reports on transactions that violate business policy or fail validation checks is known as:",
+      "options": [
+        "Hash Total Reporting",
+        "Exception Reporting",
+        "Check Digit Reporting",
+        "Completeness Reporting"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exception Reporting is a key detective application control that flags unusual or non-compliant transactions for management review and action, ensuring proper oversight of high-risk activities."
+    },
+    {
+      "id": 177,
+      "question": "The use of Record Lockout (Concurrency Control) is a processing control primarily designed to prevent:",
+      "options": [
+        "Unauthorized access to the database.",
+        "Data integrity failure caused by multiple users attempting to update the same record simultaneously.",
+        "Errors during the data conversion phase.",
+        "Input errors due to incorrect data type."
+      ],
+      "answerIndex": 1,
+      "explanation": "Record Lockout (a form of Concurrency Control) is a processing control that prevents simultaneous, conflicting updates to the same record by multiple users, thereby preserving data integrity."
+    },
+    {
+      "id": 178,
+      "question": "In the V-Model, the testing phase that corresponds directly to the Requirement Definition phase is:",
+      "options": [
+        "User Acceptance Testing (UAT)",
+        "System Testing",
+        "Unit Testing",
+        "Integration Testing"
+      ],
+      "answerIndex": 0,
+      "explanation": "User Acceptance Testing (UAT) is performed to verify the system against the initial high-level User Requirements/Requirement Definition, ensuring the system meets the user's ultimate business needs."
+    },
+    {
+      "id": 179,
+      "question": "When reviewing the process for emergency system changes (e.g., critical bug fix), the most important control is:",
+      "options": [
+        "That the change is documented and approved *retrospectively* and undergoes full formal review immediately after implementation.",
+        "That only the most senior programmer performs the change.",
+        "That all users are notified before the emergency change.",
+        "That the change is performed only during non-business hours."
+      ],
+      "answerIndex": 0,
+      "explanation": "Emergency changes bypass normal controls, but the essential control is to ensure that the change is fully documented, reviewed, and formally authorized *retrospectively* by the CAB to prevent unauthorized permanent fixes from remaining."
+    },
+    {
+      "id": 180,
+      "question": "The primary purpose of Grey Box Testing is to:",
+      "options": [
+        "Test the system's internal logic and data flow using partial knowledge of the code or design.",
+        "Test the system's ability to recover from failure.",
+        "Test the system only for security vulnerabilities.",
+        "Test the system solely from a user perspective."
+      ],
+      "answerIndex": 0,
+      "explanation": "Grey Box Testing is a hybrid approach. The tester uses limited internal knowledge (e.g., component interfaces) to design more effective test cases than pure Black Box testing, but without full access to the source code."
+    },
+    {
+      "id": 181,
+      "question": "The control concept of Accountability in application controls is primarily supported by:",
+      "options": [
+        "Check Digits",
+        "Limit Checks",
+        "Field Checks",
+        "Audit Trails (Transaction Logging)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Audit Trails (detailed logging of all system events and user actions) provide the chronological evidence required to reconstruct events and link specific actions back to the responsible user or process, thereby ensuring Accountability."
+    },
+    {
+      "id": 182,
+      "question": "Which type of application control is an Exception Report (listing transactions that failed a validation check) classified as?",
+      "options": [
+        "Preventive Control",
+        "Corrective Control",
+        "Detective Control",
+        "General Control"
+      ],
+      "answerIndex": 2,
+      "explanation": "Exception Reports do not prevent an error; they flag the error or violation *after the fact* and bring it to management's attention, requiring follow-up action."
+    },
+    {
+      "id": 183,
+      "question": "In a batch system, a Sequence Check is primarily effective in detecting:",
+      "options": [
+        "Incorrect data type in a field.",
+        "Logical inconsistency between two fields.",
+        "Errors in the system's processing logic.",
+        "Omission or duplication of pre-numbered transactions."
+      ],
+      "answerIndex": 3,
+      "explanation": "A Sequence Check verifies that documents or transactions are processed in correct numerical order, quickly identifying if an item was skipped (omission) or processed twice (duplication)."
+    },
+    {
+      "id": 184,
+      "question": "The IS Auditor is reviewing the process of granting access to new employees for a critical application. This is a review of which category of controls?",
+      "options": [
+        "General Controls (Access Security)",
+        "Processing Controls",
+        "Output Controls",
+        "Input Controls"
+      ],
+      "answerIndex": 0,
+      "explanation": "Access Security (provisioning and revoking user access) is a fundamental General IT Control that ensures only authorized individuals can access and use the application and its underlying data."
+    },
+    {
+      "id": 185,
+      "question": "When reviewing a system built using Prototyping, the auditor should be most vigilant regarding the risk of:",
+      "options": [
+        "The final system being built on a non-robust, \"quick and dirty\" prototype foundation without formal design and controls.",
+        "Insufficient user involvement.",
+        "Too much time spent on the requirements phase.",
+        "Excessive documentation."
+      ],
+      "answerIndex": 0,
+      "explanation": "The primary risk with Prototyping is that the project team may bypass the crucial steps of formal design, control integration, and rigorous testing by adopting the unstable prototype as the production baseline."
+    },
+    {
+      "id": 186,
+      "question": "The primary purpose of Recovery Testing is to ensure that:",
+      "options": [
+        "The system's backup and restore procedures can successfully restore the system and data to a consistent state after a crash.",
+        "All user requirements are met.",
+        "The vendor can provide quick technical support.",
+        "The system can handle peak loads."
+      ],
+      "answerIndex": 0,
+      "explanation": "Recovery Testing specifically simulates a failure (hardware, software, power) and then verifies that the defined recovery and restart procedures are effective and can return the system to an acceptable operational state."
+    },
+    {
+      "id": 187,
+      "question": "The use of a Dummy Entity within the live production system for audit purposes is the core feature of:",
+      "options": [
+        "Test Data",
+        "System Control Audit Review File (SCARF)",
+        "Code Comparison",
+        "Integrated Test Facility (ITF)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Integrated Test Facility (ITF) operates by creating a fictitious organizational unit in the live system, allowing auditors to process test transactions alongside real data without affecting actual results."
+    },
+    {
+      "id": 188,
+      "question": "Which audit tool is a file containing only transactions that meet specific audit criteria (e.g., all high-value payments) extracted from the production environment for later review?",
+      "options": [
+        "Integrated Test Facility (ITF)",
+        "System Control Audit Review File (SCARF)",
+        "Test Data",
+        "Generalized Audit Software (GAS)"
+      ],
+      "answerIndex": 1,
+      "explanation": "SCARF involves permanent audit routines embedded in the application to selectively gather data on high-risk transactions and store them in a segregated audit file."
+    },
+    {
+      "id": 189,
+      "question": "The risk of vendor lock-in in a COTS acquisition is best addressed by requiring the contract to include:",
+      "options": [
+        "A low price for annual maintenance.",
+        "The right to receive the source code in escrow in case the vendor goes bankrupt or discontinues support.",
+        "The right to participate in the vendor's R&D meetings.",
+        "A guarantee of a fixed price for maintenance for 10 years."
+      ],
+      "answerIndex": 1,
+      "explanation": "Source Code Escrow is the definitive control against vendor lock-in. It ensures the organization can access the source code and maintain the application if the vendor ceases support, guaranteeing business continuity."
+    },
+    {
+      "id": 190,
+      "question": "When reviewing the process for Perfective Maintenance, which control should the auditor verify is consistently applied?",
+      "options": [
+        "Approval by the business owner based on a cost-benefit analysis.",
+        "Mandatory use of direct conversion.",
+        "Segregation of duties between the user and the system operator.",
+        "Emergency change procedures."
+      ],
+      "answerIndex": 0,
+      "explanation": "Perfective Maintenance is non-critical optimization (e.g., performance improvement). Since it consumes resources, the auditor should verify that such changes are subject to formal cost-benefit analysis and business owner approval to ensure they deliver sufficient value."
+    },
+    {
+      "id": 191,
+      "question": "The primary purpose of Volume Testing is to verify:",
+      "options": [
+        "The system's performance and stability when handling an extremely large quantity of data (e.g., database size).",
+        "The functional requirements of individual modules.",
+        "The user interface design.",
+        "The system's ability to recover from failure."
+      ],
+      "answerIndex": 0,
+      "explanation": "Volume Testing is a non-functional test that ensures the system can cope with the anticipated or maximum data volume without performance degradation or crashes."
+    },
+    {
+      "id": 192,
+      "question": "When reviewing the acquisition of a COTS application, the IS Auditor should focus primarily on the control risk associated with:",
+      "options": [
+        "The need for expensive, high-risk customization to meet unique business needs.",
+        "The vendor's physical security over their data center.",
+        "High annual maintenance costs.",
+        "Inadequate source code documentation."
+      ],
+      "answerIndex": 0,
+      "explanation": "The primary risk with COTS is that it is designed for a generic market. If the organization has unique, value-adding processes, the COTS solution will require potentially costly and undocumented customization, which introduces control risks."
+    },
+    {
+      "id": 193,
+      "question": "The purpose of Regression Testing is to ensure that:",
+      "options": [
+        "New or changed code has not introduced unintended side effects (errors) into previously working parts of the system.",
+        "The performance is acceptable under peak load.",
+        "All security vulnerabilities are patched.",
+        "The system meets the original business requirements."
+      ],
+      "answerIndex": 0,
+      "explanation": "Regression Testing is essential after any change (maintenance or new feature). It verifies that existing, proven functionality continues to work correctly after modifications have been applied."
+    },
+    {
+      "id": 194,
+      "question": "Which of the following is an example of an Adaptive Maintenance change?",
+      "options": [
+        "Fixing a bug in a calculation error.",
+        "Modifying the data retention policy in the system to comply with a new GDPR requirement.",
+        "Fixing a broken link in the user interface.",
+        "Refactoring the code to run 15% faster."
+      ],
+      "answerIndex": 1,
+      "explanation": "Adaptive Maintenance is the modification of the system to remain functional and compliant in a changing external environment, such as new regulations (GDPR)."
+    },
+    {
+      "id": 195,
+      "question": "The primary risk mitigated by implementing a Change Management Process in the maintenance phase is:",
+      "options": [
+        "Vendor lock-in.",
+        "Uncontrolled introduction of unauthorized or poorly tested changes into the production environment.",
+        "Poor user training.",
+        "High cost of adaptive maintenance."
+      ],
+      "answerIndex": 1,
+      "explanation": "The Change Management Process is the essential General Control designed to ensure that all system modifications are requested, evaluated, approved, tested, and implemented in a controlled manner, preventing instability."
+    },
+    {
+      "id": 196,
+      "question": "The greatest risk associated with the Direct (Plunge) Conversion strategy is:",
+      "options": [
+        "High operational cost due to running two systems.",
+        "Low user acceptance.",
+        "The inability to fully test the system.",
+        "Immediate and complete operational failure if the new system contains critical, undiscovered defects."
+      ],
+      "answerIndex": 3,
+      "explanation": "Since the old system is immediately shut down, Direct Conversion provides no fallback. If the new system fails, the organization faces immediate, total business disruption."
+    },
+    {
+      "id": 197,
+      "question": "The use of Walk-throughs and Inspections during the design and coding phases is primarily aimed at:",
+      "options": [
+        "Measuring the final system's performance.",
+        "Gaining final user acceptance.",
+        "Verifying network connectivity.",
+        "Detecting errors and control weaknesses at the earliest, most cost-effective point in the SDLC."
+      ],
+      "answerIndex": 3,
+      "explanation": "Walk-throughs and Inspections (static testing) are peer review methods. Finding and correcting errors in the design or code is significantly cheaper than finding them later during dynamic testing or after deployment."
+    },
+    {
+      "id": 198,
+      "question": "An IS Auditor is reviewing the selection process for a new COTS system. The most important control to verify during the contract negotiation phase is:",
+      "options": [
+        "The total number of programmers on the vendor's staff.",
+        "The color scheme of the user interface.",
+        "The vendor's compliance with local zoning laws.",
+        "The Service Level Agreement (SLA) terms for support, uptime, and incident response time."
+      ],
+      "answerIndex": 3,
+      "explanation": "The SLA is a critical control in COTS acquisition as it contractually defines the expected performance, availability, and support quality, which directly impacts the organization's business continuity and service delivery."
+    },
+    {
+      "id": 199,
+      "question": "The most significant benefit of the Phased Conversion approach is that it:",
+      "options": [
+        "Spreads the risks of implementation over time by rolling out one module or business unit at a time.",
+        "Is the lowest-cost implementation strategy.",
+        "Guarantees a shorter project timeline than direct cut-over.",
+        "Eliminates the need for data conversion."
+      ],
+      "answerIndex": 0,
+      "explanation": "Phased Conversion manages risk by introducing the new system incrementally. This allows the organization to test, stabilize, and learn from each small rollout before proceeding to the next segment."
+    },
+    {
+      "id": 200,
+      "question": "The primary objective of the Post-Implementation Review (PIR) is to:",
+      "options": [
+        "Evaluate the project success by comparing actual costs/benefits/performance to the original business case.",
+        "Approve the final source code.",
+        "Rewrite the system's requirements documentation.",
+        "Manage the daily system operations."
+      ],
+      "answerIndex": 0,
+      "explanation": "The PIR acts as a final audit checkpoint. It assesses the project's success retrospectively by comparing the actual system outcomes against the planned objectives and financial justifications defined at the project's start."
+    },
+    {
+      "id": 201,
+      "question": "The primary purpose of Black Box Testing is to verify that:",
+      "options": [
+        "All internal code logic is executed correctly.",
+        "The system's data recovery capabilities function correctly.",
+        "The system's external functions meet the user's defined requirements and specifications.",
+        "All security vulnerabilities are patched."
+      ],
+      "answerIndex": 2,
+      "explanation": "Black Box Testing (or functional testing) is performed without knowledge of the internal code structure. It verifies the system based purely on its external behavior and adherence to the stated requirements."
+    },
+    {
+      "id": 202,
+      "question": "Which document is the most important for the IS Auditor to review at the Feasibility Study stage to confirm the project's viability?",
+      "options": [
+        "Business Case (Economic, Technical, Operational Feasibility)",
+        "Project Charter",
+        "User Acceptance Test Plan",
+        "System Design Specification"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Business Case is the formal document that justifies the project by assessing its feasibility (economic, technical, operational) and defining the expected benefits against the costs."
+    },
+    {
+      "id": 203,
+      "question": "Which application control is best suited to prevent a user from processing a transaction that would cause an account balance to go below zero (an unacceptable state)?",
+      "options": [
+        "Check Digit",
+        "Boundary Check (or Limit Check)",
+        "Valid Code Check",
+        "Hash Total"
+      ],
+      "answerIndex": 1,
+      "explanation": "A Boundary Check (often a Limit Check) validates data against an upper or lower boundary. By checking the resulting account balance against a lower limit (e.g., zero), it prevents transactions that would violate this business rule."
+    },
+    {
+      "id": 204,
+      "question": "The primary control concern when implementing a new system via Direct/Plunge Conversion is that:",
+      "options": [
+        "Data conversion is too slow.",
+        "The project budget will be exceeded.",
+        "User acceptance will be poor.",
+        "Testing may be inadequate, leading to immediate and complete operational collapse upon cut-over."
+      ],
+      "answerIndex": 3,
+      "explanation": "Direct Conversion is high risk because a critical failure means the organization has no fallback system to process transactions, leading to immediate shutdown."
+    },
+    {
+      "id": 205,
+      "question": "The primary risk mitigated by implementing a Two-phase Commit (2PC) protocol is:",
+      "options": [
+        "Data integrity failure across distributed databases if a system failure occurs during a multi-part transaction.",
+        "Unauthorized access to system data.",
+        "Poor system performance.",
+        "Inaccurate input data."
+      ],
+      "answerIndex": 0,
+      "explanation": "Two-Phase Commit ensures the atomicity of a distributed transaction, guaranteeing that all parts of the transaction on all servers are either successfully completed or rolled back together."
+    },
+    {
+      "id": 206,
+      "question": "When reviewing the process for Program Library Management (Change Management), the IS Auditor should ensure the existence of:",
+      "options": [
+        "Only one test environment.",
+        "Separate and distinct test, development, and production libraries/environments.",
+        "Direct access for developers to the production library for quick fixes.",
+        "Automated checks for syntax errors in the code."
+      ],
+      "answerIndex": 1,
+      "explanation": "The physical or logical separation of environments is a foundational control that enforces SoD and ensures that code changes are properly tested and authorized before deployment to the live system."
+    },
+    {
+      "id": 207,
+      "question": "An IS auditor discovers that a programmer has the ability to both write code and move that code directly into the production environment. This is a violation of the General Control principle of:",
+      "options": [
+        "Least Privilege",
+        "Dual Control",
+        "Compensating Control",
+        "Segregation of Duties (SoD)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Segregation of Duties (SoD) requires separating conflicting roles. The person developing the code (programmer) should be separate from the person who authorizes and implements the code into production (librarian/change manager) to prevent unauthorized changes."
+    },
+    {
+      "id": 208,
+      "question": "The ultimate objective of an IS Auditor's involvement throughout the SDLC is to ensure that:",
+      "options": [
+        "The project is completed under budget.",
+        "All project staff are adequately trained.",
+        "The system is designed for maximum speed.",
+        "Adequate and effective internal controls are built into the system and function correctly in the production environment."
+      ],
+      "answerIndex": 3,
+      "explanation": "The auditor's core mission is to provide assurance to management that the new system is controllable, secure, and reliable, which is achieved by ensuring that effective internal controls are designed and implemented correctly."
+    },
+    {
+      "id": 209,
+      "question": "The primary control objective of a Requirements Traceability Matrix (RTM) in the SDLC is to ensure:",
+      "options": [
+        "The project is completed on time.",
+        "The project remains within budget.",
+        "Every final system component can be traced back to an approved requirement, and all requirements are fulfilled.",
+        "Only the most senior staff are assigned to critical tasks."
+      ],
+      "answerIndex": 2,
+      "explanation": "The RTM is the key tool for ensuring completeness of requirement fulfillment and preventing the introduction of unauthorized functionality (scope creep)."
+    },
+    {
+      "id": 210,
+      "question": "Which type of system maintenance is performed to accommodate changes in the external operating environment, such as a new operating system or a change in tax laws?",
+      "options": [
+        "Corrective Maintenance",
+        "Adaptive Maintenance",
+        "Preventive Maintenance",
+        "Perfective Maintenance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Adaptive Maintenance is the modification of the system to keep it usable and compliant in a changing environment, which includes hardware, operating systems, and external regulations (e.g., tax, GDPR)."
+    },
+    {
+      "id": 211,
+      "question": "Which audit technique involves running a complete copy of the client's production data through an audit program to compare the audit results with the client's system results?",
+      "options": [
+        "Parallel Simulation",
+        "Integrated Test Facility (ITF)",
+        "System Control Audit Review File (SCARF)",
+        "Test Data Method"
+      ],
+      "answerIndex": 0,
+      "explanation": "Parallel Simulation involves the auditor using their own software (or a controlled version of the client's system) to process the client's actual data and then comparing the audit results to the client's output to verify processing logic."
+    },
+    {
+      "id": 212,
+      "question": "When reviewing the acquisition of a COTS application, the IS Auditor should focus primarily on the control risk associated with:",
+      "options": [
+        "The need for expensive, high-risk customization to meet unique business needs.",
+        "The vendor's physical security over their data center.",
+        "High annual maintenance costs.",
+        "Inadequate source code documentation."
+      ],
+      "answerIndex": 0,
+      "explanation": "The primary risk with COTS is that it is designed for a generic market. If the organization has unique, value-adding processes, the COTS solution will require potentially costly and undocumented customization, which introduces control risks."
+    },
+    {
+      "id": 213,
+      "question": "The risk that the new system will not be accepted or properly used by employees and management is specifically assessed during the:",
+      "options": [
+        "Operational Feasibility Study",
+        "Economic Feasibility Study",
+        "Legal Feasibility Study",
+        "Technical Feasibility Study"
+      ],
+      "answerIndex": 0,
+      "explanation": "Operational Feasibility evaluates the human and organizational factors, ensuring that the proposed system is compatible with the existing corporate culture and that staff are willing and able to use it effectively."
+    },
+    {
+      "id": 214,
+      "question": "The use of an Activity-on-Node (AON) or Precedence Diagramming Method (PDM) in project planning is primarily intended to determine:",
+      "options": [
+        "The resources required for each task.",
+        "The total cost of the project budget.",
+        "The final system acceptance criteria.",
+        "The dependencies and logical sequence of project tasks, leading to the identification of the critical path."
+      ],
+      "answerIndex": 3,
+      "explanation": "AON/PDM is a project scheduling tool used to define how tasks relate to each other (which must finish before others can start), which is necessary for calculating the project's minimum duration."
+    },
+    {
+      "id": 215,
+      "question": "The final testing phase that is primarily concerned with verifying that the integrated system complies with non-functional requirements like security, performance, and recovery is:",
+      "options": [
+        "System Testing",
+        "Integration Testing",
+        "User Acceptance Testing (UAT)",
+        "Unit Testing"
+      ],
+      "answerIndex": 0,
+      "explanation": "System Testing is the stage where the entire, integrated system is tested end-to-end against all functional and, crucially, non-functional requirements defined in the specifications."
+    },
+    {
+      "id": 216,
+      "question": "In the CMMI framework, the primary difference between Level 3 (Defined) and Level 4 (Quantitatively Managed) is that Level 4 introduces the use of:",
+      "options": [
+        "User involvement in the process.",
+        "Standardized processes across all projects.",
+        "Formal documentation for each project.",
+        "Statistical and quantitative techniques to manage process performance."
+      ],
+      "answerIndex": 3,
+      "explanation": "Level 3 establishes the standardized process definitions. Level 4 (Quantitatively Managed) elevates this by using statistical control and measurable goals to analyze and manage the process performance."
+    },
+    {
+      "id": 217,
+      "question": "The primary control concern for an IS Auditor when reviewing the implementation of a DevOps approach is:",
+      "options": [
+        "The speed of the coding.",
+        "The difficulty in hiring skilled operations staff.",
+        "The lack of detailed user documentation.",
+        "The risk that automated deployment pipelines may bypass formal, independent authorization and audit review steps."
+      ],
+      "answerIndex": 3,
+      "explanation": "DevOps automation is high risk if it bypasses the necessary governance controls—specifically, formal approval and verification (SoD) by an independent party—before code is released to production."
+    },
+    {
+      "id": 218,
+      "question": "When reviewing the process for emergency system changes (e.g., critical bug fix), the most important control to ensure this high-risk process is managed securely is:",
+      "options": [
+        "That the change is performed only during non-business hours.",
+        "That only the most senior programmer performs the change.",
+        "That all users are notified before the emergency change.",
+        "That the change is documented and approved *retrospectively* and undergoes full formal review immediately after implementation."
+      ],
+      "answerIndex": 3,
+      "explanation": "Emergency changes bypass normal controls, but the essential control is to ensure that the change is fully documented, reviewed, and formally authorized *retrospectively* by the CAB to prevent unauthorized permanent fixes from remaining."
+    },
+    {
+      "id": 219,
+      "question": "The use of a Financial Total in a batch control is designed to verify the:",
+      "options": [
+        "Completeness and accuracy of the monetary value processed.",
+        "Validity of non-financial data, like account numbers.",
+        "Sequence of the transactions.",
+        "Accuracy of the count of records."
+      ],
+      "answerIndex": 0,
+      "explanation": "A Financial Total is the sum of a critical monetary field (e.g., total sales amount). Reconciling this total ensures the monetary value of the input batch is processed accurately and completely."
+    },
+    {
+      "id": 220,
+      "question": "The control objective of Completeness for output processing is best achieved by:",
+      "options": [
+        "Encrypting all sensitive reports.",
+        "Restricting access to the report printer.",
+        "Performing a check digit on all printed account numbers.",
+        "Reconciling the total number of records processed to the total number of records printed."
+      ],
+      "answerIndex": 3,
+      "explanation": "Completeness means all processed items are accounted for in the output. Reconciling record counts is the strongest method to verify that no records were lost or omitted during report generation."
+    },
+    {
+      "id": 221,
+      "question": "The control concept of Accountability in application controls is primarily supported by:",
+      "options": [
+        "Audit Trails (Transaction Logging)",
+        "Limit Checks",
+        "Field Checks",
+        "Check Digits"
+      ],
+      "answerIndex": 0,
+      "explanation": "Audit Trails (detailed logging of all system events and user actions) provide the chronological evidence required to reconstruct events and link specific actions back to the responsible user or process, thereby ensuring Accountability."
+    },
+    {
+      "id": 222,
+      "question": "The primary risk mitigated by implementing a Change Management Process in the maintenance phase is:",
+      "options": [
+        "Uncontrolled introduction of unauthorized or poorly tested changes into the production environment.",
+        "High cost of adaptive maintenance.",
+        "Poor user training.",
+        "Vendor lock-in."
+      ],
+      "answerIndex": 0,
+      "explanation": "The Change Management Process is the essential General Control designed to ensure that all system modifications are requested, evaluated, approved, tested, and implemented in a controlled manner, preventing instability."
+    },
+    {
+      "id": 223,
+      "question": "In the V-Model, the testing phase that corresponds directly to the Requirement Definition phase is:",
+      "options": [
+        "User Acceptance Testing (UAT)",
+        "System Testing",
+        "Unit Testing",
+        "Integration Testing"
+      ],
+      "answerIndex": 0,
+      "explanation": "User Acceptance Testing (UAT) is performed to verify the system against the initial high-level User Requirements/Requirement Definition, ensuring the system meets the user's ultimate business needs."
+    },
+    {
+      "id": 224,
+      "question": "The most significant disadvantage of the Waterfall SDLC Model from a business agility standpoint is:",
+      "options": [
+        "High cost of documentation.",
+        "Lack of security controls built into the design.",
+        "Low user involvement in the initial requirements phase.",
+        "Inability to accommodate major requirement changes in later stages without significant cost and schedule delays."
+      ],
+      "answerIndex": 3,
+      "explanation": "The rigid, sequential structure of the Waterfall model means that requirements are fixed early on. Any substantial requirement changes discovered during testing or implementation necessitate costly backtracking and re-engineering."
+    },
+    {
+      "id": 225,
+      "question": "Which type of programmed control is best suited to prevent a transaction from being processed if it falls outside of a typical and expected range of values (e.g., an employee works 100 hours in a week)?",
+      "options": [
+        "Valid Code Check",
+        "Hash Total",
+        "Field Check",
+        "Reasonableness Check"
+      ],
+      "answerIndex": 3,
+      "explanation": "A Reasonableness Check compares input data against a defined, logical business limit to ensure that, while the data might be technically correct (e.g., numeric), it is logically plausible (e.g., 100 hours is technically possible but highly unreasonable for a normal work week)."
+    },
+    {
+      "id": 226,
+      "question": "The primary purpose of Volume Testing is to verify:",
+      "options": [
+        "The system's ability to recover from failure.",
+        "The functional requirements of individual modules.",
+        "The user interface design.",
+        "The system's performance and stability when handling an extremely large quantity of data (e.g., database size)."
+      ],
+      "answerIndex": 3,
+      "explanation": "Volume Testing is a non-functional test that ensures the system can cope with the anticipated or maximum data volume without performance degradation or crashes."
+    },
+    {
+      "id": 227,
+      "question": "In the Project Management process groups, which group is responsible for integrating people and resources to carry out the project management plan?",
+      "options": [
+        "Executing",
+        "Planning",
+        "Monitoring & Controlling",
+        "Initiation"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Executing process group is where the actual work is done—coordinating resources, managing stakeholders, and integrating activities to produce the project's deliverables."
+    },
+    {
+      "id": 228,
+      "question": "The risk of vendor lock-in in a COTS acquisition is best addressed by requiring the contract to include:",
+      "options": [
+        "A low price for annual maintenance.",
+        "A guarantee of a fixed price for maintenance for 10 years.",
+        "The right to participate in the vendor's R&D meetings.",
+        "The right to receive the source code in escrow in case the vendor goes bankrupt or discontinues support."
+      ],
+      "answerIndex": 3,
+      "explanation": "Source Code Escrow is the definitive control against vendor lock-in. It ensures the organization can access the source code and maintain the application if the vendor ceases support, guaranteeing business continuity."
+    },
+    {
+      "id": 229,
+      "question": "The most significant audit concern when reviewing a system that has just undergone Adaptive Maintenance is:",
+      "options": [
+        "Compliance with the original programming standards.",
+        "The correctness of the original system documentation.",
+        "Assurance that the changes did not introduce new errors (regression) and are fully compliant with the new external requirements.",
+        "The fact that the change was required by an external factor."
+      ],
+      "answerIndex": 2,
+      "explanation": "The auditor must verify two things: (1) the change correctly meets the new external requirement, and (2) the change management process included thorough regression testing to verify system stability."
+    },
+    {
+      "id": 230,
+      "question": "The final testing phase that is primarily concerned with verifying that the integrated system complies with non-functional requirements like security, performance, and recovery is:",
+      "options": [
+        "Unit Testing",
+        "Integration Testing",
+        "User Acceptance Testing (UAT)",
+        "System Testing"
+      ],
+      "answerIndex": 3,
+      "explanation": "System Testing is the stage where the entire, integrated system is tested end-to-end against all functional and, crucially, non-functional requirements defined in the specifications."
+    },
+    {
+      "id": 231,
+      "question": "The primary objective of Perfective Maintenance is to improve the system's:",
+      "options": [
+        "Compliance with new laws.",
+        "Correction of errors discovered in production.",
+        "Security access controls.",
+        "Performance, efficiency, and maintainability."
+      ],
+      "answerIndex": 3,
+      "explanation": "Perfective Maintenance is performed proactively to optimize the application's non-functional aspects, such as code structure and performance fine-tuning."
+    },
+    {
+      "id": 232,
+      "question": "Which audit technique involves running a complete copy of the client's production data through an audit program to compare the audit results with the client's system results?",
+      "options": [
+        "Test Data Method",
+        "Parallel Simulation",
+        "System Control Audit Review File (SCARF)",
+        "Integrated Test Facility (ITF)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Parallel Simulation involves the auditor using their own software (or a controlled version of the client's system) to process the client's actual data and then comparing the audit results to the client's output to verify processing logic."
+    },
+    {
+      "id": 233,
+      "question": "When reviewing the process for Perfective Maintenance, which control should the auditor verify is consistently applied?",
+      "options": [
+        "Emergency change procedures.",
+        "Approval by the business owner based on a cost-benefit analysis.",
+        "Segregation of duties between the user and the system operator.",
+        "Mandatory use of direct conversion."
+      ],
+      "answerIndex": 1,
+      "explanation": "Perfective Maintenance is non-critical optimization (e.g., performance improvement). Since it consumes resources, the auditor should verify that such changes are subject to formal cost-benefit analysis and business owner approval to ensure they deliver sufficient value."
+    },
+    {
+      "id": 234,
+      "question": "The control that ensures that the system architecture and design allows for easy modification and updating in the future is known as:",
+      "options": [
+        "Auditability",
+        "Maintainability",
+        "Performance",
+        "Integrity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Maintainability is a non-functional design requirement that refers to the ease with which a system or component can be modified to correct faults, improve performance, or adapt to a changed environment."
+    },
+    {
+      "id": 235,
+      "question": "The greatest risk associated with the Agile/Scrum development framework is:",
+      "options": [
+        "Low user involvement.",
+        "The system fails to meet any business requirements.",
+        "Potential for insufficient integration and regression testing due to the speed and frequent changes of small code increments.",
+        "The inflexibility of the requirements."
+      ],
+      "answerIndex": 2,
+      "explanation": "Agile's speed can often lead to a reduction in formal, detailed testing steps, resulting in accumulated regression faults and poor integration between the various small increments of code."
+    },
+    {
+      "id": 236,
+      "question": "The use of Walk-throughs and Inspections during the design and coding phases is primarily aimed at:",
+      "options": [
+        "Measuring the final system's performance.",
+        "Detecting errors and control weaknesses at the earliest, most cost-effective point in the SDLC.",
+        "Verifying network connectivity.",
+        "Gaining final user acceptance."
+      ],
+      "answerIndex": 1,
+      "explanation": "Walk-throughs and Inspections (static testing) are peer review methods. Finding and correcting errors in the design or code is significantly cheaper than finding them later during dynamic testing or after deployment."
+    },
+    {
+      "id": 237,
+      "question": "The IS Auditor must ensure that the organization's data conversion plan includes a formal step for:",
+      "options": [
+        "User Acceptance Testing (UAT) sign-off.",
+        "Reviewing the initial feasibility study.",
+        "Reconciling control totals of data migrated from the source system to the target system.",
+        "Finalizing the project budget."
+      ],
+      "answerIndex": 2,
+      "explanation": "Reconciliation of control totals provides objective evidence that the data was migrated completely and accurately. This is the single most important control to ensure data integrity in the new system."
+    },
+    {
+      "id": 238,
+      "question": "In the CMMI framework, the primary focus of Level 5 (Optimizing) shifts to:",
+      "options": [
+        "Continuous process improvement using quantitative feedback and piloting technology.",
+        "Managing processes at the project level.",
+        "Using statistical methods to control process performance.",
+        "Documenting all project processes."
+      ],
+      "answerIndex": 0,
+      "explanation": "CMMI Level 5 (Optimizing) is focused on continuous, proactive improvement. It uses quantitative data (from Level 4) to drive measured, incremental change across the organization's processes."
+    },
+    {
+      "id": 239,
+      "question": "The most significant benefit of the Parallel Conversion strategy is:",
+      "options": [
+        "The immediate fallback capability to the old system in case of new system failure.",
+        "The low operational cost.",
+        "The ease of data reconciliation.",
+        "The speed of implementation."
+      ],
+      "answerIndex": 0,
+      "explanation": "Parallel Conversion is the lowest-risk method because the organization always has a fully functional backup (the old system) until the new system is completely stabilized."
+    },
+    {
+      "id": 240,
+      "question": "The greatest risk associated with the Direct (Plunge) Conversion strategy is:",
+      "options": [
+        "Immediate and complete operational failure if the new system contains critical, undiscovered defects.",
+        "Low user acceptance.",
+        "The inability to fully test the system.",
+        "High operational cost due to running two systems."
+      ],
+      "answerIndex": 0,
+      "explanation": "Since the old system is immediately shut down, Direct Conversion provides no fallback. If the new system fails, the organization faces immediate, total business disruption."
+    },
+    {
+      "id": 241,
+      "question": "The primary objective of the Post-Implementation Review (PIR) is to:",
+      "options": [
+        "Evaluate the project success by comparing actual costs/benefits/performance to the original business case.",
+        "Approve the final source code.",
+        "Rewrite the system's requirements documentation.",
+        "Manage the daily system operations."
+      ],
+      "answerIndex": 0,
+      "explanation": "The PIR acts as a final audit checkpoint. It assesses the project's success retrospectively by comparing the actual system outcomes against the planned objectives and financial justifications defined at the project's start."
+    },
+    {
+      "id": 242,
+      "question": "The use of a Dummy Entity within the live production system for audit purposes is the core feature of:",
+      "options": [
+        "Test Data",
+        "System Control Audit Review File (SCARF)",
+        "Code Comparison",
+        "Integrated Test Facility (ITF)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Integrated Test Facility (ITF) operates by creating a fictitious organizational unit in the live system, allowing auditors to process test transactions alongside real data without affecting actual results."
+    },
+    {
+      "id": 243,
+      "question": "When reviewing the selection process for a new COTS system, the IS Auditor should ensure the contract specifically addresses the:",
+      "options": [
+        "Final system architecture diagram.",
+        "Names of the vendor's CEO and CFO.",
+        "Service Level Agreement (SLA) terms for support, uptime, and incident response time.",
+        "The vendor's compliance with local zoning laws."
+      ],
+      "answerIndex": 2,
+      "explanation": "The SLA is a critical control in COTS acquisition as it contractually defines the expected performance, availability, and support quality, which directly impacts the organization's business continuity and service delivery."
+    },
+    {
+      "id": 244,
+      "question": "Which audit technique requires the IS Auditor to create a separate, simulated set of files and transactions to test the client's production application logic off-line?",
+      "options": [
+        "Integrated Test Facility (ITF)",
+        "Generalized Audit Software (GAS)",
+        "System Control Audit Review File (SCARF)",
+        "Test Data Method (Test Deck)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Test Data Method (or Test Deck) involves creating a set of transactions with known results, processing them using the client's application (usually in a test environment), and comparing the actual results to the expected results to verify application logic."
+    },
+    {
+      "id": 245,
+      "question": "Which of the following is an example of an Adaptive Maintenance change?",
+      "options": [
+        "Fixing a bug in a calculation error.",
+        "Modifying the data retention policy in the system to comply with a new GDPR requirement.",
+        "Fixing a broken link in the user interface.",
+        "Refactoring the code to run 15% faster."
+      ],
+      "answerIndex": 1,
+      "explanation": "Adaptive Maintenance is the modification of the system to remain functional and compliant in a changing external environment, such as new regulations (GDPR)."
+    },
+    {
+      "id": 246,
+      "question": "The control category that deals with the accuracy, completeness, and authorized distribution of reports and files generated by the system is:",
+      "options": [
+        "Input Controls",
+        "Output Controls",
+        "General Controls",
+        "Processing Controls"
+      ],
+      "answerIndex": 1,
+      "explanation": "Output Controls govern the final product of the application, ensuring that the reports and data generated are accurate, complete, and only distributed to authorized recipients."
+    },
+    {
+      "id": 247,
+      "question": "The primary control objective of implementing a Check Digit control on a customer account number is to ensure:",
+      "options": [
+        "Completeness",
+        "Authorization",
+        "Segregation of Duties",
+        "Accuracy"
+      ],
+      "answerIndex": 3,
+      "explanation": "A Check Digit is a mathematically derived digit appended to an identifier (like an account number). Its sole function is to detect and prevent common data entry errors such as transposition or transcription mistakes, thereby ensuring accuracy at the input stage."
+    },
+    {
+      "id": 248,
+      "question": "The most critical control measure to prevent unauthorized changes to the production source code is the Segregation of Duties between the:",
+      "options": [
+        "End-user and the developer.",
+        "Programmer (development) and the librarian/change control staff (promotion to production).",
+        "Project manager and the steering committee.",
+        "System operator and the internal auditor."
+      ],
+      "answerIndex": 1,
+      "explanation": "This separation is vital to ensure that the developer cannot unilaterally bypass testing and change control procedures to place unauthorized or poorly tested code into the live environment."
+    },
+    {
+      "id": 249,
+      "question": "Which type of testing is primarily concerned with verifying that all paths and decision logic within a specific program module are executed correctly and error-free?",
+      "options": [
+        "White Box Testing (or Unit Testing)",
+        "Stress Testing",
+        "User Acceptance Testing",
+        "Black Box Testing"
+      ],
+      "answerIndex": 0,
+      "explanation": "White Box Testing (which includes Unit Testing) requires knowledge of the code's internal structure. It is used to verify the program's internal logic, ensuring high code coverage and that all paths are tested."
+    },
+    {
+      "id": 250,
+      "question": "The use of a Hash Total is classified as a:",
+      "options": [
+        "Processing Control (Batch Control)",
+        "Output Control",
+        "General Control",
+        "Input Control"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Hash Total is used to maintain integrity and completeness of data during its manipulation (processing) as a batch, making it a key Processing Control."
+    }
+  ]
+}

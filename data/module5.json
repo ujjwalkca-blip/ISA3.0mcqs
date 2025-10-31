@@ -1,0 +1,3006 @@
+{
+  "module": "5",
+  "name": "Module 5",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The overall objective of information security is to protect the organization's information assets by maintaining which of the following triads?",
+      "options": [
+        "Confidentiality, Authorization, and Accountability.",
+        "Integrity, Auditability, and Confidentiality.",
+        "Confidentiality, Integrity, and Availability.",
+        "Authentication, Integrity, and Authorization."
+      ],
+      "answerIndex": 2,
+      "explanation": "The information security triad, known as the CIA triad, consists of Confidentiality, Integrity, and Availability. Maintaining these three elements is the core objective of protecting information assets."
+    },
+    {
+      "id": 2,
+      "question": "When an organization decides to purchase a cyber insurance policy to cover potential financial losses from a data breach, which type of risk response is being implemented?",
+      "options": [
+        "Accept",
+        "Transfer",
+        "Mitigate",
+        "Avoid"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transfer is a risk response where organizations pass on the financial responsibility of the risk's materialization to another entity, such as an insurance company, by paying a suitable premium."
+    },
+    {
+      "id": 3,
+      "question": "The primary reason for performing a classification of information assets within an organization is to:",
+      "options": [
+        "Ensure that all data is treated as Top Secret to maximize security.",
+        "Simplify the process of archiving and disposal of all digital data.",
+        "Transfer the ownership and accountability of the data to the IT department.",
+        "Allocate security resources proportionally based on the data's criticality and sensitivity."
+      ],
+      "answerIndex": 3,
+      "explanation": "Information classification helps in systematically allocating appropriate and cost-effective security measures and resources. High-sensitivity data receives the highest level of protection, while low-sensitivity data receives less, ensuring resources are proportional to the asset's value."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is the most effective measure to ensure management’s commitment to the information security program?",
+      "options": [
+        "Requiring the IT department to document all security procedures.",
+        "Including security program reviews as a standing item on the Board's agenda.",
+        "Appointing a Chief Information Security Officer (CISO).",
+        "Implementing mandatory annual security awareness training for all employees."
+      ],
+      "answerIndex": 1,
+      "explanation": "Including information security as a regular agenda item for the board or senior management demonstrates consistent oversight, resource allocation, and a top-down commitment to the security program, making it the most effective sign of commitment."
+    },
+    {
+      "id": 5,
+      "question": "A Denial-of-Service (DoS) attack, which prevents intended users from accessing a system or network, primarily targets which component of the security triad?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Non-repudiation"
+      ],
+      "answerIndex": 2,
+      "explanation": "A DoS attack attempts to make a machine or network resource unavailable to its intended users, which is a direct violation of the security objective of Availability."
+    },
+    {
+      "id": 6,
+      "question": "In the context of the information life cycle, who holds the ultimate responsibility for *approving* the access a user is granted to a specific information asset?",
+      "options": [
+        "The System Administrator",
+        "The Chief Information Security Officer (CISO)",
+        "The Information Owner (Data Owner)",
+        "The Internal Auditor"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Information Owner (Data Owner) is accountable for the asset and must approve access based on the job responsibilities and the 'need-to-know' principle. The System Administrator merely implements the access."
+    },
+    {
+      "id": 7,
+      "question": "Which type of control is designed to identify or discover an undesirable event after it has occurred or is occurring (e.g., reviewing log files for unauthorized access attempts)?",
+      "options": [
+        "Detective Control",
+        "Preventive Control",
+        "Corrective Control",
+        "Compensating Control"
+      ],
+      "answerIndex": 0,
+      "explanation": "Detective controls, such as reviewing audit logs or intrusion detection systems, are implemented to identify or discover a security event after it has taken place."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is an example of an application control?",
+      "options": [
+        "Physical access control to the data center.",
+        "Mandatory password change policy.",
+        "Data validation checks on a data entry screen.",
+        "Network firewall configuration."
+      ],
+      "answerIndex": 2,
+      "explanation": "Application controls are specific to individual applications and ensure the processing accuracy and integrity of data within that application. Data validation (e.g., range check, field format check) is a classic example."
+    },
+    {
+      "id": 9,
+      "question": "The most critical control measure to prevent unauthorized changes to the production source code is the Segregation of Duties between the:",
+      "options": [
+        "End-user and the developer.",
+        "System operator and the internal auditor.",
+        "Project manager and the steering committee.",
+        "Programmer (development) and the librarian/change control staff (promotion to production)."
+      ],
+      "answerIndex": 3,
+      "explanation": "This separation is vital to ensure that the developer cannot unilaterally bypass testing and change control procedures to place unauthorized or poorly tested code into the live environment."
+    },
+    {
+      "id": 10,
+      "question": "A self-contained, self-replicating malicious program that spreads across a network without requiring user intervention or attachment to a host file is known as a:",
+      "options": [
+        "Trojan Horse",
+        "Logic Bomb",
+        "Virus",
+        "Worm"
+      ],
+      "answerIndex": 3,
+      "explanation": "A Worm is a self-replicating, self-contained program that executes itself without user intervention and spreads autonomously across a network. A Virus requires a host file and user action (like opening a file) to execute."
+    },
+    {
+      "id": 11,
+      "question": "Which document in the security documentation hierarchy provides the detailed, sequential steps and responsibilities for carrying out a specific task to implement a policy?",
+      "options": [
+        "Policy",
+        "Standard",
+        "Procedure",
+        "Guideline"
+      ],
+      "answerIndex": 2,
+      "explanation": "Procedures provide the detailed activities and sequential steps for the implementation of policies and standards, often defining who, what, when, and where."
+    },
+    {
+      "id": 12,
+      "question": "What is the main security risk addressed by mandatory rotation of duties for system operators and database administrators?",
+      "options": [
+        "Insufficient security awareness among staff.",
+        "Prolonged control over a critical process by a single individual, facilitating fraud or error.",
+        "Failure to perform timely system backups.",
+        "Unauthorized external access to the network."
+      ],
+      "answerIndex": 1,
+      "explanation": "Rotation of duties is an administrative control designed to prevent a single person from maintaining continuous, exclusive control over a critical process, thereby making it difficult to commit and conceal fraud."
+    },
+    {
+      "id": 13,
+      "question": "In the STRIDE threat modeling framework, the threat category 'Tampering' is a direct violation of which security property?",
+      "options": [
+        "Confidentiality",
+        "Availability",
+        "Integrity",
+        "Non-repudiation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tampering involves unauthorized modification of data, which is a direct attack on the property of Integrity (ensuring data is accurate and complete)."
+    },
+    {
+      "id": 14,
+      "question": "The practice of periodically shifting personnel among jobs or functions is known as:",
+      "options": [
+        "Rotation of Duties",
+        "Two-Person Control",
+        "Segregation of Duties",
+        "Least Privilege"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rotation of Duties is the control that involves rotating personnel among jobs or functions to reduce the risk of fraud. Segregation of Duties involves splitting critical tasks among different people."
+    },
+    {
+      "id": 15,
+      "question": "The concept of data diddling in computer crime is best described as:",
+      "options": [
+        "The changing of programs to bypass security controls.",
+        "A series of minor, often insignificant, fraudulent actions that together result in a large loss.",
+        "Forging or counterfeiting documents used for data entry to change data before input.",
+        "A program that executes a destructive action on a specific logical event."
+      ],
+      "answerIndex": 2,
+      "explanation": "Data Diddling is the changing of data before or during entry into the computer system, often by manipulating the source documents or input data."
+    },
+    {
+      "id": 16,
+      "question": "Upon the termination of an employee, which control action is the most critical to prevent unauthorized access to sensitive information?",
+      "options": [
+        "Scheduling an exit interview to remind them of confidentiality agreements.",
+        "Changing the passwords for the applications they used.",
+        "Transferring ownership of the employee's files to their manager.",
+        "Revoking all system and physical access immediately."
+      ],
+      "answerIndex": 3,
+      "explanation": "To prevent retaliatory or unauthorized access, the most critical step is the immediate and complete revocation of all system and physical access upon an employee's separation."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is a primary benefit of using a recognized security standard or framework (e.g., ISO 27001) for an organization's Information Security Management System (ISMS)?",
+      "options": [
+        "It provides a standardized and systematic approach to security implementation.",
+        "It eliminates the need for any internal security auditing.",
+        "It guarantees 100% protection against all cyber threats.",
+        "It focuses exclusively on technical controls, ignoring administrative ones."
+      ],
+      "answerIndex": 0,
+      "explanation": "Adopting a standard or framework ensures a consistent, systematic, and internationally recognized approach to establishing, implementing, maintaining, and continually improving the ISMS."
+    },
+    {
+      "id": 18,
+      "question": "The risk appetite of an organization is formally defined as:",
+      "options": [
+        "The level of risk an organization is willing to accept in pursuit of its objectives.",
+        "The total financial loss the organization is willing to incur from a single security incident.",
+        "The maximum number of security incidents that can occur per year.",
+        "The total budget allocated for information security controls."
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk appetite is the amount and type of risk an organization is willing to take or accept in order to achieve its strategic objectives."
+    },
+    {
+      "id": 19,
+      "question": "When a policy exception is granted for a specific system due to a legacy restriction, what compensating control measure MUST be implemented?",
+      "options": [
+        "The system must be decommissioned immediately.",
+        "The exception must be made permanent to simplify future audits.",
+        "The system must be surrounded by additional controls (e.g., network segmentation, enhanced monitoring) and the exception reviewed periodically.",
+        "The risk must be transferred immediately to an external party."
+      ],
+      "answerIndex": 2,
+      "explanation": "When an exception is granted, suitable compensating controls must be put in place to ensure the residual risk is within acceptable limits. The exception should also be time-bound and periodically reviewed."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following best describes the security goal of Integrity?",
+      "options": [
+        "Ensuring that data is accessible to authorized users when needed.",
+        "Ensuring the accuracy and completeness of data and that unauthorized modification is prevented.",
+        "Ensuring that data is only disclosed to authorized users.",
+        "Ensuring that a user cannot deny having performed a transaction."
+      ],
+      "answerIndex": 1,
+      "explanation": "Integrity ensures that information is accurate, complete, and protected against unauthorized modification or destruction."
+    },
+    {
+      "id": 21,
+      "question": "The main purpose of the 'Four Eyes (Two Person) Principle' is to:",
+      "options": [
+        "Reduce human error by having two systems perform the same calculation.",
+        "Mandate that at least two individuals perform or approve a critical operation.",
+        "Use multi-factor authentication involving two different biometric factors.",
+        "Ensure that two independent audit teams review the process."
+      ],
+      "answerIndex": 1,
+      "explanation": "The Four Eyes Principle is a key administrative control requiring at least two separate individuals to be involved in a critical process step (e.g., authorization, execution) to increase scrutiny and reduce risk."
+    },
+    {
+      "id": 22,
+      "question": "Which security mechanism is designed to prevent a program from writing data beyond the boundary of a fixed-length memory area?",
+      "options": [
+        "Logic Bomb",
+        "DNS Spoofing Prevention",
+        "Salami Theft Mitigation",
+        "Buffer Overflow Protection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Buffer Overflow occurs when a program writes data beyond a buffer's allocated boundary. Buffer Overflow Protection (or boundary checks) is the control designed to prevent this vulnerability, which attackers often exploit to execute arbitrary code."
+    },
+    {
+      "id": 23,
+      "question": "Which administrative control is most effective in discouraging an employee from attempting to defraud the company by limiting the window of opportunity to control a critical process?",
+      "options": [
+        "Biometric Access",
+        "Segregation of Duties",
+        "Least Privilege",
+        "Mandatory Vacations"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mandatory Vacations are a detective and preventive control because an employee who is forced to take leave cannot monitor or conceal fraudulent activities they may have set up, often leading to the discovery of the fraud by their temporary replacement."
+    },
+    {
+      "id": 24,
+      "question": "An IS Auditor is reviewing the segregation of duties (SoD) for the system change management process. Which of the following SoD pairings should the auditor focus on as the most critical to be separate?",
+      "options": [
+        "System Operator and Application End-User.",
+        "Security Administrator and Human Resources Manager.",
+        "Internal Auditor and IT Operations Manager.",
+        "Change Management Committee (Approval) and Development/Testing Team (Implementation)."
+      ],
+      "answerIndex": 3,
+      "explanation": "Separating the approval of a change from its implementation is a fundamental SoD control. The group that approves (e.g., CMC) should not be the same as the group that implements, ensuring proper oversight and preventing unauthorized changes."
+    },
+    {
+      "id": 25,
+      "question": "Which control would be most effective against a keystroke logger installed on a workstation?",
+      "options": [
+        "Use of anti-malware software and key encryption software.",
+        "Implementing a strong password history policy.",
+        "Physical lock on the data center door.",
+        "Disabling the guest account on the operating system."
+      ],
+      "answerIndex": 0,
+      "explanation": "Keystroke loggers are malware. Anti-malware software is designed to detect and remove them. Additionally, key encryption software can scramble keyboard input, protecting against simple keyloggers."
+    },
+    {
+      "id": 26,
+      "question": "A Trojan Horse is characterized by which of the following properties?",
+      "options": [
+        "It replicates by attaching to other programs and requires user execution.",
+        "It is a self-contained, self-replicating program that spreads over a network.",
+        "It is a non-replicating program that appears legitimate but has a hidden malicious purpose.",
+        "It executes a destructive action based on a specific time or event."
+      ],
+      "answerIndex": 2,
+      "explanation": "A Trojan Horse is a non-replicating program that disguises itself as a useful utility or application but has a malicious function hidden inside, distinguishing it from viruses and worms."
+    },
+    {
+      "id": 27,
+      "question": "When assessing risk, the impact component is most closely associated with:",
+      "options": [
+        "The potential financial or operational loss if the risk materializes.",
+        "The probability that a threat will exploit a vulnerability.",
+        "The cost of implementing controls to mitigate the risk.",
+        "The frequency with which the vulnerability can be found."
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk is often calculated as (Threat * Vulnerability) * Impact. Impact refers to the magnitude of loss or damage (financial, reputational, operational) that would result if the risk materializes."
+    },
+    {
+      "id": 28,
+      "question": "The risk response strategy where management implements controls to lower the risk to an acceptable level is known as:",
+      "options": [
+        "Avoid",
+        "Accept",
+        "Transfer",
+        "Mitigate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mitigate (or Reduce) involves implementing internal controls to lower the probability or impact of a risk event to bring it within the organization's risk appetite."
+    },
+    {
+      "id": 29,
+      "question": "Which of the following is considered the most critical administrative control to ensure a security policy is effective and adhered to by all employees?",
+      "options": [
+        "Continuous security awareness, training, and education.",
+        "Isolating the security policy from business strategy.",
+        "Ensuring the policy is highly technical and detailed.",
+        "Allowing only the CISO to interpret the policy."
+      ],
+      "answerIndex": 0,
+      "explanation": "A policy is only effective if it is understood and adhered to. Continuous security awareness and training are critical to ensuring employees know their responsibilities and the security best practices."
+    },
+    {
+      "id": 30,
+      "question": "A DNS Spoofing attack primarily aims to achieve which objective?",
+      "options": [
+        "To gain unauthorized physical access to a server room.",
+        "To overwhelm a server with traffic causing a crash.",
+        "To divert network traffic to an attacker's malicious website by providing a false IP address.",
+        "To record a user's keyboard inputs for credential theft."
+      ],
+      "answerIndex": 2,
+      "explanation": "DNS Spoofing (or cache poisoning) involves introducing false IP address records into a DNS resolver's cache, which redirects users attempting to visit a legitimate site to the attacker's site instead."
+    },
+    {
+      "id": 31,
+      "question": "Which principle of logical access control dictates that users are granted only the minimum access rights necessary to perform their job functions?",
+      "options": [
+        "Segregation of Duties",
+        "Acceptable Use Policy",
+        "Rotation of Duties",
+        "Need-to-Know"
+      ],
+      "answerIndex": 3,
+      "explanation": "The principle of Need-to-Know (closely related to Least Privilege) ensures that users only have access to the specific information or resources absolutely required for their assigned duties."
+    },
+    {
+      "id": 32,
+      "question": "The security policy states that all employees must use a strong password. The standard supporting this policy would most likely contain:",
+      "options": [
+        "The specific, mandatory requirements for password complexity (e.g., minimum length, character types, maximum age).",
+        "The detailed steps for logging into the network.",
+        "The mandatory enforcement date for the new policy.",
+        "The suggested best practices for memorizing a complex password."
+      ],
+      "answerIndex": 0,
+      "explanation": "Standards define the mandatory rules or technical specifications used to implement a policy. In this case, the standard specifies the concrete, mandatory requirements (complexity, length, age) that constitute a \"strong password.\""
+    },
+    {
+      "id": 33,
+      "question": "A Logic Bomb is a malicious code that executes its destructive action based on:",
+      "options": [
+        "The user opening an infected email attachment.",
+        "A time or event-based logical condition being met (e.g., a specific date, a number of login attempts).",
+        "A user copying the infected file across the network.",
+        "The program having a buffer overflow vulnerability."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Logic Bomb is programmed to \"detonate\" and execute a malicious payload upon the occurrence of a logical event or condition, such as a specific date, file size, or user login count."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following is an example of a Compensating Control?",
+      "options": [
+        "A firewall blocking unauthorized traffic.",
+        "Encrypting data on a laptop that cannot be physically secured according to the standard.",
+        "A data entry screen with a field format check.",
+        "An annual physical count of inventory."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Compensating Control is an alternative control used when a primary control cannot be implemented or is impractical. Encrypting data compensates for the lack of physical security in a mobile device."
+    },
+    {
+      "id": 35,
+      "question": "The risk associated with a key employee leaving the organization suddenly and the resulting knowledge/skill gap is best addressed by which administrative control?",
+      "options": [
+        "Mandatory access controls.",
+        "Key Man Policy (Succession Planning).",
+        "Business Continuity Plan (BCP).",
+        "Data Loss Prevention (DLP) tools."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Key Man Policy (or Key Person Policy) addresses the loss of a key employee by defining procedures for succession planning, documentation, cross-training, and access revocation to mitigate the resulting business risk."
+    },
+    {
+      "id": 36,
+      "question": "Which physical security control is considered the most reliable method for authenticating an individual's identity before granting them access to a restricted area?",
+      "options": [
+        "Badge reader (standard access card).",
+        "Manual sign-in log.",
+        "Biometric scan (e.g., fingerprint, retina).",
+        "Locked door with a standard key."
+      ],
+      "answerIndex": 2,
+      "explanation": "Biometric authentication, which verifies a person's unique physical characteristics, is generally considered the most reliable method for strong identification and access control, as it is difficult to forge or transfer."
+    },
+    {
+      "id": 37,
+      "question": "The objective of ensuring that the origin of a message or transaction can be reliably verified, and the sender cannot falsely deny sending it, is known as:",
+      "options": [
+        "Confidentiality",
+        "Non-repudiation",
+        "Availability",
+        "Integrity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Non-repudiation provides irrefutable proof of a transaction's origin or submission, preventing the sender from successfully denying they performed the action."
+    },
+    {
+      "id": 38,
+      "question": "Which control is most relevant to preventing a Piggybacking attack, where an unauthorized person follows an authorized person into a secure area?",
+      "options": [
+        "Closed-Circuit Television (CCTV) monitoring.",
+        "Mantraps or turnstiles requiring separate authentication for each person.",
+        "Annual employee security awareness training.",
+        "Data encryption for all files in the secure area."
+      ],
+      "answerIndex": 1,
+      "explanation": "Mantraps or turnstiles are physical controls designed to enforce one-person-at-a-time access, thereby actively preventing piggybacking by requiring separate authentication from the following person."
+    },
+    {
+      "id": 39,
+      "question": "Salami Theft is a type of computer crime characterized by:",
+      "options": [
+        "Unauthorized access to data by an individual who has left a system logged on.",
+        "Capturing encrypted network traffic for later offline cracking.",
+        "Overwriting the legitimate operating system kernel with a malicious one.",
+        "A series of minor, often undetectable, fraudulent actions that cumulatively result in a large-scale theft."
+      ],
+      "answerIndex": 3,
+      "explanation": "Salami Theft involves taking small amounts of money or resources over a series of transactions, often by rounding off fractional amounts, which are individually insignificant but large when accumulated."
+    },
+    {
+      "id": 40,
+      "question": "The custodian of an information asset is primarily responsible for:",
+      "options": [
+        "Determining the information’s classification and value.",
+        "Implementing, maintaining, and monitoring security controls as directed by the Owner.",
+        "Approving user access requests.",
+        "Performing the annual audit of the asset's controls."
+      ],
+      "answerIndex": 1,
+      "explanation": "The Custodian (e.g., the IT department or system administrator) is responsible for the actual safeguarding and maintenance of the asset, including implementing the controls dictated by the Information Owner."
+    },
+    {
+      "id": 41,
+      "question": "In the security documentation hierarchy, which document type is a collection of system-specific or procedural-specific suggestions for best practice and is NOT a mandatory requirement?",
+      "options": [
+        "Policy",
+        "Standard",
+        "Procedure",
+        "Guideline"
+      ],
+      "answerIndex": 3,
+      "explanation": "Guidelines are advisory, providing suggestions or recommendations on how policies and standards can be implemented, but they are generally not mandatory requirements."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following is the most critical control for addressing the risk of a SQL Injection attack in a web application?",
+      "options": [
+        "Implementing strong password complexity rules.",
+        "Encrypting all data at rest on the database server.",
+        "Disabling the default administrator account.",
+        "Using parameterized queries (prepared statements) for all database access."
+      ],
+      "answerIndex": 3,
+      "explanation": "SQL Injection occurs when untrusted data is sent to a database interpreter. Using parameterized queries or prepared statements separates the code (SQL logic) from the data (user input), preventing the input from being executed as code."
+    },
+    {
+      "id": 43,
+      "question": "A Worm attack primarily exploits which vulnerability to spread rapidly?",
+      "options": [
+        "Weak physical access controls.",
+        "Buffer overflow vulnerabilities in network services.",
+        "Lack of security awareness training.",
+        "Weak password policies."
+      ],
+      "answerIndex": 1,
+      "explanation": "Worms often exploit vulnerabilities in network services (like buffer overflows) to gain access and execute their payload across a network without relying on user interaction, making prompt patching critical."
+    },
+    {
+      "id": 44,
+      "question": "Which of the following is an example of a Corrective Control?",
+      "options": [
+        "Annual security awareness training.",
+        "A firewall blocking an unauthorized connection attempt.",
+        "Daily full system backup and recovery procedures.",
+        "Segregation of Duties between development and operations."
+      ],
+      "answerIndex": 2,
+      "explanation": "Corrective controls are implemented to correct errors, omissions, or unauthorized acts that have occurred. Recovery procedures, such as restoring from a backup, are essential corrective controls."
+    },
+    {
+      "id": 45,
+      "question": "The threat of a standard user gaining higher-level permissions (e.g., administrator rights) than they were initially granted is categorized as:",
+      "options": [
+        "Spoofing",
+        "Elevation of Privilege",
+        "Tampering",
+        "Repudiation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Elevation of Privilege is the threat where an attacker or user gains abilities or access rights beyond those initially authorized, typically by exploiting a vulnerability in the operating system or application."
+    },
+    {
+      "id": 46,
+      "question": "The core responsibility of a Security Administrator in the information security structure is:",
+      "options": [
+        "Granting, monitoring, and revoking user access rights according to the Owner’s directive.",
+        "Defining the information classification scheme.",
+        "Determining the business risk acceptance level.",
+        "Writing the high-level security policy statement."
+      ],
+      "answerIndex": 0,
+      "explanation": "The Security Administrator manages the user access control systems and is responsible for the operational tasks of provisioning, managing, and de-provisioning access based on the authorization provided by the Information Owner."
+    },
+    {
+      "id": 47,
+      "question": "If an organization chooses the Avoid risk response, this typically involves:",
+      "options": [
+        "Transferring the financial risk to an insurance provider.",
+        "Accepting the risk without implementing any new controls.",
+        "Implementing controls to reduce the risk's impact.",
+        "Terminating the activity or ceasing the condition that gives rise to the risk."
+      ],
+      "answerIndex": 3,
+      "explanation": "The Avoid strategy involves taking action to eliminate the risk entirely by stopping, declining, or changing the business process or activity that generates the risk."
+    },
+    {
+      "id": 48,
+      "question": "Which of the following is the most effective way to protect sensitive data stored on employee workstations (data at rest)?",
+      "options": [
+        "Disabling all USB ports.",
+        "Implementing full disk encryption (FDE).",
+        "Enforcing a mandatory password change every 30 days.",
+        "Installing a network intrusion detection system (NIDS)."
+      ],
+      "answerIndex": 1,
+      "explanation": "Full Disk Encryption (FDE) is the most effective method to protect data at rest on a workstation, ensuring that even if the device is lost or stolen, the data cannot be accessed without the encryption key."
+    },
+    {
+      "id": 49,
+      "question": "Which vulnerability is being exploited when an attacker uses social engineering techniques like \"Shoulder Surfing\"?",
+      "options": [
+        "Weak application input validation.",
+        "Lack of environmental controls (e.g., poor lighting).",
+        "Outdated operating system software.",
+        "Weak administrative controls (e.g., poor employee awareness/secrecy)."
+      ],
+      "answerIndex": 3,
+      "explanation": "Shoulder Surfing is an attack where an attacker observes a victim entering credentials or viewing sensitive information. It exploits the weak administrative control of employee awareness and the lack of a physical security perimeter (e.g., privacy screens, clear desk policy)."
+    },
+    {
+      "id": 50,
+      "question": "In the security context, a Policy is defined as a document that:",
+      "options": [
+        "Defines the scope of security, the assets to be protected, and the high-level management intent.",
+        "Provides detailed, step-by-step instructions for a specific task.",
+        "Outlines specific, mandatory technical configurations (e.g., minimum password length).",
+        "Contains suggestions for best practices that are not mandatory."
+      ],
+      "answerIndex": 0,
+      "explanation": "A Policy is a high-level statement that defines management's intent, sets the overall scope of security, and identifies the assets and the required extent of their protection."
+    },
+    {
+      "id": 51,
+      "question": "Which of the following best describes the difference between a Security Policy and a Security Standard?",
+      "options": [
+        "A Policy is a mandatory set of rules, while a Standard provides optional best practices.",
+        "A Policy is created by the CISO, while a Standard is created by the IT Administrator.",
+        "A Policy outlines detailed, sequential procedures, while a Standard defines the scope of security.",
+        "A Policy defines high-level management intent, while a Standard specifies mandatory technical requirements for implementation."
+      ],
+      "answerIndex": 3,
+      "explanation": "A Policy is a high-level statement of management's intent and expectations. A Standard specifies the mandatory technical requirements and rules that must be followed to implement the policy consistently."
+    },
+    {
+      "id": 52,
+      "question": "The IS auditor is reviewing controls over sensitive data in a cloud environment. The primary control to ensure Confidentiality of data both in storage and during transmission should be:",
+      "options": [
+        "Regular physical security audits of the cloud data center.",
+        "The implementation of strong, consistent encryption methods.",
+        "Segregation of duties between cloud administrators.",
+        "High availability clustering for the cloud services."
+      ],
+      "answerIndex": 1,
+      "explanation": "Encryption is the fundamental technical control for ensuring Confidentiality of data, whether it is \"at rest\" (storage) or \"in transit\" (transmission), by making it unreadable to unauthorized parties."
+    },
+    {
+      "id": 53,
+      "question": "Which risk response strategy involves ceasing the activity or removing the condition that gives rise to the risk?",
+      "options": [
+        "Avoid",
+        "Accept",
+        "Mitigate",
+        "Transfer"
+      ],
+      "answerIndex": 0,
+      "explanation": "Avoid is the risk response where an organization decides to discontinue or not undertake the activity that creates the risk, thereby removing the risk entirely."
+    },
+    {
+      "id": 54,
+      "question": "In the DREAD model for risk assessment, which category specifically measures \"How bad the attack would be for the organization?\"",
+      "options": [
+        "Reproducibility",
+        "Exploitability",
+        "Damage Potential",
+        "Discoverability"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Damage Potential category in the DREAD model (Damage, Reproducibility, Exploitability, Affected Users, Discoverability) specifically measures the severity or impact of the attack on the organization."
+    },
+    {
+      "id": 55,
+      "question": "To reduce the risk of a single system failure, an organization implements redundant systems and a failover cluster. This control mechanism primarily supports which security objective?",
+      "options": [
+        "Integrity",
+        "Confidentiality",
+        "Non-repudiation",
+        "Availability"
+      ],
+      "answerIndex": 3,
+      "explanation": "Redundancy and failover are crucial for ensuring the Availability of systems and data, allowing continuous operation even if a component fails."
+    },
+    {
+      "id": 56,
+      "question": "Which of the following is the best example of a Compensating Control?",
+      "options": [
+        "A firewall blocking all traffic from outside the country.",
+        "Separating the duties of the programmer and the system operator.",
+        "A daily backup of the database.",
+        "Using multi-factor authentication (MFA) to protect a system that cannot enforce strong password complexity."
+      ],
+      "answerIndex": 3,
+      "explanation": "A Compensating Control is an alternative control that is put in place when a mandatory control cannot be implemented. MFA is used to compensate for the weakness of a weak password policy or a legacy system that cannot enforce complexity."
+    },
+    {
+      "id": 57,
+      "question": "A security policy is most effective and enforceable when it is:",
+      "options": [
+        "Developed and approved by Senior Management.",
+        "Written only by technical staff.",
+        "Kept highly technical to prevent easy interpretation.",
+        "Isolated from the business unit's specific processes."
+      ],
+      "answerIndex": 0,
+      "explanation": "A security policy gains its authority and commitment from Senior Management; their development and approval are critical to ensure that the policy aligns with business objectives and is enforced across the organization."
+    },
+    {
+      "id": 58,
+      "question": "A malicious code that disguises itself as a legitimate program, replacing existing system files, and does not replicate itself is known as a:",
+      "options": [
+        "Virus",
+        "Worm",
+        "Trojan Horse",
+        "Logic Bomb"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Trojan Horse is characterized by its non-replicating nature and its ability to appear legitimate while concealing a malicious payload, often designed to replace or delete files."
+    },
+    {
+      "id": 59,
+      "question": "The IS auditor recommends that all sensitive database operations require the approval of a second, separate administrator. This is an implementation of which administrative control?",
+      "options": [
+        "Rotation of Duties",
+        "Least Privilege",
+        "Four Eyes Principle",
+        "Mandatory Vacations"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Four Eyes Principle (or Two-Person Control) mandates that at least two individuals must be involved in or approve a critical operation to increase oversight and prevent unilateral actions."
+    },
+    {
+      "id": 60,
+      "question": "In the context of the CIA triad, Integrity is primarily concerned with:",
+      "options": [
+        "Ensuring data is complete, accurate, and protected from unauthorized modification.",
+        "Restricting access to authorized users.",
+        "Ensuring systems are operational when needed.",
+        "Proving the origin of a transaction."
+      ],
+      "answerIndex": 0,
+      "explanation": "Integrity ensures the accuracy and completeness of information and protects it against improper modification or destruction."
+    },
+    {
+      "id": 61,
+      "question": "Which of the following is a key responsibility of the Information Owner (Data Owner)?",
+      "options": [
+        "Physically installing and maintaining servers.",
+        "Performing the annual audit of system controls.",
+        "Writing the detailed procedures for system operations.",
+        "Classifying the information and approving user access requests."
+      ],
+      "answerIndex": 3,
+      "explanation": "The Information Owner is accountable for the asset. Their key responsibilities include classifying the data based on its sensitivity and approving access based on the 'need-to-know' principle."
+    },
+    {
+      "id": 62,
+      "question": "The primary control to prevent a Buffer Overflow attack is:",
+      "options": [
+        "Implementing strong authentication using MFA.",
+        "Enforcing a mandatory rotation of duties.",
+        "Encrypting all network traffic.",
+        "Using input validation and bounds checking during program development."
+      ],
+      "answerIndex": 3,
+      "explanation": "Buffer Overflow is a programming vulnerability. The control is to prevent the program from writing data past the buffer's allocated space by using input validation and bounds checking during the software development life cycle (SDLC)."
+    },
+    {
+      "id": 63,
+      "question": "Which type of control involves taking action after an incident has occurred to limit the resulting damage and recover the system (e.g., restoring from a backup)?",
+      "options": [
+        "Preventive",
+        "Detective",
+        "Corrective",
+        "Administrative"
+      ],
+      "answerIndex": 2,
+      "explanation": "Corrective Controls are designed to minimize the impact of a discovered incident by taking steps to recover, such as executing a disaster recovery plan or restoring data from backups."
+    },
+    {
+      "id": 64,
+      "question": "An employee performs a Salami Theft attack by altering a program to skim off fractions of cents from thousands of customer transactions. Which primary control failure enabled this?",
+      "options": [
+        "Lack of a strong password policy.",
+        "Lack of segregation of duties (e.g., programmer having access to production code promotion).",
+        "Failure to encrypt network traffic.",
+        "Poor physical access controls."
+      ],
+      "answerIndex": 1,
+      "explanation": "Salami Theft often requires modification of application code or logic. If there is a failure in the Segregation of Duties (e.g., a developer can promote their own code to production without independent review), such malicious logic can be introduced and maintained."
+    },
+    {
+      "id": 65,
+      "question": "In the hierarchy of information security documentation, Standards are considered:",
+      "options": [
+        "Optional suggestions for best practices.",
+        "High-level statements of management intent.",
+        "Mandatory rules or technical specifications for implementation.",
+        "Detailed, step-by-step instructions."
+      ],
+      "answerIndex": 2,
+      "explanation": "Standards are the mandatory rules that specify the required technical configurations (e.g., minimum password length, cryptographic algorithms) to implement policies consistently."
+    },
+    {
+      "id": 66,
+      "question": "The concept of Need-to-Know in access control is most closely aligned with which principle?",
+      "options": [
+        "Least Privilege",
+        "Two-Person Control",
+        "Rotation of Duties",
+        "Separation of Duties"
+      ],
+      "answerIndex": 0,
+      "explanation": "Need-to-Know is the principle that a user should only have access to the data absolutely required for their job function, which is the definition and goal of Least Privilege."
+    },
+    {
+      "id": 67,
+      "question": "Which of the following is an example of an Injection Flaw vulnerability (e.g., SQL Injection)?",
+      "options": [
+        "A program crashes due to too much data in a memory buffer.",
+        "A server goes offline due to an overwhelming flood of network traffic.",
+        "An attacker follows an authorized user through a secured door.",
+        "Untrusted user input is mistakenly executed as part of a database command."
+      ],
+      "answerIndex": 3,
+      "explanation": "Injection Flaws occur when untrusted data (typically user input) is sent to an interpreter (like a database or OS shell) and is mistakenly executed as part of a command or query."
+    },
+    {
+      "id": 68,
+      "question": "A key administrative control to detect fraud by requiring employees in critical, sensitive positions to take leave, allowing a temporary replacement to uncover any fraudulent activity, is:",
+      "options": [
+        "Rotation of Duties",
+        "Mandatory Vacations",
+        "Least Privilege",
+        "Segregation of Duties"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mandatory Vacations are a detective control. By forcing an employee away from their duties, any ongoing, concealed fraudulent schemes they manage are likely to be exposed by their temporary replacement."
+    },
+    {
+      "id": 69,
+      "question": "Which type of access control ensures that the subject's access to an object is based on the security clearance level of the subject and the sensitivity label of the object?",
+      "options": [
+        "Discretionary Access Control (DAC)",
+        "Role-Based Access Control (RBAC)",
+        "Mandatory Access Control (MAC)",
+        "Non-Discretionary Access Control"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mandatory Access Control (MAC) is a strict access control model where a central authority (the system) enforces access rules based on security labels and clearances, preventing data owners from setting their own access permissions."
+    },
+    {
+      "id": 70,
+      "question": "When an organization uses an Intrusion Detection System (IDS) to monitor network traffic for malicious activity patterns, what type of control is primarily being utilized?",
+      "options": [
+        "Detective Control",
+        "Corrective Control",
+        "Preventive Control",
+        "Compensating Control"
+      ],
+      "answerIndex": 0,
+      "explanation": "An Intrusion Detection System (IDS) is designed to detect and alert on unauthorized or malicious activity that has occurred or is occurring, making it a primary detective control."
+    },
+    {
+      "id": 71,
+      "question": "To ensure Non-repudiation for electronic transactions, the most appropriate technical control to use is:",
+      "options": [
+        "Digital Signatures using private keys.",
+        "Encryption of the entire data packet.",
+        "Multi-factor authentication for user login.",
+        "Regular logging and audit trail review."
+      ],
+      "answerIndex": 0,
+      "explanation": "Digital Signatures bind an identity to a transaction using a private key, providing cryptographically strong proof of the sender's identity, thus ensuring non-repudiation."
+    },
+    {
+      "id": 72,
+      "question": "The final step in the disposal of highly sensitive paper documents is:",
+      "options": [
+        "Placing them in a recycling bin.",
+        "Utilizing cross-cut shredding or pulping to ensure total destruction.",
+        "Shredding them into strips for disposal.",
+        "Transferring them to an offsite document storage facility."
+      ],
+      "answerIndex": 1,
+      "explanation": "For highly sensitive documents, complete and irreversible destruction is necessary. Cross-cut shredding or pulping is required to ensure the documents cannot be reconstructed."
+    },
+    {
+      "id": 73,
+      "question": "The risk response strategy where management retains the risk without implementing new controls because the risk is within the organization's risk appetite is called:",
+      "options": [
+        "Accept",
+        "Avoid",
+        "Mitigate",
+        "Transfer"
+      ],
+      "answerIndex": 0,
+      "explanation": "Accept is the strategy used when the risk is assessed as being low or within the organization's predefined risk appetite, and no further action to reduce the risk is deemed necessary."
+    },
+    {
+      "id": 74,
+      "question": "Which of the following is the most effective security control against Shoulder Surfing?",
+      "options": [
+        "Implementing strong password complexity.",
+        "Using privacy screens on monitors in public areas.",
+        "Enabling disk encryption.",
+        "Enforcing a rotation of duties policy."
+      ],
+      "answerIndex": 1,
+      "explanation": "Privacy screens (or security filters) prevent individuals standing at an angle or behind the user from viewing sensitive information on the monitor, directly mitigating the risk of shoulder surfing."
+    },
+    {
+      "id": 75,
+      "question": "The IS auditor identifies that a System Operator has the ability to both execute a transaction and update the master file related to that transaction. This is a violation of which key control?",
+      "options": [
+        "Least Privilege",
+        "Mandatory Vacation",
+        "Rotation of Duties",
+        "Segregation of Duties"
+      ],
+      "answerIndex": 3,
+      "explanation": "Segregation of Duties (SoD) requires that critical functions (like transaction execution and master file update) be performed by different individuals to prevent a single person from controlling and concealing errors or fraudulent activities."
+    },
+    {
+      "id": 76,
+      "question": "A Worm attack is primarily a threat to which two security goals?",
+      "options": [
+        "Confidentiality and Non-repudiation.",
+        "Integrity and Availability.",
+        "Availability and Confidentiality.",
+        "Confidentiality and Integrity."
+      ],
+      "answerIndex": 1,
+      "explanation": "Worms are self-replicating and consume system resources (impacting Availability) and often carry a payload that modifies or corrupts data (Integrity). They are less focused on confidentiality unless they also include a data exfiltration module."
+    },
+    {
+      "id": 77,
+      "question": "The document that provides suggestions and non-mandatory advice on how to implement policies and standards is known as a:",
+      "options": [
+        "Procedure",
+        "Policy",
+        "Guideline",
+        "Standard"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guidelines are collections of suggestions and recommendations for best practices. They are advisory and not mandatory requirements."
+    },
+    {
+      "id": 78,
+      "question": "In the STRIDE model, Spoofing is a violation of which desired security property?",
+      "options": [
+        "Authenticity",
+        "Integrity",
+        "Authorization",
+        "Non-repudiation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Spoofing involves pretending to be someone or something else. This is a violation of Authenticity, which requires verification of identity."
+    },
+    {
+      "id": 79,
+      "question": "Which of the following is the most critical human resource control action to enforce the organization's security policy?",
+      "options": [
+        "Requiring all new employees to sign an acceptable use policy.",
+        "Conducting background checks before hiring.",
+        "Providing continuous security awareness and training programs.",
+        "Mandating a minimum of two security professionals per team."
+      ],
+      "answerIndex": 2,
+      "explanation": "While signing the AUP and background checks are important, continuous security awareness and training ensures that employees remain informed of evolving threats, understand the policy, and know how to apply security best practices in their daily work, making the policy actionable."
+    },
+    {
+      "id": 80,
+      "question": "When data must be protected from unauthorized changes, which type of control is used to verify that the data has not been altered, often utilizing cryptographic hashes or checksums?",
+      "options": [
+        "Preventive Control",
+        "Physical Control",
+        "Corrective Control",
+        "Detective Control (Integrity Check)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cryptographic hashes and checksums are used as Detective Controls to verify the Integrity of data. They allow detection of any unauthorized modification to the data by checking if the hash/checksum has changed."
+    },
+    {
+      "id": 81,
+      "question": "The main benefit of using a Role-Based Access Control (RBAC) model is to:",
+      "options": [
+        "Simplify user administration by granting permissions based on job function, not individual identity.",
+        "Limit access based on the sensitivity of the data and the user's security clearance.",
+        "Allow data owners to decide access permissions at their discretion.",
+        "Tie permissions to specific network addresses or system times."
+      ],
+      "answerIndex": 0,
+      "explanation": "RBAC simplifies access management by grouping permissions into roles that align with job functions (e.g., \"Teller,\" \"Manager\"). Users are granted roles, which then grant them the necessary permissions, simplifying administration and reducing errors."
+    },
+    {
+      "id": 82,
+      "question": "A Logic Bomb is specifically designed to exploit:",
+      "options": [
+        "A vulnerability in network protocols.",
+        "The weak physical security of a data center.",
+        "A system's reliance on time or specific event triggers.",
+        "A flaw in the separation between the operating system and user applications."
+      ],
+      "answerIndex": 2,
+      "explanation": "The defining characteristic of a Logic Bomb is that its malicious action is executed only when a specific logical condition (e.g., date, time, system state, user count) is met."
+    },
+    {
+      "id": 83,
+      "question": "Which action is considered part of the mitigation strategy for risk response?",
+      "options": [
+        "Implementing an intrusion prevention system (IPS).",
+        "Ending a business activity because the risk is too high.",
+        "Purchasing a cyber insurance policy.",
+        "Formally documenting and accepting a residual risk."
+      ],
+      "answerIndex": 0,
+      "explanation": "Mitigation involves implementing controls to reduce the risk's probability or impact. An Intrusion Prevention System (IPS) is a technical control designed to actively prevent malicious activity, thus reducing the risk."
+    },
+    {
+      "id": 84,
+      "question": "In the context of risk management, residual risk is defined as:",
+      "options": [
+        "The initial risk level before any controls are applied.",
+        "The risk level that is transferred to a third party (e.g., insurance).",
+        "The minimum acceptable level of risk determined by the board.",
+        "The risk remaining after all control measures have been applied."
+      ],
+      "answerIndex": 3,
+      "explanation": "Residual risk is the risk that remains after the implementation of risk response measures (i.e., controls). Management must formally accept this remaining risk."
+    },
+    {
+      "id": 85,
+      "question": "Which type of virus is embedded in a document and infects the template or startup files used to create documents, often spreading through email attachments?",
+      "options": [
+        "Boot Sector Virus",
+        "File Infector Virus",
+        "Macro Virus",
+        "Polymorphic Virus"
+      ],
+      "answerIndex": 2,
+      "explanation": "Macro Viruses are embedded in data files (like Microsoft Office documents) as a macro script. They infect the template files and spread when the infected document is opened and the macro is executed."
+    },
+    {
+      "id": 86,
+      "question": "To protect an organization's network against DNS Spoofing, which control is a crucial defense?",
+      "options": [
+        "Implementing strong user authentication at the application layer.",
+        "Using secure DNS protocols and validating responses (e.g., DNSSEC).",
+        "Disabling all non-essential network services on end-user machines.",
+        "Enforcing a strict firewall policy that blocks all outgoing traffic."
+      ],
+      "answerIndex": 1,
+      "explanation": "DNS Spoofing involves injecting false data into DNS caches. Using DNSSEC (DNS Security Extensions) and ensuring secure DNS practices are implemented prevents the caching of forged DNS records."
+    },
+    {
+      "id": 87,
+      "question": "The primary goal of implementing Mandatory Information Security Awareness Training for all staff is to address which source of security failure?",
+      "options": [
+        "Technical vulnerabilities in operating systems.",
+        "Insider threats and human error.",
+        "Denial-of-Service (DoS) attacks.",
+        "External network firewall configuration errors."
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous security awareness training is the most critical administrative control for reducing the risk from insider threats and unintentional human error, which are frequently cited as the leading causes of data breaches."
+    },
+    {
+      "id": 88,
+      "question": "Which document in the security documentation hierarchy provides a high-level, overarching statement of management's intent and commitment?",
+      "options": [
+        "Procedure",
+        "Standard",
+        "Guideline",
+        "Policy"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Policy is the highest-level document, providing the official management direction and statement of intent regarding the protection of information assets."
+    },
+    {
+      "id": 89,
+      "question": "Which control measure directly addresses the risk of unauthorized physical access to a secure data center by requiring separate authentication from each person?",
+      "options": [
+        "CCTV Cameras",
+        "Locked Door with Keypad",
+        "Mantrap/Turnstile System",
+        "Visitor Log Book"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Mantrap (or turnstile system) is a physical control designed to actively enforce single-file entry by requiring two sets of doors and separate authentication for each person, effectively preventing piggybacking."
+    },
+    {
+      "id": 90,
+      "question": "Which of the following is an example of an Administrative Control?",
+      "options": [
+        "Intrusion Detection System (IDS)",
+        "Mandatory Password Policy",
+        "Encryption Algorithm (e.g., AES)",
+        "Firewall Ruleset"
+      ],
+      "answerIndex": 1,
+      "explanation": "Administrative Controls are policies, procedures, standards, and guidelines established by management. A Mandatory Password Policy is a formally documented administrative control."
+    },
+    {
+      "id": 91,
+      "question": "To enforce the principle of Least Privilege for system accounts, the administrator should ensure that:",
+      "options": [
+        "All system users have read-only access to all files.",
+        "Privileged accounts (e.g., root/admin) are automatically changed every 24 hours.",
+        "All users are members of the same \"Users\" group for consistency.",
+        "System accounts are only assigned the exact permissions required to perform their intended tasks."
+      ],
+      "answerIndex": 3,
+      "explanation": "The principle of Least Privilege dictates that any subject (user, system, or application) should be granted only those access rights and permissions absolutely necessary to perform its legitimate function."
+    },
+    {
+      "id": 92,
+      "question": "The primary control to prevent a Cross-Site Scripting (XSS) attack in a web application is:",
+      "options": [
+        "Using parameterized queries for database access.",
+        "Enforcing a strict Segregation of Duties among developers.",
+        "Encrypting the entire web server disk.",
+        "Implementing strong output encoding and input validation for all user-supplied data."
+      ],
+      "answerIndex": 3,
+      "explanation": "XSS occurs when a malicious script is injected into a trusted website. The control is to prevent the browser from executing the script by validating and properly encoding all user-supplied data before it is rendered on the page."
+    },
+    {
+      "id": 93,
+      "question": "A Worm attack is considered more dangerous than a traditional Virus because:",
+      "options": [
+        "Worms require no user action to spread and are self-replicating and self-contained.",
+        "Worms can exploit hardware vulnerabilities, unlike viruses.",
+        "Viruses only attack the operating system boot sector.",
+        "Worms can only be removed by physically replacing the hard drive."
+      ],
+      "answerIndex": 0,
+      "explanation": "The key difference is that Worms are self-propagating and do not require user intervention (like opening a file or executing a program) to spread, allowing them to infect systems much faster and more autonomously."
+    },
+    {
+      "id": 94,
+      "question": "An organization decides to change its third-party payroll provider due to concerns about the provider's weak security controls. This is an example of which risk response?",
+      "options": [
+        "Accept",
+        "Avoid",
+        "Transfer",
+        "Mitigate"
+      ],
+      "answerIndex": 1,
+      "explanation": "By changing the provider or ceasing the relationship due to the security risk, the organization is taking action to eliminate the risk-creating condition entirely, which is an example of the Avoid risk response."
+    },
+    {
+      "id": 95,
+      "question": "When reviewing an organization's compliance with its security policy, the IS auditor should primarily focus on:",
+      "options": [
+        "The cost-effectiveness of the implemented controls.",
+        "The opinions of the security team on the policy's clarity.",
+        "Whether the policy is fully compliant with all global standards (e.g., GDPR, PCI DSS).",
+        "Whether the controls are designed and operating as intended by the policy."
+      ],
+      "answerIndex": 3,
+      "explanation": "The auditor's core task is to provide assurance. They must verify that the controls are designed (adequate) and operating effectively (in use) in compliance with the documented policy and management's intent."
+    },
+    {
+      "id": 96,
+      "question": "Which control is primarily used to ensure that a malicious code (like a Trojan Horse) cannot be installed by a legitimate user with too many privileges?",
+      "options": [
+        "Mandatory Vacations",
+        "Two-Person Control",
+        "Least Privilege",
+        "Rotation of Duties"
+      ],
+      "answerIndex": 2,
+      "explanation": "The principle of Least Privilege prevents ordinary users from possessing the elevated privileges (e.g., \"Install new software\") required to install malicious code, even if they are tricked into executing a Trojan Horse."
+    },
+    {
+      "id": 97,
+      "question": "The concept of Accountability in information security is a direct requirement of:",
+      "options": [
+        "Confidentiality",
+        "Non-repudiation",
+        "Authorization",
+        "Auditable Logs"
+      ],
+      "answerIndex": 3,
+      "explanation": "Accountability ensures that a user can be tracked for their actions. This relies directly on systems that maintain comprehensive and reliable Auditable Logs (audit trails) of all security-relevant events."
+    },
+    {
+      "id": 98,
+      "question": "What is the fundamental requirement for the successful implementation of any information security program?",
+      "options": [
+        "Purchase of the latest firewall technology.",
+        "Strong, continuous support and commitment from Senior Management.",
+        "Full delegation of all security tasks to the IT department.",
+        "Hiring an external consultant to write all security policies."
+      ],
+      "answerIndex": 1,
+      "explanation": "Without the strong, continuous support and commitment from Senior Management (governance), any security program will lack the necessary resources, authority, and organization-wide adoption to be successful."
+    },
+    {
+      "id": 99,
+      "question": "In the context of the information life cycle, the control for protecting information that is discarded (e.g., from an outdated hard drive) should focus on:",
+      "options": [
+        "Encryption in transit.",
+        "Periodic integrity checks.",
+        "Two-person control during processing.",
+        "Secure disposal/destruction."
+      ],
+      "answerIndex": 3,
+      "explanation": "The control for the disposal stage of the information life cycle is secure disposal/destruction to prevent sensitive information from being recovered from discarded media."
+    },
+    {
+      "id": 100,
+      "question": "When an organization implements a control that ensures all network devices automatically log off a user after 15 minutes of inactivity, this is primarily a control against:",
+      "options": [
+        "Piggybacking (on a system)",
+        "SQL Injection",
+        "Salami Theft",
+        "Elevation of Privilege"
+      ],
+      "answerIndex": 0,
+      "explanation": "Idle session timeout (auto-logoff) is a control that prevents unauthorized access by ensuring that an authorized user cannot leave their terminal logged on and unattended, which is the definition of a system-based Piggybacking attack."
+    },
+    {
+      "id": 101,
+      "question": "Which of the following best describes the security goal of Confidentiality?",
+      "options": [
+        "Ensuring that data is accurate and complete.",
+        "Ensuring that a system is accessible to authorized users when needed.",
+        "Ensuring that a user cannot deny having performed a transaction.",
+        "Ensuring that data is only disclosed to authorized individuals or systems."
+      ],
+      "answerIndex": 3,
+      "explanation": "Confidentiality is the assurance that information is not made available or disclosed to unauthorized individuals, entities, or processes."
+    },
+    {
+      "id": 102,
+      "question": "The IS Auditor finds that the System Administrator also has the developer's credentials to promote code into the production environment. This is a direct violation of:",
+      "options": [
+        "Least Privilege",
+        "Segregation of Duties",
+        "Rotation of Duties",
+        "Need-to-Know"
+      ],
+      "answerIndex": 1,
+      "explanation": "Segregation of Duties (SoD) is violated when a single individual controls multiple critical steps in a process. The ability to both develop code and promote it to production bypasses change control and increases the risk of unauthorized changes."
+    },
+    {
+      "id": 103,
+      "question": "Which of the following is an example of an application control designed to ensure data integrity?",
+      "options": [
+        "A firewall blocking all traffic from unknown IP addresses.",
+        "A range check ensuring a data entry field (e.g., age) is between 1 and 120.",
+        "A policy requiring all users to change passwords every 90 days.",
+        "A UPS providing backup power to the server rack."
+      ],
+      "answerIndex": 1,
+      "explanation": "A range check is a specific input validation control embedded within an application. It ensures that the data entered is reasonable and accurate (Integrity) before it is processed by the system."
+    },
+    {
+      "id": 104,
+      "question": "When an organization implements a control to reduce the *likelihood* of a security breach (e.g., installing an Intrusion Prevention System), it is implementing a:",
+      "options": [
+        "Detective Control",
+        "Preventive Control",
+        "Corrective Control",
+        "Compensating Control"
+      ],
+      "answerIndex": 1,
+      "explanation": "Preventive controls are implemented *before* an event occurs to make the event less likely or impossible. An IPS aims to stop the malicious activity before it successfully breaches the system."
+    },
+    {
+      "id": 105,
+      "question": "What is the most significant administrative control to mitigate the risk of a disgruntled insider (Key Man) causing catastrophic data loss?",
+      "options": [
+        "Implementing strong encryption for all data at rest.",
+        "Enforcing Mandatory Vacations and Rotation of Duties.",
+        "Installing physical access controls with biometrics.",
+        "Conducting continuous network traffic monitoring."
+      ],
+      "answerIndex": 1,
+      "explanation": "While encryption is a technical control, Mandatory Vacations and Rotation of Duties are administrative controls that address the insider threat specifically by limiting the opportunity for continuous fraudulent/malicious activity and increasing the chance of detection by a replacement."
+    },
+    {
+      "id": 106,
+      "question": "In the security documentation hierarchy, the document providing non-mandatory suggestions for best practice is the:",
+      "options": [
+        "Standard",
+        "Procedure",
+        "Guideline",
+        "Policy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guidelines are advisory documents, offering suggestions and non-mandatory recommendations, unlike Standards, which are mandatory rules."
+    },
+    {
+      "id": 107,
+      "question": "Which of the following controls is essential to ensure Non-repudiation for a signed electronic document?",
+      "options": [
+        "Full disk encryption on the server storing the document.",
+        "A digital signature applied using the signer's private key.",
+        "A hash of the document stored in a public repository.",
+        "Multi-factor authentication required for login."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Digital Signature uses the signer's private key to cryptographically prove the document's origin and integrity, preventing the signer from later denying they signed the document."
+    },
+    {
+      "id": 108,
+      "question": "The greatest risk associated with a Trojan Horse malware is its ability to:",
+      "options": [
+        "Replicate rapidly across a network without user action.",
+        "Execute a destructive payload while disguised as a legitimate, useful program.",
+        "Overwhelm system resources, causing a denial of service.",
+        "Infect the boot sector of a hard drive."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Trojan Horse's primary threat is its deceptive nature: it appears benign to trick a user into executing it, at which point its hidden malicious payload (e.g., installing a backdoor, stealing credentials) is activated."
+    },
+    {
+      "id": 109,
+      "question": "Which of the following is a primary responsibility of the Custodian of an information asset?",
+      "options": [
+        "Determining the business value and classification of the asset.",
+        "Approving all access requests for the asset.",
+        "Implementing, operating, and monitoring the security controls for the asset.",
+        "Setting the overall risk appetite for the organization."
+      ],
+      "answerIndex": 2,
+      "explanation": "The Custodian (e.g., IT Operations) is responsible for the technical implementation and management of the controls over the asset, as directed by the Information Owner."
+    },
+    {
+      "id": 110,
+      "question": "The risk response strategy that retains the financial consequence of a risk but uses controls to reduce the *likelihood* is called:",
+      "options": [
+        "Avoid",
+        "Transfer",
+        "Accept",
+        "Mitigate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mitigate (or Reduce) involves implementing controls (like an IPS or strong access control) to lower the risk's probability or impact, but the organization still retains the residual risk and accountability."
+    },
+    {
+      "id": 111,
+      "question": "The principle of Least Privilege primarily addresses which security risk?",
+      "options": [
+        "Unauthorized access due to weak passwords.",
+        "Failure to maintain an audit trail.",
+        "Network eavesdropping on unencrypted traffic.",
+        "The misuse of legitimate privileges (e.g., accidental or malicious actions)."
+      ],
+      "answerIndex": 3,
+      "explanation": "Least Privilege ensures that even if a user is compromised or acts maliciously, their potential for damage is limited because they only possess the minimum necessary permissions for their job."
+    },
+    {
+      "id": 112,
+      "question": "A control that is put in place to ensure an IS system continues to run during a localized power failure (e.g., a UPS) primarily protects which element of the CIA triad?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Non-repudiation"
+      ],
+      "answerIndex": 2,
+      "explanation": "A UPS (Uninterruptible Power Supply) and other forms of power redundancy are technical controls designed to ensure system uptime and continuity, which is critical for Availability."
+    },
+    {
+      "id": 113,
+      "question": "Which of the following is the most effective technical control to prevent SQL Injection attacks in a web application?",
+      "options": [
+        "Implementing multi-factor authentication for all users.",
+        "Disabling the web server's administrative interface.",
+        "Using parameterized queries or prepared statements for database calls.",
+        "Encrypting the entire database instance."
+      ],
+      "answerIndex": 2,
+      "explanation": "Parameterized queries enforce a separation between the SQL code and the user-supplied data, preventing the user input from being executed as part of the SQL command, which is the mechanism of a SQL Injection attack."
+    },
+    {
+      "id": 114,
+      "question": "The IS Auditor notes that the organization's security policy has not been reviewed or updated in three years. The primary risk this poses is:",
+      "options": [
+        "The policy's language is too complex for new employees to understand.",
+        "The policy may not address new threats, technologies, or regulatory changes.",
+        "The policy may conflict with the organization's Acceptable Use Policy.",
+        "The cost of maintaining the security controls will significantly increase."
+      ],
+      "answerIndex": 1,
+      "explanation": "Security policies must be reviewed periodically (at least annually or when significant changes occur) to ensure they remain relevant and address the current business, threat, technology, and regulatory landscape."
+    },
+    {
+      "id": 115,
+      "question": "A DNS Spoofing attack is an attack against which specific security service?",
+      "options": [
+        "Integrity of network traffic.",
+        "Availability of the web server.",
+        "Authenticity of the website address (name resolution).",
+        "Confidentiality of user data."
+      ],
+      "answerIndex": 2,
+      "explanation": "DNS Spoofing is an attack against the domain name resolution process, fooling a user into believing a malicious site is legitimate by poisoning the DNS cache. This violates the Authenticity of the name-to-address mapping."
+    },
+    {
+      "id": 116,
+      "question": "Which type of access control is managed by a central administrator and is based on a user's organizational role, rather than their individual identity?",
+      "options": [
+        "Discretionary Access Control (DAC)",
+        "Mandatory Access Control (MAC)",
+        "Role-Based Access Control (RBAC)",
+        "Rule-Based Access Control"
+      ],
+      "answerIndex": 2,
+      "explanation": "Role-Based Access Control (RBAC) assigns permissions to defined roles (e.g., \"HR Administrator\"), and users inherit those permissions by being assigned the role."
+    },
+    {
+      "id": 117,
+      "question": "An IS auditor discovers that the security awareness training only covers phishing emails and does not mention social engineering or data classification. The biggest risk here is:",
+      "options": [
+        "The training is too long and complex.",
+        "Incomplete coverage of insider threats and employee responsibilities.",
+        "The network perimeter controls will be ineffective.",
+        "The organization will lose its cyber insurance coverage."
+      ],
+      "answerIndex": 1,
+      "explanation": "Comprehensive security training must cover a full spectrum of threats and employee responsibilities, including classifying data, handling sensitive information, and recognizing social engineering, which are all key to mitigating insider risks and human error."
+    },
+    {
+      "id": 118,
+      "question": "Which administrative control is best implemented to prevent fraud by ensuring that the person who initiates a payment cannot also approve it?",
+      "options": [
+        "Rotation of Duties",
+        "Mandatory Vacations",
+        "Segregation of Duties",
+        "Least Privilege"
+      ],
+      "answerIndex": 2,
+      "explanation": "Segregation of Duties (SoD) is a fundamental control that separates critical functions (like initiation, authorization, and recording) to prevent a single person from committing and concealing fraud or error."
+    },
+    {
+      "id": 119,
+      "question": "If a risk is assessed as high and the cost of implementing a control to reduce it is significantly higher than the potential loss, the most reasonable risk response may be:",
+      "options": [
+        "Mitigate, regardless of cost.",
+        "Transfer, through a higher insurance premium.",
+        "Avoid, by ending the activity entirely.",
+        "Accept, as the control is not cost-effective."
+      ],
+      "answerIndex": 3,
+      "explanation": "Risk management requires a cost-benefit analysis. If the cost of control is disproportionate to the risk, the most economically prudent response is often to formally Accept the risk, provided it is still within the organization's risk appetite."
+    },
+    {
+      "id": 120,
+      "question": "Which of the following is a key component of the Key Man Policy?",
+      "options": [
+        "Ensuring all key employees have full administrative access to all systems.",
+        "Requiring all key staff to work in a secure, isolated environment.",
+        "Purchasing expensive life insurance policies on key technical staff.",
+        "Documenting critical job functions and cross-training other staff."
+      ],
+      "answerIndex": 3,
+      "explanation": "The Key Man Policy addresses the risk of losing a critical employee. Key components include succession planning, documenting specialized knowledge, and cross-training to ensure business continuity."
+    },
+    {
+      "id": 121,
+      "question": "The use of a cryptographic hash function (e.g., SHA-256) on a file is a control primarily designed to protect its:",
+      "options": [
+        "Confidentiality",
+        "Availability",
+        "Integrity",
+        "Non-repudiation"
+      ],
+      "answerIndex": 2,
+      "explanation": "A hash function creates a unique digital fingerprint. If the file is altered, the hash changes, allowing the system to detect modification and thus protect the file's Integrity."
+    },
+    {
+      "id": 122,
+      "question": "Which security mechanism is designed to prevent a user from exploiting a system flaw to gain unauthorized elevated privileges?",
+      "options": [
+        "Session timeout",
+        "Access control lists (ACLs)",
+        "Patch Management (vulnerability fixing)",
+        "Digital signatures"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elevation of Privilege attacks exploit system flaws or vulnerabilities. Regular and prompt Patch Management is the primary control for fixing these underlying vulnerabilities before they can be exploited."
+    },
+    {
+      "id": 123,
+      "question": "The organization decides to move its entire IT infrastructure off-premises to a certified IaaS cloud provider. The organization remains accountable for the data, but the cloud provider assumes responsibility for the technology operations. This is an example of risk:",
+      "options": [
+        "Acceptance",
+        "Avoidance",
+        "Mitigation",
+        "Transfer/Sharing"
+      ],
+      "answerIndex": 3,
+      "explanation": "Outsourcing to a cloud provider is a form of risk Transfer, where the operational and physical security risks are transferred to the provider, but the organization retains the ultimate risk Accountability for its data (risk sharing)."
+    },
+    {
+      "id": 124,
+      "question": "Which is the most effective physical control to prevent piggybacking through a main entrance door?",
+      "options": [
+        "A physical access card reader.",
+        "A locked door with a complex password.",
+        "A mantrap or turnstile system.",
+        "A CCTV camera focused on the door."
+      ],
+      "answerIndex": 2,
+      "explanation": "A mantrap or turnstile physically enforces single-person entry by requiring one set of doors to close before the next one opens, actively preventing an unauthorized person from following an authorized one."
+    },
+    {
+      "id": 125,
+      "question": "The primary risk of not enforcing a minimum password age is:",
+      "options": [
+        "A user can bypass the password history requirement by cycling through passwords rapidly.",
+        "A malicious attacker can use brute-force to guess the password.",
+        "The password will expire too frequently, causing user frustration.",
+        "The system will be non-compliant with external regulations."
+      ],
+      "answerIndex": 0,
+      "explanation": "Minimum password age prevents a user from immediately cycling their password (e.g., password1 -> password2 -> password1) to circumvent the password history control, thus defeating the purpose of the history requirement."
+    },
+    {
+      "id": 126,
+      "question": "Which type of control focuses on limiting the damage after a security incident has occurred?",
+      "options": [
+        "Corrective",
+        "Detective",
+        "Preventive",
+        "Administrative"
+      ],
+      "answerIndex": 0,
+      "explanation": "Corrective controls are implemented to fix errors, limit the extent of the damage, and restore the system to its pre-incident state (e.g., incident response, disaster recovery)."
+    },
+    {
+      "id": 127,
+      "question": "An IS auditor discovers that a user, by exploiting a programming flaw, can alter the transaction amount field without proper authorization. This is a failure of which type of control?",
+      "options": [
+        "General Control",
+        "Application Control",
+        "Physical Control",
+        "Compensating Control"
+      ],
+      "answerIndex": 1,
+      "explanation": "The flaw is in the application logic (likely lack of input validation or authorization checks within the application). Controls specific to ensuring data integrity within an application are application controls."
+    },
+    {
+      "id": 128,
+      "question": "In the STRIDE threat model, the threat of Repudiation is primarily concerned with violating:",
+      "options": [
+        "Integrity",
+        "Non-repudiation",
+        "Availability",
+        "Confidentiality"
+      ],
+      "answerIndex": 1,
+      "explanation": "Repudiation is the ability of an attacker or user to deny having performed an action. This is a direct violation of the security property of Non-repudiation."
+    },
+    {
+      "id": 129,
+      "question": "The concept of Accountability in information security is best achieved by enforcing:",
+      "options": [
+        "Robust audit trails and log reviews.",
+        "Strong physical security controls.",
+        "Encryption for all data in transit.",
+        "A clear separation of duties."
+      ],
+      "answerIndex": 0,
+      "explanation": "Accountability requires the ability to definitively link an action to a specific individual. This is accomplished through robust, non-editable audit trails that are regularly reviewed."
+    },
+    {
+      "id": 130,
+      "question": "A Trojan Horse is most often spread through:",
+      "options": [
+        "Autonomous self-propagation over a network.",
+        "User execution of a file disguised as a useful utility.",
+        "Exploiting a buffer overflow in a web server.",
+        "Infecting the boot sector of a computer."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Trojan Horse relies on social engineering or deception to trick a user into executing the program (e.g., a \"free game\" or \"system utility\"), which then unleashes its malicious payload."
+    },
+    {
+      "id": 131,
+      "question": "The primary purpose of an Acceptable Use Policy (AUP) for employees is to:",
+      "options": [
+        "Define the mandatory technical configurations for the network.",
+        "Outline the required steps for incident response.",
+        "Inform users of their responsibilities and permitted use of IT assets.",
+        "Set the maximum age and complexity for passwords."
+      ],
+      "answerIndex": 2,
+      "explanation": "The AUP is an administrative policy that clearly communicates to employees their responsibilities, permitted/prohibited activities, and the consequences of misuse regarding the organization's IT resources."
+    },
+    {
+      "id": 132,
+      "question": "Which of the following is an example of an application control to ensure accuracy of input data?",
+      "options": [
+        "Batch control totals reconciled after processing.",
+        "Existence check ensuring a customer ID entered is in the master file.",
+        "Segregation of duties for the application developer.",
+        "Monthly review of access logs."
+      ],
+      "answerIndex": 1,
+      "explanation": "An Existence Check (or validity check) ensures that a data value corresponds to a valid entry in the system's files, thus contributing directly to the accuracy of the input data."
+    },
+    {
+      "id": 133,
+      "question": "When an organization uses the Transfer risk response, which new risk is primarily introduced, making the response a form of risk sharing?",
+      "options": [
+        "Financial risk",
+        "Vendor/Managerial risk",
+        "Environmental risk",
+        "Political risk"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transferring a risk (e.g., outsourcing, buying insurance) introduces a new dependency and requires oversight of the third party, leading to Vendor or Managerial Risk (managing the outsourced function), as accountability remains with the organization."
+    },
+    {
+      "id": 134,
+      "question": "Which of the following is a direct control to prevent Salami Theft?",
+      "options": [
+        "Use of multi-factor authentication for logins.",
+        "Physical access controls to the server room.",
+        "Implementation of network firewalls.",
+        "Strong Segregation of Duties over application development and promotion."
+      ],
+      "answerIndex": 3,
+      "explanation": "Salami Theft often requires malicious code logic to be introduced and maintained in the application. Strong SoD ensures that the person writing the code cannot unilaterally deploy it to production, making it difficult to sustain the theft."
+    },
+    {
+      "id": 135,
+      "question": "The concept of Need-to-Know is a key control for maintaining:",
+      "options": [
+        "Availability",
+        "Integrity",
+        "Confidentiality",
+        "Non-repudiation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Need-to-Know limits access to sensitive information only to those individuals who require it to perform their official duties, which is a direct mechanism for maintaining Confidentiality."
+    },
+    {
+      "id": 136,
+      "question": "A Worm attack poses the highest risk to an organization's network because of its ability to:",
+      "options": [
+        "Self-replicate and rapidly consume network and system resources.",
+        "Steal credentials from a single workstation.",
+        "Execute malicious code only on a specific, predetermined date.",
+        "Be installed only by a system administrator with root privileges."
+      ],
+      "answerIndex": 0,
+      "explanation": "The signature danger of a Worm is its ability to spread rapidly across a network without human interaction, quickly overwhelming bandwidth, memory, and processor resources, causing widespread service disruption (Availability risk)."
+    },
+    {
+      "id": 137,
+      "question": "Which of the following is the most crucial responsibility of the Security Administrator?",
+      "options": [
+        "Managing and monitoring user accounts and access rights.",
+        "Defining the acceptable use policy.",
+        "Setting the information classification scheme.",
+        "Approving policy exceptions."
+      ],
+      "answerIndex": 0,
+      "explanation": "The Security Administrator's primary operational role is the day-to-day management of user identities, access rights, and monitoring the effectiveness of logical access controls."
+    },
+    {
+      "id": 138,
+      "question": "The primary risk of a weakly enforced clear desk policy in a sensitive work area is:",
+      "options": [
+        "The inability of the cleaning crew to access the area.",
+        "Increased risk of Shoulder Surfing and unauthorized data disclosure.",
+        "Higher electricity consumption from unused devices.",
+        "Violations of the organization's remote access policy."
+      ],
+      "answerIndex": 1,
+      "explanation": "A clear desk policy (along with a clear screen policy) is an administrative control against social engineering threats like Shoulder Surfing and unauthorized Confidentiality breaches by ensuring sensitive documents/data are not left exposed."
+    },
+    {
+      "id": 139,
+      "question": "Which of the following is an example of an Existence Check?",
+      "options": [
+        "Verifying that the entered Employee ID is present in the HR master file.",
+        "Verifying that all entered fields are between 1 and 100.",
+        "Verifying that the total dollar amount of the batch is correct.",
+        "Verifying that all input fields contain numeric data."
+      ],
+      "answerIndex": 0,
+      "explanation": "An Existence Check (or validity check) is an application control that verifies that an input value (e.g., Employee ID, Product Code) actually exists in the relevant master file or database."
+    },
+    {
+      "id": 140,
+      "question": "When an organization formally documents and acknowledges a risk, accepting the possibility of its occurrence without implementing additional controls, this is the Accept risk response. It is appropriate when:",
+      "options": [
+        "The risk is assessed as low or the cost of control exceeds the benefit.",
+        "The potential loss is catastrophic and exceeds the risk appetite.",
+        "The risk can be completely eliminated by a simple procedural change.",
+        "The control can be transferred to an external party."
+      ],
+      "answerIndex": 0,
+      "explanation": "Risk Acceptance is appropriate when the risk is assessed to be low enough to be within the organization's risk appetite, or when a cost-benefit analysis shows that implementing further controls is not economically justified."
+    },
+    {
+      "id": 141,
+      "question": "The IS auditor is reviewing controls against a Logic Bomb. The most effective control to prevent its introduction into a production system is:",
+      "options": [
+        "Implementing strong user authentication.",
+        "Physical access controls to the developer's office.",
+        "Continuous monitoring of network traffic.",
+        "Segregation of Duties and mandatory peer code review in the SDLC."
+      ],
+      "answerIndex": 3,
+      "explanation": "A Logic Bomb is malicious code introduced by an insider. The most effective defense is a development process that includes mandatory peer code review (to find the malicious code) and SoD (to prevent the insider from bypassing the review and promotion process)."
+    },
+    {
+      "id": 142,
+      "question": "Which of the following is a primary control to protect the Confidentiality of data in transit over a public network?",
+      "options": [
+        "Encryption (e.g., using TLS/SSL or VPNs).",
+        "Digital Signatures.",
+        "Role-Based Access Control.",
+        "Audit trails."
+      ],
+      "answerIndex": 0,
+      "explanation": "Encryption is the essential technical control to protect the confidentiality of data while it is being transmitted over an insecure medium like the public internet."
+    },
+    {
+      "id": 143,
+      "question": "Which type of access control grants or restricts access based on a pre-defined set of rules (e.g., firewall rules, time-of-day access restrictions)?",
+      "options": [
+        "Discretionary Access Control (DAC)",
+        "Mandatory Access Control (MAC)",
+        "Role-Based Access Control (RBAC)",
+        "Rule-Based Access Control (RBAC variant)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Rule-Based Access Control is a non-discretionary model where access is granted or denied based on a set of system-enforced rules, attributes, or conditions (e.g., time of day, source IP address)."
+    },
+    {
+      "id": 144,
+      "question": "An IS auditor recommends the use of hash totals and record counts during batch processing. These controls primarily protect:",
+      "options": [
+        "Availability of the system.",
+        "Integrity and completeness of the transaction data.",
+        "Confidentiality of the individual transactions.",
+        "Non-repudiation of the input source."
+      ],
+      "answerIndex": 1,
+      "explanation": "Batch controls like hash totals and record counts are used to ensure that all transactions input to a batch processing run are accounted for, and that the data has not been altered, thus ensuring Integrity and completeness."
+    },
+    {
+      "id": 145,
+      "question": "When a financial institution purchases insurance to protect against financial losses from a major fraud incident, this is an example of which risk response?",
+      "options": [
+        "Mitigate",
+        "Transfer",
+        "Avoid",
+        "Accept"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transfer involves shifting the financial burden of the risk to a third party (the insurance company) in exchange for a premium."
+    },
+    {
+      "id": 146,
+      "question": "A mandatory requirement for a strong password policy to prevent an attacker from repeatedly trying to guess the password is the implementation of:",
+      "options": [
+        "Minimum password age.",
+        "Password history control.",
+        "Account lockout after a defined number of failed attempts.",
+        "Multi-factor authentication."
+      ],
+      "answerIndex": 2,
+      "explanation": "Account Lockout is a preventive control that physically stops an attacker or malicious user from brute-forcing a password by automatically disabling the account after too many failed attempts."
+    },
+    {
+      "id": 147,
+      "question": "A developer utilizes a tool to check for common programming errors like uncontrolled loop boundaries that could lead to system crashes. This is a control against:",
+      "options": [
+        "Salami Theft",
+        "DNS Spoofing",
+        "Buffer Overflow",
+        "Keystroke Logging"
+      ],
+      "answerIndex": 2,
+      "explanation": "Uncontrolled loop boundaries and insufficient bounds checking are the underlying programming flaws that lead to Buffer Overflows. The use of tools to detect these flaws is a preventive control against this vulnerability."
+    },
+    {
+      "id": 148,
+      "question": "Which document in the security documentation hierarchy has the highest authority and provides the foundation for all other security documents?",
+      "options": [
+        "Standard",
+        "Procedure",
+        "Guideline",
+        "Policy"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Policy is the highest-level document, formally established by management, which grants the authority and scope for all standards, procedures, and guidelines."
+    },
+    {
+      "id": 149,
+      "question": "The primary defense against a Salami Theft attack, where small amounts are skimmed from many accounts, relies on:",
+      "options": [
+        "Strong multi-factor authentication for all users.",
+        "Strict physical access controls to the data center.",
+        "Detective controls like reconciliation and variance reporting.",
+        "A mandatory clear desk policy."
+      ],
+      "answerIndex": 2,
+      "explanation": "Salami theft is typically hard to prevent entirely. The best defense is to implement strong detective controls like transaction logging, detailed reconciliation, and variance analysis to detect the small, unusual amounts being skimmed after they occur."
+    },
+    {
+      "id": 150,
+      "question": "Which of the following is the most critical control when disposing of sensitive magnetic media (e.g., hard drives)?",
+      "options": [
+        "Formatting the drive multiple times.",
+        "Degaussing or physical destruction of the media.",
+        "Overwriting the media with non-sensitive data once.",
+        "Storing the media in a locked cabinet indefinitely."
+      ],
+      "answerIndex": 1,
+      "explanation": "For sensitive magnetic media, simple formatting is insufficient. Degaussing (demagnetizing) or physical destruction (shredding, burning) are mandatory controls to ensure the data is irrecoverable."
+    },
+    {
+      "id": 151,
+      "question": "Which of the following is a key Preventive Control against the unauthorized modification of data (Integrity)?",
+      "options": [
+        "Regular review of audit logs for anomalies.",
+        "Input validation and edit checks within applications.",
+        "Restoration of data from a previous backup.",
+        "Implementation of an Intrusion Detection System (IDS)."
+      ],
+      "answerIndex": 1,
+      "explanation": "Input validation and edit checks (like range checks, format checks) are application controls designed to prevent inaccurate or incomplete data from entering the system, thereby proactively protecting data Integrity."
+    },
+    {
+      "id": 152,
+      "question": "To enforce the principle of Segregation of Duties (SoD) in the payroll system, which two functions must be performed by different individuals?",
+      "options": [
+        "Payroll calculation and payroll tax reporting.",
+        "Approving time-off and distributing paychecks.",
+        "System administration and database backup.",
+        "Internal auditing and external auditing."
+      ],
+      "answerIndex": 1,
+      "explanation": "The function of approving/authorizing the input (time-off/hours worked) must be separate from the function of processing/distributing the output (paycheck distribution) to prevent fraudulent payments to ghost employees or unauthorized amounts."
+    },
+    {
+      "id": 153,
+      "question": "An IS auditor discovers that a legacy system cannot enforce the organization's mandatory password complexity policy. Which control should be implemented as the most suitable Compensating Control?",
+      "options": [
+        "Decommissioning the legacy system immediately.",
+        "Changing the password complexity policy to match the system's limitations.",
+        "Exempting all users of the legacy system from the policy.",
+        "Enforcing Multi-Factor Authentication (MFA) for that system."
+      ],
+      "answerIndex": 3,
+      "explanation": "A Compensating Control is an alternative control used when a primary control is infeasible. MFA significantly increases the authentication strength and compensates for the inherent weakness of simple passwords in the legacy system."
+    },
+    {
+      "id": 154,
+      "question": "Which document in the security documentation hierarchy provides the necessary context and authority for the entire security program?",
+      "options": [
+        "Procedure",
+        "Security Policy",
+        "Guideline",
+        "Standard"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Security Policy is the foundation. It establishes the overall management direction, organizational commitment, and high-level requirements, providing the context and authority for all subordinate documents."
+    },
+    {
+      "id": 155,
+      "question": "The risk response where the potential financial loss is shifted to a third party, such as by purchasing insurance, is called:",
+      "options": [
+        "Mitigate",
+        "Avoid",
+        "Transfer",
+        "Accept"
+      ],
+      "answerIndex": 2,
+      "explanation": "Transfer involves sharing the risk with an external party, typically by paying a premium for insurance, thereby shifting the financial consequence of a materialized risk."
+    },
+    {
+      "id": 156,
+      "question": "In the STRIDE threat model, the threat category 'Elevation of Privilege' is a direct violation of which security property?",
+      "options": [
+        "Integrity",
+        "Authenticity",
+        "Non-repudiation",
+        "Authorization"
+      ],
+      "answerIndex": 3,
+      "explanation": "Elevation of Privilege allows a user to gain access rights beyond what they are legitimately granted. Authorization is the security property that defines what a user is allowed to do, making this a direct violation."
+    },
+    {
+      "id": 157,
+      "question": "The principle of Need-to-Know in access control is primarily focused on safeguarding:",
+      "options": [
+        "Confidentiality.",
+        "Availability.",
+        "Integrity.",
+        "System performance."
+      ],
+      "answerIndex": 0,
+      "explanation": "Need-to-Know is a confidentiality control. It restricts access to sensitive information only to those individuals whose job function strictly requires it."
+    },
+    {
+      "id": 158,
+      "question": "A Logic Bomb is typically activated by:",
+      "options": [
+        "A specific logical condition (e.g., date, time, system event).",
+        "User interaction, such as opening an infected document.",
+        "Self-propagation across the network.",
+        "Exploitation of a memory management flaw."
+      ],
+      "answerIndex": 0,
+      "explanation": "The defining trait of a Logic Bomb is that its malicious payload is triggered when a predetermined logical condition or event is met, not necessarily by simple execution or self-propagation."
+    },
+    {
+      "id": 159,
+      "question": "Which control best ensures that all data input into a batch processing system has been correctly processed and recorded (completeness and accuracy)?",
+      "options": [
+        "Batch Control Totals (e.g., hash totals, record counts).",
+        "Manual reconciliation of end-of-day reports.",
+        "Segregation of duties for the system operator.",
+        "Daily review of firewall logs."
+      ],
+      "answerIndex": 0,
+      "explanation": "Batch Control Totals (like hash totals for non-financial fields or record counts) are application controls used to reconcile the total input to the total output, providing assurance of the completeness and accuracy of the batch processing run."
+    },
+    {
+      "id": 160,
+      "question": "The primary control to prevent an Elevation of Privilege attack is:",
+      "options": [
+        "Regular and prompt patch management to fix vulnerabilities.",
+        "Enforcing a strict firewall policy.",
+        "Implementing mandatory vacations.",
+        "Using digital signatures for email."
+      ],
+      "answerIndex": 0,
+      "explanation": "Elevation of Privilege attacks exploit system flaws. Patch management is the process of applying updates to fix these underlying flaws, thus removing the attack vector."
+    },
+    {
+      "id": 161,
+      "question": "Which of the following is considered an Administrative Control?",
+      "options": [
+        "A firewall blocking an unauthorized IP address.",
+        "Full disk encryption on a server.",
+        "Mandatory Security Awareness Training.",
+        "A mantrap at the data center entrance."
+      ],
+      "answerIndex": 2,
+      "explanation": "Administrative Controls are management-defined policies, procedures, and training programs. Mandatory Security Awareness Training is a procedure established by management."
+    },
+    {
+      "id": 162,
+      "question": "An IS auditor discovers that the security policy's definition of \"strong password\" is vague. The document that should contain the mandatory minimum length and character requirements is the:",
+      "options": [
+        "Standard",
+        "Procedure",
+        "Guideline",
+        "Policy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Standards provide the mandatory, specific technical rules and requirements (e.g., minimum length, character types, max age) necessary to enforce the high-level management intent defined in the policy."
+    },
+    {
+      "id": 163,
+      "question": "The greatest risk associated with an employee who suddenly resigns and immediately loses access is:",
+      "options": [
+        "Loss of institutional knowledge or specialized access rights (Key Man risk).",
+        "The inability to recover their personal files.",
+        "The network bandwidth consumed by their final access.",
+        "The failure to comply with the acceptable use policy."
+      ],
+      "answerIndex": 0,
+      "explanation": "While revocation of access is a control, the sudden loss of an employee, especially a Key Man with specialized knowledge or unique access (which is what must be revoked), poses a high business continuity risk related to loss of knowledge."
+    },
+    {
+      "id": 164,
+      "question": "Which of the following is the most effective security control against Keystroke Loggers?",
+      "options": [
+        "Regular updates to anti-malware software.",
+        "Strong physical access controls to the workstation.",
+        "Implementation of Segregation of Duties.",
+        "Use of a Role-Based Access Control model."
+      ],
+      "answerIndex": 0,
+      "explanation": "A Keystroke Logger is a form of malware. The primary defense against malware is up-to-date and robust anti-malware software that can detect and neutralize the logging program."
+    },
+    {
+      "id": 165,
+      "question": "The primary purpose of performing an annual background check for employees in sensitive positions is to ensure the control against which security threat?",
+      "options": [
+        "External network penetration.",
+        "Insider threat and malicious intent.",
+        "Denial-of-Service attacks.",
+        "Physical facility breaches."
+      ],
+      "answerIndex": 1,
+      "explanation": "Background checks are part of the Human Resource Security controls intended to verify the integrity and trustworthiness of employees, especially those with access to sensitive data, thus mitigating the insider threat."
+    },
+    {
+      "id": 166,
+      "question": "Which type of virus is characterized by its ability to change its form with each infection to avoid detection by signature-based antivirus software?",
+      "options": [
+        "Macro Virus",
+        "Boot Sector Virus",
+        "Polymorphic Virus",
+        "Worm"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Polymorphic Virus (literally, \"many-formed\") is specifically designed to mutate its code signature while preserving the core function, making it difficult for traditional, signature-based antivirus tools to detect it."
+    },
+    {
+      "id": 167,
+      "question": "A control that is implemented to help in the recovery process after a disruptive event (e.g., a formal Incident Response Plan) is classified as a:",
+      "options": [
+        "Preventive Control",
+        "Detective Control",
+        "Compensating Control",
+        "Corrective Control"
+      ],
+      "answerIndex": 3,
+      "explanation": "Corrective Controls are actions taken after an incident to return the system or process to its normal state and minimize the damage. An Incident Response Plan guides this recovery."
+    },
+    {
+      "id": 168,
+      "question": "Which of the following is an example of a Detective Control?",
+      "options": [
+        "A locked server room door.",
+        "Encryption of a file before transmission.",
+        "A system requiring a 10-character password.",
+        "Review of Access Violation Reports."
+      ],
+      "answerIndex": 3,
+      "explanation": "Review of Access Violation Reports (audit trails/logs) is a mechanism that identifies events (unauthorized attempts) that have already occurred, which is the definition of a Detective Control."
+    },
+    {
+      "id": 169,
+      "question": "When the IS auditor reviews access controls, they should confirm that the Information Owner has performed which crucial function?",
+      "options": [
+        "The technical implementation of the firewall.",
+        "The selection of the database software.",
+        "The daily management of user ID passwords.",
+        "The classification of the information asset's sensitivity."
+      ],
+      "answerIndex": 3,
+      "explanation": "The Information Owner is accountable for the asset, and their most crucial governance responsibility is to classify the asset (e.g., Public, Internal, Confidential) to ensure it receives appropriate protection."
+    },
+    {
+      "id": 170,
+      "question": "The primary control to prevent Piggybacking in a secured physical area is:",
+      "options": [
+        "Installing a biometric reader.",
+        "Mantraps or turnstiles.",
+        "Using a simple key-code lock.",
+        "Mandating a clear desk policy."
+      ],
+      "answerIndex": 1,
+      "explanation": "Mantraps and turnstiles are the only controls listed that physically and actively enforce single-person entry, directly preventing a second person from unauthorized entry behind an authorized person."
+    },
+    {
+      "id": 171,
+      "question": "Which principle of access control ensures that a user's rights are based on their assigned organizational job function?",
+      "options": [
+        "Least Privilege",
+        "Role-Based Access Control (RBAC)",
+        "Mandatory Access Control (MAC)",
+        "Discretionary Access Control (DAC)"
+      ],
+      "answerIndex": 1,
+      "explanation": "RBAC ties permissions to a predefined Role (job function), which simplifies administration and ensures consistency of access based on the user's duties."
+    },
+    {
+      "id": 172,
+      "question": "The ultimate responsibility and accountability for the security of information assets within an organization rests with:",
+      "options": [
+        "The Chief Information Security Officer (CISO).",
+        "The IT Department (Custodian).",
+        "The Senior Management/Board of Directors.",
+        "The Internal Audit Department."
+      ],
+      "answerIndex": 2,
+      "explanation": "While security professionals manage and implement security, the Board and Senior Management bear the ultimate responsibility and accountability for managing and accepting the organization's risks, including information security risk."
+    },
+    {
+      "id": 173,
+      "question": "The primary risk associated with a poorly enforced password history control (e.g., history = 2) is:",
+      "options": [
+        "The user will forget their password due to too much complexity.",
+        "The system will be vulnerable to a brute-force attack.",
+        "The user can easily cycle back to a recently used, weak password.",
+        "The system will violate the minimum password age requirement."
+      ],
+      "answerIndex": 2,
+      "explanation": "A weak password history (or lack thereof) allows the user to change their password to a new one and then immediately change it back to the old, familiar, and potentially compromised password, defeating the control's purpose."
+    },
+    {
+      "id": 174,
+      "question": "Which of the following is the most effective technical control to ensure the Authenticity of a website a user is visiting?",
+      "options": [
+        "Full disk encryption on the user's computer.",
+        "Implementation of a secure backup process.",
+        "SSL/TLS certificate validation in the browser.",
+        "Use of biometric authentication."
+      ],
+      "answerIndex": 2,
+      "explanation": "SSL/TLS certificate validation (checking the digital certificate) cryptographically verifies that the web server is who it claims to be, ensuring the Authenticity of the website and preventing simple impersonation."
+    },
+    {
+      "id": 175,
+      "question": "When implementing a Rule-Based Access Control system, the access decisions are based on:",
+      "options": [
+        "A set of system-enforced, pre-defined rules or conditions.",
+        "The user's role in the organization.",
+        "The owner's discretion.",
+        "The sensitivity label of the information."
+      ],
+      "answerIndex": 0,
+      "explanation": "Rule-Based Access Control (often used in firewalls or network access) grants access based on a specific, non-discretionary set of rules, such as IP addresses, time of day, or protocol."
+    },
+    {
+      "id": 176,
+      "question": "Which of the following is an example of an Injection Flaw vulnerability?",
+      "options": [
+        "A Cross-Site Scripting (XSS) attack injecting a malicious client-side script.",
+        "A Trojan Horse disguised as a system update.",
+        "A denial-of-service attack overwhelming a server.",
+        "A physical breach of the server room."
+      ],
+      "answerIndex": 0,
+      "explanation": "Injection Flaws occur when untrusted data is sent to an interpreter. XSS is a form of injection where malicious script code (untrusted data) is sent to the web browser (the interpreter) to be executed."
+    },
+    {
+      "id": 177,
+      "question": "The risk of Salami Theft is often best detected by:",
+      "options": [
+        "Detailed transaction reconciliation and variance analysis.",
+        "Automated vulnerability scanning of the application.",
+        "Observing the programmer during code development.",
+        "Checking for unauthorized physical access."
+      ],
+      "answerIndex": 0,
+      "explanation": "Because Salami Theft involves tiny, undetectable amounts, it is best found by Detective Controls that meticulously reconcile total amounts and flag small, unusual differences (variances) that accumulate over time."
+    },
+    {
+      "id": 178,
+      "question": "The primary security control to ensure the Availability of the network in the event of an external attack is:",
+      "options": [
+        "Strong perimeter defenses (e.g., firewalls and DDoS protection).",
+        "Mandatory password changes every 30 days.",
+        "Implementation of digital signatures.",
+        "Use of the Least Privilege principle."
+      ],
+      "answerIndex": 0,
+      "explanation": "Availability requires defenses that prevent resource exhaustion. Perimeter defenses like firewalls, Intrusion Prevention Systems (IPS), and DDoS mitigation services are essential to ensure the network remains available to legitimate users during an attack."
+    },
+    {
+      "id": 179,
+      "question": "To prevent a user from denying they entered a transaction, the IS auditor should verify the implementation of:",
+      "options": [
+        "Digital Signatures or Non-repudiation controls.",
+        "Data encryption in transit.",
+        "Physical security controls.",
+        "Least Privilege for the user's account."
+      ],
+      "answerIndex": 0,
+      "explanation": "Non-repudiation is the control that provides irrefutable evidence of the origin and submission of a transaction, typically through the use of a cryptographically strong Digital Signature."
+    },
+    {
+      "id": 180,
+      "question": "A Salami Theft attack is best described as a compromise of which security objective?",
+      "options": [
+        "Confidentiality",
+        "Non-repudiation",
+        "Availability",
+        "Integrity"
+      ],
+      "answerIndex": 3,
+      "explanation": "Salami theft involves the unauthorized and subtle modification of small amounts of data (usually financial), which is a direct attack on the Integrity of the financial data and application logic."
+    },
+    {
+      "id": 181,
+      "question": "A Worm's primary means of propagation across a network is by:",
+      "options": [
+        "Social engineering a user into executing an attached file.",
+        "Exploiting unpatched vulnerabilities in network services.",
+        "Replacing system files with infected versions.",
+        "Waiting for a specific logical event trigger."
+      ],
+      "answerIndex": 1,
+      "explanation": "Worms are designed to be self-propagating and exploit network vulnerabilities (often unpatched flaws in protocols or operating systems) to automatically infect other hosts without user action."
+    },
+    {
+      "id": 182,
+      "question": "Which of the following is a mandatory control action upon employee termination to address the Key Man Risk?",
+      "options": [
+        "Transferring their intellectual property rights to the company.",
+        "Providing a letter of recommendation.",
+        "Scheduling a final review of their last six months' work.",
+        "Immediate revocation of all logical and physical access rights."
+      ],
+      "answerIndex": 3,
+      "explanation": "While knowledge transfer is part of the Key Man Policy, the most critical security action is the immediate and complete revocation of access to prevent malicious or accidental misuse of their high-privilege credentials."
+    },
+    {
+      "id": 183,
+      "question": "The greatest benefit of a well-defined information classification scheme is:",
+      "options": [
+        "It enables uniform and appropriate protection of assets based on their value.",
+        "It guarantees that all data is treated as high-priority.",
+        "It transfers risk to the data custodian.",
+        "It eliminates the need for any internal security auditing."
+      ],
+      "answerIndex": 0,
+      "explanation": "Classification allows the organization to systematically apply appropriate and cost-effective security controls proportional to the sensitivity and value of each asset, ensuring uniform protection across the enterprise."
+    },
+    {
+      "id": 184,
+      "question": "An IS auditor recommends the use of hash totals and record counts to verify the data processed by an application. These are examples of which type of control?",
+      "options": [
+        "Application Control",
+        "Physical Control",
+        "General Control",
+        "Compensating Control"
+      ],
+      "answerIndex": 0,
+      "explanation": "Controls embedded within the application's processing logic, such as batch totals and record counts, which ensure the integrity of the data being processed, are classified as Application Controls."
+    },
+    {
+      "id": 185,
+      "question": "A control that is implemented to detect when a security policy has been violated is classified as a:",
+      "options": [
+        "Preventive Control",
+        "Corrective Control",
+        "Detective Control",
+        "Compensating Control"
+      ],
+      "answerIndex": 2,
+      "explanation": "Detective controls (e.g., audit log review, IDS alerts) are specifically designed to discover or identify security policy violations or incidents after they have occurred or are in progress."
+    },
+    {
+      "id": 186,
+      "question": "Which of the following is a required element of a strong password policy to prevent an attacker from brute-forcing credentials?",
+      "options": [
+        "Account lockout after a defined number of failed attempts.",
+        "Password history set to a minimum of 24.",
+        "Password complexity that allows only alphanumeric characters.",
+        "Password minimum age set to 30 days."
+      ],
+      "answerIndex": 0,
+      "explanation": "Account lockout is the most direct control to stop a brute-force or guessing attack by disabling the account, making it impossible for the attacker to continue trying passwords."
+    },
+    {
+      "id": 187,
+      "question": "The responsibility for approving exceptions to the mandatory security policy typically lies with:",
+      "options": [
+        "The IS Auditor.",
+        "The IT Support Staff.",
+        "The Information Owner/Senior Management.",
+        "The Security Administrator."
+      ],
+      "answerIndex": 2,
+      "explanation": "Since policy exceptions involve accepting a higher level of risk, only the Information Owner (who is accountable for the risk) or Senior Management (who sets the risk appetite) has the authority to approve them."
+    },
+    {
+      "id": 188,
+      "question": "Which document in the security documentation hierarchy provides suggestions and recommended best practices that are *not* mandatory?",
+      "options": [
+        "Standard",
+        "Procedure",
+        "Guideline",
+        "Policy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guidelines are advisory and suggest methods or best practices. They lack the mandatory enforcement authority of policies, standards, or procedures."
+    },
+    {
+      "id": 189,
+      "question": "Which control addresses the risk of an employee gaining exclusive, continuous control over a critical process, thereby facilitating fraud concealment?",
+      "options": [
+        "Least Privilege",
+        "Mandatory Vacations",
+        "Rotation of Duties",
+        "Role-Based Access Control"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rotation of Duties involves periodically moving employees between jobs. This administrative control limits the time a single person has exclusive control, increasing the chance a replacement will uncover fraud."
+    },
+    {
+      "id": 190,
+      "question": "The security goal of Confidentiality is best maintained by which control?",
+      "options": [
+        "Implementing system redundancy and failover.",
+        "Maintaining comprehensive audit trails.",
+        "Implementing strict input validation checks.",
+        "Using encryption for sensitive data."
+      ],
+      "answerIndex": 3,
+      "explanation": "Encryption is the core technical control for confidentiality, as it renders data unreadable to any unauthorized party that may gain access to it."
+    },
+    {
+      "id": 191,
+      "question": "The primary risk of not having a strict Change Management Process is:",
+      "options": [
+        "Increased cost of IT operations.",
+        "The spread of computer viruses.",
+        "Failure to comply with the least privilege principle.",
+        "Unauthorized, untested, or poorly documented changes to production systems."
+      ],
+      "answerIndex": 3,
+      "explanation": "The Change Management Process is a governance and control framework designed to ensure that all changes are authorized, tested, and properly implemented, with the primary risk of its failure being unauthorized or destabilizing changes to the production environment."
+    },
+    {
+      "id": 192,
+      "question": "Which attack exploits the flaw that occurs when a program writes data beyond the limits of a memory area?",
+      "options": [
+        "DNS Spoofing",
+        "Salami Theft",
+        "Buffer Overflow",
+        "Data Diddling"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Buffer Overflow is a program error where the application attempts to write more data into a fixed-length memory buffer than it was allocated, overwriting adjacent memory."
+    },
+    {
+      "id": 193,
+      "question": "The best control to prevent an employee with developer access from inserting malicious code (e.g., a Logic Bomb) into a critical application is:",
+      "options": [
+        "Mandatory peer code review and testing.",
+        "Annual penetration testing of the application.",
+        "Physical access controls for the server.",
+        "Implementing a strong password policy."
+      ],
+      "answerIndex": 0,
+      "explanation": "A Logic Bomb is embedded in the source code. The most direct preventive control is a mandatory peer code review (requiring another developer to check the code) *before* it can be promoted to production."
+    },
+    {
+      "id": 194,
+      "question": "In the access control mechanism, the entity that performs an action on an object is called the:",
+      "options": [
+        "Object",
+        "Subject",
+        "Control",
+        "Owner"
+      ],
+      "answerIndex": 1,
+      "explanation": "In access control models, the Subject is the active entity (e.g., user, process, program) that requests access to perform an operation on the passive entity, which is the Object (e.g., file, printer)."
+    },
+    {
+      "id": 195,
+      "question": "Which type of virus is designed to infect the program that runs first when the computer is started, thereby loading itself before the operating system?",
+      "options": [
+        "Boot Sector Virus",
+        "File Infector Virus",
+        "Macro Virus",
+        "Worm"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Boot Sector Virus infects the master boot record (MBR) or volume boot record (VBR) of a disk, ensuring the virus is executed every time the system starts up."
+    },
+    {
+      "id": 196,
+      "question": "The IS auditor is assessing controls over the disposal of digital media. The highest assurance of data destruction is provided by:",
+      "options": [
+        "Simple deletion of files.",
+        "Formatting the drive multiple times.",
+        "Degaussing, shredding, or pulping.",
+        "Using commercial data wiping software."
+      ],
+      "answerIndex": 2,
+      "explanation": "For sensitive media, complete, physical or magnetic destruction (degaussing, shredding, or pulping) is necessary to ensure the data is absolutely irrecoverable, providing the highest assurance."
+    },
+    {
+      "id": 197,
+      "question": "Which of the following is the most critical technical control for maintaining system Availability?",
+      "options": [
+        "Mandatory password complexity.",
+        "Redundancy and failover mechanisms (e.g., RAID, Clustering).",
+        "Use of Digital Signatures.",
+        "Implementation of a Clear Desk Policy."
+      ],
+      "answerIndex": 1,
+      "explanation": "Availability is ensured by preventing single points of failure. Redundancy (multiple components) and failover (automatic switchover) are the primary technical mechanisms for this."
+    },
+    {
+      "id": 198,
+      "question": "An attacker gains access to a user's terminal that was left unattended but logged on. This is an example of which attack?",
+      "options": [
+        "Piggybacking",
+        "Shoulder Surfing",
+        "Data Diddling",
+        "Buffer Overflow"
+      ],
+      "answerIndex": 0,
+      "explanation": "Piggybacking (in a system context) or session hijacking is the unauthorized use of a computer terminal that has been left logged on with an authorized user's credentials."
+    },
+    {
+      "id": 199,
+      "question": "To prevent a Cross-Site Scripting (XSS) attack, the application must ensure:",
+      "options": [
+        "Strict input validation and output encoding for all user-supplied data.",
+        "That the user's browser is configured with strong security settings.",
+        "That all passwords are at least 15 characters long.",
+        "That all network traffic is encrypted with TLS."
+      ],
+      "answerIndex": 0,
+      "explanation": "XSS involves the injection of malicious code via user input. The control is to ensure input validation (sanitization) and output encoding (rendering the code as harmless text) so the browser does not execute the script."
+    },
+    {
+      "id": 200,
+      "question": "The concept of Accountability in information security is most reliant on which control?",
+      "options": [
+        "Physical access controls.",
+        "Data encryption.",
+        "Non-repudiation and audit logging.",
+        "System redundancy."
+      ],
+      "answerIndex": 2,
+      "explanation": "Accountability requires that actions can be traced to an individual. This is made possible by controls that ensure Non-repudiation (proof of action) and comprehensive audit logging (record of action)."
+    },
+    {
+      "id": 201,
+      "question": "Which of the following is an example of a corrective control that restores the Availability of a system after a power failure?",
+      "options": [
+        "Implementing strong password complexity.",
+        "Conducting periodic internal security audits.",
+        "Using a firewall to block unauthorized connections.",
+        "Restoring data from the last full backup."
+      ],
+      "answerIndex": 3,
+      "explanation": "Restoring data from a backup (recovery) is a quintessential Corrective Control designed to return the system to an operational state and repair data loss, directly supporting the objective of Availability."
+    },
+    {
+      "id": 202,
+      "question": "The security objective that ensures a user cannot deny that they originated a specific transaction is:",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Non-repudiation",
+        "Availability"
+      ],
+      "answerIndex": 2,
+      "explanation": "Non-repudiation provides irrefutable proof of the origin of a message or transaction, typically through digital signatures, so the sender cannot deny having performed the action."
+    },
+    {
+      "id": 203,
+      "question": "Which of the following is a primary control to prevent DNS Spoofing attacks?",
+      "options": [
+        "Using two-factor authentication for user logins.",
+        "Using encrypted hard drives on client workstations.",
+        "Enforcing a strict firewall policy blocking all outbound traffic.",
+        "Implementing DNS Security Extensions (DNSSEC)."
+      ],
+      "answerIndex": 3,
+      "explanation": "DNSSEC uses digital signatures to verify the authenticity of DNS data, ensuring that attackers cannot inject false records (spoofing) into the DNS cache."
+    },
+    {
+      "id": 204,
+      "question": "The principle of Least Privilege is a key control for mitigating which risk?",
+      "options": [
+        "External denial-of-service attacks.",
+        "Insider threat/misuse of system access.",
+        "Failure to encrypt data in transit.",
+        "Physical unauthorized access to the data center."
+      ],
+      "answerIndex": 1,
+      "explanation": "Least Privilege limits the scope of damage an insider (or an attacker who compromises an insider's account) can cause by ensuring they only have the minimum necessary access rights."
+    },
+    {
+      "id": 205,
+      "question": "Which of the following is a key administrative control within the Key Man Policy?",
+      "options": [
+        "Documenting critical tasks and cross-training successors.",
+        "Implementing system logging for all privileged access.",
+        "Encrypting the entire database.",
+        "Enforcing a mandatory password complexity of 15 characters."
+      ],
+      "answerIndex": 0,
+      "explanation": "A core component of a Key Man Policy is the administrative control of succession planning, which involves documenting specialized knowledge and training other staff to ensure business continuity if the key person leaves."
+    },
+    {
+      "id": 206,
+      "question": "The main purpose of requiring Mandatory Vacations for employees in highly sensitive financial positions is:",
+      "options": [
+        "To detect fraud by forcing the temporary handover of duties to a replacement.",
+        "To comply with labor laws and regulations.",
+        "To reduce employee stress and burnout.",
+        "To ensure all staff are cross-trained on financial systems."
+      ],
+      "answerIndex": 0,
+      "explanation": "Mandatory Vacations are a Detective Control to detect fraud, as the temporary replacement performing the duties may uncover fraudulent activity that the original employee was concealing."
+    },
+    {
+      "id": 207,
+      "question": "In the context of the information life cycle, who is ultimately accountable for classifying the information and ensuring appropriate protection?",
+      "options": [
+        "The System Administrator.",
+        "The Chief Information Security Officer (CISO).",
+        "The Information Owner (Data Owner).",
+        "The Internal Auditor."
+      ],
+      "answerIndex": 2,
+      "explanation": "The Information Owner (Data Owner) is the ultimate party accountable for the information asset's protection and must define its classification and value."
+    },
+    {
+      "id": 208,
+      "question": "Which type of control uses cryptographic checksums or hashes to ensure data has not been altered?",
+      "options": [
+        "Preventive Control",
+        "Detective Control",
+        "Corrective Control",
+        "Physical Control"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cryptographic hashes are used as a Detective Control to verify the Integrity of data. A change in the hash value signals that the data has been altered."
+    },
+    {
+      "id": 209,
+      "question": "Which risk response strategy is suitable when the likelihood of a risk is high, but the cost of mitigation is prohibitive, and the residual risk is still within the risk appetite?",
+      "options": [
+        "Avoid",
+        "Transfer",
+        "Accept",
+        "Mitigate"
+      ],
+      "answerIndex": 2,
+      "explanation": "If the cost of mitigation is too high (i.e., not cost-effective) and the remaining risk is acceptable to management, the risk should be formally Accepted."
+    },
+    {
+      "id": 210,
+      "question": "Which document provides the detailed, step-by-step instructions for a specific task (e.g., how to perform a nightly backup)?",
+      "options": [
+        "Policy",
+        "Standard",
+        "Procedure",
+        "Guideline"
+      ],
+      "answerIndex": 2,
+      "explanation": "Procedures are the detailed, sequential instructions that define how a specific task or process (often implementing a policy or standard) is to be performed."
+    },
+    {
+      "id": 211,
+      "question": "The primary risk of a weak password history requirement (e.g., history = 1) is:",
+      "options": [
+        "The password will expire too frequently.",
+        "Users can immediately revert to a known, old password.",
+        "Brute-force attacks become more effective.",
+        "Account lockouts will occur too often."
+      ],
+      "answerIndex": 1,
+      "explanation": "A weak or non-existent password history allows a user to change their password and then immediately change it back to the previous one, rendering the maximum password age control ineffective."
+    },
+    {
+      "id": 212,
+      "question": "Which control is most effective against a Buffer Overflow attack?",
+      "options": [
+        "Strict bounds checking and input validation during development.",
+        "Annual security awareness training for all users.",
+        "Enforcing a strict Segregation of Duties.",
+        "Implementing a firewall with application-level filtering."
+      ],
+      "answerIndex": 0,
+      "explanation": "Buffer Overflow is a programming flaw. The most direct preventive control is to ensure that code includes strict bounds checking and input validation to prevent writing data past the allocated memory buffer."
+    },
+    {
+      "id": 213,
+      "question": "The core control objective of the Four Eyes Principle (Two-Person Control) is to:",
+      "options": [
+        "Ensure the system is available 24/7.",
+        "Limit a user's access to the minimum required for the job.",
+        "Link a transaction to a user via a digital signature.",
+        "Prevent unilateral action by requiring two separate individuals for a critical task."
+      ],
+      "answerIndex": 3,
+      "explanation": "The Four Eyes Principle is an administrative and application control that specifically requires a second person to perform or authorize a critical task to prevent a single person from controlling the entire process."
+    },
+    {
+      "id": 214,
+      "question": "A security audit reveals that a web application allows user-supplied input to be passed directly to the database query without sanitization. This is a classic example of which vulnerability?",
+      "options": [
+        "SQL Injection",
+        "Buffer Overflow",
+        "DNS Spoofing",
+        "Salami Theft"
+      ],
+      "answerIndex": 0,
+      "explanation": "Passing unsanitized user input directly to a database query allows an attacker to inject malicious SQL commands, which is the definition of a SQL Injection vulnerability."
+    },
+    {
+      "id": 215,
+      "question": "Which of the following is a primary control for ensuring the Confidentiality of data at rest on a server?",
+      "options": [
+        "Full system redundancy and failover clustering.",
+        "Implementation of a strict firewall policy.",
+        "Regular log review for suspicious activity.",
+        "Full Disk Encryption (FDE)."
+      ],
+      "answerIndex": 3,
+      "explanation": "Encryption (Full Disk Encryption, transparent data encryption, etc.) is the most effective technical control for protecting data's Confidentiality when it is stored (at rest)."
+    },
+    {
+      "id": 216,
+      "question": "An IS auditor discovers that a user with the ability to input new vendor information also has the ability to approve the payments to those new vendors. This control weakness is primarily:",
+      "options": [
+        "A failure of Segregation of Duties (SoD).",
+        "A violation of the Least Privilege principle.",
+        "A lack of proper data classification.",
+        "A weak password policy."
+      ],
+      "answerIndex": 0,
+      "explanation": "The ability to both create (input) a financial entry and authorize (approve) its associated transaction is a classic SoD failure that creates a high risk of fraud (e.g., paying a fraudulent ghost vendor)."
+    },
+    {
+      "id": 217,
+      "question": "The best defense against an attacker gaining unauthorized access by following an authorized user through a secured door (Piggybacking) is:",
+      "options": [
+        "A mantrap or turnstile system.",
+        "A video surveillance system.",
+        "A strong magnetic door lock.",
+        "An alert system that notifies security if the door is held open too long."
+      ],
+      "answerIndex": 0,
+      "explanation": "A mantrap or turnstile is the only control listed that physically forces separate authentication for each person, actively preventing a second person from following the first."
+    },
+    {
+      "id": 218,
+      "question": "Which document in the security documentation hierarchy contains non-mandatory suggestions for how to secure a workstation?",
+      "options": [
+        "Policy",
+        "Standard",
+        "Procedure",
+        "Guideline"
+      ],
+      "answerIndex": 3,
+      "explanation": "Guidelines are advisory and provide non-mandatory recommendations, such as best practices for configuring a workstation."
+    },
+    {
+      "id": 219,
+      "question": "The main purpose of an Exit Interview as part of the employee termination process is to:",
+      "options": [
+        "Remind the employee of ongoing confidentiality and non-disclosure obligations.",
+        "Process the final paycheck and benefits paperwork.",
+        "Immediately revoke all physical and logical access.",
+        "Transfer the employee's computer equipment to their manager."
+      ],
+      "answerIndex": 0,
+      "explanation": "While C is the most critical *security* step, the Exit Interview is an Administrative Control focused on formally reminding the departing employee of their legal and ethical duties, particularly regarding confidentiality and non-disclosure agreements (NDAs)."
+    },
+    {
+      "id": 220,
+      "question": "An attacker's goal in performing DNS Spoofing is to compromise which security objective?",
+      "options": [
+        "Integrity of the system.",
+        "Availability of the network.",
+        "Confidentiality of user data.",
+        "Authenticity of the network service/address."
+      ],
+      "answerIndex": 3,
+      "explanation": "DNS Spoofing is an attack on the integrity and Authenticity of the Domain Name System, leading a user to believe they are communicating with the correct server when they are actually talking to an attacker's system."
+    },
+    {
+      "id": 221,
+      "question": "The IS Auditor recommends that the organization adopt the Least Privilege principle. This means:",
+      "options": [
+        "Employees should take mandatory vacations.",
+        "Users should only have the minimum access rights required for their job.",
+        "Sensitive data must be encrypted at rest.",
+        "Developers cannot promote code to production."
+      ],
+      "answerIndex": 1,
+      "explanation": "The Least Privilege principle ensures that every user (or process) operates with only the specific, minimum set of permissions necessary to complete their required tasks."
+    },
+    {
+      "id": 222,
+      "question": "Which type of malicious code is characterized by its reliance on a user running an infected host program to spread?",
+      "options": [
+        "Virus",
+        "Worm",
+        "Logic Bomb",
+        "Trojan Horse"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Virus is a self-replicating program that attaches itself to a host file and requires user action (e.g., opening the file) to be executed and spread."
+    },
+    {
+      "id": 223,
+      "question": "A key Detective Control used to identify potential Salami Theft is:",
+      "options": [
+        "Periodic reconciliation of financial sub-ledgers with the general ledger.",
+        "Implementing a dedicated Intrusion Prevention System (IPS).",
+        "Disabling all non-essential network ports.",
+        "Enforcing a strict firewall policy."
+      ],
+      "answerIndex": 0,
+      "explanation": "Salami Theft is hard to detect at the transaction level. Periodic reconciliation (comparing totals, looking for tiny variances) between different financial records is the most effective way to detect these small, cumulative financial anomalies."
+    },
+    {
+      "id": 224,
+      "question": "The primary control to prevent a Cross-Site Scripting (XSS) attack is:",
+      "options": [
+        "Using a strong firewall.",
+        "Output encoding/Escaping of all data rendered to the user's browser.",
+        "Implementing two-factor authentication.",
+        "Enforcing a minimum password length of 12 characters."
+      ],
+      "answerIndex": 1,
+      "explanation": "Output encoding (or escaping) ensures that any user-supplied data that is reflected back to a user's browser is rendered as harmless text rather than being executed as a malicious script."
+    },
+    {
+      "id": 225,
+      "question": "The ultimate accountability for risk acceptance and the organization’s overall risk posture lies with:",
+      "options": [
+        "The Risk Officer.",
+        "The Chief Information Security Officer (CISO).",
+        "The Internal Auditor.",
+        "The Board of Directors/Senior Management."
+      ],
+      "answerIndex": 3,
+      "explanation": "Senior Management/The Board owns the risk and is ultimately accountable for accepting the residual risk remaining after controls are implemented and for setting the organization's risk appetite."
+    },
+    {
+      "id": 226,
+      "question": "Which of the following is a mandatory requirement for a strong password policy intended to prevent the rapid reuse of passwords?",
+      "options": [
+        "Minimum password age.",
+        "Password history control (e.g., not allowing reuse of the last 10).",
+        "Maximum password age.",
+        "Account lockout threshold."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Password History Control directly prevents users from cycling through a few common passwords, thus defeating the purpose of periodic password changes."
+    },
+    {
+      "id": 227,
+      "question": "When sensitive paper documents are disposed of, the highest level of assurance for data destruction is provided by:",
+      "options": [
+        "Shredding into long strips.",
+        "Tearing the document into small pieces.",
+        "Placing the documents in a secure, locked recycling bin.",
+        "Cross-cut shredding or pulping."
+      ],
+      "answerIndex": 3,
+      "explanation": "Cross-cut shredding reduces the document to tiny, confetti-like pieces, making reconstruction virtually impossible and providing the highest assurance of destruction for paper media."
+    },
+    {
+      "id": 228,
+      "question": "A Compensating Control is required in which scenario?",
+      "options": [
+        "The risk is assessed as high and the cost of control is low.",
+        "A mandatory control cannot be implemented due to legacy system constraints.",
+        "The risk has been formally accepted by management.",
+        "The system has failed, and recovery procedures are being executed."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Compensating Control is an alternative control that is put in place when the primary, mandatory control cannot be implemented for a valid reason (e.g., technical or cost limitations)."
+    },
+    {
+      "id": 229,
+      "question": "The primary control for ensuring the Confidentiality of data being exchanged between two internal servers over an organization's network is:",
+      "options": [
+        "Implementing a clear desk policy.",
+        "Transport layer encryption (e.g., TLS/IPsec).",
+        "Using Role-Based Access Control on the servers.",
+        "Regular review of the system's error logs."
+      ],
+      "answerIndex": 1,
+      "explanation": "Encryption protocols (like TLS or IPsec) are the core technical control for protecting the Confidentiality of data in transit, even over an internal network."
+    },
+    {
+      "id": 230,
+      "question": "An IS auditor recommends the use of check digits for all account numbers entered into a system. This is an example of which type of control?",
+      "options": [
+        "General Control",
+        "Application Control (Integrity)",
+        "Physical Control",
+        "Compensating Control"
+      ],
+      "answerIndex": 1,
+      "explanation": "A Check Digit is an extra digit calculated based on the other digits of a number (e.g., an account number). It is an Application Control used during data input to detect errors (Integrity) in manual entry."
+    },
+    {
+      "id": 231,
+      "question": "In the security documentation hierarchy, which document type is mandatory and sets the minimum technical configuration requirements?",
+      "options": [
+        "Standard",
+        "Policy",
+        "Procedure",
+        "Guideline"
+      ],
+      "answerIndex": 0,
+      "explanation": "Standards are the mandatory, technical specifications and rules that must be followed organization-wide to implement the policy's high-level requirements."
+    },
+    {
+      "id": 232,
+      "question": "Which control is most effective in preventing an attacker from using a dictionary or brute-force attack to guess user credentials?",
+      "options": [
+        "Account Lockout Threshold.",
+        "Minimum password age requirement.",
+        "Mandatory annual security training.",
+        "Rotation of duties."
+      ],
+      "answerIndex": 0,
+      "explanation": "The Account Lockout Threshold is a technical, preventive control that temporarily or permanently disables an account after a specified number of failed login attempts, thereby stopping automated guessing attacks."
+    },
+    {
+      "id": 233,
+      "question": "The primary risk addressed by enforcing the Rotation of Duties administrative control is:",
+      "options": [
+        "Poor security awareness.",
+        "Fraud/Error concealment due to continuous, exclusive control.",
+        "External network intrusion.",
+        "Lack of encryption on sensitive data."
+      ],
+      "answerIndex": 1,
+      "explanation": "Rotation of Duties prevents a single person from maintaining continuous, exclusive control over a function, making it harder for them to conceal fraudulent activities from their temporary replacement."
+    },
+    {
+      "id": 234,
+      "question": "The highest assurance of Non-repudiation for an electronic contract is achieved through:",
+      "options": [
+        "Logging the IP address of the signer.",
+        "Storing the contract in a highly available, redundant system.",
+        "Requiring the signer to use a complex password.",
+        "Use of a Digital Signature with a trusted Certificate Authority."
+      ],
+      "answerIndex": 3,
+      "explanation": "Digital Signatures provide the strongest cryptographic proof of identity and intent, ensuring irrefutable Non-repudiation for electronic transactions and documents."
+    },
+    {
+      "id": 235,
+      "question": "Which of the following is a primary objective of a General Control?",
+      "options": [
+        "To ensure the accurate processing of individual application transactions.",
+        "To compensate for a weakness in an application's internal logic.",
+        "To prevent unauthorized physical access to the data center.",
+        "To provide a stable and consistent operating environment for all applications."
+      ],
+      "answerIndex": 3,
+      "explanation": "General Controls (e.g., IT governance, change management, network security, physical security) apply to all systems and are designed to provide a stable, well-managed, and secure overall IT environment."
+    },
+    {
+      "id": 236,
+      "question": "An attacker exploits a program flaw to gain administrator rights on a server. This is an attack categorized as:",
+      "options": [
+        "Spoofing",
+        "Repudiation",
+        "Tampering",
+        "Elevation of Privilege"
+      ],
+      "answerIndex": 3,
+      "explanation": "Elevation of Privilege occurs when an attacker exploits a vulnerability to gain access rights or permissions beyond those initially authorized for their account."
+    },
+    {
+      "id": 237,
+      "question": "The ultimate source of authority for an organization's Information Security Policy is:",
+      "options": [
+        "A mandate from the Board or Senior Management.",
+        "The CISO's expertise.",
+        "Compliance with the latest industry standard (e.g., ISO 27001).",
+        "The requirements of the external auditor."
+      ],
+      "answerIndex": 0,
+      "explanation": "The policy must derive its authority from the highest level of the organization—the Board or Senior Management—to ensure it is backed by resources and enforced throughout the enterprise."
+    },
+    {
+      "id": 238,
+      "question": "Which control is primarily used to prevent a Salami Theft attack, where small amounts are skimmed off financial transactions?",
+      "options": [
+        "Strong anti-malware software on all workstations.",
+        "Strong physical controls over the data center.",
+        "Implementing Multi-Factor Authentication for all users.",
+        "Mandatory peer code review and Segregation of Duties in the SDLC."
+      ],
+      "answerIndex": 3,
+      "explanation": "Salami Theft is often code-based fraud. Peer code review and SoD prevent the fraudulent code from being secretly introduced and deployed by a single, malicious programmer."
+    },
+    {
+      "id": 239,
+      "question": "Which of the following is a core responsibility of the Information Owner (Data Owner)?",
+      "options": [
+        "Approving who receives access to the information asset.",
+        "Performing daily database backups.",
+        "Writing the detailed application processing procedures.",
+        "Managing the organization's firewall ruleset."
+      ],
+      "answerIndex": 0,
+      "explanation": "The Information Owner decides who has access to the asset based on the Need-to-Know principle; the Security Administrator or Custodian then implements that approval."
+    },
+    {
+      "id": 240,
+      "question": "To mitigate the risk of a Trojan Horse attack, the user should be trained to:",
+      "options": [
+        "Never open any website.",
+        "Be highly suspicious of unsolicited or unknown programs/attachments.",
+        "Always use a complex password.",
+        "Never use the network after 5 PM."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Trojan Horse relies on deceiving the user into running what appears to be a legitimate file. User education (training) to be suspicious of untrusted files is a key administrative control."
+    },
+    {
+      "id": 241,
+      "question": "The primary objective of the Need-to-Know access control principle is to protect:",
+      "options": [
+        "Availability",
+        "Integrity",
+        "Confidentiality",
+        "Non-repudiation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Need-to-Know limits the exposure of sensitive information by ensuring only necessary parties have access, directly supporting the objective of Confidentiality."
+    },
+    {
+      "id": 242,
+      "question": "A security policy is most effective if it is:",
+      "options": [
+        "Overly long and detailed to cover every technical eventuality.",
+        "Written exclusively by the Internal Audit department.",
+        "Kept secret and only distributed to the CISO and IT team.",
+        "Concise, easily understood, and widely communicated."
+      ],
+      "answerIndex": 3,
+      "explanation": "For a policy to be effective, it must be comprehensible and well-known. A concise, easily understood, and widely communicated policy increases employee adherence and enforceability."
+    },
+    {
+      "id": 243,
+      "question": "Which of the following is an example of an application control designed for completeness of data input?",
+      "options": [
+        "Encryption of the entire data file.",
+        "Segregation of duties for data entry staff.",
+        "Record counts reconciled with the batch header.",
+        "Biometric authentication for application access."
+      ],
+      "answerIndex": 2,
+      "explanation": "Record Counts (a type of batch control total) ensure that all input records submitted for processing are fully accounted for in the output, thus verifying the completeness of the data."
+    },
+    {
+      "id": 244,
+      "question": "Which type of virus is characterized by its ability to spread autonomously across a network without requiring any user action?",
+      "options": [
+        "Logic Bomb",
+        "Trojan Horse",
+        "Worm",
+        "Polymorphic Virus"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Worm is a self-replicating, self-contained malicious program that spreads through network vulnerabilities without relying on user interaction."
+    },
+    {
+      "id": 245,
+      "question": "To protect the Integrity of a financial transaction being processed, the system should ideally implement:",
+      "options": [
+        "External network firewalls.",
+        "Mandatory session timeouts.",
+        "Strong physical access controls for the user.",
+        "Transaction logging with audit trails."
+      ],
+      "answerIndex": 3,
+      "explanation": "Transaction logging and audit trails provide a verifiable record of a transaction's creation and all subsequent modifications. This detective control ensures that any alteration is recorded and traceable, thus protecting data Integrity."
+    },
+    {
+      "id": 246,
+      "question": "The most critical control measure to prevent unauthorized changes to the production source code is the Segregation of Duties between the:",
+      "options": [
+        "End-user and the developer.",
+        "System operator and the internal auditor.",
+        "Programmer (development) and the librarian/change control staff (promotion to production).",
+        "Project manager and the steering committee."
+      ],
+      "answerIndex": 2,
+      "explanation": "This separation is vital to ensure that the developer cannot unilaterally bypass testing and change control procedures to place unauthorized or poorly tested code into the live environment."
+    },
+    {
+      "id": 247,
+      "question": "Which of the following is a direct violation of the Confidentiality security objective?",
+      "options": [
+        "A server crashing due to a power outage.",
+        "An unauthorized user gaining read access to a sensitive file.",
+        "A user denying they sent a transaction.",
+        "Data being corrupted due to a software error."
+      ],
+      "answerIndex": 1,
+      "explanation": "Confidentiality is violated when data is disclosed or made available to an unauthorized party, such as an unauthorized user gaining read access."
+    },
+    {
+      "id": 248,
+      "question": "When an organization implements a control to prevent the occurrence of a risk event (e.g., a firewall blocking unauthorized traffic), this is a:",
+      "options": [
+        "Detective Control",
+        "Corrective Control",
+        "Preventive Control",
+        "Compensating Control"
+      ],
+      "answerIndex": 2,
+      "explanation": "Preventive Controls are implemented to stop or avoid an undesirable event from happening, reducing the likelihood of the risk materializing."
+    },
+    {
+      "id": 249,
+      "question": "Which is the primary control to ensure the Integrity of transactions recorded in a sequential log file?",
+      "options": [
+        "Using cryptographic hashing to chain entries (e.g., blockchain) or digital signatures on log blocks.",
+        "Implementing strong user authentication and access controls.",
+        "Implementing failover clustering to maintain system availability.",
+        "Using multi-factor authentication for the log review team."
+      ],
+      "answerIndex": 0,
+      "explanation": "The Integrity of sequential log files is primarily protected by cryptographic methods that make tampering detectable. Hashing/digital signatures link entries together, ensuring that if any entry is modified, the change is immediately detectable."
+    },
+    {
+      "id": 250,
+      "question": "The IS Auditor finds that the IT Operations team has the credentials to both perform nightly system backups and restore the system from those backups. This is a common and acceptable exception to the principle of Segregation of Duties (SoD) because:",
+      "options": [
+        "The control is compensated by strong password complexity.",
+        "Backups and restores are low-risk activities that do not require SoD.",
+        "The functions are inherently intertwined and usually require the same privileged access, with compensating detective controls (e.g., logging) in place.",
+        "The system owner is the only person who can approve the restoration."
+      ],
+      "answerIndex": 2,
+      "explanation": "While SoD is crucial, certain operational functions like backup and restore are inherently linked and often require the same high-level system privileges. In such cases, the organization accepts the risk due to operational necessity, relying on compensating detective controls (like comprehensive logging and mandatory review of privileged activity) instead of separation."
+    }
+  ]
+}
